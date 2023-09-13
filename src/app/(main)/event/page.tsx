@@ -39,7 +39,7 @@ Thành phố Đà Lạt, Lâm Đồng, Vietnam
             </div>
           </div>
         </div>
-        <div className='absolute top-0 left-0 w-full h-full pointer-events-none'></div>
+        <div className='absolute top-0 left-0 w-full h-full pointer-events-none '></div>
       </div>
     </div>
   )

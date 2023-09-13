@@ -22,11 +22,10 @@ const menuItems = [
     image: storyImage,
     href: '/story',
   },
-
   {
     title: 'Events',
     image: eventsImage,
-    href: '/events',
+    href: '/event',
   }, {
     title: 'Travel',
     image: travelImage,
@@ -35,7 +34,7 @@ const menuItems = [
   {
     title: 'Home',
     image: logo,
-    href: '/events',
+    href: '/',
   },
   {
     title: 'Bites',
