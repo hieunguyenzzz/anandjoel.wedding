@@ -65,7 +65,7 @@ export default function RootLayout({
             {
               menuItems.map((item, index) => {
                 return <li key={index} className='flex flex-1 flex-col  items-center gap-2 relative after:content-[""] after:pb-[100%]'>
-                  <a href={item.href} className='hover:scale-110 transition-transform absolute inset-0'>
+                  <a href={item.href} className='hover:scale-110 duration-500 ease-in-out transition-transform absolute inset-0'>
                     <Image src={item.image} fill alt={item.title} className='object-cover' />
                     <div className='hidden'>{item.title}</div>
                   </a>

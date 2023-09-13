@@ -9,7 +9,7 @@ export default function Home() {
     <div className="min-h-screen text-[12px] lg:text-[2vw] relative isolate text-[#111111ff] flex flex-col gap-6">
       <div style={{
         minHeight: ratio + 'vw',
-      }} className='py-[18vw]  px-[18%] pb-[30vw] gap-[10vw] flex flex-col relative justify-center'>
+      }} className='py-[18vw]  px-[20%] pb-[30vw] gap-[10vw] flex flex-col relative justify-center'>
         <Image src={bgImage} priority placeholder='blur' fill className='absolute top-0 left-0 w-full' />
         <div className='w-full relative  '>
           <div className='text-center flex flex-col items-center gap-2 relative '>
