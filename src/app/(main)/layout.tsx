@@ -109,7 +109,7 @@ export default function RootLayout({
                   animationDelay: `${(index + 1) * 100}ms`
                 }} className='flex w-full flex-1 flex-col animate-fade-up  items-center gap-2 relative max-w-xs'>
                   <a href={item.href} className='hover:scale-110 flex items-center duration-500 ease-in-out transition-transform absolute inset-0  h-full'>
-                    <div className='text-3xl w-full'>{item.title}</div>
+                    <div className='text-2xl font-semibold w-full uppercase'>{item.title}</div>
                   </a>
                 </li>
               })}
