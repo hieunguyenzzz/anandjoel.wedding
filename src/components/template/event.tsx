@@ -1,9 +1,9 @@
 
 import Image from '@/components/common/image'
-import creimage from './assets/CER.png'
-import recImage from './assets/REC.png'
-import bgImage from './assets/bg2.png'
-export default function Home() {
+import creimage from '../../../public/event/CER.png'
+import recImage from '../../../public/event/REC.png'
+import bgImage from '../../../public/event/bg2.png'
+export default function Event() {
   let ratio = (bgImage.height / bgImage.width) * 100
   return (
     <div className="min-h-screen text-[12px] lg:text-[2vw] relative isolate text-[#111111ff] flex flex-col gap-6">

@@ -1,4 +1,5 @@
 import { defineConfig } from "tinacms";
+import schemaBites from '../src/components/template/bites.schema';
 
 // Your hosting provider likely exposes this as an environment variable
 const branch = process.env.HEAD || process.env.VERCEL_GIT_COMMIT_REF || "main";
@@ -38,6 +39,37 @@ export default defineConfig({
             label: "Body",
             isBody: true,
           },
+          {
+            name: 'blocks',
+            type: 'object',
+            list: true,
+            templates: [
+              schemaBites,
+              {
+                name: 'content',
+                fields: [{
+                  type: "object",
+                  name: "fields",
+                  label: "Title",
+                  list: true,
+                  fields: [
+                    {
+                      label: 'Name',
+                      name: 'name',
+                      isTitle: true,
+                      type: "string",
+                      required: true
+                    },
+                    {
+                      label: 'EN',
+                      name: 'en',
+                      type: "rich-text",
+                    },
+                  ]
+                },],
+              }]
+          },
+
         ],
         ui: {
           // This is an DEMO router. You can remove this to fit your site
