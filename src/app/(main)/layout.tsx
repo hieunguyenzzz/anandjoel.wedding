@@ -99,7 +99,7 @@ export default function RootLayout({
 
           </div>
           <input type="checkbox" className="hidden peer" id="menu-toggle" />
-          <ul className='justify-center animate-fade origin-top-right duration-300 text-center pt-[150px] p-12 flex-col   h-screen isolate fixed z-10 top-0 overflow-auto left-0 hidden bg-[#c2c5ff] peer-checked:flex   max-w-5xl w-full items-center gap-6 '>
+          <ul className='justify-center animate-fade origin-top-right duration-300 text-center pt-[150px] p-12 flex-col   h-screen isolate fixed z-10 top-0 overflow-auto left-0 hidden bg-[#c2c5ff] peer-checked:flex  w-full items-center gap-6 '>
             {
               menuItems.map((item, index) => {
                 if (item.href === '/') {
