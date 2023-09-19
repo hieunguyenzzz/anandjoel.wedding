@@ -35,6 +35,7 @@ export default defineConfig({
       {
         name: "page",
         label: "Pages",
+        // format: "json",
         path: "content/pages",
         fields: [
           {
@@ -59,6 +60,10 @@ export default defineConfig({
               {
                 name: 'content',
                 fields: [{
+                  label: 'Name',
+                  name: 'name',
+                  type: "string",
+                }, {
                   type: "object",
                   name: "fields",
                   label: "Title",

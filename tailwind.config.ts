@@ -8,6 +8,10 @@ const config: Config = {
   ],
   theme: {
     extend: {
+      fontFamily: {
+        'subtitle': ['var(--font-subtitle)', 'ui-sans-serif', 'system-ui'],
+        'title': ['var(--font-title)', 'ui-serif', 'Georgia'],
+      },
       backgroundImage: {
         'gradient-radial': 'radial-gradient(var(--tw-gradient-stops))',
         'gradient-conic':
@@ -16,6 +20,7 @@ const config: Config = {
     },
   },
   plugins: [
+    require('daisyui'),
     require('tailwindcss-animated'),
     require('@tailwindcss/typography'),
   ],

@@ -1,0 +1,12 @@
+{
+  "title": "all",
+  "body": "",
+  "blocks": [
+    {
+      "_template": "bites"
+    },
+    {
+      "_template": "content"
+    }
+  ]
+}
