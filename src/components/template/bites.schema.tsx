@@ -48,6 +48,30 @@ export const schemaBites: Template = {
           name: 'image',
           type: 'image'
         },
+        {
+          type: "object",
+          name: "gallery",
+          label: "Images",
+          list: true,
+          ui: {
+            defaultItem: () => ({
+              name: "image",
+            })
+          },
+          fields: [
+            {
+              label: 'Name',
+              name: 'name',
+              isTitle: true,
+              type: "string",
+              required: true
+            },
+            {
+              name: 'image',
+              type: 'image'
+            },
+          ]
+        }
       ]
     }
   ]

@@ -14,7 +14,7 @@ export const UseTinaWithRouter = () => {
   const pathname = usePathname()
   useEffect(() => {
     // client.queries.page({ relativePath: pathname + '.md' }).then((data) => {
-    client.queries.page({ relativePath: 'all.md' }).then((data) => {
+    client.queries.page({ relativePath: 'all' + '.md' }).then((data) => {
       setTinadata(data)
     })
   }, [pathname])

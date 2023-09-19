@@ -24,6 +24,7 @@ export default defineConfig({
       {
         name: "page",
         label: "Pages",
+        // format: "json",
         path: "content/pages",
         fields: [
           {

@@ -19,18 +19,23 @@ blocks:
           - name: image
             image: /p4-destination-img-01.jpg
           - name: image
+            image: /p4-destination-img-01.jpg
           - name: image
+            image: /p4-destination-img-01.jpg
           - name: image
+            image: /p4-destination-img-01.jpg
           - name: image
+            image: /p4-destination-img-01.jpg
           - name: image
+            image: /p4-destination-img-01.jpg
           - name: image
+            image: /p4-destination-img-01.jpg
           - name: image
+            image: /p4-destination-img-01.jpg
           - name: image
+            image: /p4-destination-img-01.jpg
           - name: image
-          - name: iamge
-          - name: iamge
-          - name: iamge
-          - name: iamge
+            image: /p4-destination-img-01.jpg
       - variant: One
         title: title
         description: description
@@ -61,6 +66,7 @@ blocks:
         image: /p4-destination-img-01.jpg
         gallery:
           - name: image
+            image: /p4-destination-img-01.jpg
       - variant: One
         title: title
         description: description
