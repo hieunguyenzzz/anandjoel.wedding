@@ -1,10 +1,11 @@
 "use client";
 
 import { useSetSource } from "@/libs/source";
+import { Field } from "@/libs/tina";
 import { usePathname } from "next/navigation";
 import { useEffect } from "react";
 import { useTina } from "tinacms/dist/react";
-import { PageBlocksBites, PageQuery } from "../../tina/__generated__/types";
+import { PageQuery } from "../../tina/__generated__/types";
 import Bites from "./template/bites";
 import Event from "./template/event";
 
@@ -20,16 +21,21 @@ export function RenderPage(props: {
   useEffect(() => {
     setSource(data.page)
   }, [data])
-  switch (pathname) {
-    case '/all':
-      return <div>all</div>
-    case '/event':
-      return <Event />
-    case '/bites':
-      return <Bites data={data.page.blocks?.find(item => item?.__typename === 'PageBlocksBites') as PageBlocksBites} />
-    case '/edit':
-      return <div>edit</div>
-    default:
-      return <div>404</div>
-  }
+
+  return <>
+    {
+      data.page.blocks?.map((item, index) => {
+        if (item?.__typename === 'PageBlocksBites') {
+          return <Bites data={item} />
+        }
+        if (item?.__typename === 'PageBlocksContent') {
+          if (item?.name === 'event') {
+            return <Field name={`blocks.${index}.name`}><Event data={item} /></Field>
+          }
+        }
+
+        return null
+      })
+    }
+  </>
 }
