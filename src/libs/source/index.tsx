@@ -1,15 +1,23 @@
 "use client"
 import { FC, PropsWithChildren, createContext, useContext, useState } from "react";
-
-const sourceCotnext = createContext({})
+import { PageQuery } from "../../../tina/__generated__/types";
+type Source = PageQuery["page"]
+type SourceCotnext = {
+  source: Source
+  setSource: (source: Source) => void
+}
+const sourceCotnext = createContext<SourceCotnext>({} as SourceCotnext)
 export const useSource = () => {
-  return useContext(sourceCotnext)[0]
+  return useContext(sourceCotnext)?.source
 }
 export const useSetSource = () => {
-  return useContext(sourceCotnext)[1]
+  return useContext(sourceCotnext)?.setSource
 }
-const SourceProvider: FC<PropsWithChildren> = ({ children }) => {
-  return <sourceCotnext.Provider value={useState({})}>
+const SourceProvider: FC<PropsWithChildren & {
+  defaultsource: PageQuery
+}> = ({ children, defaultsource }) => {
+  const [source, setSource] = useState<Source>(defaultsource.page as Source)
+  return <sourceCotnext.Provider value={{ source: source, setSource }}>
     {children}
   </sourceCotnext.Provider>
 }

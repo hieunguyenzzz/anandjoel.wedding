@@ -1,10 +1,12 @@
+"use client"
+import { useSource } from "@/libs/source";
 import { Field } from "@/libs/tina";
-import { PageBlocksBites } from "../../../tina/__generated__/types";
 import Gallery, { GalleryOpenButton } from "../common/gallery";
 import Image from "../common/image";
 
-export default function Bites({ data }: { data: PageBlocksBites }) {
-  if (!data) return null
+export default function Bites() {
+  const source = useSource()
+  const data = source?.blocks?.find((item: any) => item?.__typename === 'PageBlocksBites')
   return (
     <div className="grid lg:grid-cols-2 xl:grid-cols-4 gap-3">
       {

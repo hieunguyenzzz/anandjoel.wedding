@@ -1,5 +1,6 @@
 import Image from '@/components/common/image'
 import SourceProvider from '@/libs/source'
+import { UseTinaWithRouter } from '@/libs/tina'
 import type { Metadata } from 'next'
 import { Crimson_Text, Shantell_Sans } from 'next/font/google'
 import Link from 'next/link'
@@ -10,12 +11,14 @@ import logo from '../../../public/logo-768x721.png'
 import qaImage from '../../../public/qa-tag-150x150.png'
 import storyImage from '../../../public/story.png'
 import travelImage from '../../../public/travel-tag-768x721.png'
+import client from '../../../tina/__generated__/client'
 import './globals.css'
-const title = Shantell_Sans({ subsets: ['latin'], variable: '--font-title', })
+const title = Shantell_Sans({ subsets: ['latin'], variable: '--font-title', display: 'swap' })
 const subtitle = Crimson_Text({
   subsets: ['latin'],
   weight: ['400', '600', '700'],
   variable: '--font-subtitle',
+  display: 'swap'
 })
 export const metadata: Metadata = {
   title: 'Create Next App',
@@ -58,14 +61,16 @@ const menuItems = [
     href: '/qa',
   },
 ]
-export default function RootLayout({
+export default async function RootLayout({
   children,
 }: {
   children: React.ReactNode
 }) {
+  const props = await client.queries.page({ relativePath: 'all.md' })
   return (
-    <SourceProvider>
-      <html lang="en">
+    <SourceProvider defaultsource={props.data}>
+      <UseTinaWithRouter />
+      <html lang="en" data-theme="light">
         <body className={title.variable + " " + subtitle.variable + " " + "bg-[#c2c5ff] min-h-screen"}>
           <header className='flex gap-6 justify-center px-6 lg:px-12 z-20 relative'>
             <ul className='justify-center  max-w-5xl w-full items-center gap-6 hidden lg:flex'>

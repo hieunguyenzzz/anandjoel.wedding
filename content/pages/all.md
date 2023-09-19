@@ -102,7 +102,7 @@ blocks:
 
           (transportation will be provided to and from the venue and hotel)
 
-           
+          ***
 
           ![](/event/REC.png)
 

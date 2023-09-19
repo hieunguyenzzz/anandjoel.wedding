@@ -1,5 +1,4 @@
 "use client"
-import { usePathname } from "next/navigation"
 import { useEffect, useState } from "react"
 import { tinaField, useTina } from "tinacms/dist/react"
 import client from "../../../tina/__generated__/client"
@@ -11,13 +10,12 @@ export const UseTinaWithRouter = () => {
     variables: Exact<{ relativePath: string }>,
     query: string
   } | null | undefined>()
-  const pathname = usePathname()
   useEffect(() => {
-    // client.queries.page({ relativePath: pathname + '.md' }).then((data) => {
     client.queries.page({ relativePath: 'all' + '.md' }).then((data) => {
       setTinadata(data)
     })
-  }, [pathname])
+  }, [])
+  console.log({ tinaData })
   if (!tinaData) return null
   return <UseTina {...tinaData}>
   </UseTina>
@@ -33,7 +31,7 @@ export const UseTina = (props: {
   const setSource = useSetSource()
   useEffect(() => {
     setSource(data.page)
-  }, [data])
+  }, [data.page && JSON.stringify(data.page) !== JSON.stringify(useSource())])
   console.log({ data })
   return null
 }

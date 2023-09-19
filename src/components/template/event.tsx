@@ -2,12 +2,11 @@
 "use client";
 import Image from '@/components/common/image';
 import bgImage from '../../../public/event/bg2.png';
-import { PageBlocksContent, PageQuery } from '../../../tina/__generated__/types';
+import { PageBlocksContent } from '../../../tina/__generated__/types';
 
-import { useSetSource } from "@/libs/source";
+import { useSource } from '@/libs/source';
 import { Field } from "@/libs/tina";
-import { useEffect } from "react";
-import { tinaField, useTina } from "tinacms/dist/react";
+import { tinaField } from "tinacms/dist/react";
 import { TinaMarkdown } from 'tinacms/dist/rich-text';
 
 export function EventContent({ data }: { data: PageBlocksContent }) {
@@ -28,26 +27,13 @@ export function EventContent({ data }: { data: PageBlocksContent }) {
     </div>
   )
 }
-export default function Event(props: {
-  data: PageQuery;
-  variables: object;
-  query: string;
-}) {
-  const { data } = useTina(props);
-  const setSource = useSetSource()
-  useEffect(() => {
-    setSource(data.page)
-  }, [data])
-  return <>
-    {
-      data.page.blocks?.map((item, index) => {
-        if (item?.__typename === 'PageBlocksContent') {
-          if (item?.name === 'event') {
-            return <Field name={`blocks.${index}.name`}><EventContent data={item} /></Field>
-          }
-        }
-        return null
-      })
-    }
-  </>
+export default function Event() {
+  const source = useSource();
+  let index = source?.blocks?.findIndex((item: any) => {
+    console.log({ item })
+    return item?.__typename === 'PageBlocksContent' && item?.name === 'event'
+  })
+  console.log({ source, index })
+  const data = source?.blocks[index]
+  return <Field name={`blocks.${index}.name`}><EventContent data={data} /></Field>
 }

@@ -4,6 +4,11 @@ const nextConfig = {
     locales: ['en', 'vi',],
     defaultLocale: 'en',
   },
+  images: {
+    domains: [
+      "assets.tina.io",
+    ],
+  },
   async rewrites() {
     return [
       {
