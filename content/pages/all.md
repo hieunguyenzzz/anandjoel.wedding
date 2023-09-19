@@ -12,7 +12,7 @@ fields:
 blocks:
   - item:
       - variant: Two
-        title: title
+        title: Ho chi minh
         description: description
         image: /p4-destination-img-01.jpg
         gallery:
