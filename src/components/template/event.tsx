@@ -19,7 +19,7 @@ export function EventContent({ data }: { data: PageBlocksContent }) {
         <Image src={bgImage} priority placeholder='blur' fill className='absolute -z-10 top-0 left-0 w-full' />
         {
           data.fields?.map((item, index) => {
-            return <div data-tina-field={item ? tinaField(item, "en") : undefined} className='prose text-[12px] lg:text-[2vw] whitespace-pre-wrap font-title prose-h3:font-title prose-p:my-[0.3em] text-center prose-img:m-auto prose-h3:py-1 prose-h3:text-[1.4em] prose-h3:font-bold'><TinaMarkdown content={item?.en} /></div>
+            return <div key={index} data-tina-field={item ? tinaField(item, "en") : undefined} className='prose text-[12px] lg:text-[2vw] whitespace-pre-wrap font-title prose-h3:font-title prose-p:my-[0.3em] text-center prose-img:m-auto prose-h3:py-1 prose-h3:text-[1.4em] prose-h3:font-bold'><TinaMarkdown content={item?.en} /></div>
           })
         }
         <div className='absolute top-0 left-0 w-full h-full pointer-events-none '></div>

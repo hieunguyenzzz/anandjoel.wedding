@@ -25,13 +25,14 @@ export const UseTina = (props: {
   variables: Exact<{ relativePath: string }>,
   query: string
 }) => {
+  const source = useSource()
   const {
     data,
   } = useTina(props)
   const setSource = useSetSource()
   useEffect(() => {
     setSource(data.page)
-  }, [data.page && JSON.stringify(data.page) !== JSON.stringify(useSource())])
+  }, [data.page && JSON.stringify(data.page) !== JSON.stringify(source)])
   console.log({ data })
   return null
 }
