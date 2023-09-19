@@ -6,10 +6,10 @@ const branch = process.env.HEAD || process.env.VERCEL_GIT_COMMIT_REF || "main";
 
 export default defineConfig({
   branch,
-  clientId: '',
-  token: '',
-  // clientId: '3a743d97-a554-4b19-acc5-85219789c469', // Get this from tina.io
-  // token: 'ddc47712a8deeab739818ce91d5400c23320a42e', // Get this from tina.io
+  // clientId: '',
+  // token: '',
+  clientId: '3a743d97-a554-4b19-acc5-85219789c469', // Get this from tina.io
+  token: 'ddc47712a8deeab739818ce91d5400c23320a42e', // Get this from tina.io
 
   build: {
     outputFolder: "admin",
@@ -17,8 +17,8 @@ export default defineConfig({
   },
   search: {
     tina: {
-      indexerToken: '',
-      // indexerToken: '1bb332d611d8e21fde7d23d3eefae78dce06045a',
+      // indexerToken: '',
+      indexerToken: '1bb332d611d8e21fde7d23d3eefae78dce06045a',
       stopwordLanguages: ['eng']
     },
     indexBatchSize: 100,
