@@ -13,7 +13,7 @@ export default function Bites({ data }: { data: PageBlocksBites }) {
             </Field>
           }
           return <Field key={index} name={`blocks.0.item.${index}.title`}>
-            <div className='w-full pt-[100%]  opacity-50 bg-gray-100'></div>
+            <div className='w-full pt-[100%]  opacity-50 bg-gray-100 min-h-[40vw]'></div>
           </Field>
         })
       }

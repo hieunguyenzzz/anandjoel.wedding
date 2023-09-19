@@ -14,39 +14,7 @@ blocks:
       - variant: Two
         title: title
         description: description
-       image: /p4-destination-img-01.jpg
-      - variant: One
-        title: title
-        description: description
-       image: /p4-destination-img-01.jpg
-      - variant: One
-        title: title
-        description: description
-       image: /p4-destination-img-01.jpg
-      - variant: One
-        title: title
-        description: description
-       image: /p4-destination-img-01.jpg
-      - variant: One
-        title: title
-        description: description
-       image: /p4-destination-img-01.jpg
-      - variant: Two
-        title: title
-        description: description
-       image: /p4-destination-img-01.jpg
-      - variant: One
-        title: title
-        description: description
-       image: /p4-destination-img-01.jpg
-      - variant: One
-        title: title
-        description: description
-       image: /p4-destination-img-01.jpg
-      - variant: One
-        title: title
-        description: description
-       image: /p4-destination-img-01.jpg
+        image: /p4-destination-img-01.jpg
       - variant: One
         title: title
         description: description
@@ -54,19 +22,51 @@ blocks:
       - variant: One
         title: title
         description: description
-       image: /p4-destination-img-01.jpg
+        image: /p4-destination-img-01.jpg
       - variant: One
         title: title
         description: description
-       image: /p4-destination-img-01.jpg
+        image: /p4-destination-img-01.jpg
       - variant: One
         title: title
         description: description
-       image: /p4-destination-img-01.jpg
+        image: /p4-destination-img-01.jpg
+      - variant: Two
+        title: title
+        description: description
+        image: /p4-destination-img-01.jpg
       - variant: One
         title: title
         description: description
-       image: /p4-destination-img-01.jpg
+        image: /p4-destination-img-01.jpg
+      - variant: One
+        title: title
+        description: description
+        image: /p4-destination-img-01.jpg
+      - variant: One
+        title: title
+        description: description
+        image: /p4-destination-img-01.jpg
+      - variant: One
+        title: title
+        description: description
+        image: /p4-destination-img-01.jpg
+      - variant: One
+        title: title
+        description: description
+        image: /p4-destination-img-01.jpg
+      - variant: One
+        title: title
+        description: description
+        image: /p4-destination-img-01.jpg
+      - variant: One
+        title: title
+        description: description
+        image: /p4-destination-img-01.jpg
+      - variant: One
+        title: title
+        description: description
+        image: /p4-destination-img-01.jpg
     _template: bites
   - _template: content
 ---
