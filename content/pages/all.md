@@ -11,6 +11,14 @@ fields:
       (transportation will be provided to and from the venue and hotel)
 blocks:
   - item:
+      - variant: One
+        title: title
+        description: description
+        image: /p4-destination-img-01.jpg
+      - variant: One
+        title: title
+        description: description
+        image: /p4-destination-img-01.jpg
       - variant: Two
         title: Ho chi minh
         description: description
@@ -31,14 +39,6 @@ blocks:
           - name: iamge
           - name: iamge
           - name: iamge
-      - variant: One
-        title: title
-        description: description
-        image: /p4-destination-img-01.jpg
-      - variant: One
-        title: title
-        description: description
-        image: /p4-destination-img-01.jpg
       - variant: One
         title: title
         description: description
