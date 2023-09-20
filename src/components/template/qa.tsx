@@ -254,6 +254,5 @@ export default function QA() {
     return item?.__typename === 'PageBlocksContent' && item?.name === 'qa'
   })
   const data = source?.blocks[index]
-  console.log({ data })
   return <Field name={`blocks.${index}.name`}><QAContent data={data} /></Field>
 }

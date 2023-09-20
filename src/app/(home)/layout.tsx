@@ -66,19 +66,8 @@ export default async function RootLayout({
       <html lang="en" data-theme="light">
         <body className={"bg-[#c2c5ff] min-h-screen"}>
           <header className='flex gap-6 justify-center px-6 lg:px-12 z-20 relative'>
-            <ul className='justify-center  max-w-5xl w-full items-center gap-6 hidden lg:flex'>
-              {
-                menuItems.map((item, index) => {
-                  return <li key={index} className='flex flex-1 flex-col  items-center gap-2 relative after:content-[""] after:pb-[100%]'>
-                    <a href={item.href} className='hover:scale-110 duration-500 ease-in-out transition-transform absolute inset-0'>
-                      <Image src={item.image} fill alt={item.title} className='object-cover' />
-                      <div className='hidden'>{item.title}</div>
-                    </a>
-                  </li>
-                })}
-            </ul>
-            <div className='flex gap-6 justify-between lg:hidden w-full z-20'>
-              <Link href="/" className='w-[150px]'>
+            <div className='flex gap-6 justify-between  w-full z-20'>
+              <Link href="/" className='w-[150px] relative text-shadow'>
                 <Image src={logo} alt='logo' className='object-cover' />
               </Link>
               <div className="flex items-center space-x-6"
@@ -93,33 +82,8 @@ export default async function RootLayout({
                     </g>
                   </svg>
                 </button>
-                <div className="group leading-none ">
-                  <label htmlFor="menu-toggle" className="text-3xl text-white z-20 block">
-                    <svg fill="currentColor" width="1em" height="1em" xmlns="http://www.w3.org/2000/svg" xmlnsXlink="http://www.w3.org/1999/xlink" viewBox="0 0 116.92 111.19">
-                      <path d="M0,0V111.19H116.92V0ZM98.94,84.48H18v-10h81Zm0-23.9H18v-10h81Zm0-23.91H18v-10h81Z" />
-                    </svg>
-                  </label>
-                </div>
               </div>
-
             </div>
-            <input type="checkbox" className="hidden peer" id="menu-toggle" />
-            <ul className='justify-center  animate-fade origin-top-right duration-300 text-center pt-[150px] p-12 flex-col   h-screen isolate fixed z-10 top-0 overflow-auto left-0 hidden  backdrop-blur-lg peer-checked:flex  w-full items-center gap-6 '>
-              {
-                menuItems.map((item, index) => {
-                  if (item.href === '/') {
-                    return null
-                  }
-                  return <li key={index} style={{
-                    animationDelay: `${(index + 1) * 100}ms`
-                  }} className='flex w-full flex-1 flex-col  animate-fade-up flex-shrink-0  items-center gap-2 relative max-w-xs'>
-                    <Link href={item.href} className='hover:scale-110 justify-center flex items-center duration-500 ease-in-out transition-transform absolute inset-0  h-full text-shadow'>
-                      <Image width={200} height={200} src={item.image} alt={item.title} className='object-contain' />
-                      <div className='text-2xl font-semibold w-full uppercase hidden'>{item.title}</div>
-                    </Link>
-                  </li>
-                })}
-            </ul>
           </header>
           <main className='px-6 lg:px-12 pb-12'>
             {children}
