@@ -1,19 +1,24 @@
 "use client"
 import { useSource } from "@/libs/source";
 import { Field } from "@/libs/tina";
-import Gallery, { GalleryOpenButton } from "../common/gallery";
+import Link from "next/link";
+import { useSearchParams } from "next/navigation";
 import Image from "../common/image";
+import Bite from "./bites-detail";
 
 export default function Bites() {
   const source = useSource()
+  const params = useSearchParams()
+  const id = params.get('id')
   const data = source?.blocks?.find((item: any) => item?.__typename === 'PageBlocksBites')
   return (
     <div className="grid lg:grid-cols-2 xl:grid-cols-4 gap-3">
       {
-        data.item?.map((item, index) => {
+        data?.item?.map((item, index) => {
           const title = item?.title || ''
           const description = item?.description || ''
-          const id = 'gallery-' + index
+          const id = index
+          const images = item.gallery?.map(i => i?.image || "").filter(Boolean)
           if (item?.variant === "Two") {
             return <Field key={index} className='lg:col-span-2' name={`blocks.0.item.${index}.title`}>
               <div className='w-full h-full bg-gray-100 pt-[100%] lg:pt-[50%] relative'>
@@ -34,8 +39,7 @@ export default function Bites() {
                     </div>
                   </div>
                 </div>
-                <GalleryOpenButton className="absolute inset-0 w-full h-full" id={id} />
-                <Gallery id={id} {...{ title, description, images: item.gallery?.map(i => i?.image || "") }} />
+                <Link className="absolute inset-0 w-full h-full" href={'/bites?id=' + id} />
               </div>
             </Field>
           }
@@ -54,11 +58,13 @@ export default function Bites() {
                   </div>
                 </div>
               </div>
-              <GalleryOpenButton className="absolute inset-0 w-full h-full" id={id} />
-              <Gallery id={id} {...{ title, description, images: item.gallery?.map(i => i?.image || "") }} />
+              <Link className="absolute inset-0 w-full h-full" href={'/bites?id=' + id} />
             </div>
           </Field>
         })
+      }
+      {
+        id && <Bite id={id} />
       }
     </div>
   )

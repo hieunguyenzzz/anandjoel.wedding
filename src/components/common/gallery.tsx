@@ -1,37 +1,29 @@
 "use client"
 
-import Image from "./image"
+import { unstable_getImgProps } from "next/image"
+import React from "react"
+import GalleryLightBox from "./gallery-lightbox"
 
-export function GalleryOpenButton({ id, children, className }: { id: string, chldren?: React.ReactNode, className: string }) {
-  return <button className={className} onClick={() => document.getElementById(id).showModal()}>{children}</button>
-}
-export default function Gallery({ id, title, description, images = [] }: { id: string, title: string, description: string, images: string[] }) {
+export default function Gallery({ id, title, description, images = [], children, className }: { id: string, title: string, description: string, images: string[], children?: React.ReactNode, className: string }) {
+  const [show, setShow] = React.useState(false)
   return <>
-    <dialog id={id} className="modal modal-bottom ">
-      <form method="dialog" className="modal-backdrop">
-        <button>close</button>
-      </form>
-      <div className="modal-box">
-        <div className="font-bold text-lg font-title">{title}</div>
-        <p className="pb-4 font-subtitle italic">{description}</p>
-        <div className="min-h-[calc(100vh-100px)] gap-3 grid md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4">
-          {
-            images.map((image, index) => {
-              return <div key={index} className="relative">
-                <div className='w-full pt-[100%] bg-gray-50 relative'>
-                  {image && <Image src={image} fill alt={title || ''} className='object-cover absolute inset-0' />}
-                </div>
-              </div>
-            })
-          }
-        </div>
-        <div className="modal-action sticky bottom-0">
-          <form method="dialog">
-            {/* if there is a button in form, it will close the modal */}
-            <button className="btn">Close</button>
-          </form>
-        </div>
-      </div>
-    </dialog>
+    <button className={className} onClick={() => {
+      setShow(true);
+    }}>{children}</button>
+    {show && <GalleryLightBox size={images.length} getItem={(index) => {
+      let url = images[index]
+      let imgProps = unstable_getImgProps({
+        alt: title,
+        fill: true,
+        src: url,
+      })
+      return {
+        alt: title,
+        width: imgProps.props.width,
+        height: imgProps.props.height,
+        original: url,
+        thumbnail: imgProps.props.src,
+      }
+    }} />}
   </>
 }

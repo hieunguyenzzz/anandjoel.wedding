@@ -1,5 +1,5 @@
 import Bites from "@/components/template/bites"
 
-export default async function Page({ params: { handle } }: { params: { handle: string } }) {
+export default async function Page() {
   return <Bites />
 }
