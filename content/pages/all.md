@@ -19,7 +19,7 @@ blocks:
           - name: image
             image: /p4-destination-img-01.jpg
           - name: image
-            image: /p4-destination-img-01.jpg
+            image: /main-page-update.png
           - name: image
             image: /p4-destination-img-01.jpg
           - name: image

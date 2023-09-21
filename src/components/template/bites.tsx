@@ -1,15 +1,13 @@
 "use client"
 import { useSource } from "@/libs/source";
 import { Field } from "@/libs/tina";
-import Link from "next/link";
-import { useSearchParams } from "next/navigation";
+import { useState } from "react";
 import Image from "../common/image";
 import Bite from "./bites-detail";
 
 export default function Bites() {
+  const [id, setid] = useState(-1)
   const source = useSource()
-  const params = useSearchParams()
-  const id = params.get('id')
   const data = source?.blocks?.find((item: any) => item?.__typename === 'PageBlocksBites')
   return (
     <div className="grid lg:grid-cols-2 xl:grid-cols-4 gap-3">
@@ -21,9 +19,9 @@ export default function Bites() {
           const images = item.gallery?.map(i => i?.image || "").filter(Boolean)
           if (item?.variant === "Two") {
             return <Field key={index} className='lg:col-span-2' name={`blocks.0.item.${index}.title`}>
-              <div className='w-full h-full bg-gray-100 pt-[100%] lg:pt-[50%] relative'>
+              <div className='w-full h-full bg-gray-100 pt-[100%] lg:pt-[50%] relative '>
                 <Image src={item?.image} fill alt={title || ''} className='object-cover absolute inset-0' />
-                <div className="absolute left-0 top-0 h-full w-full flex justify-center items-center text-center">
+                <button onClick={() => setid(id)} className="absolute left-0 top-0 h-full w-full flex justify-center items-center text-center  text-magical">
                   <div className="bg-white p-[1.5em_0.5em_1em_0.5em] relative">
                     <div className="flex ">
                       <svg className="absolute top-0 right-[100%] h-full text-white" fill="white" xmlns="http://www.w3.org/2000/svg" xmlnsXlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 14.1 28" xmlSpace="preserve" ><polygon className="st0" points="1.9,0 0,2.3 1.3,4.8 1.6,6.6 2.2,7.7 3.7,9.5 3.2,9.8 3.7,10.9 3.7,11.8 3.4,12.8 2.6,13.7 3.2,14.8
@@ -34,38 +32,34 @@ export default function Bites() {
                     9,23.4 8.6,23.7 8.4,24.4 8.4,24.9 7.9,25.2 7.6,26.1 7.9,26.8 8.5,27.6 6.9,28 0,28 0,0 " /></svg>
                       <div>
                         <div className="font-subtitle text-[1.2em] text-gray-400">{description}</div>
-                        <h3 className="font-bold text-[3em] font-title uppercase">{title}</h3>
+                        <h3 className="font-bold text-[3em] font-title uppercase text-magical-item leading-[1.2]">{title}</h3>
                       </div>
                     </div>
                   </div>
-                </div>
-                <Link className="absolute inset-0 w-full h-full" href={'/bites?id=' + id} />
+                </button>
               </div>
             </Field>
           }
           return <Field key={index} name={`blocks.0.item.${index}.title`}>
             <div className='w-full pt-[100%]  bg-gray-100 min-h-[40vw] relative'>
               <Image src={item?.image} fill alt={title || ''} className='object-cover absolute inset-0' />
-              <div className="absolute left-0 top-0 h-full w-full flex justify-start items-end ">
+              <button onClick={() => setid(id)} className="absolute left-0 top-0 h-full w-full flex justify-start items-end text-magical">
                 <div className=" text-white p-[2em_1.5em_2.5em_1.5em] relative">
                   <div className="flex">
                     <div>
                       <div className="font-subtitle flex items-center gap-2 italic">
-                        <div><svg stroke="currentColor" fill="currentColor" strokeWidth={0} viewBox="0 0 24 24" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg"><path d="M17.263 2.177a1.75 1.75 0 0 1 2.474 0l2.586 2.586a1.75 1.75 0 0 1 0 2.474L19.53 10.03l-.012.013L8.69 20.378a1.753 1.753 0 0 1-.699.409l-5.523 1.68a.748.748 0 0 1-.747-.188.748.748 0 0 1-.188-.747l1.673-5.5a1.75 1.75 0 0 1 .466-.756L14.476 4.963ZM4.708 16.361a.26.26 0 0 0-.067.108l-1.264 4.154 4.177-1.271a.253.253 0 0 0 .1-.059l10.273-9.806-2.94-2.939-10.279 9.813ZM19 8.44l2.263-2.262a.25.25 0 0 0 0-.354l-2.586-2.586a.25.25 0 0 0-.354 0L16.061 5.5Z" /></svg></div>
-                        {description}</div>
-                      <h3 className="font-bold text-[2em] leading-tight font-title uppercase">{title}</h3>
+                        <div><svg stroke="currentColor" fill="currentColor" strokeWidth={0} viewBox="0 0 24 24" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg"><path d="M17.263 2.177a1.75 1.75 0 0 1 2.474 0l2.586 2.586a1.75 1.75 0 0 1 0 2.474L19.53 10.03l-.012.013L8.69 20.378a1.753 1.753 0 0 1-.699.409l-5.523 1.68a.748.748 0 0 1-.747-.188.748.748 0 0 1-.188-.747l1.673-5.5a1.75 1.75 0 0 1 .466-.756L14.476 4.963ZM4.708 16.361a.26.26 0 0 0-.067.108l-1.264 4.154 4.177-1.271a.253.253 0 0 0 .1-.059l10.273-9.806-2.94-2.939-10.279 9.813ZM19 8.44l2.263-2.262a.25.25 0 0 0 0-.354l-2.586-2.586a.25.25 0 0 0-.354 0L16.061 5.5Z" /></svg>
+                        </div>{description}</div>
+                      <h3 className="font-bold text-[2em] font-title uppercase text-magical-item leading-[1.2]">{title}</h3>
                     </div>
                   </div>
                 </div>
-              </div>
-              <Link className="absolute inset-0 w-full h-full" href={'/bites?id=' + id} />
+              </button>
             </div>
           </Field>
         })
       }
-      {
-        id && <Bite id={id} />
-      }
+      <Bite key={id} id={id} onClose={() => setid(-1)} />
     </div>
   )
 }
