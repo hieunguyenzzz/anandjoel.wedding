@@ -14,7 +14,7 @@ export function EventContent({ data }: { data: PageBlocksContent }) {
   return (
     <div className="min-h-screen animate-fade-up animate-duration-[2000] animate-ease-in-out container mx-auto  relative isolate text-[#111111ff] flex flex-col gap-6">
       <div style={{
-        minHeight: ratio + 'vw',
+        minHeight: ratio + '%',
       }} className='py-[18vw]  px-[20%] pb-[30vw] gap-[10vw] flex flex-col relative justify-center '>
         <Image src={bgImage} priority placeholder='blur' fill className='absolute -z-10 top-0 left-0 w-full' />
         {
