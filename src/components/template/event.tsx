@@ -12,7 +12,7 @@ import { TinaMarkdown } from 'tinacms/dist/rich-text';
 export function EventContent({ data }: { data: PageBlocksContent }) {
   let ratio = (bgImage.height / bgImage.width) * 100
   return (
-    <div className="min-h-screen text-[12px] lg:text-[2vw] relative isolate text-[#111111ff] flex flex-col gap-6">
+    <div className="min-h-screen container text-[12px] lg:text-[2vw] relative isolate text-[#111111ff] flex flex-col gap-6">
       <div style={{
         minHeight: ratio + 'vw',
       }} className='py-[18vw]  px-[20%] pb-[30vw] gap-[10vw] flex flex-col relative justify-center '>
@@ -34,6 +34,6 @@ export default function Event() {
     return item?.__typename === 'PageBlocksContent' && item?.name === 'event'
   })
   console.log({ source, index })
-  const data = source?.blocks[index]
-  return <Field name={`blocks.${index}.name`}><EventContent data={data} /></Field>
+  const data = source?.blocks?.[index || -1]
+  return <Field name={`blocks.${index}.name`}>{data && <EventContent data={data} />}</Field>
 }
