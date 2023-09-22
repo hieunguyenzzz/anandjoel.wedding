@@ -18,7 +18,7 @@ export default function Page() {
                 return null
               }
               return <li key={index} style={{
-                animationDelay: `${(index + 1) * 100}ms`
+                animationDelay: `${1000 + (index + 1) * 100}ms`
               }} className='flex w-full flex-1 flex-col  animate-fade-up  items-center gap-2 relative max-w-[200px] lg:max-w-xs'>
                 <Link href={item.href} className='hover:scale-110 justify-center flex items-center duration-500  ease-in-out  transition-transform absolute inset-0  h-full text-shadow '>
                   <Image width={200} height={200} src={item.image} alt={item.title} className='object-cover absolute inset-0 w-full h-full ' />

@@ -72,7 +72,7 @@ export default async function RootLayout({
                 menuItems.map((item, index) => {
                   return <li key={index} className='flex flex-1 flex-col  items-center gap-2 relative after:content-[""] after:pb-[100%]'>
                     <a href={item.href} className='hover:scale-110 duration-500 ease-in-out transition-transform absolute inset-0'>
-                      <Image src={item.image} fill alt={item.title} className='object-cover' />
+                      <Image src={item.image} fill alt={item.title} priority className='object-cover' />
                       <div className='hidden'>{item.title}</div>
                     </a>
                   </li>
@@ -80,7 +80,7 @@ export default async function RootLayout({
             </ul>
             <div className='flex gap-6 justify-between lg:hidden w-full z-20'>
               <Link href="/" className='w-[150px] text-shadow relative'>
-                <Image src={logo} alt='logo' className='object-cover' />
+                <Image priority src={logo} alt='logo' className='object-cover' />
               </Link>
               <div className="flex items-center space-x-6"
               >
@@ -119,7 +119,7 @@ export default async function RootLayout({
                     animationDelay: `${(index + 1) * 100}ms`
                   }} className='flex w-full flex-1 flex-col  animate-fade-up flex-shrink-0  items-center gap-2 relative max-w-xs'>
                     <Link href={item.href} className='hover:scale-110 justify-center flex items-center duration-500 ease-in-out transition-transform absolute inset-0  h-full text-shadow'>
-                      <Image width={200} height={200} src={item.image} alt={item.title} className='object-contain' />
+                      <Image priority width={200} height={200} src={item.image} alt={item.title} className='object-contain' />
                       <div className='text-2xl font-semibold w-full uppercase hidden'>{item.title}</div>
                     </Link>
                   </li>
