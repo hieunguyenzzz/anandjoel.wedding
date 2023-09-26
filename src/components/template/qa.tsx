@@ -1,6 +1,6 @@
 
 "use client";
-import Image from '@/components/common/image';
+import Image from 'next/image';
 import appleOpen from '../../../public/apple-open.png';
 import apple from '../../../public/apple.png';
 import bgImage from '../../../public/qa_bg.png';
@@ -226,8 +226,8 @@ export function QAContent({ data }: { data: PageBlocksContent }) {
               }, []).map((item: { h3: string, text: string }, i: number) => {
                 return <div key={i} className="collapse  join-item border-b border-[#ceaabb]">
                   <input type="checkbox" name="my-accordion-4" className='peer' defaultChecked={i === 0} />
-                  <Image src={apple} width={40} height={40} className='visible h-[67px] peer-checked:invisible absolute lg:h-[84px] animate-fade object-scale-down  right-0 top-0 ' />
-                  <Image src={appleOpen} width={44} height={44} className='hidden absolute h-[67px] lg:h-[84px] animate-jump object-scale-down right-0 top-0  peer-checked:block' />
+                  <Image priority alt="close" src={apple} width={40} height={40} className='visible h-[67px] peer-checked:invisible absolute lg:h-[84px] animate-fade object-scale-down  right-0 top-0 ' />
+                  <Image priority alt="open" src={appleOpen} width={44} height={44} className='hidden absolute h-[67px] lg:h-[84px] animate-jump object-scale-down right-0 top-0  peer-checked:block' />
                   <div className="collapse-title flex gap6 justify-between ">
                     <h3 className='m-0'>
                       {item.h3}
