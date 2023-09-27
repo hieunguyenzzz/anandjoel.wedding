@@ -91,25 +91,17 @@ blocks:
         description: description
         image: /p4-destination-img-01.jpg
     _template: bites
-  - title: Explore Vietnam
+  - title: Vietnam
     description: >-
-      Vietnam, located in Southeast Asia, is a beautiful and culturally rich
-      country known for its stunning landscapes, vibrant cities, and deep
-      history. It boasts a diverse geography that includes lush rice paddies,
-      dramatic karst formations in Halong Bay, and vibrant cities like Hanoi and
-      Ho Chi Minh City. Vietnam has a rich cultural heritage with influences
-      from Chinese, French, and indigenous traditions, which are evident in its
-      cuisine, architecture, and festivals. The country is famous for its
-      delicious street food, including pho and banh mi sandwiches. Vietnam's
-      history is marked by periods of imperial rule, colonialism, and a
-      tumultuous 20th-century history with the Vietnam War playing a significant
-      role. Today, Vietnam is a rapidly developing nation with a growing economy
-      and a welcoming population, making it a popular destination for tourists
-      and travelers.
+      Stunning landscapes, from rice paddies to Halong Bay, and warm, welcoming
+      people.
     item:
       - variant: Two
         title: Sapa
-        description: description
+        description: >-
+          Nestled in the northern highlands, Sapa is a picturesque town known
+          for its terraced rice fields, ethnic minority cultures, and trekking
+          opportunities.
         image: /p4-destination-img-01.jpg
         gallery:
           - name: image
@@ -134,19 +126,31 @@ blocks:
             image: /p4-destination-img-01.jpg
       - variant: One
         title: Phu Quoc
-        description: description
+        description: >-
+          Vietnam's largest island, Phu Quoc, offers pristine beaches, lush
+          jungles, and a relaxed island vibe, making it a perfect tropical
+          getaway.
         image: /p4-destination-img-01.jpg
       - variant: One
         title: Ha Long Bay
-        description: description
+        description: >-
+          With its emerald waters and thousands of towering limestone karsts,
+          Halong Bay is a UNESCO World Heritage Site that promises awe-inspiring
+          boat cruises and stunning natural beauty.
         image: /p4-destination-img-01.jpg
       - variant: One
         title: Ha Noi
-        description: description
+        description: >-
+          Vietnam's capital city, Hanoi, is a blend of ancient charm and modern
+          energy. It features a rich history, vibrant street markets, and
+          delicious street food.
         image: /p4-destination-img-01.jpg
       - variant: One
         title: Ho Chi Minh
-        description: description
+        description: >-
+          Formerly known as Saigon, this bustling metropolis in southern Vietnam
+          is famous for its dynamic atmosphere, historical landmarks, and
+          diverse culinary scene.
         image: /p4-destination-img-01.jpg
     _template: explore
   - name: event

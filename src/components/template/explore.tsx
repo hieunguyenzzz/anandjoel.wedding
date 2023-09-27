@@ -52,10 +52,10 @@ const Content = () => {
   if (!currentItem) return <section className="mt-12 mx-auto px-4  md:px-8">
     <div className="max-w-lg">
       <h1 className="text-3xl text-gray-800 font-semibold mt-2">
-        {currentItem?.title || "Explore Vietnam"}
+        {data?.title || "Explore Vietnam"}
       </h1>
       <p className="mt-3 text-gray-500">
-        {currentItem?.description || `Blogs that are loved by the community. Updated every hour.
+        {data?.description || `Blogs that are loved by the community. Updated every hour.
       The powerful gravity waves resulting from the impact of the planets, were finally resolved in 2015`}
       </p>
     </div>
@@ -91,7 +91,7 @@ const Content = () => {
   </section>
   return (
     <section className="mt-12 mx-auto px-4  md:px-8">
-      <div className="max-w-lg">
+      <div className="prose">
         {currentItem && <button className='underline ' onClick={() => setid(-1)}>Back</button>}
         <h1 className="text-3xl text-gray-800 font-semibold mt-2">
           {currentItem?.title}
@@ -134,7 +134,7 @@ export default function Explore() {
   return <>
     <div className='flex isolate'>
       <Image src={bgImage} priority placeholder='blur' className='fixed -z-10 inset-0 w-full h-full max-w-full object-cover animate-fade' />
-      <div className='sticky hidden md:flex top-[130px] h-[calc(100vh-126px)]  items-center justify-center w-[800px] lg:max-w-[40vw]'><div className='w-[110%] flex-shrink-0'><Vietnammap /></div></div>
+      <div className='sticky  hidden md:flex top-[130px] h-[calc(100vh-126px)]  items-center justify-center w-[800px] md:max-w-[40vw]'><div className='w-[110%] flex-shrink-0'><Vietnammap /></div></div>
       <div className='container flex-1'>
         <Content />
       </div>
