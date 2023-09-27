@@ -32,8 +32,8 @@ export default function Bites() {
                     10.6,14.1 9.9,15 8.2,16.7 8.8,17.2 8.4,18 8.8,18.8 8.7,19.6 8.8,20.5 8.7,20.9 8.7,21.3 9.2,21.8 8.7,22.6 8.8,23 8.8,23.2
                     9,23.4 8.6,23.7 8.4,24.4 8.4,24.9 7.9,25.2 7.6,26.1 7.9,26.8 8.5,27.6 6.9,28 0,28 0,0 " /></svg>
                       <div>
-                        <div className="font-subtitle text-[1.2em] text-gray-400">{description}</div>
-                        <h3 className="font-bold text-[3em] font-title uppercase text-magical-item leading-[1.2]">{title}</h3>
+                        <div className="font-subtitle text-sm lg:text-[1.2em] text-gray-400">{description}</div>
+                        <h3 className="font-bold text-lg lg:text-[3em] font-title uppercase text-magical-item leading-[1.2]">{title}</h3>
                       </div>
                     </div>
                   </div>
