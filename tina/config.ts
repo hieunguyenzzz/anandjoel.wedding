@@ -1,5 +1,6 @@
 import { defineConfig } from "tinacms";
 import schemaBites from '../src/components/template/bites.schema';
+import schemaExplore from "../src/components/template/explore.schema";
 
 // Your hosting provider likely exposes this as an environment variable
 const branch = process.env.HEAD || process.env.VERCEL_GIT_COMMIT_REF || "main";
@@ -58,6 +59,7 @@ export default defineConfig({
             },
             templates: [
               schemaBites,
+              schemaExplore,
               {
                 name: 'content',
                 fields: [{

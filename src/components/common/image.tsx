@@ -2,12 +2,13 @@
 import NextImage, { ImageProps, } from "next/image";
 
 export default function Image(props: Omit<ImageProps, 'alt'> & {
-  alt?: string
+  alt?: string,
+  animated?: boolean,
 }) {
-  const { className, ...rest } = props
+  const { className, animated, ...rest } = props
   return (
     <NextImage {...rest} alt={props.alt || 'image'}
-      className={className + " " + "animate-fade blur-3xl transition-all duration-300 ease-in-out"}
+      className={className}
       onLoadingComplete={e => {
         e.style.filter = 'none'
       }}

@@ -7,6 +7,7 @@ import 'react-image-lightbox/style.css';
 export default function Bite({ id, onClose }: { id: number, onClose: () => void }) {
   const [photoIndex, setindex] = useState(0)
   const source = useSource()
+  const [state, setState] = useState()
   const data = source?.blocks?.find((item: any) => item?.__typename === 'PageBlocksBites')
   const item = data.item[id]
   if (!item) return null
@@ -15,6 +16,7 @@ export default function Bite({ id, onClose }: { id: number, onClose: () => void 
 
   return (
     <Lightbox
+      onImageLoad={setState}
       mainSrc={images[photoIndex]}
       nextSrc={images[(photoIndex + 1) % images.length]}
       prevSrc={images[(photoIndex + images.length - 1) % images.length]}
