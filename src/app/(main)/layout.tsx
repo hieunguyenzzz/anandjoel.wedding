@@ -95,11 +95,11 @@ export default async function RootLayout({
                   </svg>
                 </button>
                 <div className="group leading-none ">
-                  <label htmlFor="menu-toggle" className="text-3xl text-white z-20 block">
+                  <a href="/" className="text-3xl text-white z-20 block">
                     <svg fill="currentColor" width="1em" height="1em" xmlns="http://www.w3.org/2000/svg" xmlnsXlink="http://www.w3.org/1999/xlink" viewBox="0 0 116.92 111.19">
                       <path d="M0,0V111.19H116.92V0ZM98.94,84.48H18v-10h81Zm0-23.9H18v-10h81Zm0-23.91H18v-10h81Z" />
                     </svg>
-                  </label>
+                  </a>
                 </div>
               </div>
 
