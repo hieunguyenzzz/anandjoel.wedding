@@ -2,15 +2,16 @@
 import { useSource } from "@/libs/source";
 import { Field } from "@/libs/tina";
 import { useState } from "react";
+import bgImage from '../../../public/website layout _bites.jpg';
 import Image from "../common/image";
 import Bite from "./bites-detail";
-
 export default function Bites() {
   const [id, setid] = useState(-1)
   const source = useSource()
   const data = source?.blocks?.find((item: any) => item?.__typename === 'PageBlocksBites')
   return (
-    <div className="grid lg:grid-cols-2 xl:grid-cols-4 gap-3">
+    <div className="grid py-12 lg:grid-cols-2 xl:grid-cols-4 gap-3 isolate container mx-auto lg:gap-8">
+      <Image src={bgImage} priority placeholder='blur' className='fixed -z-10 inset-0 w-full h-full max-w-full object-cover animate-fade' />
       {
         data?.item?.map((item, index) => {
           const title = item?.title || ''
@@ -19,8 +20,8 @@ export default function Bites() {
           const images = item.gallery?.map(i => i?.image || "").filter(Boolean)
           if (item?.variant === "Two") {
             return <Field key={index} className='lg:col-span-2' name={`blocks.0.item.${index}.title`}>
-              <div className='w-full h-full bg-gray-100 pt-[100%] lg:pt-[50%] relative '>
-                <Image src={item?.image} fill alt={title || ''} className='object-cover absolute inset-0' />
+              <div className='w-full h-full pt-[100%] lg:pt-[100%] relative '>
+                <Image src={item?.image} fill alt={title || ''} className='object-cover absolute inset-0 rounded-lg bg-[#e9a48a52] border-[#e9a48a52] border-8' />
                 <button onClick={() => setid(id)} className="absolute left-0 top-0 h-full w-full flex justify-center items-center text-center  text-magical">
                   <div className="bg-white p-[1.5em_0.5em_1em_0.5em] relative">
                     <div className="flex ">
@@ -41,9 +42,9 @@ export default function Bites() {
             </Field>
           }
           return <Field key={index} name={`blocks.0.item.${index}.title`}>
-            <div className='w-full pt-[100%]  bg-gray-100 min-h-[40vw] relative'>
-              <Image src={item?.image} fill alt={title || ''} className='object-cover absolute inset-0' />
-              <button onClick={() => setid(id)} className="absolute left-0 top-0 h-full w-full flex justify-start items-end text-magical">
+            <div className='w-full pt-[100%] h-full   relative'>
+              <Image src={item?.image} fill alt={title || ''} className='object-cover absolute inset-0 rounded-lg bg-[#e9a48a52] border-[#e9a48a52] border-8' />
+              <button onClick={() => setid(id)} className="absolute left-0 top-0 h-full w-full flex justify-start items-end text-magical ">
                 <div className=" text-white p-[2em_1.5em_2.5em_1.5em] relative">
                   <div className="flex">
                     <div>

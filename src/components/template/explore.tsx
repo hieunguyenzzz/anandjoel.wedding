@@ -3,6 +3,7 @@
 "use client";
 
 import { useSource } from '@/libs/source';
+import bgImage from '../../../public/website layout _travel stay.jpg';
 
 import { Field } from '@/libs/tina';
 import { unstable_getImgProps } from 'next/image';
@@ -65,7 +66,7 @@ const Content = () => {
           const id = index
           return <Field key={index} name={`blocks.${blockIndex}.item.${index}.title`}>
             <div className='galleryID-item w-full h-full  pt-[100%] lg:pt-[100%] relative '>
-              <Image src={item?.image} fill alt={title || ''} className='object-cover absolute inset-0 rounded-lg shadow-md bg-gray-100' />
+              <Image src={item?.image} fill alt={title || ''} className='object-cover absolute inset-0  rounded-lg bg-[#e9a48a52] border-[#e9a48a52] border-8' />
               <button onClick={() => setid(id)} className="absolute left-0 cursor-pointer top-0 h-full w-full flex justify-center items-center text-center  text-magical">
                 <div className="bg-white p-[0.5em_0.5em_0.5em_0.5em] relative">
                   <div className="flex ">
@@ -114,7 +115,7 @@ const Content = () => {
               setModal(<Detail images={images} defaultIndex={index} onClose={() => setModal(null)} />)
             }} href={img.props.src} key={index + 1} ><Field key={index + 1} name={`blocks.${blockIndex}.item.${index}.title`}>
                 <div className='w-full h-full  pt-[100%] lg:pt-[100%] relative '>
-                  <Image width={600} height={600} src={img.props.src} alt={currentItem.title || ''} className='object-cover w-full h-full animate-fade-up absolute inset-0 rounded-lg shadow-md bg-gray-100' />
+                  <Image width={600} height={600} src={img.props.src} alt={currentItem.title || ''} className='object-cover w-full h-full animate-fade-up absolute inset-0 rounded-lg bg-[#e9a48a52] border-[#e9a48a52] border-8' />
                 </div>
               </Field>
             </a>
@@ -131,7 +132,8 @@ const Content = () => {
 
 export default function Explore() {
   return <>
-    <div className='flex '>
+    <div className='flex isolate'>
+      <Image src={bgImage} priority placeholder='blur' className='fixed -z-10 inset-0 w-full h-full max-w-full object-cover animate-fade' />
       <div className='sticky hidden md:flex top-[130px] h-[calc(100vh-126px)]  items-center justify-center w-[800px] lg:max-w-[40vw]'><div className='w-[110%] flex-shrink-0'><Vietnammap /></div></div>
       <div className='container flex-1'>
         <Content />

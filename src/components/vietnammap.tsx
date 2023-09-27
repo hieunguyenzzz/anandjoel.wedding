@@ -66,7 +66,7 @@ const data = {
 }
 
 export default function Vietnammap() {
-  return <svg className="text-[#88a4bc] [&_path]:fill-blue-100 [&_path:hover]:fill-blue-300"
+  return <svg className="text-white [&_path]:fill-[#88a4bc40] [&_path:hover]:fill-[#88a4bc]"
     height="auto"
     version="1.1"
     width={"100%"}
