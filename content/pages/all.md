@@ -96,7 +96,8 @@ blocks:
       Stunning landscapes, from rice paddies to Halong Bay, and warm, welcoming
       people.
     item:
-      - variant: Two
+      - location: Lào Cai
+        variant: Two
         title: Sapa
         description: >-
           Nestled in the northern highlands, Sapa is a picturesque town known
@@ -124,28 +125,32 @@ blocks:
             image: /p4-destination-img-01.jpg
           - name: image
             image: /p4-destination-img-01.jpg
-      - variant: One
+      - location: Kiên Giang
+        variant: One
         title: Phu Quoc
         description: >-
           Vietnam's largest island, Phu Quoc, offers pristine beaches, lush
           jungles, and a relaxed island vibe, making it a perfect tropical
           getaway.
         image: /p4-destination-img-01.jpg
-      - variant: One
+      - location: Quảng Ninh
+        variant: One
         title: Ha Long Bay
         description: >-
           With its emerald waters and thousands of towering limestone karsts,
           Halong Bay is a UNESCO World Heritage Site that promises awe-inspiring
           boat cruises and stunning natural beauty.
         image: /p4-destination-img-01.jpg
-      - variant: One
+      - location: Ha Noi
+        variant: One
         title: Ha Noi
         description: >-
           Vietnam's capital city, Hanoi, is a blend of ancient charm and modern
           energy. It features a rich history, vibrant street markets, and
           delicious street food.
         image: /p4-destination-img-01.jpg
-      - variant: One
+      - location: Hồ Chí Minh city
+        variant: One
         title: Ho Chi Minh
         description: >-
           Formerly known as Saigon, this bustling metropolis in southern Vietnam

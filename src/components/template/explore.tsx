@@ -8,6 +8,7 @@ import { useState } from 'react';
 import Lightbox from 'react-image-lightbox';
 import 'react-image-lightbox/style.css';
 import bgImage from '../../../public/website layout _travel stay.jpg';
+import { PageBlocksExplore } from '../../../tina/__generated__/types';
 import Image from '../common/image';
 import Vietnammap from '../vietnammap';
 
@@ -38,12 +39,8 @@ function Detail({ images, defaultIndex = 0, onClose }: { images: string[], defau
 }
 
 
-const Content = () => {
-  const [id, setid] = useState(-1)
+const Content = ({ id, setid, data, blockIndex }: { id: number, setid: (n: number) => void, data: PageBlocksExplore, blockIndex: number }) => {
   const [modal, setModal] = useState(null)
-  const source = useSource()
-  const blockIndex = source?.blocks?.findIndex((item: any) => item?.__typename === 'PageBlocksExplore')
-  const data = blockIndex && source?.blocks?.[blockIndex]
   const currentItem = data?.item?.find((item, index) => index === id)
   const images = currentItem?.gallery?.map(i => i?.image || "").filter(Boolean)
   if (!currentItem) return <section className="mt-12 mx-auto px-4  md:px-8">
@@ -63,7 +60,7 @@ const Content = () => {
           const id = index
           return <Field key={index} name={`blocks.${blockIndex}.item.${index}.title`}>
             <div className='galleryID-item w-full h-full  pt-[100%] lg:pt-[100%] relative '>
-              <Image width={300} height={300} src={item?.image} alt={title || ''} className='object-cover w-full h-full absolute inset-0  rounded-lg bg-[#e9a48a52] border-[#e9a48a52] border-8' />
+              <Image width={300} height={300} src={item?.image || ""} alt={title || ''} className='object-cover w-full h-full absolute inset-0  rounded-lg bg-[#e9a48a52] border-[#e9a48a52] border-8' />
               <button onClick={() => setid(id)} className="absolute left-0 cursor-pointer top-0 h-full w-full flex justify-center items-center text-center  text-magical">
                 <div className="bg-white p-[0.5em_0.5em_0.5em_0.5em] relative">
                   <div className="flex ">
@@ -128,12 +125,29 @@ const Content = () => {
 
 
 export default function Explore() {
+  const source = useSource()
+  const blockIndex = source?.blocks?.findIndex((item: any) => item?.__typename === 'PageBlocksExplore')
+  const data = (blockIndex && source?.blocks?.[blockIndex]) as PageBlocksExplore
+  console.log({ data })
+  const locations = (data?.item || []).map(item => item?.location).filter(Boolean)
+  const [id, setid] = useState(-1)
+  const currentItem = data?.item?.find((item, index) => index === id)
   return <>
     <div className='flex isolate'>
       <Image src={bgImage} priority placeholder='blur' className='fixed -z-10 inset-0 w-full h-full max-w-full object-cover animate-fade' />
-      <div className='sticky  hidden md:flex top-[130px] h-[calc(100vh-126px)]  items-center justify-center w-[800px] md:max-w-[40vw]'><div className='w-[110%] flex-shrink-0'><Vietnammap /></div></div>
+      <div className='sticky  hidden md:flex top-[130px] h-[calc(100vh-126px)]  items-center justify-center w-[800px] md:max-w-[40vw]'><div className='w-[110%] flex-shrink-0'>
+        <Vietnammap onSelect={e => {
+          console.log({ e })
+          const index = data?.item?.findIndex((item, index) => {
+            console.log(item?.location, e)
+            return item?.location === e
+          })
+          if (index === 0 || (index && index > 0)) {
+            setid(index)
+          }
+        }} current={currentItem?.location} locations={locations || []} /></div></div>
       <div className='container flex-1'>
-        <Content />
+        <Content {...{ id, setid, blockIndex, data }} />
       </div>
     </div>
   </>
