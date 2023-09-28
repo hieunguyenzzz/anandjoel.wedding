@@ -54,6 +54,7 @@ export default defineConfig({
             list: true,
             ui: {
               itemProps: (item) => ({
+                ...item,
                 label: item.title || item.name,
               }),
             },
@@ -67,6 +68,12 @@ export default defineConfig({
                   type: "string",
                   required: true,
                   isTitle: true,
+                }, {
+                  name: 'title',
+                  type: "string",
+                }, {
+                  name: 'description',
+                  type: "string",
                 }, {
                   type: "object",
                   name: "fields",
