@@ -63,7 +63,7 @@ const Content = () => {
           const id = index
           return <Field key={index} name={`blocks.${blockIndex}.item.${index}.title`}>
             <div className='galleryID-item w-full h-full  pt-[100%] lg:pt-[100%] relative '>
-              <Image src={item?.image} fill alt={title || ''} className='object-cover absolute inset-0  rounded-lg bg-[#e9a48a52] border-[#e9a48a52] border-8' />
+              <Image width={300} height={300} src={item?.image} alt={title || ''} className='object-cover w-full h-full absolute inset-0  rounded-lg bg-[#e9a48a52] border-[#e9a48a52] border-8' />
               <button onClick={() => setid(id)} className="absolute left-0 cursor-pointer top-0 h-full w-full flex justify-center items-center text-center  text-magical">
                 <div className="bg-white p-[0.5em_0.5em_0.5em_0.5em] relative">
                   <div className="flex ">

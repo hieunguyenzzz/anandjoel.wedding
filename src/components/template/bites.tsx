@@ -21,7 +21,7 @@ export default function Bites() {
           if (item?.variant === "Two") {
             return <Field key={index} className='lg:col-span-2' name={`blocks.0.item.${index}.title`}>
               <div className='w-full h-full pt-[100%] lg:pt-[100%] relative '>
-                <Image src={item?.image} fill alt={title || ''} className='object-cover absolute inset-0 rounded-lg bg-[#e9a48a52] border-[#e9a48a52] border-8' />
+                <Image width={400} height={400} src={item?.image} alt={title || ''} className='object-cover absolute inset-0 h-full w-full rounded-lg bg-[#e9a48a52] border-[#e9a48a52] border-8' />
                 <button onClick={() => setid(id)} className="absolute left-0 top-0 h-full w-full flex justify-center items-center text-center  text-magical">
                   <div className="bg-white p-[0.7em_0.5em_0.5em_0.5em] relative">
                     <div className="flex ">
@@ -43,7 +43,7 @@ export default function Bites() {
           }
           return <Field key={index} name={`blocks.0.item.${index}.title`}>
             <div className='w-full pt-[100%] h-full   relative'>
-              <Image src={item?.image} fill alt={title || ''} className='object-cover absolute inset-0 rounded-lg bg-[#e9a48a52] border-[#e9a48a52] border-8' />
+              <Image src={item?.image} width={400} height={400} alt={title || ''} className='object-cover  h-full w-full absolute inset-0 rounded-lg bg-[#e9a48a52] border-[#e9a48a52] border-8' />
               <button onClick={() => setid(id)} className="absolute text-left left-0 top-0 h-full w-full flex justify-start items-end text-magical ">
                 <div className=" text-white p-[1em_1.5em_2em_1.5em] relative">
                   <div className="flex flex-col items-start">
