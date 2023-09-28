@@ -13,12 +13,12 @@ export function EventContent({ data }: { data: PageBlocksContent }) {
   let ratio = (bgImage.height / bgImage.width) * 100
   return (
     <div className='isolate'>
-      <Image src={bgImage} priority placeholder='blur' className='fixed  inset-0 object-cover  top-0 left-0 w-full' />
+      <Image src={bgImage} priority placeholder='blur' className='fixed  inset-0 object-cover  object-top h-full top-0 left-0 w-full' />
       <div className="min-h-screen -up animate-duration-[2000] animate-ease-in-out container mx-auto  relative isolate text-[#111111ff] flex flex-col gap-6">
         <div style={{
           minHeight: ratio + '%',
 
-        }} className='py-[4vw] lg:py-[10vw]  px-[20%] pb-[30vw] gap-[10vw] flex flex-col relative justify-center '>
+        }} className='py-[4vw] lg:py-[10vw]  md:px-[20%] pb-[30vw] gap-[10vw] flex flex-col relative justify-center '>
 
           {
             data.fields?.map((item, index) => {
