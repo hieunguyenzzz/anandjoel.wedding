@@ -56,9 +56,9 @@ export const menuItems = [
   },
 ]
 const Header = () => {
-  return <header className='flex gap-6  justify-center mx-auto z-20  h-[126px]  sticky top-0 '>
+  return <header className='flex gap-6  justify-center mx-auto z-20  h-[126px]  isolate relative '>
     <ul className='justify-center mx-auto items-center gap-6 hidden lg:flex relative   px-6 lg:px-12'>
-      <li className='absolute inset-[1.4em] rounded-lg backdrop-blur-sm pointer-events-none'></li>
+      {/* <li className='absolute inset-[1.4em] rounded-lg backdrop-blur-sm pointer-events-none'></li> */}
       {
         menuItems.map((item, index) => {
           if (item.title === 'Home') return <li key={index} className='flex  flex-col  items-center gap-2 min-w-[200px]  h-[126px]  relative after:content-[""] after:pb-[100%]'>
@@ -132,7 +132,7 @@ export default async function RootLayout({
     <SourceProvider defaultsource={props.data}>
       <UseTinaWithRouter />
       <html lang="en" data-theme="light">
-        <body className={"bg-[#c2c5ff] min-h-screen"}>
+        <body className={"bg-[#c2c5ff] min-h-screen text-[18px] md:text-[min(24px,5vw)]"}>
           <Header />
           <main className='px-6 lg:px-12 pb-12'>
             <noscript>

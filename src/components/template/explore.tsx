@@ -45,7 +45,7 @@ const Content = ({ id, setid, data, blockIndex }: { id: number, setid: (n: numbe
   const images = currentItem?.gallery?.map(i => i?.image || "").filter(Boolean)
   if (!currentItem) return <section className="mt-12 mx-auto px-4  md:px-8">
     <div className="max-w-lg">
-      <h1 className="text-3xl text-gray-800 font-semibold mt-2">
+      <h1 className="text-[1.4em] font-title text-gray-800 font-semibold mt-2">
         {data?.title || "Explore Vietnam"}
       </h1>
       <p className="mt-3 ">
@@ -87,7 +87,7 @@ const Content = ({ id, setid, data, blockIndex }: { id: number, setid: (n: numbe
     <section className="mt-12 mx-auto px-4  md:px-8">
       <div key={currentItem?.title} className="prose">
         {currentItem && <button className='underline animate-fade-up animate-duration-500 animate-ease-in-out' onClick={() => setid(-1)}>Back</button>}
-        <h1 className="text-3xl text-gray-800 animate-fade-up animate-delay-100 font-semibold mt-2 animate-duration-500 animate-ease-in-out">
+        <h1 className="text-3xl font-title text-gray-800 animate-fade-up animate-delay-100 font-semibold mt-2 animate-duration-500 animate-ease-in-out">
           {currentItem?.title}
         </h1>
         <p className="mt-3  animate-fade-up animate-delay-200 animate-duration-500 animate-ease-in-out">

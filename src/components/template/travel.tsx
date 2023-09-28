@@ -27,11 +27,11 @@ export function StoryContent({ data }: { data: PageBlocksContent }) {
     </div>
   )
 }
-export default function Story() {
+export default function Travel() {
   const source = useSource();
   let index = source?.blocks?.findIndex((item: any) => {
     console.log({ item })
-    return item?.__typename === 'PageBlocksContent' && item?.name === 'story'
+    return item?.__typename === 'PageBlocksContent' && item?.name === 'travel'
   })
   const data = source?.blocks[index]
   if (!data) return null

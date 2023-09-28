@@ -1,5 +1,5 @@
-import Story from "@/components/template/story"
+import Travel from "@/components/template/travel"
 
 export default async function Page({ params: { handle } }: { params: { handle: string } }) {
-  return <Story />
+  return <Travel />
 }
