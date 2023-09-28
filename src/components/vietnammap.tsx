@@ -72,7 +72,7 @@ export default function Vietnammap({ locations, current, onSelect }: { locations
     if (e.target?.classList?.[0] === "sm_state") {
       onSelect(vietnamData[e.target?.classList?.[1].replace("sm_state_", "")])
     }
-  }} className=" [&_path]:fill-[currentColor] [&_path]:transition-colors [&_path]:stroke-slate-300 [&_path:hover]:text-blue text-[#88a4bc] text-opacity-10 "
+  }} className=" [&_path]:fill-[currentColor] [&_path]:transition-colors [&_path]:stroke-slate-300  [&_path:hover]:text-opacity-100 text-[#88a4bc] text-opacity-10 "
     height="auto"
     version="1.1"
     width={"100%"}
