@@ -1,16 +1,13 @@
 
 
 "use client";
-
 import { useSource } from '@/libs/source';
-import bgImage from '../../../public/website layout _travel stay.jpg';
-
 import { Field } from '@/libs/tina';
 import { unstable_getImgProps } from 'next/image';
 import { useState } from 'react';
 import Lightbox from 'react-image-lightbox';
 import 'react-image-lightbox/style.css';
-import "react-svg-map/lib/index.css";
+import bgImage from '../../../public/website layout _travel stay.jpg';
 import Image from '../common/image';
 import Vietnammap from '../vietnammap';
 
@@ -54,7 +51,7 @@ const Content = () => {
       <h1 className="text-3xl text-gray-800 font-semibold mt-2">
         {data?.title || "Explore Vietnam"}
       </h1>
-      <p className="mt-3 text-gray-500">
+      <p className="mt-3 ">
         {data?.description || `Blogs that are loved by the community. Updated every hour.
       The powerful gravity waves resulting from the impact of the planets, were finally resolved in 2015`}
       </p>
@@ -91,12 +88,12 @@ const Content = () => {
   </section>
   return (
     <section className="mt-12 mx-auto px-4  md:px-8">
-      <div className="prose">
-        {currentItem && <button className='underline ' onClick={() => setid(-1)}>Back</button>}
-        <h1 className="text-3xl text-gray-800 font-semibold mt-2">
+      <div key={currentItem?.title} className="prose">
+        {currentItem && <button className='underline animate-fade-up animate-duration-500 animate-ease-in-out' onClick={() => setid(-1)}>Back</button>}
+        <h1 className="text-3xl text-gray-800 animate-fade-up animate-delay-100 font-semibold mt-2 animate-duration-500 animate-ease-in-out">
           {currentItem?.title}
         </h1>
-        <p className="mt-3 text-gray-500">
+        <p className="mt-3  animate-fade-up animate-delay-200 animate-duration-500 animate-ease-in-out">
           {currentItem?.description}
         </p>
       </div>

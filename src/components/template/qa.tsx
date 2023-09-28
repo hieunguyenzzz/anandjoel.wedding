@@ -211,7 +211,7 @@ export function QAContent({ data }: { data: PageBlocksContent }) {
         minHeight: ratio + 'vw',
       }} className='py-[4vw]  pb-[10vw] gap-[10vw] flex flex-col relative justify-center '>
         <Image src={bgImage} priority placeholder='blur' className='fixed -z-10 inset-0 w-full h-full max-w-full object-cover animate-fade' />
-        <div className="join join-vertical w-full  prose mx-auto text-[12px] lg:text-[min(2vw,20px)] whitespace-pre-wrap prose-h3:font-title prose-p:my-[0.3em] prose-img:m-auto prose-h3:py-1 prose-h3:text-[1.4em] prose-h3:font-bold">
+        <div className="join join-vertical w-full  prose mx-auto  lg:text-[min(2vw,20px)] whitespace-pre-wrap prose-h3:font-title prose-p:my-[0.3em] prose-img:m-auto prose-h3:py-1 prose-h3:text-[1.4em] prose-h3:font-bold">
           {
             data.fields?.flatMap((item, x) => {
               return item?.en?.children?.reduce((result: { h3: string, text: string }[] = [], item: any,) => {
@@ -226,7 +226,7 @@ export function QAContent({ data }: { data: PageBlocksContent }) {
               }, []).map((item: { h3: string, text: string }, i: number) => {
                 return <div key={i} className="collapse  join-item border-b border-[#ceaabb]">
                   <input type="checkbox" name="my-accordion-4" className='peer' defaultChecked={i === 0} />
-                  <Image priority alt="close" src={apple} width={40} height={40} className='visible h-[67px] peer-checked:invisible absolute lg:h-[84px] animate-fade object-scale-down  right-0 top-0 ' />
+                  <Image priority alt="close" src={apple} width={40} height={40} className='visible h-[67px] peer-checked:invisible absolute lg:h-[84px]  object-scale-down  right-0 top-0 ' />
                   <Image priority alt="open" src={appleOpen} width={44} height={44} className='hidden absolute h-[67px] lg:h-[84px] animate-jump object-scale-down right-0 top-0  peer-checked:block' />
                   <div className="collapse-title flex gap6 justify-between ">
                     <h3 className='m-0'>

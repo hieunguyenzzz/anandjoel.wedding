@@ -8,9 +8,9 @@ export default function Image(props: Omit<ImageProps, 'alt'> & {
   const { className, animated, ...rest } = props
   return (
     <NextImage {...rest} alt={props.alt || 'image'}
-      className={className}
+      className={className + " opacity-0 transition-opacity duration-500 ease-in-out"}
       onLoadingComplete={e => {
-        e.style.filter = 'none'
+        e.style.opacity = '100'
       }}
     />
   )

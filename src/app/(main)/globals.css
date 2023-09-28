@@ -11,9 +11,7 @@
   --font-title: fantasy, sans-serif;
 
 }
-:root{
-  font-family: var(--font-body);
-}
+
 .text-shadow:after {
   content: "";
   display: block;
@@ -60,4 +58,11 @@ body {
       rgb(var(--background-end-rgb))
     )
     rgb(var(--background-start-rgb));
+    font-family: var(--font-body);
+    font-size: min(1.5em, 5vw);
+}
+
+.font-title{
+  margin-top: 0.5em;
+  line-height: 1;
 }
