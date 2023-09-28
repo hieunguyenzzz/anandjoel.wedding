@@ -135,6 +135,14 @@ export default async function RootLayout({
         <body className={"bg-[#c2c5ff] min-h-screen"}>
           <Header />
           <main className='px-6 lg:px-12 pb-12'>
+            <noscript>
+              <style>
+                {`img{
+                  opacity:100!important
+                }`}
+              </style>
+            </noscript>
+
             {children}
           </main>
         </body>
