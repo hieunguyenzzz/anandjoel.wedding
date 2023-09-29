@@ -105,10 +105,6 @@ blocks:
         description: description
         image: image
       - variant: One
-        title: Ha Long
-        description: description
-        image: image
-      - variant: One
         title: Ninh Binh
         description: description
         image: image
@@ -119,7 +115,7 @@ blocks:
       - variant: One
         title: Da Nang
         description: description
-        image: image
+        image: /Đà Nẵng.jpeg
       - location: Lào Cai
         variant: Two
         title: Sapa
