@@ -457,6 +457,12 @@ blocks:
           Bãi San Hô on Instagram, make sure to check it out if you have time.
         image: /Phú Yên.jpeg
         gallery:
+          - name: Kira - lodge & garden
+            content: |
+              ### Kira - lodge & garden
+
+              An Phú, Tuy Hòa, Phú Yên
+            image: /kira - lodge & garden.jpeg
           - name: Da Dia Reef
             content: |
               ### Da Dia Reef
