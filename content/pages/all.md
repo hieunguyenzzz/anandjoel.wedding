@@ -103,6 +103,10 @@ blocks:
         title: RuNam d'Or
         description: '3 Công xã Paris, Bến Nghé Ward, District 1, HCMC'
         image: /RuNam d'Or.jpeg
+      - variant: One
+        title: Sủi CHỊảo
+        description: 'District 5, HCMC'
+        image: /sủi cảo.jpeg
       - variant: Two
         title: SAPA
         description: description
