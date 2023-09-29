@@ -925,6 +925,7 @@ blocks:
   - name: story
     title: How it all began
     fields:
+      - {}
       - name: joel nhẫn
         en: |
           ![](/IMG_0989.jpeg)
@@ -952,8 +953,8 @@ blocks:
           in Da Lat, Vietnam, which is also An's hometown.
       - name: Câu 4
         en: >
-          Let's attend An & Joel's wedding to celebrate a new milestone and
-          enjoy the Forbidden Garden!
+          Cheers to An & Joel's wedding and enjoy the fruits from the Forbidden
+          Garden!
     _template: content
 ---
 
