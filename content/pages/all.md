@@ -11,7 +11,7 @@ fields:
       (transportation will be provided to and from the venue and hotel)
 blocks:
   - item:
-      - variant: Two
+      - variant: One
         title: Ho chi minh
         description: description
         image: /p4-destination-img-01.jpg
@@ -37,9 +37,9 @@ blocks:
           - name: image
             image: /p4-destination-img-01.jpg
       - variant: One
-        title: title
-        description: description
-        image: /p4-destination-img-01.jpg
+        title: Å by T.U.N.G
+        description: 'No 31-33 Đặng Dung Street, Tân Định Ward, District 1, Hồ Chí Minh City'
+        image: /a by tungg.webp
       - variant: One
         title: title
         description: description
