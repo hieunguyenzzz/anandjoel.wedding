@@ -281,7 +281,7 @@ blocks:
           If you want to experience traveling to Da Lat by road, you can try the
           sleeper bus with many more options such as private cabins, private
           beds, etc. It will take 8 hours to travel from HCMC to Da Lat so we
-          recommend you take the bus at night to arrive in the morning. 
+          recommend you take the bus at night to arrive in the morning.
 
           Here are some reputable sleeper bus brands:
 
@@ -293,7 +293,7 @@ blocks:
           one-way trip is ranging from 290.000 - 440.000VND/pax (~$13 - $19/pax)
           with many options of seats (cabin/bed/chair)
       - name: MONEY
-        en: >+
+        en: >
           ### MONEY
 
 
@@ -309,10 +309,8 @@ blocks:
 
 
           \*Some places do take debit/credit cards, but not all.
-
-
       - name: MEDICINE
-        en: >+
+        en: >
           ### MEDICINE
 
 
@@ -323,10 +321,8 @@ blocks:
 
           \*We typically bring Advil, Aquaphor (mosquito/ bug bites), Pepto
           Bismol, & Flu medicine!
-
-
       - name: DAILY TRAVEL BAG
-        en: >+
+        en: >
           ### DAILY TRAVEL BAG
 
 
@@ -350,10 +346,8 @@ blocks:
           * Advil / small meds
 
           * AirPods or electronic accessories
-
-
       - name: TOILET
-        en: >+
+        en: >
           ### TOILET
 
 
@@ -364,48 +358,17 @@ blocks:
           toilet paper / paper products being flushed FYI. It’s recommended to
           use the spray & dry off with napkins / tissue you bring. There will be
           a small trash can to dispose of paper products.
-
-
-      - name: MAPS
-        en: >
-          ### MAPS
-
-
-          Both Apple and Google maps works, however Google maps is better and
-          has more restaurants listed and their ratings from trip advisor.
-      - name: WEATHER
-        en: >
-          ### WEATHER
-
-
-          Although Vietnam’s weather is tropical, Da Lat’s weather is cool and
-          temperate which led it to the nickname “City of Eternal Spring”.
-      - name: ATTIRE
-        en: >
-          ### ATTIRE
-
-
-          You should wear several layers of clothing to keep you warm and this
-          also allows you to tuck away a few layers if you get hot. (Except on
-          the wedding day because you need to dress up).
-
-
-          Most hotels offer laundry services, and prices change depending on the
-          item and materials. Try not to overpack, you will more than likely
-          reuse outfits / buy new outfits.
-      - name: LUGGAGE
-        en: >
-          ### LUGGAGE
-
-
-          Pack light and bring an extra carry-on or duffle bag as you will more
-          than likely bring back more goods than what you came with.
     _template: content
   - name: story
     title: Story
     fields:
+      - en: |
+          ![](/IMG_2581.jpeg)
       - name: content
         en: >
+          ![](/IMG_2581.jpeg)
+
+
           Once upon a time in a small town, there was a mischievous cat named
           Whiskers. Whiskers had a peculiar habit of trying to catch the rays of
           sunlight that streamed through the windows. He'd leap and pounce at
