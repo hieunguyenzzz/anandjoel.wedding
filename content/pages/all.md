@@ -925,6 +925,9 @@ blocks:
   - name: story
     title: How it all began
     fields:
+      - name: joel ring
+        en: |
+          ![](/IMG_3224.jpeg)
       - name: content
         en: >
           An & Joel do not have a typical love story, but everything that
@@ -940,15 +943,15 @@ blocks:
           They have been together for 8 years, since the day An and Joel met in
           the US, which means a lot to them, a place where you can be true to
           yourself and pursue your dreams and where dreams do become true.
+      - name: new york
+        en: |
+          ![](/IMG_0254.JPEG)
       - name: on one knee
         en: |
           ![](/IMG_0938.jpeg)
       - name: all dalat
         en: |
           ![](/23cfe32a356a7841e1099b5c07f638e9.JPG)
-      - name: new york
-        en: |
-          ![](/IMG_0254.JPEG)
       - name: joel nhẫn
         en: |
           ![](/IMG_0989.jpeg)
