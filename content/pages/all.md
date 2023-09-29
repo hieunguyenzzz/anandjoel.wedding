@@ -120,9 +120,9 @@ blocks:
         description: '73rd Floor, Landmark 81, Vinhomes Tân Cảng, Bình Thạnh District, HCMC)'
         image: /Truffle Restaurant.webp
       - variant: One
-        title: title
-        description: description
-        image: image
+        title: CLAY
+        description: '18 street no. 6, Thảo Điền Ward, District 2, HCMC'
+        image: /CLAY.webp
       - variant: One
         title: Phở Phượng
         description: '25 Hoàng Sa, Đa Kao Ward, District 1, HCMC'
