@@ -370,6 +370,10 @@ blocks:
           Beach, Lang Co Beach, Hoi An, and My Son.
         image: /Đà Nẵng.jpeg
         gallery:
+          - name: Marble Mountains
+            content: |
+              ### Marble Mountains
+            image: /Marble Mountains.jpeg
           - name: Ba Na Hills
             content: |
               ### Ba Na Hills
