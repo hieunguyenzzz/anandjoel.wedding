@@ -268,6 +268,12 @@ blocks:
           islets. 
         image: /Hạ Long.jpeg
         gallery:
+          - name: The Yacht Hotel by DC
+            content: |
+              ### The Yacht Hotel by DC
+
+              258 Bãi Cháy, Hạ Long, Quảng Ninh
+            image: /The Yacht Hotel by DC.jpeg
           - name: 'Vinpearl Resort & Spa Ha Long '
             content: |
               ### Vinpearl Resort & Spa Ha Long 
