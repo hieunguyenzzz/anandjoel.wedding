@@ -142,9 +142,10 @@ blocks:
             content: |
               ### Silver Waterfall
             image: /Silver Waterfall.jpeg
-          - name: image
-            content: ''
-            image: /p4-destination-img-01.jpg
+          - name: Love Waterfall
+            content: |
+              ### Love Waterfall
+            image: /Love Waterfall.jpeg
           - name: image
             content: ''
             image: /p4-destination-img-01.jpg
