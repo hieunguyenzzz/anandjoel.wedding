@@ -268,6 +268,12 @@ blocks:
           islets. 
         image: /Hạ Long.jpeg
         gallery:
+          - name: 'Vinpearl Resort & Spa Ha Long '
+            content: |
+              ### Vinpearl Resort & Spa Ha Long 
+
+              Reu Island, Bai Chay Ward, Ha Long, Quảng Ninh)
+            image: /Vinpearl Resort & Spa Ha Long .webp
           - name: Ha Long Bay
             content: |
               ### Ha Long Bay
