@@ -366,6 +366,13 @@ blocks:
           a small trash can to dispose of paper products.
 
 
+      - name: MAPS
+        en: >
+          ### MAPS
+
+
+          Both Apple and Google maps works, however Google maps is better and
+          has more restaurants listed and their ratings from trip advisor.
     _template: content
   - name: story
     title: Story
