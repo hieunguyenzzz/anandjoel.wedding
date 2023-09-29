@@ -118,9 +118,12 @@ blocks:
 
               03B Thac Bac Street, Sapa, Lào Cai
             image: /Eden Boutique Hotel & Spa.jpeg
-          - name: image
-            content: ''
-            image: /p4-destination-img-01.jpg
+          - name: Pao's Sapa Leisure Hotel
+            content: |
+              ### Pao's Sapa Leisure Hotel
+
+              Muong Hoa Street, Sapa, Lào Cai
+            image: /Pao's Sapa Leisure Hotel.jpeg
           - name: image
             content: ''
             image: /p4-destination-img-01.jpg
