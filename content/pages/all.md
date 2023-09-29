@@ -97,6 +97,10 @@ blocks:
       megacities and hill-tribe villages, Vietnam is unforgettably compelling.
     item:
       - variant: One
+        title: Da Lat
+        description: description
+        image: /dalat.jpeg
+      - variant: One
         title: Quang Binh
         description: description
         image: /Quang bINH.jpeg
