@@ -889,7 +889,8 @@ blocks:
   - name: story
     title: How it all began
     fields:
-      - en: |
+      - name: image
+        en: |
           ![](/IMG_0974.jpg)
       - name: content
         en: >
