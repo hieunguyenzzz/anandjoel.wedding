@@ -13,8 +13,8 @@ blocks:
   - item:
       - variant: Two
         title: Ho chi minh
-        description: description
-        image: /p4-destination-img-01.jpg
+        description: ''
+        image: ''
         gallery:
           - name: image
             image: /p4-destination-img-01.jpg
@@ -139,9 +139,9 @@ blocks:
         description: '32 Võ Văn Tần, Ward 6, District 3, HCMC'
         image: /Hum Vegetarian.jpeg
       - variant: Two
-        title: SAPA
-        description: description
-        image: /p4-destination-img-01.jpg
+        title: HÀ NỘI
+        description: ''
+        image: ''
     _template: bites
   - title: Explore Vietnam
     description: >-
@@ -178,7 +178,7 @@ blocks:
             image: /Pao's Sapa Leisure Hotel.jpeg
           - name: Ville De Mont Mountain Resort
             content: |
-              Ville De Mont Mountain Resort
+              ### Ville De Mont Mountain Resort
 
               To 7, Phuong Sa Pa, Lao Chải Tả Van, Sapa, Lào Cai
             image: /Ville De Mont Mountain Resort.png
