@@ -457,6 +457,10 @@ blocks:
           Bãi San Hô on Instagram, make sure to check it out if you have time.
         image: /Phú Yên.jpeg
         gallery:
+          - name: Mui Dien Lighthouse
+            content: |
+              ### Mui Dien Lighthouse
+            image: /Mui Dien Lighthouse .jpeg
           - name: Vung Ro Bay
             content: |
               ### Vung Ro Bay
