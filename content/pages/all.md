@@ -457,6 +457,12 @@ blocks:
           Bãi San Hô on Instagram, make sure to check it out if you have time.
         image: /Phú Yên.jpeg
         gallery:
+          - name: Rosa Alba Resort & Villas Tuy Hoa
+            content: |
+              ### Rosa Alba Resort & Villas Tuy Hoa
+
+              8 Lê Duẩn, Ward 9, Tuy Hòa, Phú Yên
+            image: /Rosa Alba Resort & Villas Tuy Hoa.jpeg
           - name: Kira - lodge & garden
             content: |
               ### Kira - lodge & garden
