@@ -515,6 +515,10 @@ blocks:
           also the perfect time to catch the wonderful Phu Quoc sunset.
         image: /Phú Quốc.jpeg
         gallery:
+          - name: Suoi Tranh Waterfall
+            content: |
+              ### Suoi Tranh Waterfall
+            image: /Suoi Tranh Waterfall .jpeg
           - name: Fish Sauce Factory
             content: |
               ### Fish Sauce Factory
