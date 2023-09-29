@@ -267,6 +267,11 @@ blocks:
           recognized landscape, boasting over 1,600 limestone islands and
           islets. 
         image: /Hạ Long.jpeg
+        gallery:
+          - name: Bai Tu Long Bay
+            content: |
+              ### Bai Tu Long Bay
+            image: /Bai Tu Long Bay.jpeg
       - location: Quảng Bình
         variant: One
         title: Quang Binh
