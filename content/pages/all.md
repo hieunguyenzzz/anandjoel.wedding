@@ -138,9 +138,10 @@ blocks:
             content: |
               ### Ban Ho Village
             image: /Ban Ho Village .jpeg
-          - name: image
-            content: ''
-            image: /p4-destination-img-01.jpg
+          - name: Silver Waterfall
+            content: |
+              ### Silver Waterfall
+            image: /Silver Waterfall.jpeg
           - name: image
             content: ''
             image: /p4-destination-img-01.jpg
