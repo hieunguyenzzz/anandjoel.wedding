@@ -155,7 +155,8 @@ blocks:
         title: Da Nang
         description: description
         image: /Đà Nẵng.jpeg
-      - variant: One
+      - location: Quàng Nam
+        variant: One
         title: Hoi An
         description: description
         image: /Hội An.jpeg
