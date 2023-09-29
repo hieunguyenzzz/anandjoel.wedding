@@ -925,6 +925,21 @@ blocks:
   - name: story
     title: How it all began
     fields:
+      - name: content
+        en: >
+          An & Joel do not have a typical love story, but everything that
+          happens has its own reason to create an inspired love.
+      - name: hình 2
+        en: |
+          ![](/AJ.jpeg)
+      - name: image
+        en: |
+          ![](/IMG_0974.jpg)
+      - name: Câu 2
+        en: >
+          They have been together for 8 years, since the day An and Joel met in
+          the US, which means a lot to them, a place where you can be true to
+          yourself and pursue your dreams and where dreams do become true.
       - name: on one knee
         en: |
           ![](/IMG_0938.jpeg)
@@ -940,21 +955,6 @@ blocks:
       - name: ngang
         en: |
           ![](/IMG_2581.jpeg)
-      - name: hình 2
-        en: |
-          ![](/AJ.jpeg)
-      - name: image
-        en: |
-          ![](/IMG_0974.jpg)
-      - name: content
-        en: >
-          An & Joel do not have a typical love story, but everything that
-          happens has its own reason to create an inspired love.
-      - name: Câu 2
-        en: >
-          They have been together for 8 years, since the day An and Joel met in
-          the US, which means a lot to them, a place where you can be true to
-          yourself and pursue your dreams and where dreams do become true.
       - name: Câu 3
         en: >
           During the cloud hunting 1 year ago, An successfully proposed to Joel
