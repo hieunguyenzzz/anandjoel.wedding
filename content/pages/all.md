@@ -515,6 +515,10 @@ blocks:
           also the perfect time to catch the wonderful Phu Quoc sunset.
         image: /Phú Quốc.jpeg
         gallery:
+          - name: Sao Beach
+            content: |
+              ### Sao Beach
+            image: /Sao Beach .jpeg
           - name: Ham Ninh Fishing Village
             content: |
               ### Ham Ninh Fishing Village
