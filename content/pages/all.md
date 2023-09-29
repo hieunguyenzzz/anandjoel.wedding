@@ -510,6 +510,12 @@ blocks:
           many regions, and countries.
         image: /SG.jpeg
         gallery:
+          - name: Nikko Hotel Saigon
+            content: |
+              ### Nikko Hotel Saigon
+
+              35 Nguyễn Văn Cừ, Nguyễn Cư Trinh Ward, District 1, HCMC
+            image: /Nikko Hotel Saigon.jpeg
           - name: 'Mai House Saigon Hotel '
             content: |
               ### Mai House Saigon Hotel 
