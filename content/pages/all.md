@@ -515,6 +515,12 @@ blocks:
           also the perfect time to catch the wonderful Phu Quoc sunset.
         image: /Phú Quốc.jpeg
         gallery:
+          - name: InterContinental Phu Quoc Long Beach Resort
+            content: |
+              ### InterContinental Phu Quoc Long Beach Resort
+
+              Bai Truong, Ward, Dương Tơ, Phú Quốc, Kiên Giang
+            image: /InterContinental Phu Quoc Long Beach Resort.jpeg
           - name: Mango Bay
             content: |
               ### Mango Bay
