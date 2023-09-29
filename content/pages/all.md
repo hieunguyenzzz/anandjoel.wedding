@@ -116,9 +116,9 @@ blocks:
         description: '10 Đặng Tất, Tân Định Ward, District 1'
         image: /Cục Gạch Quán.jpeg
       - variant: One
-        title: title
-        description: description
-        image: image
+        title: Truffle Restaurant
+        description: '73rd Floor, Landmark 81, Vinhomes Tân Cảng, Bình Thạnh District, HCMC)'
+        image: /Truffle Restaurant.webp
       - variant: Two
         title: SAPA
         description: description
