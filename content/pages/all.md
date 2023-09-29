@@ -370,6 +370,12 @@ blocks:
           Beach, Lang Co Beach, Hoi An, and My Son.
         image: /Đà Nẵng.jpeg
         gallery:
+          - name: Premier Village Danang Resort
+            content: |
+              ### Premier Village Danang Resort
+
+              99 Võ Nguyên Giáp, Street, Ngũ Hành Sơn, Đà Nẵng
+            image: /Premier VillageDanang Resort.jpeg
           - name: Marble Mountains
             content: |
               ### Marble Mountains
