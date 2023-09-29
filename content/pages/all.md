@@ -510,6 +510,10 @@ blocks:
           many regions, and countries.
         image: /SG.jpeg
         gallery:
+          - name: Remnants War Museum
+            content: |
+              ### Remnants War Museum
+            image: /Remnants War Museum.jpeg
           - name: Ben Thanh Market
             content: |
               ### Ben Thanh Market
