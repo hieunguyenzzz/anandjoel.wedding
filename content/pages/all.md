@@ -214,6 +214,12 @@ blocks:
           influences.
         image: /hà NỘI.jpeg
         gallery:
+          - name: Sofitel Legend Metropole Hotel
+            content: |
+              ### Sofitel Legend Metropole Hotel
+
+              15 Ngô Quyền,, Hoàn Kiếm District, Hà Nội
+            image: /Sofitel Legend Metropole Hotel.jpeg
           - name: Hoa Lo Prison
             content: |
               ### Hoa Lo Prison
