@@ -510,6 +510,12 @@ blocks:
           many regions, and countries.
         image: /SG.jpeg
         gallery:
+          - name: Park Hyatt
+            content: |
+              ### Park Hyatt
+
+              2 Lam Sơn Square, Bến Nghé Ward, District 1, HCMC
+            image: /Park Hyatt.jpeg
           - name: Nikko Hotel Saigon
             content: |
               ### Nikko Hotel Saigon
