@@ -159,6 +159,10 @@ blocks:
           mountains rising up from the paddies.
         image: /nINH BÌNH.jpeg
         gallery:
+          - name: Trang An Landscape Complex
+            content: |
+              ### Trang An Landscape Complex
+            image: /Trang An Landscape Complex.jpeg
           - name: Emeralda Resort
             content: >
               ### Emeralda Resort
