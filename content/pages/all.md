@@ -11,18 +11,6 @@ fields:
       (transportation will be provided to and from the venue and hotel)
 blocks:
   - item:
-      - variant: One
-        title: title
-        description: description
-        image: image
-      - variant: One
-        title: title
-        description: description
-        image: image
-      - variant: One
-        title: title
-        description: description
-        image: image
       - variant: Two
         title: Ho chi minh
         description: description
@@ -119,6 +107,18 @@ blocks:
         title: Sủi Cảo
         description: 'District 5, HCMC'
         image: /sủi cảo.jpeg
+      - variant: One
+        title: 'Phở Hoà Pasteur '
+        description: '260C Pasteur, Ward 8, District 3, HCMC'
+        image: /Phở Hoà Pasteur .jpeg
+      - variant: One
+        title: Cục Gạch Quán
+        description: '10 Đặng Tất, Tân Định Ward, District 1'
+        image: /Cục Gạch Quán.jpeg
+      - variant: One
+        title: title
+        description: description
+        image: image
       - variant: Two
         title: SAPA
         description: description
