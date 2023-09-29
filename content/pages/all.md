@@ -40,6 +40,9 @@ blocks:
         title: Å by T.U.N.G
         description: '31-33 Đặng Dung Street, Tân Định Ward, District 1, HCMC'
         image: /a by tungg.webp
+        gallery:
+          - name: image
+            image: /bites/saigon/A by Tung/IMG_5500.jpeg
       - variant: One
         title: title
         description: description
