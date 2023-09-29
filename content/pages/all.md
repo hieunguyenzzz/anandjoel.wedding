@@ -515,6 +515,10 @@ blocks:
           also the perfect time to catch the wonderful Phu Quoc sunset.
         image: /Phú Quốc.jpeg
         gallery:
+          - name: Ham Ninh Fishing Village
+            content: |
+              ### Ham Ninh Fishing Village
+            image: /Ham Ninh Fishing Village.jpeg
           - name: Suoi Tranh Waterfall
             content: |
               ### Suoi Tranh Waterfall
