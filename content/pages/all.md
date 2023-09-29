@@ -91,11 +91,31 @@ blocks:
         description: description
         image: /p4-destination-img-01.jpg
     _template: bites
-  - title: Vietnam
+  - title: Explore Vietnam
     description: >-
-      Stunning landscapes, from rice paddies to Halong Bay, and warm, welcoming
-      people.
+      A land of staggering natural beauty and cultural complexities, of dynamic
+      megacities and hill-tribe villages, Vietnam is unforgettably compelling.
     item:
+      - variant: One
+        title: Quang Binh
+        description: description
+        image: /Quang bINH.jpeg
+      - variant: One
+        title: Phu Yen
+        description: description
+        image: /Phú Yên.jpeg
+      - variant: One
+        title: Ninh Binh
+        description: description
+        image: /nINH BÌNH.jpeg
+      - variant: One
+        title: Hoi An
+        description: description
+        image: /Hội An.jpeg
+      - variant: One
+        title: Da Nang
+        description: description
+        image: /Đà Nẵng.jpeg
       - location: Lào Cai
         variant: Two
         title: Sapa
@@ -103,7 +123,7 @@ blocks:
           Nestled in the northern highlands, Sapa is a picturesque town known
           for its terraced rice fields, ethnic minority cultures, and trekking
           opportunities.
-        image: /p4-destination-img-01.jpg
+        image: /Sapa.jpeg
         gallery:
           - name: image
             image: /p4-destination-img-01.jpg
@@ -132,7 +152,7 @@ blocks:
           Vietnam's largest island, Phu Quoc, offers pristine beaches, lush
           jungles, and a relaxed island vibe, making it a perfect tropical
           getaway.
-        image: /p4-destination-img-01.jpg
+        image: /Phú Quốc.jpeg
       - location: Quảng Ninh
         variant: One
         title: Ha Long Bay
@@ -140,7 +160,7 @@ blocks:
           With its emerald waters and thousands of towering limestone karsts,
           Halong Bay is a UNESCO World Heritage Site that promises awe-inspiring
           boat cruises and stunning natural beauty.
-        image: /p4-destination-img-01.jpg
+        image: /Hạ Long.jpeg
       - location: Ha Noi
         variant: One
         title: Ha Noi
@@ -148,7 +168,7 @@ blocks:
           Vietnam's capital city, Hanoi, is a blend of ancient charm and modern
           energy. It features a rich history, vibrant street markets, and
           delicious street food.
-        image: /p4-destination-img-01.jpg
+        image: /hà NỘI.jpeg
       - location: Hồ Chí Minh city
         variant: One
         title: Ho Chi Minh
@@ -156,7 +176,7 @@ blocks:
           Formerly known as Saigon, this bustling metropolis in southern Vietnam
           is famous for its dynamic atmosphere, historical landmarks, and
           diverse culinary scene.
-        image: /p4-destination-img-01.jpg
+        image: /SG.jpeg
     _template: explore
   - name: event
     fields:
@@ -200,9 +220,6 @@ blocks:
       - name: conten
         en: >
           ### FLIGHT
-
-
-          ![](/IMG_2581.jpeg)
 
 
           If you are attending our wedding, we highly recommend booking a flight
@@ -402,7 +419,7 @@ blocks:
       - name: content
         en: >
           An & Joel do not have a typical love story, but everything that
-          happens has its own reason to create an inspired love. 
+          happens has its own reason to create an inspired love.
     _template: content
 ---
 
