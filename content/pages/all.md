@@ -155,6 +155,15 @@ blocks:
         title: Ninh Binh
         description: description
         image: /nINH BÌNH.jpeg
+        gallery:
+          - name: Emeralda Resort
+            content: >
+              ### Emeralda Resort
+
+
+              Van Long nature reserve, Gia Van town, Gia Vien district, Ninh
+              Binh
+            image: /Emeralda Resort.jpeg
       - location: Ha Noi
         variant: One
         title: Ha Noi
