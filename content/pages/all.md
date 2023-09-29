@@ -117,7 +117,7 @@ blocks:
               ### Eden Boutique Hotel & Spa 
 
               03B Thac Bac Street, Sapa, Lào Cai
-            image: /main-page-update.png
+            image: /Eden Boutique Hotel & Spa.jpeg
           - name: image
             content: ''
             image: /p4-destination-img-01.jpg
