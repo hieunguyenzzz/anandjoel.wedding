@@ -502,6 +502,10 @@ blocks:
           host our wedding there.
         image: /dalat.jpeg
         gallery:
+          - name: Langbiang Mountain
+            content: |
+              ### Langbiang Mountain
+            image: /Langbiang Mountain.jpeg
           - name: Datanla Falls
             content: |
               ### Datanla Falls
