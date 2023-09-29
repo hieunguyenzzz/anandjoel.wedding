@@ -502,6 +502,9 @@ blocks:
           host our wedding there.
         image: /dalat.jpeg
         gallery:
+          - name: Linh Phuoc Temple
+            content: |
+              Linh Phuoc Temple
           - name: Tran Le Xuan Palace
             content: |
               ### Tran Le Xuan Palace
