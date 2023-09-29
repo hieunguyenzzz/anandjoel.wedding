@@ -128,9 +128,9 @@ blocks:
         description: '25 Hoàng Sa, Đa Kao Ward, District 1, HCMC'
         image: /Phở Phượng.jpeg
       - variant: One
-        title: title
+        title: Hum Vegetarian
         description: description
-        image: image
+        image: /Hum Vegetarian.jpeg
       - variant: Two
         title: SAPA
         description: description
