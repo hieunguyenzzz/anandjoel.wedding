@@ -457,6 +457,10 @@ blocks:
           Bãi San Hô on Instagram, make sure to check it out if you have time.
         image: /Phú Yên.jpeg
         gallery:
+          - name: Da Dia Reef
+            content: |
+              ### Da Dia Reef
+            image: /Da Dia Reef .jpeg
           - name: Mui Dien Lighthouse
             content: |
               ### Mui Dien Lighthouse
