@@ -268,6 +268,10 @@ blocks:
           islets. 
         image: /Hạ Long.jpeg
         gallery:
+          - name: Dau Go Cave
+            content: |
+              ### Dau Go Cave
+            image: /Dau Go Cave .jpeg
           - name: Cat Ba Island
             content: |
               ### Cat Ba Island
