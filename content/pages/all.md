@@ -108,13 +108,13 @@ blocks:
         gallery:
           - name: image
             content: |
-              ### Hotel de la Coupole MGallery 
+              ### Hotel de la Coupole MGallery
 
               1, Hoang Lien Street, Sapa District, Lao Cai Province
             image: /Hotel de la Coupole MGallery.jpeg
           - name: Eden Boutique Hotel & Spa
             content: |
-              ### Eden Boutique Hotel & Spa 
+              ### Eden Boutique Hotel & Spa
 
               03B Thac Bac Street, Sapa, Lào Cai
             image: /Eden Boutique Hotel & Spa.jpeg
@@ -288,7 +288,7 @@ blocks:
             image: /The Yacht Hotel by DC.jpeg
           - name: 'Vinpearl Resort & Spa Ha Long '
             content: |
-              ### Vinpearl Resort & Spa Ha Long 
+              ### Vinpearl Resort & Spa Ha Long
 
               Reu Island, Bai Chay Ward, Ha Long, Quảng Ninh)
             image: /Vinpearl Resort & Spa Ha Long .webp
@@ -377,7 +377,10 @@ blocks:
       - location: Quàng Nam
         variant: One
         title: Hoi An
-        description: description
+        description: >-
+          Hoi An is just right next to Da Nang. You can take a taxi from Da Nang
+          to Hoi AN. It's an old fishing village now a UNESCO World Heritage
+          Site. Small, quiet, touristy, and fantastic food.
         image: /Hội An.jpeg
       - location: Phú Yên
         variant: One
