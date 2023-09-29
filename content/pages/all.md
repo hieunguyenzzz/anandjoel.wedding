@@ -370,6 +370,10 @@ blocks:
           Beach, Lang Co Beach, Hoi An, and My Son.
         image: /Đà Nẵng.jpeg
         gallery:
+          - name: Ba Na Hills
+            content: |
+              ### Ba Na Hills
+            image: /Ba Na Hill.jpeg
           - name: Cham Island
             content: |
               ### Cham Island
