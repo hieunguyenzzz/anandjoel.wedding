@@ -510,6 +510,10 @@ blocks:
           many regions, and countries.
         image: /SG.jpeg
         gallery:
+          - name: Independence Palace
+            content: |
+              ### Independence Palace
+            image: /Independence Palace .jpeg
           - name: Cu Chi Tunnels
             content: |
               ### Cu Chi Tunnels
