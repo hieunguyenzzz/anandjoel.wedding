@@ -501,6 +501,11 @@ blocks:
           hearts no matter how many times we visit, and that’s why we choose to
           host our wedding there.
         image: /dalat.jpeg
+        gallery:
+          - name: Tran Le Xuan Palace
+            content: |
+              ### Tran Le Xuan Palace
+            image: /Tran Le Xuan Palace .jpeg
       - location: Hồ Chí Minh city
         variant: One
         title: Ho Chi Minh
