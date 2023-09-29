@@ -925,7 +925,9 @@ blocks:
   - name: story
     title: How it all began
     fields:
-      - {}
+      - name: new york
+        en: |
+          ![](/IMG_0254.JPEG)
       - name: joel nhẫn
         en: |
           ![](/IMG_0989.jpeg)
