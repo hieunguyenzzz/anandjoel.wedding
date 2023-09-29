@@ -502,9 +502,12 @@ blocks:
         variant: One
         title: Ho Chi Minh
         description: >-
-          Formerly known as Saigon, this bustling metropolis in southern Vietnam
-          is famous for its dynamic atmosphere, historical landmarks, and
-          diverse culinary scene.
+          Ho Chi Minh City is a young city with a history of just over 300 years
+          of formation and development. This vibrant city is likened to the
+          "Pearl of the Far East" because of its charming heritage architecture,
+          dynamic, vibrant and bustling atmosphere and friendly people. Here,
+          you can immerse yourself in the diverse cuisine by the interference of
+          many regions, and countries.
         image: /SG.jpeg
       - location: Kiên Giang
         variant: One
