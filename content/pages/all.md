@@ -202,9 +202,6 @@ blocks:
           ### FLIGHT
 
 
-          ![](/IMG_2581.jpeg)
-
-
           If you are attending our wedding, we highly recommend booking a flight
           going into Ho Chi Minh City and then taking a short domestic flight
           into Da Lat (about 30 mins). Please note that the flight time from the
@@ -399,10 +396,12 @@ blocks:
   - name: story
     title: How it all began
     fields:
+      - en: |
+          ![](/IMG_2581.jpeg)
       - name: content
         en: >
           An & Joel do not have a typical love story, but everything that
-          happens has its own reason to create an inspired love. 
+          happens has its own reason to create an inspired love.
     _template: content
 ---
 
