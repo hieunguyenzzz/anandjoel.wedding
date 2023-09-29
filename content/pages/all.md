@@ -925,6 +925,9 @@ blocks:
   - name: story
     title: How it all began
     fields:
+      - name: all dalat
+        en: |
+          ![](/23cfe32a356a7841e1099b5c07f638e9.JPG)
       - name: new york
         en: |
           ![](/IMG_0254.JPEG)
