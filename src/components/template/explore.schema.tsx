@@ -1,5 +1,6 @@
 
 import { Template } from 'tinacms'
+import { vietnamData } from '../vietnammap'
 
 const schemaExplore: Template = {
   name: 'explore',
@@ -29,6 +30,11 @@ const schemaExplore: Template = {
         })
       },
       fields: [
+        {
+          name: 'location',
+          type: 'string',
+          options: Object.values(vietnamData)
+        },
         {
           name: 'variant',
           type: 'string',
@@ -67,11 +73,14 @@ const schemaExplore: Template = {
           },
           fields: [
             {
-              label: 'Name',
               name: 'name',
               isTitle: true,
               type: "string",
               required: true
+            },
+            {
+              name: 'content',
+              type: "rich-text",
             },
             {
               name: 'image',

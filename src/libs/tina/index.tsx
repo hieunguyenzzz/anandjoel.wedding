@@ -15,7 +15,6 @@ export const UseTinaWithRouter = () => {
       setTinadata(data)
     })
   }, [])
-  console.log({ tinaData })
   if (!tinaData) return null
   return <UseTina {...tinaData}>
   </UseTina>
@@ -33,7 +32,6 @@ export const UseTina = (props: {
   useEffect(() => {
     setSource(data.page)
   }, [data.page && JSON.stringify(data.page) !== JSON.stringify(source)])
-  console.log({ data })
   return null
 }
 export const Field = ({

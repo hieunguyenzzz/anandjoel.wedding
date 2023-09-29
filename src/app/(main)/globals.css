@@ -6,6 +6,9 @@
   --foreground-rgb: 0, 0, 0;
   --background-start-rgb: 214, 219, 220;
   --background-end-rgb: 255, 255, 255;
+  --font-body:arial, sans-serif;
+  --font-title: fantasy, sans-serif;
+
 }
 
 .text-shadow:after {
@@ -22,7 +25,12 @@
   transition: all linear .3s ease-in-out;
   pointer-events: none;
 }
-
+.text-outline {
+  color: transparent;
+  -webkit-text-fill-color: transparent;
+  -webkit-text-stroke: 1px black;
+  font-family: var(--font-title);
+}
 .text-shadow:hover:after {
   background: radial-gradient(rgba(255,255,255,.8),transparent 60%);
   margin: -180px -140px;
@@ -44,10 +52,11 @@
 }
 body {
   color: rgb(var(--foreground-rgb));
-  background: linear-gradient(
-      to bottom,
-      transparent,
-      rgb(var(--background-end-rgb))
-    )
-    rgb(var(--background-start-rgb));
+  background: #dd98a9;
+  font-family: var(--font-body);
+}
+
+.font-title{
+  margin-top: 0.2em;
+  line-height: 1;
 }
