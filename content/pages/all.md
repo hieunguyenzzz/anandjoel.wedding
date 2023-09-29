@@ -96,7 +96,14 @@ blocks:
       - variant: One
         title: Madam Kew Saigon
         description: '37Bis Ký Con, Nguyễn Thái Bình Ward, District 1, HCMC'
-        image: /Madam Kew Saigon.jpeg
+        image: /Madam Kew Saigon.jpeg          
+        images:
+          - /bites/saigon/Madam Kew/IMG_1988.jpeg 
+          - /bites/saigon/Madam Kew/IMG_1989.jpeg 
+          - /bites/saigon/Madam Kew/IMG_1990.jpeg 
+          - /bites/saigon/Madam Kew/IMG_1991.jpeg 
+          - /bites/saigon/Madam Kew/IMG_1992.jpeg 
+          - /bites/saigon/Madam Kew/IMG_1993.jpeg
         gallery:
           - name: image
       - variant: One
@@ -115,7 +122,23 @@ blocks:
       - variant: One
         title: 'Mojo Boutique Coffee'
         description: '129 Nguyễn Huệ, Bến Nghé Ward, District 1, HCMC'
-        image: /Mojo Boutique Coffee .jpeg
+        image: /Mojo Boutique Coffee .jpeg          
+        images:
+          - /bites/saigon/Ivore/IMG_2186.jpeg 
+          - /bites/saigon/Ivore/IMG_2188.jpeg 
+          - /bites/saigon/Ivore/IMG_2190.jpeg 
+          - /bites/saigon/Ivore/IMG_2191.jpeg 
+          - /bites/saigon/Ivore/IMG_2192.jpeg 
+          - /bites/saigon/Ivore/IMG_2193.jpeg 
+          - /bites/saigon/Ivore/IMG_2194.jpeg 
+          - /bites/saigon/Ivore/IMG_2195.jpeg 
+          - /bites/saigon/Ivore/IMG_2196.jpeg 
+          - /bites/saigon/Ivore/IMG_2197.jpeg 
+          - /bites/saigon/Ivore/IMG_2198.jpeg 
+          - /bites/saigon/Ivore/IMG_2199.jpeg 
+          - /bites/saigon/Ivore/IMG_2200.jpeg 
+          - /bites/saigon/Ivore/IMG_2201.jpeg 
+          - /bites/saigon/Ivore/IMG_2202.jpeg
       - variant: One
         title: Bánh Canh Cua Út Lệ
         description: '204-210 Tô Hiến Thành, Ward 15, District 10, HCMC'
