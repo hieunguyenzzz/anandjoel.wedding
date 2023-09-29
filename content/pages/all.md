@@ -718,8 +718,8 @@ blocks:
           9th Hill, Da Lat city, Lam Dong province, Vietnam
 
 
-          (transportation will be provided to and from the hotel to the wedding
-          venue. please kindly be at the hotel lobby at 8:15AM)
+          *transportation will be provided to and from the hotel to the wedding
+          venue. please kindly be at the hotel lobby at 8:15AM*
 
 
           ***
@@ -740,8 +740,8 @@ blocks:
           Xuan Tho ward, Da Lat city, Lam Dong province, Vietnam
 
 
-          (transportation will be provided to and from the hotel to the wedding
-          venue. please kindly be at the hotel lobby at 3:15 PM)
+          *transportation will be provided to and from the hotel to the wedding
+          venue. please kindly be at the hotel lobby at 3:15 PM*
 
 
           ***
