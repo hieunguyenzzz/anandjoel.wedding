@@ -396,8 +396,6 @@ blocks:
   - name: story
     title: How it all began
     fields:
-      - en: |
-          ![](/IMG_2581.jpeg)
       - name: content
         en: >
           An & Joel do not have a typical love story, but everything that
