@@ -11,18 +11,6 @@ fields:
       (transportation will be provided to and from the venue and hotel)
 blocks:
   - item:
-      - variant: One
-        title: title
-        description: description
-        image: image
-      - variant: One
-        title: title
-        description: description
-        image: image
-      - variant: One
-        title: title
-        description: description
-        image: image
       - variant: Two
         title: Ho chi minh
         description: description
@@ -131,6 +119,18 @@ blocks:
         title: Truffle Restaurant
         description: '73rd Floor, Landmark 81, Vinhomes Tân Cảng, Bình Thạnh District, HCMC)'
         image: /Truffle Restaurant.webp
+      - variant: One
+        title: title
+        description: description
+        image: image
+      - variant: One
+        title: Phở Phượng
+        description: '25 Hoàng Sa, Đa Kao Ward, District 1, HCMC'
+        image: /Phở Phượng.jpeg
+      - variant: One
+        title: title
+        description: description
+        image: image
       - variant: Two
         title: SAPA
         description: description
