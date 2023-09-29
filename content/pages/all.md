@@ -42,6 +42,8 @@ blocks:
         image: /a by tungg.webp
         gallery:
           - name: image
+            image: /A_5502.jpeg
+          - name: image
             image: /A_5501.jpeg
           - name: image
             image: /bites/saigon/A by Tung/IMG_5500.jpeg
