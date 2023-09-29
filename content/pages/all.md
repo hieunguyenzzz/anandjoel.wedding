@@ -159,10 +159,10 @@ blocks:
           mountains rising up from the paddies.
         image: /nINH BÌNH.jpeg
         gallery:
-          - name: Tam Coc - Bich Dong
+          - name: Bai Dinh Pagoda
             content: |
-              ### Tam Coc - Bich Dong
-            image: /Tam Coc - Bich Dong.webp
+              ### Bai Dinh Pagoda
+            image: /Bai Dinh Pagoda .jpeg
           - name: Hoa Lu Ancient Capital
             content: |
               ### Hoa Lu Ancient Capital
@@ -191,6 +191,10 @@ blocks:
             content: |
               ### Van Long Nature Reserve
             image: /Van Long Nature Reserve.jpeg
+          - name: Tam Coc - Bich Dong
+            content: |
+              ### Tam Coc - Bich Dong
+            image: /Tam Coc - Bich Dong.webp
           - name: Trang An Landscape Complex
             content: |
               ### Trang An Landscape Complex
