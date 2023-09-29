@@ -691,17 +691,21 @@ blocks:
     fields:
       - name: content
         en: |
-          ![](/dfd-04.png)december 15, 2023
+          ### ![](/dfd-04.png)
 
-          venue: TBD
+          ### at TBD 
+
+          December 15, 2023
+
+          ***
 
           ![](/dfd-02.png)
 
-          ### at tiem ca phe hoang hon chieu
+          ### at Tiệm Cà phê Hoàng hôn chiều
 
-          december 16, 2023
+          December 16, 2023
 
-          09:00 - 11:00
+          09:00 AM - 10:30 AM
 
           9th Hill, Da Lat city, Lam Dong province, Vietnam
 
@@ -715,11 +719,15 @@ blocks:
 
           december 16, 2023
 
-          4:30 - 10:00
+          4:00 PM - 9:00 PM
 
           Xuan Tho ward, Da Lat city, Lam Dong province, Vietnam
 
           (transportation will be provided to and from the venue and hotel)
+
+          ***
+
+          ![](</nikko ll-02.png>)
     _template: content
   - name: qa
     title: Questions & Answers
