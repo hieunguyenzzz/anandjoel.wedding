@@ -11,6 +11,18 @@ fields:
       (transportation will be provided to and from the venue and hotel)
 blocks:
   - item:
+      - variant: One
+        title: title
+        description: description
+        image: image
+      - variant: One
+        title: title
+        description: description
+        image: image
+      - variant: One
+        title: title
+        description: description
+        image: image
       - variant: Two
         title: Ho chi minh
         description: description
@@ -104,7 +116,7 @@ blocks:
         description: '3 Công xã Paris, Bến Nghé Ward, District 1, HCMC'
         image: /RuNam d'Or.jpeg
       - variant: One
-        title: Sủi CHỊảo
+        title: Sủi Cảo
         description: 'District 5, HCMC'
         image: /sủi cảo.jpeg
       - variant: Two
