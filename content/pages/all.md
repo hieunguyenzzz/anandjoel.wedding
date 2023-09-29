@@ -382,6 +382,11 @@ blocks:
           to Hoi AN. It's an old fishing village now a UNESCO World Heritage
           Site. Small, quiet, touristy, and fantastic food.
         image: /Hội An.jpeg
+        gallery:
+          - name: An Bang Beach
+            content: |
+              ### An Bang Beach
+            image: /An Bang Beach.jpeg
       - location: Phú Yên
         variant: One
         title: Phu Yen
