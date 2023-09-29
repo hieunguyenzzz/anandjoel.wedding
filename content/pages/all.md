@@ -638,6 +638,11 @@ blocks:
     _template: explore
   - name: event
     fields:
+      - name: Câu 2
+        en: >
+          They have been together for 8 years, since the day An and Joel met in
+          the US, which means a lot to them, a place where you can be true to
+          yourself and pursue your dreams and where dreams do become true.
       - name: content
         en: |
           ![](/event/CER.png)
