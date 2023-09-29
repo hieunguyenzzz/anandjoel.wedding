@@ -112,9 +112,9 @@ blocks:
         description: '260C Pasteur, Ward 8, District 3, HCMC'
         image: /Phở Hoà Pasteur .jpeg
       - variant: One
-        title: title
-        description: description
-        image: image
+        title: Cục Gạch Quán
+        description: '10 Đặng Tất, Tân Định Ward, District 1'
+        image: /Cục Gạch Quán.jpeg
       - variant: One
         title: title
         description: description
