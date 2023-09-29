@@ -107,7 +107,7 @@ blocks:
       - variant: One
         title: Ninh Binh
         description: description
-        image: image
+        image: /nINH BÌNH.jpeg
       - variant: One
         title: Hoi An
         description: description
