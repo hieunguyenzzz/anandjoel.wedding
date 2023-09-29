@@ -684,63 +684,46 @@ blocks:
   - name: event
     fields:
       - name: content
-        en: >
-          ![](/TWRK-01.png)
-
+        en: |
+          ![](/dfd-04.png)
 
           december 15, 2023
 
-
           TBD
-
 
           ***
 
-
-          ![](/event/CER.png)
-
+          ![](/dfd-02.png)
 
           ### at tiem ca phe hoang hon chieu
 
-
           december 16, 2023
-
 
           09:00 - 11:00
 
-
           9th Hill, Da Lat city, Lam Dong province, Vietnam
-
 
           (transportation will be provided to and from the venue and hotel)
 
-
           ***
 
-
-          ![](/event/REC.png)
-
+          ![](/dfd-03.png)
 
           ### at the Campville
 
-
           december 16, 2023
-
 
           4:30 - 10:00
 
-
           Xuan Tho ward, Da Lat city, Lam Dong province, Vietnam
-
 
           (transportation will be provided to and from the venue and hotel)
 
-
           ***
 
+          ![](/dfd-01.png)
 
-          ![](</nikko ll-02.png>)We can't wait to see your best dressed
-          following the wedding theme.
+          We can't wait to see your best dressed following the wedding theme.
     _template: content
   - name: qa
     title: Questions & Answers
