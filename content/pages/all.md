@@ -84,9 +84,9 @@ blocks:
         description: '220 Pham Thai Buong, My Hung town, Tan Phong Ward, District 7, HCMC'
         image: /AN VET.webp
       - variant: One
-        title: title
-        description: description
-        image: /p4-destination-img-01.jpg
+        title: 'Mojo Boutique Coffee '
+        description: '129 Nguyễn Huệ, Bến Nghé Ward, District 1, HCMC'
+        image: /Mojo Boutique Coffee .jpeg
       - variant: One
         title: Bánh Canh Cua Út Lệ
         description: '204-210 Tô Hiến Thành, Ward 15, District 10, HCMC'
