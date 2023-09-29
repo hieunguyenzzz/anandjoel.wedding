@@ -510,9 +510,9 @@ blocks:
         variant: One
         title: Phu Quoc
         description: >-
-          Vietnam's largest island, Phu Quoc, offers pristine beaches, lush
-          jungles, and a relaxed island vibe, making it a perfect tropical
-          getaway.
+          Phu Quoc will fill your days with activities and tours, immerse in
+          natural beauty, or simply puff a rollup and relax. And December is
+          also the perfect time to catch the wonderful Phu Quoc sunset.
         image: /Phú Quốc.jpeg
     _template: explore
   - name: event
