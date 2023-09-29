@@ -7,6 +7,7 @@ import { unstable_getImgProps } from 'next/image';
 import { useState } from 'react';
 import Lightbox from 'react-image-lightbox';
 import 'react-image-lightbox/style.css';
+import { TinaMarkdown } from 'tinacms/dist/rich-text';
 import bgImage from '../../../public/website layout _travel stay.jpg';
 import { PageBlocksExplore } from '../../../tina/__generated__/types';
 import Image from '../common/image';
@@ -96,23 +97,41 @@ const Content = ({ id, setid, data, blockIndex }: { id: number, setid: (n: numbe
       </div>
       <div className="grid xl:grid-cols-2 2xl:grid-cols-3 mt-6 gap-6" id="galleryID">
         {
-          currentItem && currentItem.gallery?.map(i => i?.image || "").filter(Boolean).map((item, index) => {
+          currentItem && currentItem.gallery?.filter(Boolean).map((i, index) => {
+            const item = i?.image
+            const content = i?.content
+            const popupId = `my_modal_${index}`
             const img = unstable_getImgProps({
               width: 1440,
               height: 1440,
               src: item,
               alt: ""
             })
-            console.log({ img })
-            return <a onClick={(e) => {
+
+            return <button onClick={(e) => {
               e.preventDefault()
-              setModal(<Detail images={images} defaultIndex={index} onClose={() => setModal(null)} />)
             }} href={img.props.src} key={index + 1} ><Field key={index + 1} name={`blocks.${blockIndex}.item.${index}.title`}>
-                <div className='w-full h-full  pt-[100%] lg:pt-[100%] relative '>
+                <div onClick={() => {
+                  window?.[popupId].showModal()
+                }} className='w-full h-full  pt-[100%] lg:pt-[100%] relative '>
                   <Image width={600} height={600} src={img.props.src} alt={currentItem.title || ''} className='object-cover w-full h-full animate-fade-up absolute inset-0 rounded-lg bg-[#e9a48a52] border-[#e9a48a52] border-8' />
                 </div>
               </Field>
-            </a>
+              <dialog id={popupId} className="modal">
+                <div className="modal-box">
+                  <form method="dialog">
+                    <button className="btn btn-sm btn-circle btn-ghost absolute right-2 top-2">✕</button>
+                  </form>
+                  <div>
+                    {content && <TinaMarkdown content={content} />}
+                  </div>
+                  <form method="dialog" className="modal-backdrop">
+                    <button>close</button>
+                  </form>
+                  <p className="py-4">Press ESC key or click on ✕ button to close</p>
+                </div>
+              </dialog>
+            </button>
           })
         }
         {
