@@ -83,7 +83,7 @@ export default function Page() {
   const containerId = "containerId"
   const innerId = "innerId"
   return (
-    <div className="animate-fade w-full animate-duration-[3000ms] animate-ease-in-out text-[12px] lg:text-lg text-[#111111ff] flex flex-col gap-6 relative isolate">
+    <div className="animate-fade w-full animate-duration-[3000ms] animate-ease-in-out text-[12px] lg:text-lg text-[#111111ff] flex flex-col gap-6 relative  isolate ">
       <div id={containerId} className='overflow-hidden container mx-auto flex flex-col relative justify-center items-center lg:relative '>
         <Image src={bgImageMoble} priority placeholder='blur' className=' -z-10 lg:hidden inset-0 fixed w-full h-full max-w-full object-cover animate-fade' />
         <div id={innerId} className='transition-transform duration-300 ease-in-out'>
