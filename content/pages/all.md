@@ -461,7 +461,7 @@ blocks:
             content: |
               ### Rosa Alba Resort & Villas Tuy Hoa
 
-              8 Lê Duẩn, Ward 9, Tuy Hòa, Phú Yên
+              88 Lê Duẩn, Ward 9, Tuy Hòa, Phú Yên
             image: /Rosa Alba Resort & Villas Tuy Hoa.jpeg
           - name: Kira - lodge & garden
             content: |
