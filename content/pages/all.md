@@ -96,30 +96,6 @@ blocks:
       A land of staggering natural beauty and cultural complexities, of dynamic
       megacities and hill-tribe villages, Vietnam is unforgettably compelling.
     item:
-      - variant: One
-        title: Da Lat
-        description: description
-        image: /dalat.jpeg
-      - variant: One
-        title: Quang Binh
-        description: description
-        image: /Quang bINH.jpeg
-      - variant: One
-        title: Phu Yen
-        description: description
-        image: /Phú Yên.jpeg
-      - variant: One
-        title: Ninh Binh
-        description: description
-        image: /nINH BÌNH.jpeg
-      - variant: One
-        title: Hoi An
-        description: description
-        image: /Hội An.jpeg
-      - variant: One
-        title: Da Nang
-        description: description
-        image: /Đà Nẵng.jpeg
       - location: Lào Cai
         variant: Two
         title: Sapa
@@ -149,6 +125,30 @@ blocks:
             image: /p4-destination-img-01.jpg
           - name: image
             image: /p4-destination-img-01.jpg
+      - variant: One
+        title: Da Lat
+        description: description
+        image: /dalat.jpeg
+      - variant: One
+        title: Quang Binh
+        description: description
+        image: /Quang bINH.jpeg
+      - variant: One
+        title: Phu Yen
+        description: description
+        image: /Phú Yên.jpeg
+      - variant: One
+        title: Ninh Binh
+        description: description
+        image: /nINH BÌNH.jpeg
+      - variant: One
+        title: Hoi An
+        description: description
+        image: /Hội An.jpeg
+      - variant: One
+        title: Da Nang
+        description: description
+        image: /Đà Nẵng.jpeg
       - location: Kiên Giang
         variant: One
         title: Phu Quoc
