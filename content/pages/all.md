@@ -370,6 +370,12 @@ blocks:
           Beach, Lang Co Beach, Hoi An, and My Son.
         image: /Đà Nẵng.jpeg
         gallery:
+          - name: Hyatt Regency
+            content: |
+              ### Hyatt Regency
+
+              5 Trường Sa, Ngũ Hành Sơn, Đà Nẵng
+            image: /Hyatt Regency.jpeg
           - name: Premier Village Danang Resort
             content: |
               ### Premier Village Danang Resort
