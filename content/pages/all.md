@@ -323,6 +323,12 @@ blocks:
           in the world, including the world-famous Son Doong Cave. 
         image: /Quang bINH.jpeg
         gallery:
+          - name: Melia Vinpearl Quang Binh
+            content: |
+              ### Melia Vinpearl Quang Binh
+
+              Quach Xuan Ky Street Quach Xuan Ky Street, Ðồng Hới, Việt Nam
+            image: /Melia Vinpearl Quang Binhh.jpeg
           - name: Phong Nha Cave
             content: |
               ### Phong Nha Cave
