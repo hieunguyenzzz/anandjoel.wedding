@@ -401,8 +401,8 @@ blocks:
     fields:
       - name: content
         en: >
-          An & Joel do not have a typical love story, but everything happened
-          has its own reason to create an inspired love. 
+          An & Joel do not have a typical love story, but everything that
+          happens has its own reason to create an inspired love. 
     _template: content
 ---
 
