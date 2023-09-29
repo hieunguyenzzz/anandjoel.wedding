@@ -66,9 +66,9 @@ blocks:
         description: '28 Cao Bá Quát, Bến Nghé Ward, District 1, HCMC'
         image: /Ivoire Pastry Boutique.jpeg
       - variant: One
-        title: title
-        description: description
-        image: /p4-destination-img-01.jpg
+        title: 'Bếp Nhà Lục Tỉnh '
+        description: '37 Nam Kỳ Khởi Nghĩa, Nguyễn Thái Bình Ward, District 1, HCMC'
+        image: /Bếp Nhà Lục TỉnhH.jpeg
       - variant: Two
         title: SAPA
         description: description
