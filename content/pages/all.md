@@ -383,6 +383,10 @@ blocks:
           Site. Small, quiet, touristy, and fantastic food.
         image: /Hội An.jpeg
         gallery:
+          - name: Japanese Covered Bridge
+            content: |
+              ### Japanese Covered Bridge
+            image: /Japanese Covered Bridge .jpeg
           - name: An Bang Beach
             content: |
               ### An Bang Beach
