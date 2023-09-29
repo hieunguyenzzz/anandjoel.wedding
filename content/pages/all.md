@@ -11,6 +11,18 @@ fields:
       (transportation will be provided to and from the venue and hotel)
 blocks:
   - item:
+      - variant: One
+        title: title
+        description: description
+        image: image
+      - variant: One
+        title: title
+        description: description
+        image: image
+      - variant: One
+        title: title
+        description: description
+        image: image
       - variant: Two
         title: Ho chi minh
         description: description
