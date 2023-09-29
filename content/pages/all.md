@@ -450,8 +450,14 @@ blocks:
       - location: Phú Yên
         variant: One
         title: Phu Yen
-        description: description
+        description: >-
+          Many people come to Phu Yen to admire the vast rice fields, green
+          lawns and forget that this coastal land has many other beautiful
+          places to explore. We found a really cool resort named Zannier Hotels
+          Bãi San Hô on Instagram, make sure to check it out if you have time.
         image: /Phú Yên.jpeg
+        gallery:
+          - name: image
       - location: Lâm Đồng
         variant: One
         title: Da Lat
