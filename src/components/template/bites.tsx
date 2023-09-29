@@ -42,15 +42,15 @@ export default function Bites() {
             </Field>
           }
           return <Field key={index} name={`blocks.0.item.${index}.title`}>
-            <div className='w-full pt-[100%] h-full   relative'>
+            <div className='w-full pt-[100%] h-full   relative group'>
               <Image src={item?.image} width={400} height={400} alt={title || ''} className='object-cover  h-full w-full absolute inset-0 rounded-lg bg-[#e9a48a52] border-[#e9a48a52] border-8' />
-              <button onClick={() => setid(id)} className="absolute text-left left-0 top-0 h-full w-full flex justify-start items-end text-magical ">
-                <div className=" text-white p-[1em_1.5em_2em_1.5em] relative">
-                  <div className="flex flex-col items-start">
+              <button onClick={() => setid(id)} className="absolute    text-left group-hover:backdrop-blur-sm  transition-all duration-500 ease-in-out group-hover:bg-black group-hover:bg-opacity-50 left-0 top-0 h-full w-full flex justify-start items-end text-magical ">
+                <div className=" text-white flex items-center   p-[1em_1.5em_2em_1.5em] relative">
+                  <div className=" items-start ">
+                    <h3 className="font-bold text-[1.2em] font-title uppercase text-magical-item leading-[1.2] inline">{title}</h3>
                     <div className="font-subtitle flex items-center gap-2 italic text-[0.8em]">
-                      <div><svg stroke="currentColor" fill="currentColor" strokeWidth={0} viewBox="0 0 24 24" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg"><path d="M17.263 2.177a1.75 1.75 0 0 1 2.474 0l2.586 2.586a1.75 1.75 0 0 1 0 2.474L19.53 10.03l-.012.013L8.69 20.378a1.753 1.753 0 0 1-.699.409l-5.523 1.68a.748.748 0 0 1-.747-.188.748.748 0 0 1-.188-.747l1.673-5.5a1.75 1.75 0 0 1 .466-.756L14.476 4.963ZM4.708 16.361a.26.26 0 0 0-.067.108l-1.264 4.154 4.177-1.271a.253.253 0 0 0 .1-.059l10.273-9.806-2.94-2.939-10.279 9.813ZM19 8.44l2.263-2.262a.25.25 0 0 0 0-.354l-2.586-2.586a.25.25 0 0 0-.354 0L16.061 5.5Z" /></svg>
-                      </div>{description}</div>
-                    <h3 className="font-bold text-[1.2em] font-title uppercase text-magical-item leading-[1.2]">{title}</h3>
+                      {description}
+                    </div>
                   </div>
                 </div>
               </button>
