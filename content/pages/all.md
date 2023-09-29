@@ -99,7 +99,7 @@ blocks:
       - variant: One
         title: Quang Binh
         description: description
-        image: image
+        image: /Quang bINH.jpeg
       - variant: One
         title: Phu Yen
         description: description
