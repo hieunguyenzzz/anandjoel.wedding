@@ -171,7 +171,7 @@ blocks:
             image: /Pao's Sapa Leisure Hotel.jpeg
           - name: Ville De Mont Mountain Resort
             content: |
-              Ville De Mont Mountain Resort
+              ### Ville De Mont Mountain Resort
 
               To 7, Phuong Sa Pa, Lao Chải Tả Van, Sapa, Lào Cai
             image: /Ville De Mont Mountain Resort.png
