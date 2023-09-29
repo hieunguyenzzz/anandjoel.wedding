@@ -963,9 +963,6 @@ blocks:
   - name: story
     title: How it all began
     fields:
-      - name: joel ring
-        en: |
-          ![](/IMG_3224.jpeg)
       - name: content
         en: >
           An & Joel do not have a typical love story, but everything that
@@ -984,9 +981,15 @@ blocks:
       - name: new york
         en: |
           ![](/IMG_0254.JPEG)
+      - name: joel ring
+        en: |
+          ![](/IMG_3224.jpeg)
       - name: on one knee
         en: |
           ![](/IMG_0938.jpeg)
+      - name: all ngang
+        en: |
+          ![](/IMG_0289.JPEG)
       - name: all dalat
         en: |
           ![](/23cfe32a356a7841e1099b5c07f638e9.JPG)
