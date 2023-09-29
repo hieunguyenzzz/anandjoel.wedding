@@ -214,6 +214,10 @@ blocks:
           influences.
         image: /hà NỘI.jpeg
         gallery:
+          - name: Bat Trang Pottery Village
+            content: |
+              ### Bat Trang Pottery Village
+            image: /Bat Trang Pottery Village .jpeg
           - name: 1900 Le Théâtre
             content: |
               ### 1900 Le Théâtre
