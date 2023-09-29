@@ -496,7 +496,10 @@ blocks:
       - location: Lâm Đồng
         variant: One
         title: Da Lat
-        description: description
+        description: >-
+          Dalat is a highly sought-after getaway destination that captivates our
+          hearts no matter how many times we visit, and that’s why we choose to
+          host our wedding there.
         image: /dalat.jpeg
       - location: Hồ Chí Minh city
         variant: One
