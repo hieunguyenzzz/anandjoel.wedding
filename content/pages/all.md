@@ -268,6 +268,10 @@ blocks:
           islets. 
         image: /Hạ Long.jpeg
         gallery:
+          - name: Cat Ba Island
+            content: |
+              ### Cat Ba Island
+            image: /Cat Ba Island.jpeg
           - name: Bai Tu Long Bay
             content: |
               ### Bai Tu Long Bay
