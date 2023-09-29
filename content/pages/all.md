@@ -95,16 +95,16 @@ blocks:
         title: TRE Dining
         description: '35 Xuân Thủy, Thảo Điền Ward, District 2, HCMC'
         image: /tre dining.jpeg
+      - variant: One
+        title: title
+        description: description
+        image: /p4-destination-img-01.jpg
+      - variant: One
+        title: RuNam d'Or
+        description: '3 Công xã Paris, Bến Nghé Ward, District 1, HCMC'
+        image: /RuNam d'Or.jpeg
       - variant: Two
         title: SAPA
-        description: description
-        image: /p4-destination-img-01.jpg
-      - variant: One
-        title: title
-        description: description
-        image: /p4-destination-img-01.jpg
-      - variant: One
-        title: title
         description: description
         image: /p4-destination-img-01.jpg
     _template: bites
