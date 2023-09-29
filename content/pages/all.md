@@ -268,6 +268,12 @@ blocks:
           islets. 
         image: /Hạ Long.jpeg
         gallery:
+          - name: Aqua Of The Seas Cruise Halong
+            content: |
+              ### Aqua Of The Seas Cruise Halong
+
+              Gate 11, Tuan Chau Marina, Hạ Long, Quảng Ninh
+            image: /Aqua Of The Seas Cruise Halong.jpeg
           - name: Genesis Luxury Regal Cruises
             content: |
               ### Genesis Luxury Regal Cruises
