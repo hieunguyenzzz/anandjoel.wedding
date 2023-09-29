@@ -115,7 +115,7 @@ blocks:
       - variant: One
         title: Hoi An
         description: description
-        image: image
+        image: /Hội An.jpeg
       - variant: One
         title: Da Nang
         description: description
