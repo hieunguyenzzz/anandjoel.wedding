@@ -197,20 +197,6 @@ blocks:
   - name: travel
     title: Travel & Stay
     fields:
-      - name: MEDICINE
-        en: >+
-          ### MEDICINE
-
-
-          If you have a weak immune system or weak stomach, then please pack
-          medicine (book an appointment with your doctor to get a prescription
-          beforehand).
-
-
-          \*We typically bring Advil, Aquaphor (mosquito/ bug bites), Pepto
-          Bismol, & Flu medicine!
-
-
       - name: conten
         en: >
           ### FLIGHT
@@ -323,6 +309,47 @@ blocks:
 
 
           \*Some places do take debit/credit cards, but not all.
+
+
+      - name: MEDICINE
+        en: >+
+          ### MEDICINE
+
+
+          If you have a weak immune system or weak stomach, then please pack
+          medicine (book an appointment with your doctor to get a prescription
+          beforehand).
+
+
+          \*We typically bring Advil, Aquaphor (mosquito/ bug bites), Pepto
+          Bismol, & Flu medicine!
+
+
+      - name: DAILY TRAVEL BAG
+        en: >+
+          ### DAILY TRAVEL BAG
+
+
+          We recommend bringing a cross-body or fanny pack (none of that
+          expensive stuff ladies & gents)! It's a very confident and safe place
+          to store your wallet, passport and other items.
+
+
+          Here are some items we carry in our fanny packs:
+
+
+          * Passport
+
+          * Money/ wallet
+
+          * Chapstick and lotions (sunscreen)
+
+          * Wipes and tissues!!! Hand wipes and napkins (you never know when
+          you’ll need an emergency napkin)
+
+          * Advil / small meds
+
+          * AirPods or electronic accessories
 
 
     _template: content
