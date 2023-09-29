@@ -164,6 +164,12 @@ blocks:
               Van Long nature reserve, Gia Van town, Gia Vien district, Ninh
               Binh
             image: /Emeralda Resort.jpeg
+          - name: Tam Coc Garden Resort
+            content: |
+              ### Tam Coc Garden Resort
+
+              Hai Nham village, Hoa Lu district, Ninh Binh
+            image: /Tam Coc Garden Resort.jpeg
       - location: Ha Noi
         variant: One
         title: Ha Noi
