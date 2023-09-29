@@ -502,6 +502,10 @@ blocks:
           host our wedding there.
         image: /dalat.jpeg
         gallery:
+          - name: Datanla Falls
+            content: |
+              ### Datanla Falls
+            image: /Datanla Falls.jpeg
           - name: Linh Quy Phap An Pagoda
             content: |
               ### Linh Quy Phap An Pagoda
