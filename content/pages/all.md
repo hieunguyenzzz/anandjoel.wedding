@@ -509,6 +509,11 @@ blocks:
           you can immerse yourself in the diverse cuisine by the interference of
           many regions, and countries.
         image: /SG.jpeg
+        gallery:
+          - name: Boheme Sai Gon
+            content: |
+              ### Boheme Sai Gon
+            image: /Boheme Sai Gon.jpeg
       - location: Kiên Giang
         variant: One
         title: Phu Quoc
