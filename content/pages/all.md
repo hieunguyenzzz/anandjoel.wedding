@@ -383,6 +383,12 @@ blocks:
           Site. Small, quiet, touristy, and fantastic food.
         image: /Hội An.jpeg
         gallery:
+          - name: Four Seasons Resort The Nam Hai Hoi An
+            content: |
+              ### Four Seasons Resort The Nam Hai Hoi An
+
+              Block Ha My, Dong B, Điện Bàn, Quảng Nam
+            image: / Four Seasons Resort The Nam Hai Hoi An .png
           - name: La Siesta Hoi An Resort
             content: |
               ### La Siesta Hoi An Resort
