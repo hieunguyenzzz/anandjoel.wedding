@@ -642,13 +642,13 @@ blocks:
         en: |
           ![](/event/CER.png)
 
-          ### at the Tree of Life
+          ### at tiem ca phe hoang hon chieu
 
           december 16, 2023
 
-          03:00 – 04:30
+          09:00 - 11:00
 
-          Thành phố Đà Lạt, Lâm Đồng, Vietnam
+          9th Hill, Da Lat city, Lam Dong province, Vietnam
 
           (transportation will be provided to and from the venue and hotel)
 
@@ -656,13 +656,13 @@ blocks:
 
           ![](/event/REC.png)
 
-          ### at the Tree of Knowledge
+          ### at the Campville
 
           december 16, 2023
 
-          07:00 – 10:30
+          4:30 - 10:00
 
-          Thành phố Đà Lạt, Lâm Đồng, Vietnam
+          Xuan Tho ward, Da Lat city, Lam Dong province, Vietnam
 
           (transportation will be provided to and from the venue and hotel)
     _template: content
