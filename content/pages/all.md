@@ -150,7 +150,8 @@ blocks:
         title: Quang Binh
         description: description
         image: /Quang bINH.jpeg
-      - variant: One
+      - location: Đà Nẵng
+        variant: One
         title: Da Nang
         description: description
         image: /Đà Nẵng.jpeg
