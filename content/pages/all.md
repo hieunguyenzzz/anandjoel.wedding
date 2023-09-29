@@ -268,6 +268,12 @@ blocks:
           islets. 
         image: /Hạ Long.jpeg
         gallery:
+          - name: Genesis Luxury Regal Cruises
+            content: |
+              ### Genesis Luxury Regal Cruises
+
+              Tuan Chau Wharf , Ha Long, Quảng Ninh
+            image: /Genesis Luxury Regal Cruises.jpeg
           - name: The Yacht Hotel by DC
             content: |
               ### The Yacht Hotel by DC
