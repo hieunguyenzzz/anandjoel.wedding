@@ -197,13 +197,6 @@ blocks:
   - name: travel
     title: Travel & Stay
     fields:
-      - name: LUGGAGE
-        en: >
-          ### LUGGAGE
-
-
-          Pack light and bring an extra carry-on or duffle bag as you will more
-          than likely bring back more goods than what you came with.
       - name: conten
         en: >
           ### FLIGHT
@@ -388,7 +381,7 @@ blocks:
           Although Vietnam’s weather is tropical, Da Lat’s weather is cool and
           temperate which led it to the nickname “City of Eternal Spring”.
       - name: ATTIRE
-        en: >+
+        en: >
           ### ATTIRE
 
 
@@ -400,8 +393,13 @@ blocks:
           Most hotels offer laundry services, and prices change depending on the
           item and materials. Try not to overpack, you will more than likely
           reuse outfits / buy new outfits.
+      - name: LUGGAGE
+        en: >
+          ### LUGGAGE
 
 
+          Pack light and bring an extra carry-on or duffle bag as you will more
+          than likely bring back more goods than what you came with.
     _template: content
   - name: story
     title: Story
