@@ -93,8 +93,8 @@ blocks:
     _template: bites
   - title: Explore Vietnam
     description: >-
-      Stunning landscapes, from rice paddies to Halong Bay, and warm, welcoming
-      people.
+      A land of staggering natural beauty and cultural complexities, of dynamic
+      megacities and hill-tribe villages, Vietnam is unforgettably compelling.
     item:
       - variant: One
         title: Quang Binh
