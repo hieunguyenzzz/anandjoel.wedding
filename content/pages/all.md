@@ -397,7 +397,7 @@ blocks:
           than likely bring back more goods than what you came with.
     _template: content
   - name: story
-    title: Story
+    title: How it all began
     fields:
       - name: content
         en: >
