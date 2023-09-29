@@ -97,6 +97,10 @@ blocks:
       people.
     item:
       - variant: One
+        title: Hoi An
+        description: description
+        image: image
+      - variant: One
         title: Da Nang
         description: description
         image: image
