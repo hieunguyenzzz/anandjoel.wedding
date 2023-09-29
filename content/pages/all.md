@@ -170,6 +170,12 @@ blocks:
 
               Hai Nham village, Hoa Lu district, Ninh Binh
             image: /Tam Coc Garden Resort.jpeg
+          - name: Ninh Binh Hidden Charm
+            content: |
+              ### Ninh Binh Hidden Charm
+
+              No 09 Tam Coc, Ninh Thang, Hoa Lu, Ninh Binh
+            image: /Ninh Binh Hidden Charm.jpeg
       - location: Ha Noi
         variant: One
         title: Ha Noi
