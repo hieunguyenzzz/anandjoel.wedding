@@ -7,7 +7,7 @@
   --background-start-rgb: 214, 219, 220;
   --background-end-rgb: 255, 255, 255;
   --font-body:arial, sans-serif;
-  --font-title: fantasy, sans-serif;
+  --font-title: arial, sans-serif;
 
 }
 
@@ -57,6 +57,5 @@ body {
 }
 
 .font-title{
-  margin-top: 0.2em;
-  line-height: 1;
+
 }
