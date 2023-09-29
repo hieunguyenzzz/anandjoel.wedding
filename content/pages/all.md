@@ -14,7 +14,7 @@ blocks:
       - variant: Two
         title: Ho chi minh
         description: description
-        image: /Ben Thanh Market .jpeg
+        image: /Happily Ever After (38 × 39 cm).png
         gallery:
           - name: image
             image: /p4-destination-img-01.jpg
@@ -140,7 +140,7 @@ blocks:
       - variant: Two
         title: HÀ NỘI
         description: ''
-        image: ''
+        image: /Happily Ever After (38 × 39 cm).png
     _template: bites
   - title: Explore Vietnam
     description: >-
@@ -963,26 +963,47 @@ blocks:
   - name: story
     title: How it all began
     fields:
-      - name: image
+      - name: joel ring
         en: |
-          ![](/IMG_0974.jpg)
+          ![](/IMG_3224.jpeg)
       - name: content
         en: >
           An & Joel do not have a typical love story, but everything that
           happens has its own reason to create an inspired love.
+      - name: hình 2
+        en: |
+          ![](/AJ.jpeg)
+      - name: image
+        en: |
+          ![](/IMG_0974.jpg)
       - name: Câu 2
         en: >
           They have been together for 8 years, since the day An and Joel met in
           the US, which means a lot to them, a place where you can be true to
           yourself and pursue your dreams and where dreams do become true.
+      - name: new york
+        en: |
+          ![](/IMG_0254.JPEG)
+      - name: on one knee
+        en: |
+          ![](/IMG_0938.jpeg)
+      - name: all dalat
+        en: |
+          ![](/23cfe32a356a7841e1099b5c07f638e9.JPG)
+      - name: joel nhẫn
+        en: |
+          ![](/IMG_0989.jpeg)
+      - name: ngang
+        en: |
+          ![](/IMG_2581.jpeg)
       - name: Câu 3
         en: >
           During the cloud hunting 1 year ago, An successfully proposed to Joel
           in Da Lat, Vietnam, which is also An's hometown.
       - name: Câu 4
         en: >
-          Let's attend An & Joel's wedding to celebrate a new milestone and
-          enjoy the Forbidden Garden!
+          Cheers to An & Joel's wedding and enjoy the fruits from the Forbidden
+          Garden!
     _template: content
 ---
 
