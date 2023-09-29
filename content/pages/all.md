@@ -42,6 +42,8 @@ blocks:
         image: /a by tungg.webp
         gallery:
           - name: image
+            image: /A_5510.jpg
+          - name: image
             image: /A_5507.jpg
           - name: image
             image: /A_5504.jpeg
