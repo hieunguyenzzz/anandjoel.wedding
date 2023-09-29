@@ -129,7 +129,7 @@ blocks:
         image: /Phở Phượng.jpeg
       - variant: One
         title: Hum Vegetarian
-        description: description
+        description: '32 Võ Văn Tần, Ward 6, District 3, HCMC'
         image: /Hum Vegetarian.jpeg
       - variant: Two
         title: SAPA
