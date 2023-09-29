@@ -125,7 +125,8 @@ blocks:
             image: /p4-destination-img-01.jpg
           - name: image
             image: /p4-destination-img-01.jpg
-      - variant: One
+      - location: Ninh Bình
+        variant: One
         title: Ninh Binh
         description: description
         image: /nINH BÌNH.jpeg
