@@ -383,7 +383,12 @@ blocks:
           Site. Small, quiet, touristy, and fantastic food.
         image: /Hội An.jpeg
         gallery:
-          - name: image
+          - name: La Siesta Hoi An Resort
+            content: |
+              ### La Siesta Hoi An Resort
+
+              132 Hùng Vương, Cẩm Phổ Ward, Hội An, Quảng Nam
+            image: /La Siesta Hoi An Resort.jpeg
           - name: Ancient Town
             content: |
               ### Ancient Town
