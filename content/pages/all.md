@@ -252,6 +252,10 @@ blocks:
           Enter for Vietnam: When you arrive in Vietnam, you'll simply walk
           through customs, show your Passport and E-Visa to receive your
           entrance stamp and walk right in.
+
+
+          [(click
+          here)](https://evisa.xuatnhapcanh.gov.vn/web/guest/khai-thi-thuc-dien-tu/cap-thi-thuc-dien-tu)
     _template: content
   - name: story
     title: Story
