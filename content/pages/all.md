@@ -731,6 +731,8 @@ blocks:
 
           ***
 
+          ![](/1.png)
+
           ![](/dfd-01.png)Ceremony: White or light colors. No busy patterns.
 
           Reception: Black tie
