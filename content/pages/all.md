@@ -370,6 +370,10 @@ blocks:
           Beach, Lang Co Beach, Hoi An, and My Son.
         image: /Đà Nẵng.jpeg
         gallery:
+          - name: My Son Sanctuary
+            content: |
+              ### My Son Sanctuary
+            image: /My Son Sanctuary.jpeg
           - name: SKY36 Bar & Lounge
             content: |
               ### SKY36 Bar & Lounge
