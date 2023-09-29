@@ -387,6 +387,7 @@ blocks:
           - name: Ancient Town
             content: |
               ### Ancient Town
+            image: /Ancient Town .jpg
           - name: Japanese Covered Bridge
             content: |
               ### Japanese Covered Bridge
