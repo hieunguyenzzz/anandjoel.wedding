@@ -42,6 +42,8 @@ blocks:
         image: /a by tungg.webp
         gallery:
           - name: image
+            image: /A_5511.jpg
+          - name: image
             image: /A_5510.jpg
           - name: image
             image: /A_5507.jpg
@@ -56,9 +58,9 @@ blocks:
           - name: image
             image: /bites/saigon/A by Tung/IMG_5500.jpeg
       - variant: One
-        title: title
-        description: description
-        image: /p4-destination-img-01.jpg
+        title: Mạ Quán
+        description: 'Level 1, 153/02 Đồng Khởi, Bến Nghé Ward, District 1, HCMC'
+        image: /MA QUAN.jpeg
       - variant: One
         title: title
         description: description
