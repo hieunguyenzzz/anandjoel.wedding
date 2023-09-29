@@ -370,6 +370,12 @@ blocks:
           Beach, Lang Co Beach, Hoi An, and My Son.
         image: /Đà Nẵng.jpeg
         gallery:
+          - name: Pullman Danang Beach Resort
+            content: |
+              ### Pullman Danang Beach Resort
+
+              101 Võ Nguyên Giáp Khuê Mỹ, Ngũ Hành Sơn, Đà Nẵng
+            image: /Pullman Danang Beach Resort.jpeg
           - name: Hyatt Regency
             content: |
               ### Hyatt Regency
