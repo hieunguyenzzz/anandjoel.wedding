@@ -383,6 +383,10 @@ blocks:
           Site. Small, quiet, touristy, and fantastic food.
         image: /Hội An.jpeg
         gallery:
+          - name: image
+          - name: Ancient Town
+            content: |
+              ### Ancient Town
           - name: Japanese Covered Bridge
             content: |
               ### Japanese Covered Bridge
