@@ -103,7 +103,7 @@ blocks:
           Nestled in the northern highlands, Sapa is a picturesque town known
           for its terraced rice fields, ethnic minority cultures, and trekking
           opportunities.
-        image: /Sapa.jpeg
+        image: /sapaaa.jpeg
         gallery:
           - name: image
             image: /p4-destination-img-01.jpg
