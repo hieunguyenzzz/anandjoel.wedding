@@ -723,7 +723,9 @@ blocks:
 
           Xuan Tho ward, Da Lat city, Lam Dong province, Vietnam
 
-          (transportation will be provided to and from the venue and hotel)
+          Transportation will be provided to and from the venue and hotel.
+
+          Please kindly be at the hotel lobby at 8:15 AM
 
           ***
 
