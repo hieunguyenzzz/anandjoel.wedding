@@ -140,7 +140,7 @@ blocks:
       - variant: Two
         title: HÀ NỘI
         description: ''
-        image: ''
+        image: /Happily Ever After (38 × 39 cm).png
     _template: bites
   - title: Explore Vietnam
     description: >-
