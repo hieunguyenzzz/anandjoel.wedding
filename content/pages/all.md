@@ -691,7 +691,7 @@ blocks:
     fields:
       - name: content
         en: |
-          ![](/TWRK-01.png)december 15, 2023
+          ![](/dfd-04.png)december 15, 2023
 
           venue: TBD
 
