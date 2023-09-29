@@ -940,9 +940,6 @@ blocks:
           They have been together for 8 years, since the day An and Joel met in
           the US, which means a lot to them, a place where you can be true to
           yourself and pursue your dreams and where dreams do become true.
-      - name: new york
-        en: |
-          ![](/IMG_0254.JPEG)
       - name: joel ring
         en: |
           ![](/IMG_3224.jpeg)
@@ -952,6 +949,9 @@ blocks:
       - name: all ngang
         en: |
           ![](/IMG_0289.JPEG)
+      - name: new york
+        en: |
+          ![](/IMG_0254.JPEG)
       - name: all dalat
         en: |
           ![](/23cfe32a356a7841e1099b5c07f638e9.JPG)
