@@ -134,7 +134,7 @@ blocks:
       - variant: Two
         title: HÀ NỘI
         description: description
-        image: /stamp nhện.png
+        image: ''
     _template: bites
   - title: Explore Vietnam
     description: >-
