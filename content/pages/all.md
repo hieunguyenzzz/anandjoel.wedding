@@ -165,7 +165,8 @@ blocks:
         title: Phu Yen
         description: description
         image: /Phú Yên.jpeg
-      - variant: One
+      - location: Lâm Đồng
+        variant: One
         title: Da Lat
         description: description
         image: /dalat.jpeg
