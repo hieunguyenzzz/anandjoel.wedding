@@ -457,6 +457,12 @@ blocks:
           Bãi San Hô on Instagram, make sure to check it out if you have time.
         image: /Phú Yên.jpeg
         gallery:
+          - name: Zannier Hotels Bai San Ho
+            content: |
+              ### Zannier Hotels Bai San Ho
+
+              Hòa Thạnh, Sông Cầu, Phú Yên
+            image: /Zannier Hotels Bai San Ho.jpeg
           - name: Stelia Beach Resort
             content: |
               ### Stelia Beach Resort
