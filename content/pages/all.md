@@ -197,42 +197,25 @@ blocks:
   - name: travel
     title: Travel & Stay
     fields:
-      - name: GOING TO DA LAT
-        en: >
-          #### GOING TO DA LAT
+      - name: MONEY
+        en: >+
+          ### MONEY
 
 
-          \*Flying from Ho Chi Minh city to Da Lat
+          If you bring USD, in order to get the best exchange rate, it needs to
+          be clean of new $100 bills, with no marks or small rips. Best place to
+          exchange is at gold/jewelry stores. You can withdraw from ATMs however
+          we’ve found it’s best to go inside a bank. The bank will require your
+          passport and may charge a fee up to 4%, if your bank doesn’t reimburse
+          these fees then your best bet is to bring USD.
 
 
-          Check-in counters then proceed upstairs to security. In the mornings,
-          security is quick. We recommend getting to the airport at least an
-          hour early to check in and get through security.
+          OR you can order VND $ from your bank prior to the trip.
 
 
-          45 minutes taxi ride from the airport to the center of Da Lat. There
-          aren’t a lot of Grabs in the area, so we recommend getting the contact
-          of your taxi driver from outside the airport. You will be able to call
-          the driver directly and this will get you a better rate.
+          \*Some places do take debit/credit cards, but not all.
 
 
-          \*Traveling from Ho Chi Minh city to Da Lat by sleeper bus
-
-
-          If you want to experience traveling to Da Lat by road, you can try the
-          sleeper bus with many more options such as private cabins, private
-          beds, etc. It will take 8 hours to travel from HCMC to Da Lat so we
-          recommend you take the bus at night to arrive in the morning. 
-
-          Here are some reputable sleeper bus brands:
-
-
-          * [FUTA Bus Lines](https://futabus.vn/): A one-way trip is about
-          300.000VND/pax (~$13/pax)
-
-          * [Thanh Buoi](https://thanhbuoi.com.vn/tuyen-hcm-da-lat.html): A
-          one-way trip is ranging from 290.000 - 440.000VND/pax (~$13 - $19/pax)
-          with many options of seats (cabin/bed/chair)
       - name: conten
         en: >
           ### FLIGHT
@@ -292,6 +275,42 @@ blocks:
 
           * Da Lat - hard to book a Grab driver, but there are lots of taxis
           outside the airport.
+      - name: GOING TO DA LAT
+        en: >
+          #### GOING TO DA LAT
+
+
+          \*Flying from Ho Chi Minh city to Da Lat
+
+
+          Check-in counters then proceed upstairs to security. In the mornings,
+          security is quick. We recommend getting to the airport at least an
+          hour early to check in and get through security.
+
+
+          45 minutes taxi ride from the airport to the center of Da Lat. There
+          aren’t a lot of Grabs in the area, so we recommend getting the contact
+          of your taxi driver from outside the airport. You will be able to call
+          the driver directly and this will get you a better rate.
+
+
+          \*Traveling from Ho Chi Minh city to Da Lat by sleeper bus
+
+
+          If you want to experience traveling to Da Lat by road, you can try the
+          sleeper bus with many more options such as private cabins, private
+          beds, etc. It will take 8 hours to travel from HCMC to Da Lat so we
+          recommend you take the bus at night to arrive in the morning. 
+
+          Here are some reputable sleeper bus brands:
+
+
+          * [FUTA Bus Lines](https://futabus.vn/): A one-way trip is about
+          300.000VND/pax (~$13/pax)
+
+          * [Thanh Buoi](https://thanhbuoi.com.vn/tuyen-hcm-da-lat.html): A
+          one-way trip is ranging from 290.000 - 440.000VND/pax (~$13 - $19/pax)
+          with many options of seats (cabin/bed/chair)
     _template: content
   - name: story
     title: Story
