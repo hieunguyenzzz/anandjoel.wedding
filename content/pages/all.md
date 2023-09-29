@@ -133,7 +133,7 @@ blocks:
         image: /Hum Vegetarian.jpeg
       - variant: Two
         title: HÀ NỘI
-        description: description
+        description: ''
         image: ''
     _template: bites
   - title: Explore Vietnam
