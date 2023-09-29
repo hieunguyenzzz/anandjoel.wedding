@@ -156,7 +156,7 @@ blocks:
           Vietnam's largest island, Phu Quoc, offers pristine beaches, lush
           jungles, and a relaxed island vibe, making it a perfect tropical
           getaway.
-        image: /p4-destination-img-01.jpg
+        image: /Phú Quốc.jpeg
       - location: Quảng Ninh
         variant: One
         title: Ha Long Bay
