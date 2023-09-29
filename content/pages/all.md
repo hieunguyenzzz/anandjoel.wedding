@@ -100,9 +100,10 @@ blocks:
         variant: Two
         title: Sapa
         description: >-
-          Nestled in the northern highlands, Sapa is a picturesque town known
-          for its terraced rice fields, ethnic minority cultures, and trekking
-          opportunities.
+          Sapa is also fantastic, but you need time to travel there. Take a 10
+          pm overnight train from Hanoi and arrive early at 5 am. Once there
+          hire a guide and trek all over the hills to see ethnic minority
+          tribes.
         image: /sapaaa.jpeg
         gallery:
           - name: image
