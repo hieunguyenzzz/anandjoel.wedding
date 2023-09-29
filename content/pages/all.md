@@ -91,7 +91,7 @@ blocks:
         description: description
         image: /p4-destination-img-01.jpg
     _template: bites
-  - title: Vietnam
+  - title: Explore Vietnam
     description: >-
       Stunning landscapes, from rice paddies to Halong Bay, and warm, welcoming
       people.
