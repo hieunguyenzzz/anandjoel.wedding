@@ -92,9 +92,9 @@ blocks:
         description: '204-210 Tô Hiến Thành, Ward 15, District 10, HCMC'
         image: /Bánh Canh Cua Út Lệ.jpeg
       - variant: One
-        title: title
-        description: description
-        image: /p4-destination-img-01.jpg
+        title: TRE Dining
+        description: '35 Xuân Thủy, Thảo Điền Ward, District 2, HCMC'
+        image: /tre dining.jpeg
       - variant: Two
         title: SAPA
         description: description
