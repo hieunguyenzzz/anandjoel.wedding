@@ -690,70 +690,32 @@ blocks:
   - name: event
     fields:
       - name: content
-        en: >
-          ![](/dfd-04.png)
-
-
-          december 15, 2023
-
-
-          TBD
-
-
-          ***
-
-
-          ![](/dfd-02.png)
-
+        en: |
+          ![](/event/CER.png)
 
           ### at tiem ca phe hoang hon chieu
 
-
           december 16, 2023
 
-
-          09:00 - 10:30
-
+          09:00 - 11:00
 
           9th Hill, Da Lat city, Lam Dong province, Vietnam
 
-
-          *transportation will be provided to and from the hotel to the wedding
-          venue. please kindly be at the hotel lobby at 8:15AM*
-
+          (transportation will be provided to and from the venue and hotel)
 
           ***
 
-
-          ![](/dfd-03.png)
-
+          ![](/event/REC.png)
 
           ### at the Campville
 
-
           december 16, 2023
 
-
-          4:00 - 09:00
-
+          4:30 - 10:00
 
           Xuan Tho ward, Da Lat city, Lam Dong province, Vietnam
 
-
-          *transportation will be provided to and from the hotel to the wedding
-          venue. please kindly be at the hotel lobby at 3:15 PM*
-
-
-          ***
-
-
-          ![](/dfd-01.png)
-
-
-          ceremony: white or light colors. no busy patterns
-
-
-          reception: black tie
+          (transportation will be provided to and from the venue and hotel)
     _template: content
   - name: qa
     title: Questions & Answers
@@ -981,28 +943,25 @@ blocks:
       - name: joel ring
         en: |
           ![](/IMG_3224.jpeg)
-      - name: on one knee
-        en: |
-          ![](/IMG_0938.jpeg)
-      - name: all ngang
-        en: |
-          ![](/IMG_0289.JPEG)
       - name: new york
         en: |
           ![](/IMG_0254.JPEG)
-      - name: all dalat
+      - name: all ngang
         en: |
-          ![](/23cfe32a356a7841e1099b5c07f638e9.JPG)
-      - name: joel nhẫn
-        en: |
-          ![](/IMG_0989.jpeg)
-      - name: ngang
-        en: |
-          ![](/IMG_2581.jpeg)
+          ![](/IMG_0289.JPEG)
       - name: Câu 3
         en: >
           During the cloud hunting 1 year ago, An successfully proposed to Joel
           in Da Lat, Vietnam, which is also An's hometown.
+      - name: on one knee
+        en: |
+          ![](/IMG_0938.jpeg)
+      - name: joel nhẫn
+        en: |
+          ![](/IMG_0989.jpeg)
+      - name: all dalat
+        en: |
+          ![](/23cfe32a356a7841e1099b5c07f638e9.JPG)
       - name: Câu 4
         en: >
           Cheers to An & Joel's wedding and enjoy the fruits from the Forbidden
