@@ -159,10 +159,10 @@ blocks:
           mountains rising up from the paddies.
         image: /nINH BÌNH.jpeg
         gallery:
-          - name: Trang An Landscape Complex
+          - name: Hoa Lu Ancient Capital
             content: |
-              ### Trang An Landscape Complex
-            image: /Trang An Landscape Complex.jpeg
+              ### Hoa Lu Ancient Capital
+            image: /Hoa Lu Ancient Capital.jpeg
           - name: Emeralda Resort
             content: >
               ### Emeralda Resort
@@ -183,6 +183,10 @@ blocks:
 
               No 09 Tam Coc, Ninh Thang, Hoa Lu, Ninh Binh
             image: /Ninh Binh Hidden Charm.jpeg
+          - name: Trang An Landscape Complex
+            content: |
+              ### Trang An Landscape Complex
+            image: /Trang An Landscape Complex.jpeg
       - location: Ha Noi
         variant: One
         title: Ha Noi
