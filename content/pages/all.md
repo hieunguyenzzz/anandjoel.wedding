@@ -132,7 +132,7 @@ blocks:
         description: '32 Võ Văn Tần, Ward 6, District 3, HCMC'
         image: /Hum Vegetarian.jpeg
       - variant: Two
-        title: SAPA
+        title: HÀ NỘI
         description: description
         image: /p4-destination-img-01.jpg
     _template: bites
