@@ -41,9 +41,7 @@ function Detail({ images, defaultIndex = 0, onClose }: { images: string[], defau
 
 
 const Content = ({ id, setid, data, blockIndex }: { id: number, setid: (n: number) => void, data: PageBlocksExplore, blockIndex: number }) => {
-  const [modal, setModal] = useState(null)
   const currentItem = data?.item?.find((item, index) => index === id)
-  const images = currentItem?.gallery?.map(i => i?.image || "").filter(Boolean)
   if (!currentItem) return <section className="mt-12 mx-auto px-4  md:px-8">
     <div className="max-w-lg">
       <h1 className="text-[1.4em] font-title text-gray-800 font-semibold mt-2">
@@ -108,34 +106,19 @@ const Content = ({ id, setid, data, blockIndex }: { id: number, setid: (n: numbe
               alt: ""
             })
 
-            return <button onClick={(e) => {
-              e.preventDefault()
-            }} href={img.props.src} key={index + 1} ><Field key={index + 1} name={`blocks.${blockIndex}.item.${index}.title`}>
+            return <div className='group relative' href={img.props.src} key={index + 1} >
+              <Field key={index + 1} name={`blocks.${blockIndex}.item.${index}.title`}>
                 <div onClick={() => {
                   window?.[popupId].showModal()
                 }} className='w-full h-full  pt-[100%] lg:pt-[100%] relative '>
                   <Image width={600} height={600} src={img.props.src} alt={currentItem.title || ''} className='object-cover w-full h-full animate-fade-up absolute inset-0 rounded-lg bg-[#e9a48a52] border-[#e9a48a52] border-8' />
                 </div>
               </Field>
-              <dialog id={popupId} className="modal">
-                <div className="modal-box">
-                  <form method="dialog">
-                    <button className="btn btn-sm btn-circle btn-ghost absolute right-2 top-2">✕</button>
-                  </form>
-                  <div>
-                    {content && <TinaMarkdown content={content} />}
-                  </div>
-                  <form method="dialog" className="modal-backdrop">
-                    <button>close</button>
-                  </form>
-                  <p className="py-4">Press ESC key or click on ✕ button to close</p>
-                </div>
-              </dialog>
-            </button>
+              <div className='opacity-0 p-6 flex justify-center items-center invisible transition-all absolute inset-0 bg-white backdrop-blur-sm bg-opacity-40 group-hover:visible group-hover:opacity-100'><div className='prose'>
+                {content && <TinaMarkdown content={content} />}
+              </div></div>
+            </div>
           })
-        }
-        {
-          modal
         }
       </div>
     </section>
