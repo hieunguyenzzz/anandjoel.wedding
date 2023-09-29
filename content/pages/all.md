@@ -96,6 +96,10 @@ blocks:
       Stunning landscapes, from rice paddies to Halong Bay, and warm, welcoming
       people.
     item:
+      - variant: One
+        title: Da Nang
+        description: description
+        image: image
       - location: Lào Cai
         variant: Two
         title: Sapa
