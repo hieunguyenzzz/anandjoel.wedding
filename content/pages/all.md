@@ -323,6 +323,12 @@ blocks:
           in the world, including the world-famous Son Doong Cave. 
         image: /Quang bINH.jpeg
         gallery:
+          - name: Sun Spa Resort & Villa
+            content: |
+              ### Sun Spa Resort & Villa
+
+              Võ Nguyên Giáp st, Mỹ Cảnh, Đồng Hới, Quảng Bình
+            image: /Sun Spa Resort & Villa.jpeg
           - name: Gold Coast Hotel Resort & Spa
             content: |
               ### Gold Coast Hotel Resort & Spa
