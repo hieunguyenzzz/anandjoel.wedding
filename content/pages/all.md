@@ -79,12 +79,12 @@ blocks:
         image: /Madam Kew Saigon.jpeg
         gallery:
           - name: image
+      - variant: One
+        title: An Vegetarian
+        description: '220 Pham Thai Buong, My Hung town, Tan Phong Ward, District 7, HCMC'
+        image: /AN VET.webp
       - variant: Two
         title: SAPA
-        description: description
-        image: /p4-destination-img-01.jpg
-      - variant: One
-        title: title
         description: description
         image: /p4-destination-img-01.jpg
       - variant: One
