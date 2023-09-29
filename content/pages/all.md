@@ -502,6 +502,10 @@ blocks:
           host our wedding there.
         image: /dalat.jpeg
         gallery:
+          - name: Cu Lan Village
+            content: |
+              ### Cu Lan Village
+            image: /Cu Lan Village.jpeg
           - name: Langbiang Mountain
             content: |
               ### Langbiang Mountain
