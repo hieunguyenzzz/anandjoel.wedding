@@ -159,10 +159,10 @@ blocks:
           mountains rising up from the paddies.
         image: /nINH BÌNH.jpeg
         gallery:
-          - name: Bai Dinh Pagoda
+          - name: Mua Cave
             content: |
-              ### Bai Dinh Pagoda
-            image: /Bai Dinh Pagoda .jpeg
+              ### Mua Cave
+            image: /Mua Cave.jpeg
           - name: Hoa Lu Ancient Capital
             content: |
               ### Hoa Lu Ancient Capital
@@ -199,6 +199,10 @@ blocks:
             content: |
               ### Trang An Landscape Complex
             image: /Trang An Landscape Complex.jpeg
+          - name: Bai Dinh Pagoda
+            content: |
+              ### Bai Dinh Pagoda
+            image: /Bai Dinh Pagoda .jpeg
       - location: Ha Noi
         variant: One
         title: Ha Noi
