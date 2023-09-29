@@ -2,7 +2,7 @@
 import { useSource } from "@/libs/source";
 import { Field } from "@/libs/tina";
 import { useState } from "react";
-import bgImage from '../../../public/website layout _bites.jpg';
+import bgImage from '../../../public/qa_bg.png';
 import Image from "../common/image";
 import Bite from "./bites-detail";
 export default function Bites() {
