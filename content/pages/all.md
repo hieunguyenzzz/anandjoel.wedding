@@ -502,6 +502,10 @@ blocks:
           host our wedding there.
         image: /dalat.jpeg
         gallery:
+          - name: Linh Quy Phap An Pagoda
+            content: |
+              ### Linh Quy Phap An Pagoda
+            image: /Linh Quy Phap An Pagoda.png
           - name: Domaine de Marie Church
             content: |
               ### Domaine de Marie Church
