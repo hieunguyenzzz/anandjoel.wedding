@@ -97,6 +97,10 @@ blocks:
       people.
     item:
       - variant: One
+        title: Quang Binh
+        description: description
+        image: image
+      - variant: One
         title: Phu Yen
         description: description
         image: image
