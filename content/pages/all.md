@@ -214,6 +214,12 @@ blocks:
           influences.
         image: /hà NỘI.jpeg
         gallery:
+          - name: Melia Hanoi Hotel
+            content: |
+              ### Melia Hanoi Hotel
+
+              44 Lý Thường Kiệt, Trần Hưng Đạo Ward, Hoàn Kiếm, Hà Nội
+            image: /Melia Hanoi Hotel.jpeg
           - name: Sofitel Legend Metropole Hotel
             content: |
               ### Sofitel Legend Metropole Hotel
