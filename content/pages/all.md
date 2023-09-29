@@ -214,6 +214,10 @@ blocks:
           influences.
         image: /hà NỘI.jpeg
         gallery:
+          - name: Ho Chi Minh Mausoleum
+            content: |
+              ### Ho Chi Minh Mausoleum
+            image: /Ho Chi Minh Mausoleum.jpeg
           - name: One Pillar Pagoda
             content: |
               ### One Pillar Pagoda
