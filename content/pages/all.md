@@ -510,6 +510,10 @@ blocks:
           many regions, and countries.
         image: /SG.jpeg
         gallery:
+          - name: Cu Chi Tunnels
+            content: |
+              ### Cu Chi Tunnels
+            image: /Cu Chi Tunnels .jpeg
           - name: Remnants War Museum
             content: |
               ### Remnants War Museum
