@@ -132,7 +132,7 @@ blocks:
             image: /Ville De Mont Mountain Resort.png
           - name: Mount Fansipan
             content: |
-              Mount Fansipan
+              ### Mount Fansipan
             image: /Mount Fansipan.jpeg
           - name: Ban Ho Village
             content: |
