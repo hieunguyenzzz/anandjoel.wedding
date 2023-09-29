@@ -110,7 +110,7 @@ blocks:
             content: |
               ### Hotel de la Coupole MGallery 
 
-              1, Hoang Lien Street Sapa District, Lao Cai Province Sapa
+              1, Hoang Lien Street, Sapa District, Lao Cai Province
             image: /Hotel de la Coupole MGallery.jpeg
           - name: image
             content: ''
