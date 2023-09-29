@@ -925,9 +925,6 @@ blocks:
   - name: story
     title: How it all began
     fields:
-      - name: all ngang
-        en: |
-          ![](/IMG_0289.JPEG)
       - name: content
         en: >
           An & Joel do not have a typical love story, but everything that
@@ -952,6 +949,9 @@ blocks:
       - name: on one knee
         en: |
           ![](/IMG_0938.jpeg)
+      - name: all ngang
+        en: |
+          ![](/IMG_0289.JPEG)
       - name: all dalat
         en: |
           ![](/23cfe32a356a7841e1099b5c07f638e9.JPG)
