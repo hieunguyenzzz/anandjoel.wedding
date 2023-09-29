@@ -902,6 +902,9 @@ blocks:
           yourself and pursue your dreams and where dreams do become true.
       - name: Câu 3
         en: >
+          ![](/IMG_0989.jpeg)
+
+
           During the cloud hunting 1 year ago, An successfully proposed to Joel
           in Da Lat, Vietnam, which is also An's hometown.
       - name: Câu 4
