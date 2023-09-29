@@ -214,6 +214,10 @@ blocks:
           influences.
         image: /hà NỘI.jpeg
         gallery:
+          - name: Hoa Lo Prison
+            content: |
+              ### Hoa Lo Prison
+            image: /Hoa Lo Prison .jpeg
           - name: Ho Chi Minh Mausoleum
             content: |
               ### Ho Chi Minh Mausoleum
