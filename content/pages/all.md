@@ -159,6 +159,10 @@ blocks:
           mountains rising up from the paddies.
         image: /nINH BÌNH.jpeg
         gallery:
+          - name: Van Long Nature Reserve
+            content: |
+              ### Van Long Nature Reserve
+            image: /Van Long Nature Reserve.jpeg
           - name: Hoa Lu Ancient Capital
             content: |
               ### Hoa Lu Ancient Capital
