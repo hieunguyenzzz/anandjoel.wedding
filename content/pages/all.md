@@ -62,9 +62,9 @@ blocks:
         description: 'Level 1, 153/02 Đồng Khởi, Bến Nghé Ward, District 1, HCMC'
         image: /MA QUAN.jpeg
       - variant: One
-        title: title
-        description: description
-        image: /p4-destination-img-01.jpg
+        title: Ivoire Pastry Boutique
+        description: '28 Cao Bá Quát, Bến Nghé Ward, District 1, HCMC'
+        image: /Ivoire Pastry Boutique.jpeg
       - variant: One
         title: title
         description: description
