@@ -73,16 +73,16 @@ blocks:
         title: Park Hyatt Lounge
         description: '2 Lam Sơn Square, Bến Nghé Ward, District 1, HCMC'
         image: /Park Hyatt Lounge.jpeg
+      - variant: One
+        title: Madam Kew Saigon
+        description: '37Bis Ký Con, Nguyễn Thái Bình Ward, District 1, HCMC'
+        image: /Madam Kew Saigon.jpeg
+        gallery:
+          - name: image
       - variant: Two
         title: SAPA
         description: description
         image: /p4-destination-img-01.jpg
-      - variant: One
-        title: title
-        description: description
-        image: /p4-destination-img-01.jpg
-        gallery:
-          - name: image
       - variant: One
         title: title
         description: description
