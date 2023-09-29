@@ -96,9 +96,9 @@ blocks:
         description: '35 Xuân Thủy, Thảo Điền Ward, District 2, HCMC'
         image: /tre dining.jpeg
       - variant: One
-        title: title
-        description: description
-        image: /p4-destination-img-01.jpg
+        title: CoCo Dining & Whisky Bar
+        description: '143 Nam Kỳ Khởi Nghĩa, Ward 6, District 3, HCMC'
+        image: /CoCo Dining & Whisky Bar.jpeg
       - variant: One
         title: RuNam d'Or
         description: '3 Công xã Paris, Bến Nghé Ward, District 1, HCMC'
