@@ -180,7 +180,7 @@ blocks:
           Formerly known as Saigon, this bustling metropolis in southern Vietnam
           is famous for its dynamic atmosphere, historical landmarks, and
           diverse culinary scene.
-        image: /p4-destination-img-01.jpg
+        image: /SG.jpeg
     _template: explore
   - name: event
     fields:
