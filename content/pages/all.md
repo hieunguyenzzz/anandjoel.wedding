@@ -13,7 +13,7 @@ blocks:
   - item:
       - variant: Two
         title: Ho chi minh
-        description: description
+        description: ''
         image: /stamp nhện.png
         gallery:
           - name: image
