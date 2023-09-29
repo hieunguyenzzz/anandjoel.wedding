@@ -159,10 +159,6 @@ blocks:
           mountains rising up from the paddies.
         image: /nINH BÌNH.jpeg
         gallery:
-          - name: Mua Cave
-            content: |
-              ### Mua Cave
-            image: /Mua Cave.jpeg
           - name: Hoa Lu Ancient Capital
             content: |
               ### Hoa Lu Ancient Capital
@@ -199,6 +195,10 @@ blocks:
             content: |
               ### Trang An Landscape Complex
             image: /Trang An Landscape Complex.jpeg
+          - name: Mua Cave
+            content: |
+              ### Mua Cave
+            image: /Mua Cave.jpeg
           - name: Bai Dinh Pagoda
             content: |
               ### Bai Dinh Pagoda
@@ -207,9 +207,11 @@ blocks:
         variant: One
         title: Ha Noi
         description: >-
-          Vietnam's capital city, Hanoi, is a blend of ancient charm and modern
-          energy. It features a rich history, vibrant street markets, and
-          delicious street food.
+          Hanoi is the capital city, a 2-hour flight north of Đà Lạt. A great
+          place to explore on foot, this city is also known for its delectable
+          cuisine, vibrant nightlife, silks and handicrafts, as well as a
+          multicultural community that’s made up of Chinese, French and Russian
+          influences.
         image: /hà NỘI.jpeg
       - location: Quảng Ninh
         variant: One
