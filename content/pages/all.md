@@ -695,7 +695,7 @@ blocks:
 
           ### at TBD 
 
-          December 15, 2023
+          DECEMBER 15, 2023
 
           ***
 
@@ -703,7 +703,7 @@ blocks:
 
           ### at Tiệm Cà phê Hoàng hôn chiều
 
-          December 16, 2023
+          DECEMBER 16, 2023
 
           09:00 AM - 10:30 AM
 
@@ -719,7 +719,7 @@ blocks:
 
           ### at the Campville
 
-          december 16, 2023
+          DECEMBER 16, 2023
 
           4:00 PM - 9:00 PM
 
