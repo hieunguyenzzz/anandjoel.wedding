@@ -370,6 +370,10 @@ blocks:
           Beach, Lang Co Beach, Hoi An, and My Son.
         image: /Đà Nẵng.jpeg
         gallery:
+          - name: Cham Island
+            content: |
+              ### Cham Island
+            image: /Cham Island.jpeg
           - name: My Son Sanctuary
             content: |
               ### My Son Sanctuary
