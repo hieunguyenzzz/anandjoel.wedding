@@ -172,7 +172,7 @@ blocks:
           Vietnam's capital city, Hanoi, is a blend of ancient charm and modern
           energy. It features a rich history, vibrant street markets, and
           delicious street food.
-        image: /p4-destination-img-01.jpg
+        image: /hà NỘI.jpeg
       - location: Hồ Chí Minh city
         variant: One
         title: Ho Chi Minh
