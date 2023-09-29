@@ -510,6 +510,12 @@ blocks:
           many regions, and countries.
         image: /SG.jpeg
         gallery:
+          - name: 'Mai House Saigon Hotel '
+            content: |
+              ### Mai House Saigon Hotel 
+
+              157 Nam Kỳ Khởi Nghĩa, Ward 6, District 3
+            image: /Mai House Saigon Hotel .jpeg
           - name: Mia Saigon Hotel
             content: |
               ### Mia Saigon Hotel
