@@ -709,7 +709,9 @@ blocks:
 
           9th Hill, Da Lat city, Lam Dong province, Vietnam
 
-          (transportation will be provided to and from the venue and hotel)
+          Transportation will be provided to and from the venue and hotel.
+
+          Please kindly be at the hotel lobby at  8:15 AM
 
           ***
 
@@ -725,7 +727,7 @@ blocks:
 
           Transportation will be provided to and from the venue and hotel.
 
-          Please kindly be at the hotel lobby at 8:15 AM
+          Please kindly be at the hotel lobby at  3:15 PM
 
           ***
 
