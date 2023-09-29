@@ -14,7 +14,7 @@ blocks:
       - variant: Two
         title: Ho chi minh
         description: description
-        image: /p4-destination-img-01.jpg
+        image: ''
         gallery:
           - name: image
             image: /p4-destination-img-01.jpg
