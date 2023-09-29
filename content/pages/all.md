@@ -268,6 +268,10 @@ blocks:
           islets. 
         image: /Hạ Long.jpeg
         gallery:
+          - name: Sung Sot Cave
+            content: |
+              ### Sung Sot Cave
+            image: /Sung Sot Cave.jpeg
           - name: Dau Go Cave
             content: |
               ### Dau Go Cave
