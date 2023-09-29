@@ -97,6 +97,10 @@ blocks:
       people.
     item:
       - variant: One
+        title: Phu Yen
+        description: description
+        image: image
+      - variant: One
         title: Ha Long
         description: description
         image: image
