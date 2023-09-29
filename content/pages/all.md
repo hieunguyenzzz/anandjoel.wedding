@@ -112,8 +112,11 @@ blocks:
 
               1, Hoang Lien Street, Sapa District, Lao Cai Province
             image: /Hotel de la Coupole MGallery.jpeg
-          - name: image
-            content: ''
+          - name: Eden Boutique Hotel & Spa
+            content: |
+              ### Eden Boutique Hotel & Spa 
+
+              03B Thac Bac Street, Sapa, Lào Cai
             image: /main-page-update.png
           - name: image
             content: ''
