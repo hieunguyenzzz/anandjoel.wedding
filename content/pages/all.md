@@ -262,9 +262,10 @@ blocks:
         variant: One
         title: Ha Long Bay
         description: >-
-          With its emerald waters and thousands of towering limestone karsts,
-          Halong Bay is a UNESCO World Heritage Site that promises awe-inspiring
-          boat cruises and stunning natural beauty.
+          You can witness the giant limestone formations and caves on an
+          overnight boat cruise in HaLong Bay, which is arguably Vietnam’s most
+          recognized landscape, boasting over 1,600 limestone islands and
+          islets. 
         image: /Hạ Long.jpeg
       - location: Quảng Bình
         variant: One
