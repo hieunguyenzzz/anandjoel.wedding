@@ -515,6 +515,12 @@ blocks:
           also the perfect time to catch the wonderful Phu Quoc sunset.
         image: /Phú Quốc.jpeg
         gallery:
+          - name: Regent Phu Quoc
+            content: |
+              ### Regent Phu Quoc
+
+              Bai Truong, Ward, Dương Tơ, Phú Quốc, Kiên Giang
+            image: /Regent Phu Quoc.jpeg
           - name: Sao Beach
             content: |
               ### Sao Beach
