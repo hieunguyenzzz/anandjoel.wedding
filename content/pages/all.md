@@ -323,6 +323,12 @@ blocks:
           in the world, including the world-famous Son Doong Cave. 
         image: /Quang bINH.jpeg
         gallery:
+          - name: Gold Coast Hotel Resort & Spa
+            content: |
+              ### Gold Coast Hotel Resort & Spa
+
+              Võ Nguyên Giáp st, Mỹ Cảnh, Đồng Hới, Quảng Bình
+            image: /Gold Coast Hotel Resort & Spa.jpeg
           - name: Melia Vinpearl Quang Binh
             content: |
               ### Melia Vinpearl Quang Binh
