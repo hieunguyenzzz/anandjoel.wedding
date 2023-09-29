@@ -214,6 +214,12 @@ blocks:
           influences.
         image: /hà NỘI.jpeg
         gallery:
+          - name: JW Mariott Hà Nội
+            content: |
+              ### JW Mariott Hà Nội
+
+              8 Đỗ Đức Dục, Mễ Trì Ward, Từ Liêm District, Hà Nội
+            image: /JW Mariott Hà Nội.jpeg
           - name: Melia Hanoi Hotel
             content: |
               ### Melia Hanoi Hotel
