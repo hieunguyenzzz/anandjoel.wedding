@@ -61,9 +61,6 @@ blocks:
         title: Mạ Quán
         description: 'Level 1, 153/02 Đồng Khởi, Bến Nghé Ward, District 1, HCMC'
         image: /MA QUAN.jpeg
-        images:
-          - /bites/saigon/Mạ Quán/IMG_4560.jpeg
-          - /AN VET.webp
       - variant: One
         title: Ivoire Pastry Boutique
         description: '28 Cao Bá Quát, Bến Nghé Ward, District 1, HCMC'
@@ -135,9 +132,9 @@ blocks:
         description: '32 Võ Văn Tần, Ward 6, District 3, HCMC'
         image: /Hum Vegetarian.jpeg
       - variant: Two
-        title: SAPA
+        title: HÀ NỘI
         description: description
-        image: /p4-destination-img-01.jpg
+        image: /stamp nhện.png
     _template: bites
   - title: Explore Vietnam
     description: >-
@@ -174,7 +171,7 @@ blocks:
             image: /Pao's Sapa Leisure Hotel.jpeg
           - name: Ville De Mont Mountain Resort
             content: |
-              Ville De Mont Mountain Resort
+              ### Ville De Mont Mountain Resort
 
               To 7, Phuong Sa Pa, Lao Chải Tả Van, Sapa, Lào Cai
             image: /Ville De Mont Mountain Resort.png
@@ -604,7 +601,7 @@ blocks:
             image: /Nikko Hotel Saigon.jpeg
           - name: 'Mai House Saigon Hotel '
             content: |
-              ### Mai House Saigon Hotel
+              ### Mai House Saigon Hotel 
 
               157 Nam Kỳ Khởi Nghĩa, Ward 6, District 3
             image: /Mai House Saigon Hotel .jpeg
@@ -732,7 +729,7 @@ blocks:
     title: Questions & Answers
     fields:
       - name: content
-        en: "### When should we arrive in Vietnam?\n\nWe suggest sometime during the week of the wedding, maybe 3 – 4 days prior to the wedding date to get over jet lag.\_\n\n### Will the ceremony, and reception take place indoors or outdoors?\n\nOutdoors, so please plan accordingly. The temperature in December is usually cool ranging from 20 –\_ 26 Celsius (60 – 72 Fahrenheit).\_\n\n### Since the ceremony takes place at the Tree of Life and the reception at the Tree of Knowledge, how can we travel there?\n\nShuttle buses will be provided between the two venues. And also from and to the airport.\n\n### Can I take photos during the ceremony?\n\nWe will have a professional photography team at the wedding but if you want to snap some memories of our special weekend, we kindly ask that you keep photos to a minimum at the ceremony.\n\n### Is it ok to bargain pricing and if so, when/where?\n\nIt may come as a culture shock to some but bargaining in Vietnam for any type of goods is commonplace. Bartering comes down to fine art. This is mainly in the markets (unless there are signs that say fixed price). May the odds forever be in your favor!\n\n### What is the tipping culture in Vietnam?\n\nTipping isn’t mandatory or customary in Vietnam, but it is always appreciated. If you’re happy with the services provided by waiters, drivers and other service workers, leaving a small tip is a good way to show your appreciation. We recommend 10% as a ballpark.\n\n### How do things normally cost in Vietnam?\n\n\_\n\nFor accommodation, a 4-star hotel or above, on average, is $200/day. Food & drinks will be $100/day on average if you want to try a lot of different things (street foods / desserts / restaurants / coffee shops / etc.). If you go to clubs or some cool events or concert/rave or go to bars, it will be $200 – $500 for a week or so.\n\n### Are children allowed at the ceremony?\n\n\_\n\nDue to small venue and limitation, children age 12 or below are not allowed at the ceremony.\n\n### What food will be served at the reception?\n\n\_\n\nWestern food with Vietnamese influence.\n\n### Where should I exchange money?\n\n\_\n\nIn Ho Chi Minh City:\n\n* EximBank Money Changer (135 Dong Khoi in District 1 of Ho Chi Minh City) is offering some of the best currency exchange rates in Saigon.\n* Money Changers at Tan Son Nhat Airport (SGN)\n\nIn Ha Noi City:\n\n* Money changers on Ha Trung St in the Old Quarter. You should compare the rate before exchanging money.\n* Ha Noi Money Exchange: 19B Hang Be, Hoan Kiem District, Ha Noi\n\n### Where should I rent a suit/ tuxedo?\n\n\_\n\nWe recommend Wedding Book at 583 Su Van Hanh st, Ward 3, District 10, HCMC to rent the qualified suit/ tuxedo.\n\n[Click here](https://www.weddingbook.vn)\n"
+        en: "### When should we arrive in Vietnam?\n\nWe suggest sometime during the week of the wedding, maybe 3 – 4 days prior to the wedding date to get over jet lag.\_\n\n### Will the ceremony, and reception take place indoors or outdoors?\n\nOutdoors, so please plan accordingly. The temperature in December is usually cool ranging from 20 –\_ 26 Celsius (60 – 72 Fahrenheit).\_\n\n### Since the ceremony takes place at the Tree of Life and the reception at the Tree of Knowledge, how can we travel there?\n\nShuttle buses will be provided between the two venues. And also from and to the airport.\n\n### Can I take photos during the ceremony?\n\nWe will have a professional photography team at the wedding but if you want to snap some memories of our special weekend, we kindly ask that you keep photos to a minimum at the ceremony.\n\n### Is it ok to bargain pricing and if so, when/where?\n\nIt may come as a culture shock to some but bargaining in Vietnam for any type of goods is commonplace. Bartering comes down to fine art. This is mainly in the markets (unless there are signs that say fixed price). May the odds forever be in your favor!\n\n### What is the tipping culture in Vietnam?\n\nTipping isn’t mandatory or customary in Vietnam, but it is always appreciated. If you’re happy with the services provided by waiters, drivers and other service workers, leaving a small tip is a good way to show your appreciation. We recommend 10% as a ballpark.\n\n### How do things normally cost in Vietnam?\n\n\_\n\nFor accommodation, a 4-star hotel or above, on average, is $200/day. Food & drinks will be $100/day on average if you want to try a lot of different things (street foods / desserts / restaurants / coffee shops / etc.). If you go to clubs or some cool events or concert/rave or go to bars, it will be $200 – $500 for a week or so.\n\n### Are children allowed at the ceremony?\n\n\_\n\nDue to small venue and limitation, children age 12 or below are not allowed at the ceremony.\n\n### What food will be served at the reception?\n\n\_\n\nWestern food with Vietnamese influence.\n\n### Where should I exchange money?\n\n\_\n\nIn Ho Chi Minh City:\n\n* EximBank Money Changer (135 Dong Khoi in District 1 of Ho Chi Minh City) is offering some of the best currency exchange rates in Saigon.\n* Money Changers at Tan Son Nhat Airport (SGN)\n\nIn Ha Noi City:\n\n* Money changers on Ha Trung St in the Old Quarter. You should compare the rate before exchanging money.\n* Ha Noi Money Exchange: 19B Hang Be, Hoan Kiem District, Ha Noi\n\n### Where should I rent a suit/ tuxedo?\n\n\_\n\nWe recommend Wedding Book at 583 Su Van Hanh st, Ward 3, District 10, HCMC to rent the qualified suit/ tuxedo.\n\n[Click here](https://www.weddingbook.vn/?fbclid=IwAR0qHVz10eXRtg6540DeMPuhoz78t3npZLT7cKhvR0ArcfsVdR8IR-dmIvY)\n\n\n"
     _template: content
   - name: travel
     title: Travel & Stay
