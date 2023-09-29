@@ -49,6 +49,11 @@ export const schemaBites: Template = {
           type: 'image'
         },
         {
+          name: 'images',
+          type: 'image',
+          list: true,
+        },
+        {
           type: "object",
           name: "gallery",
           label: "Images",
