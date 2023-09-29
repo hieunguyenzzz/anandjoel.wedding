@@ -69,12 +69,12 @@ blocks:
         title: 'Bếp Nhà Lục Tỉnh '
         description: '37 Nam Kỳ Khởi Nghĩa, Nguyễn Thái Bình Ward, District 1, HCMC'
         image: /Bếp Nhà Lục TỉnhH.jpeg
+      - variant: One
+        title: Park Hyatt Lounge
+        description: '2 Lam Sơn Square, Bến Nghé Ward, District 1, HCMC'
+        image: /Park Hyatt Lounge.jpeg
       - variant: Two
         title: SAPA
-        description: description
-        image: /p4-destination-img-01.jpg
-      - variant: One
-        title: title
         description: description
         image: /p4-destination-img-01.jpg
       - variant: One
