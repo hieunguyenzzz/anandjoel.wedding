@@ -159,10 +159,10 @@ blocks:
           mountains rising up from the paddies.
         image: /nINH BÌNH.jpeg
         gallery:
-          - name: Van Long Nature Reserve
+          - name: Tam Coc - Bich Dong
             content: |
-              ### Van Long Nature Reserve
-            image: /Van Long Nature Reserve.jpeg
+              ### Tam Coc - Bich Dong
+            image: /Tam Coc - Bich Dong.webp
           - name: Hoa Lu Ancient Capital
             content: |
               ### Hoa Lu Ancient Capital
@@ -187,6 +187,10 @@ blocks:
 
               No 09 Tam Coc, Ninh Thang, Hoa Lu, Ninh Binh
             image: /Ninh Binh Hidden Charm.jpeg
+          - name: Van Long Nature Reserve
+            content: |
+              ### Van Long Nature Reserve
+            image: /Van Long Nature Reserve.jpeg
           - name: Trang An Landscape Complex
             content: |
               ### Trang An Landscape Complex
