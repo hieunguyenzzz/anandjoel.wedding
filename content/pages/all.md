@@ -96,30 +96,6 @@ blocks:
       Stunning landscapes, from rice paddies to Halong Bay, and warm, welcoming
       people.
     item:
-      - variant: One
-        title: Phu Yen
-        description: description
-        image: image
-      - variant: One
-        title: Quang Binh
-        description: description
-        image: image
-      - variant: One
-        title: Ha Long
-        description: description
-        image: image
-      - variant: One
-        title: Ninh Binh
-        description: description
-        image: image
-      - variant: One
-        title: Hoi An
-        description: description
-        image: image
-      - variant: One
-        title: Da Nang
-        description: description
-        image: image
       - location: Lào Cai
         variant: Two
         title: Sapa
@@ -127,7 +103,7 @@ blocks:
           Nestled in the northern highlands, Sapa is a picturesque town known
           for its terraced rice fields, ethnic minority cultures, and trekking
           opportunities.
-        image: /p4-destination-img-01.jpg
+        image: /Sapa.jpeg
         gallery:
           - name: image
             image: /p4-destination-img-01.jpg
@@ -420,9 +396,6 @@ blocks:
   - name: story
     title: How it all began
     fields:
-      - name: image
-        en: |
-          ![](/IMG_2581.jpeg)
       - name: content
         en: >
           An & Joel do not have a typical love story, but everything that
