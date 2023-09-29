@@ -690,46 +690,70 @@ blocks:
   - name: event
     fields:
       - name: content
-        en: |
+        en: >
           ![](/dfd-04.png)
+
 
           december 15, 2023
 
+
           TBD
 
+
           ***
+
 
           ![](/dfd-02.png)
 
+
           ### at tiem ca phe hoang hon chieu
+
 
           december 16, 2023
 
-          09:00 - 11:00
+
+          09:00 - 10:30
+
 
           9th Hill, Da Lat city, Lam Dong province, Vietnam
 
-          (transportation will be provided to and from the venue and hotel)
+
+          (transportation will be provided to and from the hotel to the wedding
+          venue. please kindly be at the hotel lobby at 8:15AM)
+
 
           ***
+
 
           ![](/dfd-03.png)
 
+
           ### at the Campville
+
 
           december 16, 2023
 
-          4:30 - 10:00
+
+          4:00 - 09:00
+
 
           Xuan Tho ward, Da Lat city, Lam Dong province, Vietnam
 
-          (transportation will be provided to and from the venue and hotel)
+
+          (transportation will be provided to and from the hotel to the wedding
+          venue. please kindly be at the hotel lobby at 3:15 PM)
+
 
           ***
 
+
           ![](/dfd-01.png)
 
-          We can't wait to see your best dressed following the wedding theme.
+
+          ceremony: white or light colors. no busy patterns
+
+
+          reception: black tie
     _template: content
   - name: qa
     title: Questions & Answers
