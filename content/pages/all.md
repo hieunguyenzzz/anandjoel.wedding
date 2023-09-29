@@ -515,6 +515,12 @@ blocks:
           also the perfect time to catch the wonderful Phu Quoc sunset.
         image: /Phú Quốc.jpeg
         gallery:
+          - name: Salinda Resort
+            content: |
+              ### Salinda Resort
+
+              Cua Lap Hamlet, Duong To Commune, Phu Quoc Island, Kien Giang
+            image: /Salinda Resort.jpeg
           - name: Regent Phu Quoc
             content: |
               ### Regent Phu Quoc
