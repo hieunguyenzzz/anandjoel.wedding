@@ -126,45 +126,9 @@ blocks:
           - name: image
             image: /p4-destination-img-01.jpg
       - variant: One
-        title: Da Lat
-        description: description
-        image: /dalat.jpeg
-      - variant: One
-        title: Quang Binh
-        description: description
-        image: /Quang bINH.jpeg
-      - variant: One
-        title: Phu Yen
-        description: description
-        image: /Phú Yên.jpeg
-      - variant: One
         title: Ninh Binh
         description: description
         image: /nINH BÌNH.jpeg
-      - variant: One
-        title: Hoi An
-        description: description
-        image: /Hội An.jpeg
-      - variant: One
-        title: Da Nang
-        description: description
-        image: /Đà Nẵng.jpeg
-      - location: Kiên Giang
-        variant: One
-        title: Phu Quoc
-        description: >-
-          Vietnam's largest island, Phu Quoc, offers pristine beaches, lush
-          jungles, and a relaxed island vibe, making it a perfect tropical
-          getaway.
-        image: /Phú Quốc.jpeg
-      - location: Quảng Ninh
-        variant: One
-        title: Ha Long Bay
-        description: >-
-          With its emerald waters and thousands of towering limestone karsts,
-          Halong Bay is a UNESCO World Heritage Site that promises awe-inspiring
-          boat cruises and stunning natural beauty.
-        image: /Hạ Long.jpeg
       - location: Ha Noi
         variant: One
         title: Ha Noi
@@ -173,6 +137,35 @@ blocks:
           energy. It features a rich history, vibrant street markets, and
           delicious street food.
         image: /hà NỘI.jpeg
+      - location: Quảng Ninh
+        variant: One
+        title: Ha Long Bay
+        description: >-
+          With its emerald waters and thousands of towering limestone karsts,
+          Halong Bay is a UNESCO World Heritage Site that promises awe-inspiring
+          boat cruises and stunning natural beauty.
+        image: /Hạ Long.jpeg
+      - variant: One
+        title: Quang Binh
+        description: description
+        image: /Quang bINH.jpeg
+      - variant: One
+        title: Da Nang
+        description: description
+        image: /Đà Nẵng.jpeg
+      - variant: One
+        title: Hoi An
+        description: description
+        image: /Hội An.jpeg
+      - location: Phú Yên
+        variant: One
+        title: Phu Yen
+        description: description
+        image: /Phú Yên.jpeg
+      - variant: One
+        title: Da Lat
+        description: description
+        image: /dalat.jpeg
       - location: Hồ Chí Minh city
         variant: One
         title: Ho Chi Minh
@@ -181,6 +174,14 @@ blocks:
           is famous for its dynamic atmosphere, historical landmarks, and
           diverse culinary scene.
         image: /SG.jpeg
+      - location: Kiên Giang
+        variant: One
+        title: Phu Quoc
+        description: >-
+          Vietnam's largest island, Phu Quoc, offers pristine beaches, lush
+          jungles, and a relaxed island vibe, making it a perfect tropical
+          getaway.
+        image: /Phú Quốc.jpeg
     _template: explore
   - name: event
     fields:
