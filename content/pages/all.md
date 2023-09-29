@@ -197,6 +197,13 @@ blocks:
   - name: travel
     title: Travel & Stay
     fields:
+      - name: LUGGAGE
+        en: >
+          ### LUGGAGE
+
+
+          Pack light and bring an extra carry-on or duffle bag as you will more
+          than likely bring back more goods than what you came with.
       - name: conten
         en: >
           ### FLIGHT
