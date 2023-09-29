@@ -510,6 +510,10 @@ blocks:
           many regions, and countries.
         image: /SG.jpeg
         gallery:
+          - name: Ben Thanh Market
+            content: |
+              ### Ben Thanh Market
+            image: /Ben Thanh Market .jpeg
           - name: Boheme Sai Gon
             content: |
               ### Boheme Sai Gon
