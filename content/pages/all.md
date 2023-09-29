@@ -370,6 +370,12 @@ blocks:
           Beach, Lang Co Beach, Hoi An, and My Son.
         image: /Đà Nẵng.jpeg
         gallery:
+          - name: Intercontinental Danang Sun Peninsula Resort
+            content: |
+              ### Intercontinental Danang Sun Peninsula Resort
+
+              Thọ Quang, Hải Châu, Đà Nẵng
+            image: /Intercontinental Danang Sun Peninsula Resort .jpeg
           - name: Pullman Danang Beach Resort
             content: |
               ### Pullman Danang Beach Resort
