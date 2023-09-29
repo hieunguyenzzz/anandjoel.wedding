@@ -62,7 +62,6 @@ blocks:
         description: 'Level 1, 153/02 Đồng Khởi, Bến Nghé Ward, District 1, HCMC'
         image: /MA QUAN.jpeg
         images:
-          - /bites/saigon/Mạ Quán/IMG_4560.jpeg
           - /bites/saigon/Mạ Quán/IMG_4555.jpeg
           - /bites/saigon/Mạ Quán/IMG_4558.jpeg
           - /bites/saigon/Mạ Quán/IMG_4559.jpeg
