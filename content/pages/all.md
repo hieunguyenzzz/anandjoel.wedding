@@ -120,9 +120,11 @@ blocks:
         description: '32 Võ Văn Tần, Ward 6, District 3, HCMC'
         image: /Hum Vegetarian.jpeg
       - variant: Two
-        title: HÀ NỘI
+        title: HA NOI
         description: ''
         image: /Happily Ever After (38 × 39 cm).png
+        gallery:
+          - name: image
     _template: bites
   - title: Explore Vietnam
     description: >-
