@@ -514,6 +514,11 @@ blocks:
           natural beauty, or simply puff a rollup and relax. And December is
           also the perfect time to catch the wonderful Phu Quoc sunset.
         image: /Phú Quốc.jpeg
+        gallery:
+          - name: Fish Sauce Factory
+            content: |
+              ### Fish Sauce Factory
+            image: /Fish Sauce Factory.jpeg
     _template: explore
   - name: event
     fields:
