@@ -364,7 +364,10 @@ blocks:
       - location: Đà Nẵng
         variant: One
         title: Da Nang
-        description: description
+        description: >-
+          Da Nang is located in the middle of the northern capital. The main
+          reason most visitors stay here is its proximity to the popular My Khe
+          Beach, Lang Co Beach, Hoi An, and My Son.
         image: /Đà Nẵng.jpeg
       - location: Quàng Nam
         variant: One
