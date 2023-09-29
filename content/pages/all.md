@@ -213,6 +213,11 @@ blocks:
           multicultural community that’s made up of Chinese, French and Russian
           influences.
         image: /hà NỘI.jpeg
+        gallery:
+          - name: 1900 Le Théâtre
+            content: |
+              ### 1900 Le Théâtre
+            image: /1900 Le Théâtre .jpeg
       - location: Quảng Ninh
         variant: One
         title: Ha Long Bay
