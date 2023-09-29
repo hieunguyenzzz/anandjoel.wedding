@@ -268,6 +268,10 @@ blocks:
           islets. 
         image: /Hạ Long.jpeg
         gallery:
+          - name: Ha Long Bay
+            content: |
+              ### Ha Long Bay
+            image: /Ha Long Bay .jpeg
           - name: Sung Sot Cave
             content: |
               ### Sung Sot Cave
