@@ -322,6 +322,11 @@ blocks:
           beaches. Quang Binh is also home to some of the most spectacular caves
           in the world, including the world-famous Son Doong Cave. 
         image: /Quang bINH.jpeg
+        gallery:
+          - name: Bai Da Nhay
+            content: |
+              ### Bai Da Nhay
+            image: /Bai Da Nhay.jpeg
       - location: Đà Nẵng
         variant: One
         title: Da Nang
