@@ -323,6 +323,10 @@ blocks:
           in the world, including the world-famous Son Doong Cave. 
         image: /Quang bINH.jpeg
         gallery:
+          - name: Son Doong Cave
+            content: |
+              ### Son Doong Cave
+            image: /Son Doong Cave .jpeg
           - name: Paradise Cave
             content: |
               ### Paradise Cave
