@@ -515,6 +515,12 @@ blocks:
           also the perfect time to catch the wonderful Phu Quoc sunset.
         image: /Phú Quốc.jpeg
         gallery:
+          - name: Mango Bay
+            content: |
+              ### Mango Bay
+
+              Cua Duong Hamlet, Phú Quốc Island, Kiên Giang
+            image: /Mango Bay.jpeg
           - name: Salinda Resort
             content: |
               ### Salinda Resort
