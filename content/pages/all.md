@@ -373,6 +373,13 @@ blocks:
 
           Both Apple and Google maps works, however Google maps is better and
           has more restaurants listed and their ratings from trip advisor.
+      - name: WEATHER
+        en: >
+          ### WEATHER
+
+
+          Although Vietnam’s weather is tropical, Da Lat’s weather is cool and
+          temperate which led it to the nickname “City of Eternal Spring”.
     _template: content
   - name: story
     title: Story
