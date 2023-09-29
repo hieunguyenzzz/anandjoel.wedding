@@ -510,6 +510,12 @@ blocks:
           many regions, and countries.
         image: /SG.jpeg
         gallery:
+          - name: Mia Saigon Hotel
+            content: |
+              ### Mia Saigon Hotel
+
+              2-4 Street no. 10, An Phú Ward, Thủ Đức city, HCMC
+            image: /Mia Saigon Hotel.jpeg
           - name: Independence Palace
             content: |
               ### Independence Palace
