@@ -199,6 +199,23 @@ blocks:
     fields:
       - name: conten
         en: >
+          VISA INFO
+
+
+          In order to receive a Vietnam Visa, your Passport needs to be valid
+          for at least 6 months following your arrival date. Vietnam has fully
+          opened its borders to all passengers, regardless of their vaccination
+          status, and visas are now the only entry requirement into the country.
+
+
+          Apply for Visa: About a month before you enter Vietnam, you'll want to
+          apply for a Vietnam E-Visa. This is a simple and quick process that
+          takes about 3 days and costs $25. You can apply in the link below.
+          Enter for Vietnam: When you arrive in Vietnam, you'll simply walk
+          through customs, show your Passport and E-Visa to receive your
+          entrance stamp and walk right in.
+      - name: conten
+        en: >
           If you are attending our wedding, we highly recommend booking a flight
           going into Ho Chi Minh City and then taking a short domestic flight
           into Da Lat (about 30 mins). Please note that the flight time from the
