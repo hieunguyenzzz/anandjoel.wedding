@@ -502,6 +502,10 @@ blocks:
           host our wedding there.
         image: /dalat.jpeg
         gallery:
+          - name: Domaine de Marie Church
+            content: |
+              ### Domaine de Marie Church
+            image: /Domaine de Marie Church.jpeg
           - name: Linh Phuoc Temple
             content: |
               ### Linh Phuoc Temple
