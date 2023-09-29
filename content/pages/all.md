@@ -91,7 +91,7 @@ blocks:
         description: description
         image: /p4-destination-img-01.jpg
     _template: bites
-  - title: V
+  - title: Explore Vietnam
     description: >-
       A land of staggering natural beauty and cultural complexities, of dynamic
       megacities and hill-tribe villages, Vietnam is unforgettably compelling.
