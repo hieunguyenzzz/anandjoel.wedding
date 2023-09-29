@@ -6,7 +6,7 @@ const nextConfig = {
   },
   images: {
     domains: [
-      "assets.tina.io",
+      "assets.tina.io","anandjoel.hieunguyen.dev"
     ],
   },
   async rewrites() {
