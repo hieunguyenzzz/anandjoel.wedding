@@ -164,7 +164,7 @@ blocks:
           With its emerald waters and thousands of towering limestone karsts,
           Halong Bay is a UNESCO World Heritage Site that promises awe-inspiring
           boat cruises and stunning natural beauty.
-        image: /p4-destination-img-01.jpg
+        image: /Hạ Long.jpeg
       - location: Ha Noi
         variant: One
         title: Ha Noi
