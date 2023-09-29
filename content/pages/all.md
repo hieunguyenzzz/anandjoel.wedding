@@ -731,7 +731,9 @@ blocks:
 
           ***
 
-          ![](/1.png)
+          ![](/TRANS.png)
+
+          ![](/ACC.png)
 
           ![](/dfd-01.png)Ceremony: White or light colors. No busy patterns.
 
