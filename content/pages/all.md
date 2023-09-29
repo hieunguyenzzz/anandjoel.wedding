@@ -457,6 +457,12 @@ blocks:
           Bãi San Hô on Instagram, make sure to check it out if you have time.
         image: /Phú Yên.jpeg
         gallery:
+          - name: Stelia Beach Resort
+            content: |
+              ### Stelia Beach Resort
+
+              Block C1, Độc Lập, Ward 9, Tuy Hòa, Phú Yên
+            image: /Stelia Beach Resort .jpeg
           - name: Rosa Alba Resort & Villas Tuy Hoa
             content: |
               ### Rosa Alba Resort & Villas Tuy Hoa
