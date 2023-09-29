@@ -107,24 +107,37 @@ blocks:
         image: /sapaaa.jpeg
         gallery:
           - name: image
+            content: |
+              ### Hotel de la Coupole MGallery 
+
+              1, Hoang Lien Street Sapa District, Lao Cai Province Sapa
             image: /Hotel de la Coupole MGallery.jpeg
           - name: image
+            content: ''
             image: /main-page-update.png
           - name: image
+            content: ''
             image: /p4-destination-img-01.jpg
           - name: image
+            content: ''
             image: /p4-destination-img-01.jpg
           - name: image
+            content: ''
             image: /p4-destination-img-01.jpg
           - name: image
+            content: ''
             image: /p4-destination-img-01.jpg
           - name: image
+            content: ''
             image: /p4-destination-img-01.jpg
           - name: image
+            content: ''
             image: /p4-destination-img-01.jpg
           - name: image
+            content: ''
             image: /p4-destination-img-01.jpg
           - name: image
+            content: ''
             image: /p4-destination-img-01.jpg
       - location: Ninh Bình
         variant: One
