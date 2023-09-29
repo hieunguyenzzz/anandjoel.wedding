@@ -925,6 +925,9 @@ blocks:
   - name: story
     title: How it all began
     fields:
+      - name: joel nhẫn
+        en: |
+          ![](/IMG_0989.jpeg)
       - name: ngang
         en: |
           ![](/IMG_2581.jpeg)
