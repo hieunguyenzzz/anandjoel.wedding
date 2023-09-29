@@ -214,6 +214,10 @@ blocks:
           influences.
         image: /hà NỘI.jpeg
         gallery:
+          - name: One Pillar Pagoda
+            content: |
+              ### One Pillar Pagoda
+            image: /One Pillar Pagoda.png
           - name: Bat Trang Pottery Village
             content: |
               ### Bat Trang Pottery Village
