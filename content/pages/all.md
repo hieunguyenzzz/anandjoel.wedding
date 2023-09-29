@@ -146,9 +146,10 @@ blocks:
             content: |
               ### Love Waterfall
             image: /Love Waterfall.jpeg
-          - name: image
-            content: ''
-            image: /p4-destination-img-01.jpg
+          - name: Sapa Museum
+            content: |
+              ### Sapa Museum
+            image: /Sapa Museum.jpeg
           - name: image
             content: ''
             image: /p4-destination-img-01.jpg
