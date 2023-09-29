@@ -685,7 +685,7 @@ blocks:
     fields:
       - name: content
         en: >
-          ![](</nikko ll-01.png>)
+          ![](/TWRK-01.png)
 
 
           december 15, 2023
