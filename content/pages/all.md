@@ -202,6 +202,9 @@ blocks:
           ### FLIGHT
 
 
+          ![](/IMG_2581.jpeg)
+
+
           If you are attending our wedding, we highly recommend booking a flight
           going into Ho Chi Minh City and then taking a short domestic flight
           into Da Lat (about 30 mins). Please note that the flight time from the
@@ -281,7 +284,7 @@ blocks:
           If you want to experience traveling to Da Lat by road, you can try the
           sleeper bus with many more options such as private cabins, private
           beds, etc. It will take 8 hours to travel from HCMC to Da Lat so we
-          recommend you take the bus at night to arrive in the morning. 
+          recommend you take the bus at night to arrive in the morning.
 
           Here are some reputable sleeper bus brands:
 
@@ -293,7 +296,7 @@ blocks:
           one-way trip is ranging from 290.000 - 440.000VND/pax (~$13 - $19/pax)
           with many options of seats (cabin/bed/chair)
       - name: MONEY
-        en: >+
+        en: >
           ### MONEY
 
 
@@ -309,10 +312,8 @@ blocks:
 
 
           \*Some places do take debit/credit cards, but not all.
-
-
       - name: MEDICINE
-        en: >+
+        en: >
           ### MEDICINE
 
 
@@ -323,8 +324,6 @@ blocks:
 
           \*We typically bring Advil, Aquaphor (mosquito/ bug bites), Pepto
           Bismol, & Flu medicine!
-
-
       - name: DAILY TRAVEL BAG
         en: >
           ### DAILY TRAVEL BAG
@@ -402,41 +401,8 @@ blocks:
     fields:
       - name: content
         en: >
-          Once upon a time in a small town, there was a mischievous cat named
-          Whiskers. Whiskers had a peculiar habit of trying to catch the rays of
-          sunlight that streamed through the windows. He'd leap and pounce at
-          the rays, thinking they were playful creatures to chase.\\
-
-
-          One sunny morning, Whiskers spotted a particularly bright ray of
-          sunlight on the kitchen floor. He crouched low, wiggled his behind,
-          and prepared for the pounce. Just as he sprang into the air, the ray
-          of sunlight shifted, and Whiskers landed squarely in a bowl of pancake
-          batter that was left out from breakfast.
-
-
-          Now, Whiskers was not only covered in sticky pancake batter but also
-          looked like a furry, white pancake himself. His eyes widened in
-          surprise, and he tried to shake off the batter, but it only made
-          things worse. He zoomed around the kitchen, leaving pancake-shaped paw
-          prints everywhere.
-
-
-          The commotion attracted the attention of the family, who burst into
-          laughter at the sight of Whiskers, the pancake cat. They quickly
-          grabbed their cameras and took photos of Whiskers as he tried to lick
-          the batter off himself, making funny faces in the process.
-
-
-          After a good laugh and a warm bath for Whiskers, the family couldn't
-          stop sharing the story of their pancake-chasing cat with their
-          friends. From that day on, Whiskers became famous in the neighborhood
-          as the "Pancake Pouncer."
-
-
-          And so, in this small town, every time someone made pancakes, they'd
-          say, "Watch out for Whiskers! He might just mistake you for a
-          sunbeam."
+          An & Joel do not have a typical love story, but everything happened
+          has its own reason to create an inspired love. 
     _template: content
 ---
 
