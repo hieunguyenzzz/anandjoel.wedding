@@ -73,11 +73,14 @@ const schemaExplore: Template = {
           },
           fields: [
             {
-              label: 'Name',
               name: 'name',
               isTitle: true,
               type: "string",
               required: true
+            },
+            {
+              name: 'content',
+              type: "rich-text",
             },
             {
               name: 'image',
