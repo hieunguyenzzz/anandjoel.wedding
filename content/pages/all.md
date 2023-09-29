@@ -197,23 +197,22 @@ blocks:
   - name: travel
     title: Travel & Stay
     fields:
-      - name: conten
+      - name: TRANSPORTATION
         en: >
-          ### VISA INFO
+          ### TRANSPORTATION
 
 
-          In order to receive a Vietnam Visa, your Passport needs to be valid
-          for at least 6 months following your arrival date. Vietnam has fully
-          opened its borders to all passengers, regardless of their vaccination
-          status, and visas are now the only entry requirement into the country.
+          1. Download GRAB app (similar to Uber) and link it to your card - it
+          will make things a lot easier for you upon arrival.
+
+          2. OR you can order a Taxi (it's pricier but negotiable).
 
 
-          Apply for Visa: About a month before you enter Vietnam, you'll want to
-          apply for a Vietnam E-Visa. This is a simple and quick process that
-          takes about 3 days and costs $25. You can apply in the link below.
-          Enter for Vietnam: When you arrive in Vietnam, you'll simply walk
-          through customs, show your Passport and E-Visa to receive your
-          entrance stamp and walk right in.
+          * Ho Chi Minh city - lots of Grab drivers, you can book one easily
+          anywhere even from the airport.
+
+          * Da Lat - hard to book a Grab driver, but there are lots of taxis
+          outside the airport.
       - name: conten
         en: >
           ### FLIGHT
@@ -236,6 +235,23 @@ blocks:
 
 
           \+ Asiana Airlines
+      - name: conten
+        en: >
+          ### VISA INFO
+
+
+          In order to receive a Vietnam Visa, your Passport needs to be valid
+          for at least 6 months following your arrival date. Vietnam has fully
+          opened its borders to all passengers, regardless of their vaccination
+          status, and visas are now the only entry requirement into the country.
+
+
+          Apply for Visa: About a month before you enter Vietnam, you'll want to
+          apply for a Vietnam E-Visa. This is a simple and quick process that
+          takes about 3 days and costs $25. You can apply in the link below.
+          Enter for Vietnam: When you arrive in Vietnam, you'll simply walk
+          through customs, show your Passport and E-Visa to receive your
+          entrance stamp and walk right in.
     _template: content
   - name: story
     title: Story
