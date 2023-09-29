@@ -103,7 +103,7 @@ blocks:
       - variant: One
         title: Phu Yen
         description: description
-        image: image
+        image: /Phú Yên.jpeg
       - variant: One
         title: Ninh Binh
         description: description
