@@ -326,7 +326,7 @@ blocks:
 
 
       - name: DAILY TRAVEL BAG
-        en: >+
+        en: >
           ### DAILY TRAVEL BAG
 
 
@@ -350,8 +350,6 @@ blocks:
           * Advil / small meds
 
           * AirPods or electronic accessories
-
-
       - name: TOILET
         en: >
           ### TOILET
