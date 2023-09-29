@@ -966,6 +966,9 @@ blocks:
         en: >
           Cheers to An & Joel's wedding and enjoy the fruits from the Forbidden
           Garden!
+      - name: cheers
+        en: |
+          ![](/cheers.JPEG)
     _template: content
 ---
 
