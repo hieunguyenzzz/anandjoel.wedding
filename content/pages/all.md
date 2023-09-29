@@ -134,9 +134,10 @@ blocks:
             content: |
               Mount Fansipan
             image: /Mount Fansipan.jpeg
-          - name: image
-            content: ''
-            image: /p4-destination-img-01.jpg
+          - name: Ban Ho Village
+            content: |
+              ### Ban Ho Village
+            image: /Ban Ho Village .jpeg
           - name: image
             content: ''
             image: /p4-destination-img-01.jpg
