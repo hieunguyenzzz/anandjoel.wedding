@@ -457,7 +457,10 @@ blocks:
           Bãi San Hô on Instagram, make sure to check it out if you have time.
         image: /Phú Yên.jpeg
         gallery:
-          - name: image
+          - name: Vung Ro Bay
+            content: |
+              ### Vung Ro Bay
+            image: /Vung Ro Bay.jpeg
       - location: Lâm Đồng
         variant: One
         title: Da Lat
