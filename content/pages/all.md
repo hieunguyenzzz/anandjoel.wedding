@@ -197,22 +197,42 @@ blocks:
   - name: travel
     title: Travel & Stay
     fields:
-      - name: TRANSPORTATION
+      - name: GOING TO DA LAT
         en: >
-          ### TRANSPORTATION
+          #### GOING TO DA LAT
 
 
-          1. Download GRAB app (similar to Uber) and link it to your card - it
-          will make things a lot easier for you upon arrival.
-
-          2. OR you can order a Taxi (it's pricier but negotiable).
+          \*Flying from Ho Chi Minh city to Da Lat
 
 
-          * Ho Chi Minh city - lots of Grab drivers, you can book one easily
-          anywhere even from the airport.
+          Check-in counters then proceed upstairs to security. In the mornings,
+          security is quick. We recommend getting to the airport at least an
+          hour early to check in and get through security.
 
-          * Da Lat - hard to book a Grab driver, but there are lots of taxis
-          outside the airport.
+
+          45 minutes taxi ride from the airport to the center of Da Lat. There
+          aren’t a lot of Grabs in the area, so we recommend getting the contact
+          of your taxi driver from outside the airport. You will be able to call
+          the driver directly and this will get you a better rate.
+
+
+          \*Traveling from Ho Chi Minh city to Da Lat by sleeper bus
+
+
+          If you want to experience traveling to Da Lat by road, you can try the
+          sleeper bus with many more options such as private cabins, private
+          beds, etc. It will take 8 hours to travel from HCMC to Da Lat so we
+          recommend you take the bus at night to arrive in the morning. 
+
+          Here are some reputable sleeper bus brands:
+
+
+          * [FUTA Bus Lines](https://futabus.vn/ "FUTA BUS LINES"): A one-way
+          trip is about 300.000VND/pax (~$13/pax)
+
+          * [Thanh Buoi](https://thanhbuoi.com.vn/tuyen-hcm-da-lat.html): A
+          one-way trip is ranging from 290.000 - 440.000VND/pax (~$13 - $19/pax)
+          with many options of seats (cabin/bed/chair)
       - name: conten
         en: >
           ### FLIGHT
@@ -256,6 +276,22 @@ blocks:
 
           [(click
           here)](https://evisa.xuatnhapcanh.gov.vn/web/guest/khai-thi-thuc-dien-tu/cap-thi-thuc-dien-tu)
+      - name: TRANSPORTATION
+        en: >
+          ### TRANSPORTATION
+
+
+          1. Download GRAB app (similar to Uber) and link it to your card - it
+          will make things a lot easier for you upon arrival.
+
+          2. OR you can order a Taxi (it's pricier but negotiable).
+
+
+          * Ho Chi Minh city - lots of Grab drivers, you can book one easily
+          anywhere even from the airport.
+
+          * Da Lat - hard to book a Grab driver, but there are lots of taxis
+          outside the airport.
     _template: content
   - name: story
     title: Story
