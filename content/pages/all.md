@@ -14,7 +14,7 @@ blocks:
       - variant: Two
         title: Ho chi minh
         description: description
-        image: ''
+        image: /Happily Ever After (38 × 39 cm).png
         gallery:
           - name: image
             image: /p4-destination-img-01.jpg
