@@ -214,6 +214,12 @@ blocks:
           influences.
         image: /hà NỘI.jpeg
         gallery:
+          - name: Hotel de l'Opera Hanoi
+            content: |
+              ### Hotel de l'Opera Hanoi
+
+              29 Tràng Tiền, Hoàn Kiếm District, Hà Nội
+            image: /Hotel de l'Opera Hanoi.jpeg
           - name: JW Mariott Hà Nội
             content: |
               ### JW Mariott Hà Nội
