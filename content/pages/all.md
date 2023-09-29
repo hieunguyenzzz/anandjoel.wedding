@@ -504,7 +504,8 @@ blocks:
         gallery:
           - name: Linh Phuoc Temple
             content: |
-              Linh Phuoc Temple
+              ### Linh Phuoc Temple
+            image: /Linh Phuoc Temple .jpeg
           - name: Tran Le Xuan Palace
             content: |
               ### Tran Le Xuan Palace
