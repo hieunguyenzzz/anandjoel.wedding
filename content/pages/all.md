@@ -130,9 +130,10 @@ blocks:
 
               To 7, Phuong Sa Pa, Lao Chải Tả Van, Sapa, Lào Cai
             image: /Ville De Mont Mountain Resort.png
-          - name: image
-            content: ''
-            image: /p4-destination-img-01.jpg
+          - name: Mount Fansipan
+            content: |
+              Mount Fansipan
+            image: /Mount Fansipan.jpeg
           - name: image
             content: ''
             image: /p4-destination-img-01.jpg
