@@ -380,6 +380,21 @@ blocks:
 
           Although Vietnam’s weather is tropical, Da Lat’s weather is cool and
           temperate which led it to the nickname “City of Eternal Spring”.
+      - name: ATTIRE
+        en: >+
+          ### ATTIRE
+
+
+          You should wear several layers of clothing to keep you warm and this
+          also allows you to tuck away a few layers if you get hot. (Except on
+          the wedding day because you need to dress up).
+
+
+          Most hotels offer laundry services, and prices change depending on the
+          item and materials. Try not to overpack, you will more than likely
+          reuse outfits / buy new outfits.
+
+
     _template: content
   - name: story
     title: Story
