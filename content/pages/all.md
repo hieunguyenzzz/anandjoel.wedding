@@ -887,6 +887,10 @@ blocks:
         en: >
           During the cloud hunting 1 year ago, An successfully proposed to Joel
           in Da Lat, Vietnam, which is also An's hometown.
+      - name: Câu 4
+        en: >
+          Let's attend An & Joel's wedding to celebrate a new milestone and
+          enjoy the Forbidden Garden!
     _template: content
 ---
 
