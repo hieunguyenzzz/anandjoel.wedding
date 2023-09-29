@@ -691,7 +691,11 @@ blocks:
     fields:
       - name: content
         en: |
-          ![](/event/CER.png)
+          ![](/TWRK-01.png)december 15, 2023
+
+          venue: TBD
+
+          ![](/dfd-02.png)
 
           ### at tiem ca phe hoang hon chieu
 
@@ -705,7 +709,7 @@ blocks:
 
           ***
 
-          ![](/event/REC.png)
+          ![](/dfd-03.png)
 
           ### at the Campville
 
