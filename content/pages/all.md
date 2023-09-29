@@ -124,9 +124,12 @@ blocks:
 
               Muong Hoa Street, Sapa, Lào Cai
             image: /Pao's Sapa Leisure Hotel.jpeg
-          - name: image
-            content: ''
-            image: /p4-destination-img-01.jpg
+          - name: Ville De Mont Mountain Resort
+            content: |
+              Ville De Mont Mountain Resort
+
+              To 7, Phuong Sa Pa, Lao Chải Tả Van, Sapa, Lào Cai
+            image: /Ville De Mont Mountain Resort.png
           - name: image
             content: ''
             image: /p4-destination-img-01.jpg
