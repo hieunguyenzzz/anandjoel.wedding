@@ -323,6 +323,10 @@ blocks:
           in the world, including the world-famous Son Doong Cave. 
         image: /Quang bINH.jpeg
         gallery:
+          - name: Phong Nha Botanic Garden
+            content: |
+              ### Phong Nha Botanic Garden
+            image: /Phong Nha Botanic Garden .jpeg
           - name: Bai Da Nhay
             content: |
               ### Bai Da Nhay
