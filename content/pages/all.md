@@ -197,23 +197,18 @@ blocks:
   - name: travel
     title: Travel & Stay
     fields:
-      - name: MONEY
+      - name: MEDICINE
         en: >+
-          ### MONEY
+          ### MEDICINE
 
 
-          If you bring USD, in order to get the best exchange rate, it needs to
-          be clean of new $100 bills, with no marks or small rips. Best place to
-          exchange is at gold/jewelry stores. You can withdraw from ATMs however
-          we’ve found it’s best to go inside a bank. The bank will require your
-          passport and may charge a fee up to 4%, if your bank doesn’t reimburse
-          these fees then your best bet is to bring USD.
+          If you have a weak immune system or weak stomach, then please pack
+          medicine (book an appointment with your doctor to get a prescription
+          beforehand).
 
 
-          OR you can order VND $ from your bank prior to the trip.
-
-
-          \*Some places do take debit/credit cards, but not all.
+          \*We typically bring Advil, Aquaphor (mosquito/ bug bites), Pepto
+          Bismol, & Flu medicine!
 
 
       - name: conten
@@ -311,6 +306,25 @@ blocks:
           * [Thanh Buoi](https://thanhbuoi.com.vn/tuyen-hcm-da-lat.html): A
           one-way trip is ranging from 290.000 - 440.000VND/pax (~$13 - $19/pax)
           with many options of seats (cabin/bed/chair)
+      - name: MONEY
+        en: >+
+          ### MONEY
+
+
+          If you bring USD, in order to get the best exchange rate, it needs to
+          be clean of new $100 bills, with no marks or small rips. Best place to
+          exchange is at gold/jewelry stores. You can withdraw from ATMs however
+          we’ve found it’s best to go inside a bank. The bank will require your
+          passport and may charge a fee up to 4%, if your bank doesn’t reimburse
+          these fees then your best bet is to bring USD.
+
+
+          OR you can order VND $ from your bank prior to the trip.
+
+
+          \*Some places do take debit/credit cards, but not all.
+
+
     _template: content
   - name: story
     title: Story
