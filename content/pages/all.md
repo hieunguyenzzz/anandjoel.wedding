@@ -925,6 +925,9 @@ blocks:
   - name: story
     title: How it all began
     fields:
+      - name: ngang
+        en: |
+          ![](/IMG_2581.jpeg)
       - name: hình 2
         en: |
           ![](/AJ.jpeg)
