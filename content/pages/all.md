@@ -107,7 +107,7 @@ blocks:
         image: /sapaaa.jpeg
         gallery:
           - name: image
-            image: /p4-destination-img-01.jpg
+            image: /Hotel de la Coupole MGallery.jpeg
           - name: image
             image: /main-page-update.png
           - name: image
