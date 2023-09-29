@@ -146,7 +146,8 @@ blocks:
           Halong Bay is a UNESCO World Heritage Site that promises awe-inspiring
           boat cruises and stunning natural beauty.
         image: /Hạ Long.jpeg
-      - variant: One
+      - location: Quảng Bình
+        variant: One
         title: Quang Binh
         description: description
         image: /Quang bINH.jpeg
