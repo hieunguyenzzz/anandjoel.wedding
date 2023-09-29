@@ -315,7 +315,12 @@ blocks:
       - location: Quảng Bình
         variant: One
         title: Quang Binh
-        description: description
+        description: >-
+          Quang Binh is a beautiful province in Vietnam, located in the
+          north-central part of the country. It is known for its stunning
+          natural beauty, with limestone mountains, lush forests, and stunning
+          beaches. Quang Binh is also home to some of the most spectacular caves
+          in the world, including the world-famous Son Doong Cave. 
         image: /Quang bINH.jpeg
       - location: Đà Nẵng
         variant: One
