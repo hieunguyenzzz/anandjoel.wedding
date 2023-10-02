@@ -12,6 +12,10 @@ fields:
 blocks:
   - item:
       - variant: One
+        title: Red Dzao
+        description: 'Thác Bạc St, Sapa, Lào Cai'
+        image: /Red Dzao.jpeg
+      - variant: One
         title: Sang Mèo
         description: '29 Fansipan St, Sapa, Lào Cai'
         image: /Sang Mèo.jpeg
