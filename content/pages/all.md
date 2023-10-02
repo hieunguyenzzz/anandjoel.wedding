@@ -12,6 +12,10 @@ fields:
 blocks:
   - item:
       - variant: One
+        title: Sang Mèo
+        description: '29 Fansipan St, Sapa, Lào Cai'
+        image: /Sang Mèo.jpeg
+      - variant: One
         title: Cá Tầm Vua Restaurant
         description: '09 Fansipan St, Sapa, Lào Cai'
         image: /Cá Tầm Vua Restaurant.jpeg
