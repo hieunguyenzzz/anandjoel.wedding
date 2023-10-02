@@ -11,16 +11,8 @@ fields:
       (transportation will be provided to and from the venue and hotel)
 blocks:
   - item:
-      - variant: One
-        title: Sang Mèo
-        description: '29 Fansipan St, Sapa, Lào Cai'
-        image: /Sang Mèo.jpeg
-      - variant: One
-        title: Cá Tầm Vua Restaurant
-        description: '09 Fansipan St, Sapa, Lào Cai'
-        image: /Cá Tầm Vua Restaurant.jpeg
       - variant: Two
-        title: Ho chi minh
+        title: HỒ CHÍ MINH
         description: ''
         image: /Happily Ever After (38 × 39 cm).png
         images:
@@ -362,6 +354,46 @@ blocks:
         title: SAPA
         description: ''
         image: image
+      - variant: One
+        title: Cá Tầm Vua Restaurant
+        description: '09 Fansipan St, Sapa, Lào Cai'
+        image: /Cá Tầm Vua Restaurant.jpeg
+      - variant: One
+        title: Sang Mèo
+        description: '29 Fansipan St, Sapa, Lào Cai'
+        image: /Sang Mèo.jpeg
+      - variant: One
+        title: Red Dzao
+        description: 'Thác Bạc St, Sapa, Lào Cai'
+        image: /Red Dzao.jpeg
+      - variant: One
+        title: Thắng Cố A Phủ
+        description: '15 Fansipan St, Sapa, Lào Cai'
+        image: /Thắng Cố A Phủ.jpeg
+      - variant: Two
+        title: ĐÀ NẴNG
+        description: ''
+        image: image
+      - variant: One
+        title: Cá Chuồn Cồ Vietnamese Restaurant
+        description: '99 Võ Nguyên Giáp St, Mỹ An, Ngũ Hành Sơn District, Đà Nẵng'
+        image: /Cá Chuồn Cồ Vietnamese Restaurant.jpeg
+      - variant: One
+        title: The Gypsy Rooftop Kitchen & Bar
+        description: '10th floor, 20 Dong Da,New Orient Hotel, Đà Nẵng'
+        image: /The Gypsy Rooftop Kitchen & Bar.webp
+      - variant: One
+        title: Makara Bar
+        description: '162A Nguyen Chi Thanh, Hai Chau District, Đà Nẵng'
+        image: /Makara Bar.jpeg
+      - variant: One
+        title: Fatfish Restaurant & Lounge Bar
+        description: '439 Trần Hưng Đạo, An Hải Trung, Sơn Trà District, Đà Nẵng'
+        image: /Fatfish Restaurant & Lounge Bar.jpeg
+      - variant: One
+        title: 'Nén Danang Restaurant '
+        description: '16 Mỹ Đa Tây 2, Khuê Mỹ Ward, Ngũ Hành Sơn District, Đà Nẵng'
+        image: /Nén Danang Restaurant .jpeg
     _template: bites
   - title: Explore Vietnam
     description: >-
