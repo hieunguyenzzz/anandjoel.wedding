@@ -12,6 +12,10 @@ fields:
 blocks:
   - item:
       - variant: One
+        title: Makara Bar
+        description: '162A Nguyen Chi Thanh, Hai Chau District, Đà Nẵng'
+        image: /Makara Bar.jpeg
+      - variant: One
         title: The Gypsy Rooftop Kitchen & Bar
         description: '10th floor, 20 Dong Da,New Orient Hotel, Đà Nẵng'
         image: /The Gypsy Rooftop Kitchen & Bar.webp
