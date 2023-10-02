@@ -12,6 +12,10 @@ fields:
 blocks:
   - item:
       - variant: One
+        title: The Gypsy Rooftop Kitchen & Bar
+        description: '10th floor, 20 Dong Da,New Orient Hotel, Đà Nẵng'
+        image: /The Gypsy Rooftop Kitchen & Bar.webp
+      - variant: One
         title: Cá Chuồn Cồ Vietnamese Restaurant
         description: '99 Võ Nguyên Giáp St, Mỹ An, Ngũ Hành Sơn District, Đà Nẵng'
         image: /Cá Chuồn Cồ Vietnamese Restaurant.jpeg
