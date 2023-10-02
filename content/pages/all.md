@@ -11,7 +11,7 @@ fields:
       (transportation will be provided to and from the venue and hotel)
 blocks:
   - item:
-      - variant: One
+      - variant: Two
         title: SAPA
         description: ''
         image: image
