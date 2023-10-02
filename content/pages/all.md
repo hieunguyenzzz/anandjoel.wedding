@@ -12,6 +12,10 @@ fields:
 blocks:
   - item:
       - variant: One
+        title: 'Nén Danang Restaurant '
+        description: '16 Mỹ Đa Tây 2, Khuê Mỹ Ward, Ngũ Hành Sơn District, Đà Nẵng'
+        image: /Nén Danang Restaurant .jpeg
+      - variant: One
         title: Fatfish Restaurant & Lounge Bar
         description: '439 Trần Hưng Đạo, An Hải Trung, Sơn Trà District, Đà Nẵng'
         image: /Fatfish Restaurant & Lounge Bar.jpeg
