@@ -11,6 +11,10 @@ fields:
       (transportation will be provided to and from the venue and hotel)
 blocks:
   - item:
+      - variant: One
+        title: Thắng Cố A Phủ
+        description: '15 Fansipan St, Sapa, Lào Cai'
+        image: /Thắng Cố A Phủ.jpeg
       - variant: Two
         title: Ho chi minh
         description: ''
