@@ -12,6 +12,10 @@ fields:
 blocks:
   - item:
       - variant: One
+        title: Bún Chả Hàng Quạt
+        description: '74 Hàng Quạt St, Hàng Gai Ward, Hoàn Kiếm District, Hanoi, Vietnam'
+        image: /Bún Chả Hàng Quạt.jpeg
+      - variant: One
         title: Chả Cá Anh Vũ
         description: '120-K1 Giang Vo Ward, Cho Dua, Dong Da, Hanoi, Vietnam'
         image: /Chả Cá Anh Vũ.jpeg
