@@ -16,7 +16,7 @@ blocks:
         description: ''
         image: image
       - variant: Two
-        title: Ho chi minh
+        title: HỒ CHÍ MINH
         description: ''
         image: /Happily Ever After (38 × 39 cm).png
         images:
