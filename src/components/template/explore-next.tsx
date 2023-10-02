@@ -105,17 +105,17 @@ export default function ExploreNext() {
   const [id, setid] = useState(-1)
   const currentItem = data?.item?.find((item, index) => index === id)
   return <>
-    <div className='flex isolate '>
+    <div className='flex isolate flex-col lg:flex-row'>
       <div className='fixed -z-10 inset-0 w-full h-full max-w-full object-cover animate-fade bg-[#cba8bb] pointer-events-none' ></div>
-      <div className='fixed -z-10 left-0 top-0 h-screen w-[50%]'>
-        <Image src={Vietnammap} fill />
+      <div className='fixed -z-10 left-0 top-0 h-screen w-full lg:w-[50%]'>
+        <Image src={Vietnammap} fill className='object-scale-down object-left-top' />
       </div>
       <div className='sticky  hidden md:flex top-[130px] h-[calc(100vh-126px)]  items-center justify-center w-[800px] md:max-w-[40vw]'>
         <div className='w-full flex-shrink-0'>
 
         </div>
       </div>
-      <div className='container flex-1'>
+      <div className=' w-full lg:w-auto flex-1'>
         <Content {...{ id, setid, blockIndex, data }} />
       </div>
     </div>
