@@ -12,10 +12,6 @@ fields:
 blocks:
   - item:
       - variant: One
-        title: Bánh Cuốn Bà Xuân
-        description: '16 Doc, Hoe Nhai Street, Nguyen Trung Truc, Ba Dinh, Hanoi, Vietnam'
-        image: /Bánh Cuốn Bà Xuân.webp
-      - variant: One
         title: Bún Chả Hàng Quạt
         description: '74 Hàng Quạt St, Hàng Gai Ward, Hoàn Kiếm District, Hanoi, Vietnam'
         image: /Bún Chả Hàng Quạt.jpeg
@@ -23,14 +19,6 @@ blocks:
         title: Chả Cá Anh Vũ
         description: '120-K1 Giang Vo Ward, Cho Dua, Dong Da, Hanoi, Vietnam'
         image: /Chả Cá Anh Vũ.jpeg
-      - variant: One
-        title: T.U.N.G dining
-        description: '2C Quang Trung Street, Hoan Kiem, Hanoi, Vietnam'
-        image: /T.U.N.G dining.jpeg
-      - variant: One
-        title: Cồ Đàm
-        description: '68 Tran Hung Dao, Hoan Kiem, Hanoi, Vietnam'
-        image: /Cồ Đàm.jpeg
       - variant: Two
         title: Ho chi minh
         description: ''
@@ -350,6 +338,18 @@ blocks:
         title: Xới Cơm
         description: '107 Lane 36, Lang Ha Street, Dong Da, Hanoi, Vietnam'
         image: /Xới Cơm.jpeg
+      - variant: One
+        title: Cồ Đàm
+        description: '68 Tran Hung Dao, Hoan Kiem, Hanoi, Vietnam'
+        image: /Cồ Đàm.jpeg
+      - variant: One
+        title: T.U.N.G dining
+        description: '2C Quang Trung Street, Hoan Kiem, Hanoi, Vietnam'
+        image: /T.U.N.G dining.jpeg
+      - variant: One
+        title: Bánh Cuốn Bà Xuân
+        description: '16 Doc, Hoe Nhai Street, Nguyen Trung Truc, Ba Dinh, Hanoi, Vietnam'
+        image: /Bánh Cuốn Bà Xuân.webp
     _template: bites
   - title: Explore Vietnam
     description: >-
