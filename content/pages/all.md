@@ -12,10 +12,6 @@ fields:
 blocks:
   - item:
       - variant: Two
-        title: SAPA
-        description: ''
-        image: image
-      - variant: Two
         title: Ho chi minh
         description: ''
         image: /Happily Ever After (38 × 39 cm).png
@@ -354,6 +350,10 @@ blocks:
         title: Chả Cá Anh Vũ
         description: '120-K1 Giang Vo Ward, Cho Dua, Dong Da, Hanoi, Vietnam'
         image: /Chả Cá Anh Vũ.jpeg
+      - variant: Two
+        title: SAPA
+        description: ''
+        image: image
     _template: bites
   - title: Explore Vietnam
     description: >-
