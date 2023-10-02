@@ -11,6 +11,10 @@ fields:
       (transportation will be provided to and from the venue and hotel)
 blocks:
   - item:
+      - variant: One
+        title: SAPA
+        description: ''
+        image: image
       - variant: Two
         title: Ho chi minh
         description: ''
