@@ -12,10 +12,6 @@ fields:
 blocks:
   - item:
       - variant: One
-        title: Bún Chả Hàng Quạt
-        description: '74 Hàng Quạt St, Hàng Gai Ward, Hoàn Kiếm District, Hanoi, Vietnam'
-        image: /Bún Chả Hàng Quạt.jpeg
-      - variant: One
         title: Chả Cá Anh Vũ
         description: '120-K1 Giang Vo Ward, Cho Dua, Dong Da, Hanoi, Vietnam'
         image: /Chả Cá Anh Vũ.jpeg
@@ -350,6 +346,10 @@ blocks:
         title: Bánh Cuốn Bà Xuân
         description: '16 Doc, Hoe Nhai Street, Nguyen Trung Truc, Ba Dinh, Hanoi, Vietnam'
         image: /Bánh Cuốn Bà Xuân.webp
+      - variant: One
+        title: Bún Chả Hàng Quạt
+        description: '74 Hàng Quạt St, Hàng Gai Ward, Hoàn Kiếm District, Hanoi, Vietnam'
+        image: /Bún Chả Hàng Quạt.jpeg
     _template: bites
   - title: Explore Vietnam
     description: >-
