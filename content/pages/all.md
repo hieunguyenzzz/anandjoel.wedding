@@ -11,6 +11,10 @@ fields:
       (transportation will be provided to and from the venue and hotel)
 blocks:
   - item:
+      - variant: One
+        title: Cá Tầm Vua Restaurant
+        description: '09 Fansipan St, Sapa, Lào Cai'
+        image: /Cá Tầm Vua Restaurant.jpeg
       - variant: Two
         title: Ho chi minh
         description: ''
