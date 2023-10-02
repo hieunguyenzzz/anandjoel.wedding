@@ -12,9 +12,9 @@ fields:
 blocks:
   - item:
       - variant: One
-        title: Xới Cơm
-        description: '107 Lane 36, Lang Ha Street, Dong Da, Hanoi, Vietnam'
-        image: /Xới Cơm.jpeg
+        title: Cồ Đàm
+        description: '68 Tran Hung Dao, Hoan Kiem, Hanoi, Vietnam'
+        image: /Cồ Đàm.jpeg
       - variant: Two
         title: Ho chi minh
         description: ''
@@ -330,6 +330,10 @@ blocks:
         title: HÀ NỘI
         description: ''
         image: /Happily Ever After (38 × 39 cm).png
+      - variant: One
+        title: Xới Cơm
+        description: '107 Lane 36, Lang Ha Street, Dong Da, Hanoi, Vietnam'
+        image: /Xới Cơm.jpeg
     _template: bites
   - title: Explore Vietnam
     description: >-
