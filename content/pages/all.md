@@ -12,6 +12,10 @@ fields:
 blocks:
   - item:
       - variant: One
+        title: Chả Cá Anh Vũ
+        description: '120-K1 Giang Vo Ward, Cho Dua, Dong Da, Hanoi, Vietnam'
+        image: /Chả Cá Anh Vũ.jpeg
+      - variant: One
         title: T.U.N.G dining
         description: '2C Quang Trung Street, Hoan Kiem, Hanoi, Vietnam'
         image: /T.U.N.G dining.jpeg
