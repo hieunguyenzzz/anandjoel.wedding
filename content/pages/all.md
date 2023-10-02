@@ -12,6 +12,10 @@ fields:
 blocks:
   - item:
       - variant: Two
+        title: ĐÀ NẴNG
+        description: ''
+        image: image
+      - variant: Two
         title: Ho chi minh
         description: ''
         image: /Happily Ever After (38 × 39 cm).png
