@@ -12,6 +12,10 @@ fields:
 blocks:
   - item:
       - variant: One
+        title: Fatfish Restaurant & Lounge Bar
+        description: '439 Trần Hưng Đạo, An Hải Trung, Sơn Trà District, Đà Nẵng'
+        image: /Fatfish Restaurant & Lounge Bar.jpeg
+      - variant: One
         title: Makara Bar
         description: '162A Nguyen Chi Thanh, Hai Chau District, Đà Nẵng'
         image: /Makara Bar.jpeg
