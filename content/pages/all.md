@@ -12,6 +12,10 @@ fields:
 blocks:
   - item:
       - variant: One
+        title: T.U.N.G dining
+        description: '2C Quang Trung Street, Hoan Kiem, Hanoi, Vietnam'
+        image: /T.U.N.G dining.jpeg
+      - variant: One
         title: Cồ Đàm
         description: '68 Tran Hung Dao, Hoan Kiem, Hanoi, Vietnam'
         image: /Cồ Đàm.jpeg
