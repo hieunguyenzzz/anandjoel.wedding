@@ -11,10 +11,6 @@ fields:
       (transportation will be provided to and from the venue and hotel)
 blocks:
   - item:
-      - variant: One
-        title: Chả Cá Anh Vũ
-        description: '120-K1 Giang Vo Ward, Cho Dua, Dong Da, Hanoi, Vietnam'
-        image: /Chả Cá Anh Vũ.jpeg
       - variant: Two
         title: Ho chi minh
         description: ''
@@ -350,6 +346,10 @@ blocks:
         title: Bún Chả Hàng Quạt
         description: '74 Hàng Quạt St, Hàng Gai Ward, Hoàn Kiếm District, Hanoi, Vietnam'
         image: /Bún Chả Hàng Quạt.jpeg
+      - variant: One
+        title: Chả Cá Anh Vũ
+        description: '120-K1 Giang Vo Ward, Cho Dua, Dong Da, Hanoi, Vietnam'
+        image: /Chả Cá Anh Vũ.jpeg
     _template: bites
   - title: Explore Vietnam
     description: >-
