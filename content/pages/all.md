@@ -11,6 +11,10 @@ fields:
       (transportation will be provided to and from the venue and hotel)
 blocks:
   - item:
+      - variant: One
+        title: Cá Chuồn Cồ Vietnamese Restaurant
+        description: '99 Võ Nguyên Giáp St, Mỹ An, Ngũ Hành Sơn District, Đà Nẵng'
+        image: /Cá Chuồn Cồ Vietnamese Restaurant.jpeg
       - variant: Two
         title: ĐÀ NẴNG
         description: ''
