@@ -997,7 +997,7 @@ blocks:
 
           <Link
           href="https://evisa.xuatnhapcanh.gov.vn/web/guest/khai-thi-thuc-dien-tu/cap-thi-thuc-dien-tu"
-          text="" />
+          text="Click here" />
       - name: TRANSPORTATION
         en: >
           ### TRANSPORTATION
