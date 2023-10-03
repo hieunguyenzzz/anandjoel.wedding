@@ -995,8 +995,9 @@ blocks:
           entrance stamp and walk right in.
 
 
-          [(click
-          here)](https://evisa.xuatnhapcanh.gov.vn/web/guest/khai-thi-thuc-dien-tu/cap-thi-thuc-dien-tu)
+          <Link
+          href="https://evisa.xuatnhapcanh.gov.vn/web/guest/khai-thi-thuc-dien-tu/cap-thi-thuc-dien-tu"
+          text="" />
       - name: TRANSPORTATION
         en: >
           ### TRANSPORTATION

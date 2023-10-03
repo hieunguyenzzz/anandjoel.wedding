@@ -6,7 +6,8 @@ import { PageBlocksContent } from '../../../tina/__generated__/types';
 
 import { useSource } from '@/libs/source';
 import { Field } from "@/libs/tina";
-import { TinaMarkdown } from 'tinacms/dist/rich-text';
+import { tinaField } from 'tinacms/dist/react';
+import Content from '../common/markdow';
 
 export function StoryContent({ data }: { data: PageBlocksContent }) {
   let ratio = (bgImage.height / bgImage.width) * 100;
@@ -20,7 +21,7 @@ export function StoryContent({ data }: { data: PageBlocksContent }) {
         <div className="join join-vertical w-full  prose mx-auto  lg:text-[min(2vw,20px)] whitespace-pre-wrap prose-h3:font-title prose-p:my-[0.3em] prose-img:m-auto prose-h3:py-1 prose-h3:text-[1.4em] prose-h3:font-bold">
           <h1 className='text-[2.4em] py-4 font-title text-center'>{data.title}</h1>
           <div className="join join-vertical w-full  prose mx-auto lg:text-[min(2vw,20px)] whitespace-pre-wrap prose-h3:font-title prose-p:my-[0.3em] prose-img:m-auto prose-h3:py-1 prose-h3:!mt-[1em]  prose-h3:text-[1.4em] prose-h3:font-bold">
-            {data.fields?.map((i, ii) => <TinaMarkdown key={ii} content={i?.en}></TinaMarkdown>)}
+            {data.fields?.map((i, ii) => <div key={ii} data-tina-field={tinaField(data, `fields.${ii}.en`)}><Content content={i?.en}></Content></div>)}
           </div>
         </div>
       </div>

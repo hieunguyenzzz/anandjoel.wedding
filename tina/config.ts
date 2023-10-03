@@ -88,6 +88,21 @@ export default defineConfig({
                     {
                       name: 'en',
                       type: "rich-text",
+                      templates: [
+                        {
+                          "name": "Link",
+                          fields: [
+                            {
+                              name: 'href',
+                              type: "string",
+                            },
+                            {
+                              name: 'text',
+                              type: "string",
+                            }
+                          ]
+                        }
+                      ]
                     },
                   ]
                 },],

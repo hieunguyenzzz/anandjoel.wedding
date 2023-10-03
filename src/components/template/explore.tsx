@@ -4,7 +4,8 @@
 import { useSource } from '@/libs/source';
 import { Field } from '@/libs/tina';
 import { unstable_getImgProps } from 'next/image';
-import { useState } from 'react';
+import { usePathname, useRouter, useSearchParams } from 'next/navigation';
+import { useCallback, useState } from 'react';
 import Lightbox from 'react-image-lightbox';
 import 'react-image-lightbox/style.css';
 import { TinaMarkdown } from 'tinacms/dist/rich-text';
@@ -41,6 +42,7 @@ function Detail({ images, defaultIndex = 0, onClose }: { images: string[], defau
 
 
 const Content = ({ id, setid, data, blockIndex }: { id: number, setid: (n: number) => void, data: PageBlocksExplore, blockIndex: number }) => {
+
   const currentItem = data?.item?.find((item, index) => index === id)
   if (!currentItem) return <section className="mt-12 mx-auto px-4  md:px-8">
     <div className="max-w-lg">
@@ -60,7 +62,7 @@ const Content = ({ id, setid, data, blockIndex }: { id: number, setid: (n: numbe
           return <Field key={index} name={`blocks.${blockIndex}.item.${index}.title`}>
             <div className='galleryID-item w-full h-full  pt-[100%] lg:pt-[100%] relative '>
               <Image width={300} height={300} src={item?.image || ""} alt={title || ''} className='object-cover w-full h-full absolute inset-0  rounded-lg bg-[#e9a48a52] border-[#e9a48a52] border-8' />
-              <button onClick={() => setid(id)} className="absolute left-0 cursor-pointer top-0 h-full w-full flex justify-center items-center text-center  text-magical">
+              <button onClick={() => setid(id)} className="absolute left-0 cursor-pointer top-0 h-full w-full flex justify-center items-center text-center  text-magical w-full">
                 <div className="bg-white p-[0.5em_0.5em_0.5em_0.5em] relative">
                   <div className="flex ">
                     <svg className="absolute top-0 right-[100%] h-full text-white" fill="white" xmlns="http://www.w3.org/2000/svg" xmlnsXlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 14.1 28" xmlSpace="preserve" ><polygon className="st0" points="1.9,0 0,2.3 1.3,4.8 1.6,6.6 2.2,7.7 3.7,9.5 3.2,9.8 3.7,10.9 3.7,11.8 3.4,12.8 2.6,13.7 3.2,14.8
@@ -127,12 +129,31 @@ const Content = ({ id, setid, data, blockIndex }: { id: number, setid: (n: numbe
 
 
 export default function Explore() {
+  const router = useRouter()
   const source = useSource()
   const blockIndex = source?.blocks?.findIndex((item: any) => item?.__typename === 'PageBlocksExplore')
   const data = (blockIndex && source?.blocks?.[blockIndex]) as PageBlocksExplore
   console.log({ data })
   const locations = (data?.item || []).map(item => item?.location).filter(Boolean)
-  const [id, setid] = useState(-1)
+  const params = useSearchParams()
+  const id = Number(params.get('id')) || -1
+  const pathname = usePathname()
+  const searchParams = useSearchParams()!
+
+  // Get a new searchParams string by merging the current
+  // searchParams with a provided key/value pair
+  const createQueryString = useCallback(
+    (name: string, value: string) => {
+      const params = new URLSearchParams(searchParams)
+      params.set(name, value)
+
+      return params.toString()
+    },
+    [searchParams]
+  )
+  const setid = (id: number) => {
+    router.replace(pathname + '?' + createQueryString('id', '' + id))
+  }
   const currentItem = data?.item?.find((item, index) => index === id)
   return <>
     <div className='flex isolate'>
