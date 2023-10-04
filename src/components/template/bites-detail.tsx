@@ -4,7 +4,6 @@ import { useState } from "react";
 import Lightbox from 'react-image-lightbox';
 import 'react-image-lightbox/style.css';
 import { PageBlocksBitesItem } from "../../../tina/__generated__/types";
-import Image from "../common/image";
 
 export default function Bite({ id, onClose }: { id: number, onClose: () => void }) {
   const [photoIndex, setindex] = useState(0)
@@ -34,13 +33,6 @@ export default function Bite({ id, onClose }: { id: number, onClose: () => void 
       >
 
       </Lightbox>
-      <ul className="fixed z-50 flex justify-center bottom-0 left-0 mx-auto right-0">
-        {
-          images.map(img => {
-            return <Image width={80} height={80} href={img}></Image>
-          })
-        }
-      </ul>
     </>
 
   )

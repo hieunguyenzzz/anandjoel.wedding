@@ -82,14 +82,14 @@ export default function Bitenext({ id, onClose }: { id: number, onClose: () => v
   item.gallery?.forEach(i => i?.image && images?.push(imgPropsToSlideProps(unstable_getImgProps({
     src: i?.image,
     alt: '',
-    width: 1600,
-    height: 1600,
+    width: 400,
+    height: 400,
   }).props)))
   item.images?.forEach(i => i && images?.push(imgPropsToSlideProps(unstable_getImgProps({
     src: i,
     alt: '',
-    width: 1600,
-    height: 1600,
+    width: 400,
+    height: 400,
   }).props)))
   if (!images) return null
   console.log({ images })
@@ -104,6 +104,7 @@ export default function Bitenext({ id, onClose }: { id: number, onClose: () => v
         thumbnails={{
           width: 50,
           height: 50,
+
         }}
       />
     </>
