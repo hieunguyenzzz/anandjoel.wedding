@@ -136,7 +136,7 @@ export default function Explore() {
   console.log({ data })
   const locations = (data?.item || []).map(item => item?.location).filter(Boolean)
   const params = useSearchParams()
-  const id = Number(params.get('id')) || -1
+  const id = Number(params.get('id') || -1)
   const pathname = usePathname()
   const searchParams = useSearchParams()!
 
@@ -154,7 +154,8 @@ export default function Explore() {
   const setid = (id: number) => {
     router.replace(pathname + '?' + createQueryString('id', '' + id))
   }
-  const currentItem = data?.item?.find((item, index) => index === id)
+  console.log({ id })
+  const currentItem = data?.item?.find((item, index) => (index) === (id))
   return <>
     <div className='flex isolate'>
       <Image src={bgImage} priority placeholder='blur' className='fixed -z-10 inset-0 w-full h-full max-w-full object-cover animate-fade' />

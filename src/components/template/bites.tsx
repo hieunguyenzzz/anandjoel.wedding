@@ -63,8 +63,9 @@ export default function Bites() {
             </Field >
           })
         }
-        <Bitenext key={id} id={id} onClose={() => setid(-1)} />
       </div >
+      <Bitenext key={id} id={id} onClose={() => setid(-1)} />
+
     </>
 
   )
