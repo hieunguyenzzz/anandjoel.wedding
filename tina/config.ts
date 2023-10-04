@@ -80,6 +80,11 @@ export default defineConfig({
                   list: true,
                   fields: [
                     {
+                      name: 'variant',
+                      type: "string",
+                      options: ["B1", "B2", "B3", "B4", "B5", "B6", "B7"],
+                    },
+                    {
                       name: 'name',
                       isTitle: true,
                       type: "string",
@@ -104,6 +109,11 @@ export default defineConfig({
                         }
                       ]
                     },
+                    {
+                      name: 'images',
+                      type: "image",
+                      list: true,
+                    }
                   ]
                 },],
               }]

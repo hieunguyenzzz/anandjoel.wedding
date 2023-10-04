@@ -74,7 +74,7 @@ let imgPropsToSlideProps = (imgProps: ImageProps): SlideImage => {
 }
 export default function Bitenext({ id, onClose }: { id: number, onClose: () => void }) {
   const source = useSource()
-  const [open, setOpen] = useState(false)
+  const [open, setOpen] = useState<number | Boolean>(false)
   const data = source?.blocks?.find((item: any) => item?.__typename === 'PageBlocksBites')
   const item = data.item[id] as PageBlocksBitesItem
   if (!item) return null
@@ -97,16 +97,16 @@ export default function Bitenext({ id, onClose }: { id: number, onClose: () => v
   return (
     <>
       <dialog id={modalId} open onClose={onClose} className="modal modal-bottom isolate z-50">
-        <div className="modal-box overflow-y-auto border-none  shadow-none bg-transparent overflow-hidden pb-0 min-h-screen animate-fade-up flex flex-col">
-          <div className="text-white">
+        <div className="modal-box overflow-y-auto  border-none  shadow-none bg-transparent overflow-hidden pb-0 min-h-screen  flex flex-col">
+          <div className="text-white animate-fade-up">
             <h3>{item.title}</h3>
-            <Content content={item.description}>{item.title}</Content>
+            {item.description && <Content content={item.description}>{item.title}</Content>}
           </div>
-          <div className=" flex-1  self-center w-screen p-[1.5rem]">
-            <div className="w-full h-full ov grid grid-cols-2 md:grid-cols-2  lg:grid-cols-3 gap-6 ">
+          <div className=" flex-1  self-center w-screen p-[1.5rem] animate-fade-up animate-delay-150">
+            <div className="w-full h-full grid grid-cols-2 md:grid-cols-2  lg:grid-cols-3 gap-6 ">
               {images.map((item, i) => {
-                return <button onClick={() => setOpen(true)} key={i} className="w-full h-full relative pb-[100%]">
-                  <Image {...item} width={600} height={600} className="object-cover absolute inset-0 w-full h-full bg-slate-50 bg-opacity-30" />
+                return <button onClick={() => setOpen(i)} key={i} className="w-full   h-full relative pb-[100%]">
+                  <Image {...item} width={600} height={600} className="object-cover absolute inset-0 w-full h-full bg-slate-50 bg-opacity-30 " />
                 </button>
               })}
             </div>
@@ -114,7 +114,7 @@ export default function Bitenext({ id, onClose }: { id: number, onClose: () => v
 
 
         </div>
-        <form method="dialog" className="modal-backdrop bg-black bg-opacity-60 backdrop-blur-xl">
+        <form method="dialog" className="modal-backdrop bg-black bg-opacity-60 backdrop-blur-xl ">
           <button>close</button>
         </form>
         <div className=" fixed  top-4 right-12">
@@ -125,11 +125,12 @@ export default function Bitenext({ id, onClose }: { id: number, onClose: () => v
         </div>
       </dialog>
       <Lightbox
-        open={open}
+        open={open !== false}
         close={() => setOpen(false)}
         slides={images}
         render={{ slide: NextJsImage, thumbnail: NextJsImage }}
         plugins={[Thumbnails]}
+        index={Number(open)}
 
       />
     </>
