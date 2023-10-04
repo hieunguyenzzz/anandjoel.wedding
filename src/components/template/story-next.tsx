@@ -84,57 +84,25 @@ const compornent = {
   },
   B7: (props: PageBlocksContentFields): ReactNode => {
     return (
-      <div className="items-center space-y-12 py-12 text-center">
-        <h3 className="font-kinfolk text-center text-4xl leading-none">The Decoration</h3>
-        <div className="grid lg:grid-cols-3  gap-1 md:gap-3  lg:gap-12">
-          <div>
-            <div className="font-garamond font-semibold italic text-lg" />
-            <div className="h-3" />
-            <div className="text-justify whitespace-pre-line">Ho Chi Minh Museum was designed in the style of Indochinese architecture with its inherent perfect beauty. Home Garden Wedding Decor and we tried to keep the decoration as simple as possible to keep the full breath of elegance and luxury as it was.</div>
-          </div>
-          <div>
-            <div className="font-garamond font-semibold italic text-lg" />
-            <div className="h-3" />
-            <div className="text-justify whitespace-pre-line">There was a bump in the road with the rental company we booked and they couldn’t deliver the goods as promised. Fortunately, we were able to find another rental company the night before the wedding and everything went just smoothly. The new chairs perfectly matched the design of the museum.</div>
-          </div>
-          <div>
-            <div className="font-garamond font-semibold italic text-lg" />
-            <div className="h-3" />
-            <div className="text-justify whitespace-pre-line">We chose the canopy and the flagpole as the background to enhance the existing charm of the museum as well as showing the couple's love of Vietnam. Besides, we used their favorite street’s names to name the guest tables, which brought excitement to their guests.</div>
-          </div>
-        </div>
-      </div>
-
-    )
-  },
-  B8: (props: PageBlocksContentFields): ReactNode => {
-    return (
       <div className="grid md:grid-cols-3 gap-1 md:gap-3">
         <div className="md:col-span-2">
           <div className="relative grid" style={{ paddingBottom: '70.3125%' }}>
-            <div style={{ display: 'block', overflow: 'hidden', position: 'absolute', inset: 0, boxSizing: 'border-box', margin: 0 }}>
-              <img alt="meraki wedding planners" src="https://imageproxy.hieunguyen.dev/api/images/dfgbpib38/image/upload/w_1921,f_auto/uploads/DSC_3696_b623e9b958.jpg?141" decoding="async" className="cursor-pointer" style={{ position: 'absolute', inset: 0, boxSizing: 'border-box', padding: 0, border: 'none', margin: 'auto', display: 'block', width: 0, height: 0, minWidth: '100%', maxWidth: '100%', minHeight: '100%', maxHeight: '100%', objectFit: 'cover', objectPosition: 'center center', filter: 'none', backgroundSize: 'cover', backgroundImage: 'none' }} sizes="(max-width: 384px) 400px,(max-width: px) 500px,(max-width: 1400px) 960px, 960px" srcSet="https://imageproxy.hieunguyen.dev/api/images/dfgbpib38/image/upload/w_16,f_auto/uploads/DSC_3696_b623e9b958.jpg?141 16w, https://imageproxy.hieunguyen.dev/api/images/dfgbpib38/image/upload/w_32,f_auto/uploads/DSC_3696_b623e9b958.jpg?141 32w, https://imageproxy.hieunguyen.dev/api/images/dfgbpib38/image/upload/w_48,f_auto/uploads/DSC_3696_b623e9b958.jpg?141 48w, https://imageproxy.hieunguyen.dev/api/images/dfgbpib38/image/upload/w_64,f_auto/uploads/DSC_3696_b623e9b958.jpg?141 64w, https://imageproxy.hieunguyen.dev/api/images/dfgbpib38/image/upload/w_96,f_auto/uploads/DSC_3696_b623e9b958.jpg?141 96w, https://imageproxy.hieunguyen.dev/api/images/dfgbpib38/image/upload/w_128,f_auto/uploads/DSC_3696_b623e9b958.jpg?141 128w, https://imageproxy.hieunguyen.dev/api/images/dfgbpib38/image/upload/w_256,f_auto/uploads/DSC_3696_b623e9b958.jpg?141 256w, https://imageproxy.hieunguyen.dev/api/images/dfgbpib38/image/upload/w_384,f_auto/uploads/DSC_3696_b623e9b958.jpg?141 384w, https://imageproxy.hieunguyen.dev/api/images/dfgbpib38/image/upload/w_640,f_auto/uploads/DSC_3696_b623e9b958.jpg?141 640w, https://imageproxy.hieunguyen.dev/api/images/dfgbpib38/image/upload/w_828,f_auto/uploads/DSC_3696_b623e9b958.jpg?141 828w, https://imageproxy.hieunguyen.dev/api/images/dfgbpib38/image/upload/w_1200,f_auto/uploads/DSC_3696_b623e9b958.jpg?141 1200w, https://imageproxy.hieunguyen.dev/api/images/dfgbpib38/image/upload/w_1921,f_auto/uploads/DSC_3696_b623e9b958.jpg?141 1921w" />
-            </div>
+            <Image src={props.images?.[0]} fill className='absolute inset-0 w-full h-full object-cover bg-slate-50 bg-opacity-30' />
           </div>
         </div>
         <div className="flex flex-col space-y-2 lg:space-y-3">
           <div className="flex-1 relative">
             <div className="relative grid" style={{ paddingBottom: '70.3125%' }}>
-              <div style={{ display: 'block', overflow: 'hidden', position: 'absolute', inset: 0, boxSizing: 'border-box', margin: 0 }}>
-                <img alt="meraki wedding planners" src="https://imageproxy.hieunguyen.dev/api/images/dfgbpib38/image/upload/w_1921,f_auto/uploads/A020578_25cf516f06.jpg?140" decoding="async" className="cursor-pointer" style={{ position: 'absolute', inset: 0, boxSizing: 'border-box', padding: 0, border: 'none', margin: 'auto', display: 'block', width: 0, height: 0, minWidth: '100%', maxWidth: '100%', minHeight: '100%', maxHeight: '100%', objectFit: 'cover', objectPosition: 'center center', filter: 'none', backgroundSize: 'cover', backgroundImage: 'none' }} sizes="(max-width: 384px) 400px,(max-width: px) 500px,(max-width: 1400px) 960px, 960px" srcSet="https://imageproxy.hieunguyen.dev/api/images/dfgbpib38/image/upload/w_16,f_auto/uploads/A020578_25cf516f06.jpg?140 16w, https://imageproxy.hieunguyen.dev/api/images/dfgbpib38/image/upload/w_32,f_auto/uploads/A020578_25cf516f06.jpg?140 32w, https://imageproxy.hieunguyen.dev/api/images/dfgbpib38/image/upload/w_48,f_auto/uploads/A020578_25cf516f06.jpg?140 48w, https://imageproxy.hieunguyen.dev/api/images/dfgbpib38/image/upload/w_64,f_auto/uploads/A020578_25cf516f06.jpg?140 64w, https://imageproxy.hieunguyen.dev/api/images/dfgbpib38/image/upload/w_96,f_auto/uploads/A020578_25cf516f06.jpg?140 96w, https://imageproxy.hieunguyen.dev/api/images/dfgbpib38/image/upload/w_128,f_auto/uploads/A020578_25cf516f06.jpg?140 128w, https://imageproxy.hieunguyen.dev/api/images/dfgbpib38/image/upload/w_256,f_auto/uploads/A020578_25cf516f06.jpg?140 256w, https://imageproxy.hieunguyen.dev/api/images/dfgbpib38/image/upload/w_384,f_auto/uploads/A020578_25cf516f06.jpg?140 384w, https://imageproxy.hieunguyen.dev/api/images/dfgbpib38/image/upload/w_640,f_auto/uploads/A020578_25cf516f06.jpg?140 640w, https://imageproxy.hieunguyen.dev/api/images/dfgbpib38/image/upload/w_828,f_auto/uploads/A020578_25cf516f06.jpg?140 828w, https://imageproxy.hieunguyen.dev/api/images/dfgbpib38/image/upload/w_1200,f_auto/uploads/A020578_25cf516f06.jpg?140 1200w, https://imageproxy.hieunguyen.dev/api/images/dfgbpib38/image/upload/w_1921,f_auto/uploads/A020578_25cf516f06.jpg?140 1921w" />
-              </div>
+              <Image src={props.images?.[1]} fill className='absolute inset-0 w-full h-full object-cover bg-slate-50 bg-opacity-30' />
             </div>
           </div>
           <div className="flex-1 relative">
             <div className="relative grid" style={{ paddingBottom: '70.3125%' }}>
-              <div style={{ display: 'block', overflow: 'hidden', position: 'absolute', inset: 0, boxSizing: 'border-box', margin: 0 }}>
-                <img alt="meraki wedding planners" src="https://imageproxy.hieunguyen.dev/api/images/dfgbpib38/image/upload/w_1921,f_auto/uploads/DSC_4042_3dfe077685.jpg?138" decoding="async" className="cursor-pointer" style={{ position: 'absolute', inset: 0, boxSizing: 'border-box', padding: 0, border: 'none', margin: 'auto', display: 'block', width: 0, height: 0, minWidth: '100%', maxWidth: '100%', minHeight: '100%', maxHeight: '100%', objectFit: 'cover', objectPosition: 'center center', filter: 'none', backgroundSize: 'cover', backgroundImage: 'none' }} sizes="(max-width: 384px) 400px,(max-width: px) 500px,(max-width: 1400px) 960px, 960px" srcSet="https://imageproxy.hieunguyen.dev/api/images/dfgbpib38/image/upload/w_16,f_auto/uploads/DSC_4042_3dfe077685.jpg?138 16w, https://imageproxy.hieunguyen.dev/api/images/dfgbpib38/image/upload/w_32,f_auto/uploads/DSC_4042_3dfe077685.jpg?138 32w, https://imageproxy.hieunguyen.dev/api/images/dfgbpib38/image/upload/w_48,f_auto/uploads/DSC_4042_3dfe077685.jpg?138 48w, https://imageproxy.hieunguyen.dev/api/images/dfgbpib38/image/upload/w_64,f_auto/uploads/DSC_4042_3dfe077685.jpg?138 64w, https://imageproxy.hieunguyen.dev/api/images/dfgbpib38/image/upload/w_96,f_auto/uploads/DSC_4042_3dfe077685.jpg?138 96w, https://imageproxy.hieunguyen.dev/api/images/dfgbpib38/image/upload/w_128,f_auto/uploads/DSC_4042_3dfe077685.jpg?138 128w, https://imageproxy.hieunguyen.dev/api/images/dfgbpib38/image/upload/w_256,f_auto/uploads/DSC_4042_3dfe077685.jpg?138 256w, https://imageproxy.hieunguyen.dev/api/images/dfgbpib38/image/upload/w_384,f_auto/uploads/DSC_4042_3dfe077685.jpg?138 384w, https://imageproxy.hieunguyen.dev/api/images/dfgbpib38/image/upload/w_640,f_auto/uploads/DSC_4042_3dfe077685.jpg?138 640w, https://imageproxy.hieunguyen.dev/api/images/dfgbpib38/image/upload/w_828,f_auto/uploads/DSC_4042_3dfe077685.jpg?138 828w, https://imageproxy.hieunguyen.dev/api/images/dfgbpib38/image/upload/w_1200,f_auto/uploads/DSC_4042_3dfe077685.jpg?138 1200w, https://imageproxy.hieunguyen.dev/api/images/dfgbpib38/image/upload/w_1921,f_auto/uploads/DSC_4042_3dfe077685.jpg?138 1921w" />
-              </div>
+              <Image src={props.images?.[2]} fill className='absolute inset-0 w-full h-full object-cover bg-slate-50 bg-opacity-30' />
             </div>
           </div>
         </div>
       </div>
-
     )
   }
 }
