@@ -1,16 +1,15 @@
 
 "use client";
-import Image from 'next/image';
 import bgImage from '../../../public/qa_bg.png';
 import { PageBlocksContent } from '../../../tina/__generated__/types';
 
 import { useSource } from '@/libs/source';
 import { Field } from "@/libs/tina";
 import { TinaMarkdown } from 'tinacms/dist/rich-text';
+import Image from '../common/image';
 
 export function StoryContent({ data }: { data: PageBlocksContent }) {
   let ratio = (bgImage.height / bgImage.width) * 100;
-
   return (
     <div className="min-h-screen text-[12px] lg:text-lg relative isolate text-[#111111ff] flex flex-col gap-6">
       <div style={{

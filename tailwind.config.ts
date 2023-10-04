@@ -27,7 +27,21 @@ const config: Config = {
     require('@tailwindcss/typography'),
   ],
   daisyui: {
-    themes: false,
+    themes: [
+      {
+        mytheme: {
+          "primary": "#d1adb7",
+          "secondary": "#799dde",
+          "accent": "#262626",
+          "neutral": "#fff",
+          "base-100": "#FFFFFF",
+          "info": "#0070F3",
+          "success": "#21CC51",
+          "warning": "#FF6154",
+          "error": "#DE1C8D",
+        },
+      },
+    ],
   },
 }
 export default config

@@ -10,7 +10,7 @@ const components = {
     href: string, text: string
   }) => {
     return (
-      <Link href={href} target="_blank" className="btn bg-[#d3afb9] btn-ghost font-bold text-whtie decoration-transparent">{text || href}</Link>
+      <Link href={href} target="_blank" className="bg-primary text-white font-sweetsans py-3 px-6 no-underline uppercase hover:bg-opacity-70 focus:ring focus:outline-none ring-primary ring-offset-transparent ring-offset-2 transition-all duration-300 ease-in-out">{text || href}</Link>
     )
   },
 }

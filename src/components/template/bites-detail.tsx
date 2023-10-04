@@ -4,6 +4,7 @@ import { useState } from "react";
 import Lightbox from 'react-image-lightbox';
 import 'react-image-lightbox/style.css';
 import { PageBlocksBitesItem } from "../../../tina/__generated__/types";
+import Image from "../common/image";
 
 export default function Bite({ id, onClose }: { id: number, onClose: () => void }) {
   const [photoIndex, setindex] = useState(0)
@@ -17,18 +18,30 @@ export default function Bite({ id, onClose }: { id: number, onClose: () => void 
   if (!images) return null
   console.log({ images }, item.images)
   return (
-    <Lightbox
-      onImageLoad={setState}
-      mainSrc={images[photoIndex]}
-      nextSrc={images[(photoIndex + 1) % images.length]}
-      prevSrc={images[(photoIndex + images.length - 1) % images.length]}
-      onCloseRequest={onClose}
-      onMovePrevRequest={() => setindex((photoIndex + images.length - 1) % images.length)
+    <>
+      <Lightbox
+        onImageLoad={setState}
+        mainSrc={images[photoIndex]}
+        nextSrc={images[(photoIndex + 1) % images.length]}
+        prevSrc={images[(photoIndex + images.length - 1) % images.length]}
+        onCloseRequest={onClose}
+        onMovePrevRequest={() => setindex((photoIndex + images.length - 1) % images.length)
 
-      }
-      onMoveNextRequest={() => setindex((photoIndex + 1) % images.length)
+        }
+        onMoveNextRequest={() => setindex((photoIndex + 1) % images.length)
 
-      }
-    />
+        }
+      >
+
+      </Lightbox>
+      <ul className="fixed z-50 flex justify-center bottom-0 left-0 mx-auto right-0">
+        {
+          images.map(img => {
+            return <Image width={80} height={80} href={img}></Image>
+          })
+        }
+      </ul>
+    </>
+
   )
 }
