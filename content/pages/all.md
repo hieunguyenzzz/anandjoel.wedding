@@ -2,6 +2,10 @@
 title: AnJoel
 blocks:
   - item:
+      - variant: One
+        title: Bánh xèo Bà Dưỡng
+        description: 'K20/23 Hoàng Diệu St, Hải Châu District, Da Nang'
+        image: /Bánh xèo Bà Dưỡng.jpeg
       - variant: Two
         title: HỒ CHÍ MINH
         description: ''
