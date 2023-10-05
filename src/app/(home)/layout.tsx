@@ -65,6 +65,7 @@ export default async function RootLayout({
     <SourceProvider defaultsource={props.data}>
       <UseTinaWithRouter />
       <html lang="en" data-theme="light">
+        <head><link rel="icon" href="/favicon.ico" sizes="any" /></head>
         <body className={"min-h-screen bg-[#c788b0] flex flex-col justify-center"}>
           <header className='flex gap-6 justify-center px-6 lg:px-12 z-20 relative '>
             <div className='flex gap-6 justify-between  w-full z-20 container'>

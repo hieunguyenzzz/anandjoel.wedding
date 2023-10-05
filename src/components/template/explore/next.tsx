@@ -2,16 +2,18 @@
 import { useSource } from '@/libs/source';
 import { Field } from '@/libs/tina';
 import { unstable_getImgProps } from 'next/image';
-import { useState } from 'react';
+import { usePathname, useRouter, useSearchParams } from 'next/navigation';
+import { useCallback } from 'react';
 import 'react-image-lightbox/style.css';
 import { TinaMarkdown } from 'tinacms/dist/rich-text';
-import Vietnammap from '../../../public/vietmap.png';
-import { PageBlocksExplore } from '../../../tina/__generated__/types';
-import Image from '../common/image';
+import { PageBlocksExplore } from '../../../../tina/__generated__/types';
+import Image from '../../common/image';
+import Map from './map';
 
+const initid = (s: string) => s.replaceAll(' ', '-').toLowerCase()
 
 const Content = ({ id, setid, data, blockIndex }: { id: number, setid: (n: number) => void, data: PageBlocksExplore, blockIndex: number }) => {
-  const currentItem = data?.item?.find((item, index) => index === id)
+  const currentItem = data?.item?.find((item, index) => initid(item?.title) === id)
   if (!currentItem) return <section className="mt-12 mx-auto px-4  md:px-8">
     <div className="max-w-lg">
       <h1 className="text-[1.4em] font-title text-gray-800 font-semibold mt-2">
@@ -29,8 +31,8 @@ const Content = ({ id, setid, data, blockIndex }: { id: number, setid: (n: numbe
           const id = index
           return <Field key={index} name={`blocks.${blockIndex}.item.${index}.title`}>
             <div className='galleryID-item w-full h-full  pt-[100%] lg:pt-[100%] relative '>
-              <Image width={300} height={300} src={item?.image || ""} alt={title || ''} className='object-cover w-full h-full absolute inset-0  rounded-lg bg-[#e9a48a52] border-[#e9a48a52] border-8' />
-              <button onClick={() => setid(id)} className="absolute left-0 cursor-pointer top-0 h-full w-full flex justify-center items-center text-center  text-magical">
+              <Image width={300} height={300} src={item?.image || ""} alt={title || ''} className='object-cover w-full h-full absolute inset-0  rounded-lg bg-[#e9a48a52] ' />
+              <button onClick={() => setid(item?.title)} className="absolute left-0 cursor-pointer top-0 h-full w-full flex justify-center items-center text-center  text-magical">
                 <div className="bg-white p-[0.5em_0.5em_0.5em_0.5em] relative">
                   <div className="flex ">
                     <svg className="absolute top-0 right-[100%] h-full text-white" fill="white" xmlns="http://www.w3.org/2000/svg" xmlnsXlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 14.1 28" xmlSpace="preserve" ><polygon className="st0" points="1.9,0 0,2.3 1.3,4.8 1.6,6.6 2.2,7.7 3.7,9.5 3.2,9.8 3.7,10.9 3.7,11.8 3.4,12.8 2.6,13.7 3.2,14.8
@@ -55,7 +57,7 @@ const Content = ({ id, setid, data, blockIndex }: { id: number, setid: (n: numbe
   return (
     <section className="mt-12 mx-auto px-4  md:px-8">
       <div key={currentItem?.title} className="prose">
-        {currentItem && <button className='underline animate-fade-up animate-duration-500 animate-ease-in-out' onClick={() => setid(-1)}>Back</button>}
+        {currentItem && <button className='underline animate-fade-up animate-duration-500 animate-ease-in-out' onClick={() => setid('')}>Back</button>}
         <h1 className="text-3xl font-title text-gray-800 animate-fade-up animate-delay-100 font-semibold mt-2 animate-duration-500 animate-ease-in-out">
           {currentItem?.title}
         </h1>
@@ -81,7 +83,7 @@ const Content = ({ id, setid, data, blockIndex }: { id: number, setid: (n: numbe
                 <div onClick={() => {
                   window?.[popupId].showModal()
                 }} className='w-full h-full  pt-[100%] lg:pt-[100%] relative '>
-                  <Image width={600} height={600} src={img.props.src} alt={currentItem.title || ''} className='object-cover w-full h-full animate-fade-up absolute inset-0 rounded-lg bg-[#e9a48a52] border-[#e9a48a52] border-8' />
+                  <Image width={600} height={600} src={img.props.src} alt={currentItem.title || ''} className='object-cover w-full h-full animate-fade-up absolute inset-0 rounded-lg bg-[#e9a48a52] ' />
                 </div>
               </Field>
               <div className='opacity-0 p-6 flex justify-center items-center invisible transition-all absolute inset-0 bg-white backdrop-blur-sm bg-opacity-40 group-hover:visible group-hover:opacity-100'><div className='prose'>
@@ -102,15 +104,36 @@ export default function ExploreNext() {
   const data = (blockIndex && source?.blocks?.[blockIndex]) as PageBlocksExplore
   console.log({ data })
   const locations = (data?.item || []).map(item => item?.location).filter(Boolean)
-  const [id, setid] = useState(-1)
-  const currentItem = data?.item?.find((item, index) => index === id)
+
+  const searchParams = useSearchParams()
+  const id = (searchParams.get('id'))
+  const pathname = usePathname()
+  const router = useRouter()
+  // Get a new searchParams string by merging the current
+  // searchParams with a provided key/value pair
+  const createQueryString = useCallback(
+    (name: string, value: string) => {
+      const params = new URLSearchParams(searchParams)
+      params.set(name, value)
+
+      return params.toString()
+    },
+    [searchParams]
+  )
+  const setid = (id: string) => {
+    router.replace(pathname + '?' + createQueryString('id', '' + initid(id)))
+  }
+  const currentItem = data?.item?.find((item, index) => item?.title && initid(item?.title) === id)
   return <>
     <div className='flex isolate flex-col lg:flex-row'>
       <div className='fixed -z-10 inset-0 w-full h-full max-w-full object-cover animate-fade bg-[#50cbcd] pointer-events-none' ></div>
       <div className='fixed -z-10 left-0 top-0 h-screen w-full lg:w-[50%]'>
-        <Image src={Vietnammap} fill className='object-scale-down object-left-top' />
+        <Map onSelect={e => {
+          console.log({ e })
+          setid(e)
+        }} current={currentItem?.title} locations={locations || []} />
       </div>
-      <div className='sticky  hidden md:flex top-[130px] h-[calc(100vh-126px)]  items-center justify-center w-[800px] md:max-w-[40vw]'>
+      <div className='sticky  hidden md:flex top-[130px] h-[calc(100vh-126px)]  items-center justify-center w-[800px] md:max-w-[40vw] -z-10 pointer-events-none'>
         <div className='w-full flex-shrink-0'>
 
         </div>

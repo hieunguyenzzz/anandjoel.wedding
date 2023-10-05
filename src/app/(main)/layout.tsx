@@ -127,6 +127,7 @@ export default async function RootLayout({
     <SourceProvider defaultsource={props.data}>
       <UseTinaWithRouter />
       <html lang="en" data-theme="light">
+        <head><link rel="icon" href="/favicon.ico" sizes="any" /></head>
         <body className={"bg-[#c2c5ff] min-h-screen text-[18px] md:text-[min(24px,5vw)]"}>
           <Header />
           <main className='px-6 lg:px-12 pb-12'>
