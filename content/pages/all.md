@@ -2,10 +2,6 @@
 title: AnJoel
 blocks:
   - item:
-      - variant: One
-        title: Bánh xèo Bà Dưỡng
-        description: 'K20/23 Hoàng Diệu St, Hải Châu District, Da Nang'
-        image: /Bánh xèo Bà Dưỡng.jpeg
       - variant: Two
         title: HỒ CHÍ MINH
         description: ''
@@ -405,6 +401,10 @@ blocks:
         title: 'Nén Danang Restaurant '
         description: '16 Mỹ Đa Tây 2, Khuê Mỹ Ward, Ngũ Hành Sơn District, Đà Nẵng'
         image: /Nén Danang Restaurant .jpeg
+      - variant: One
+        title: Bánh xèo Bà Dưỡng
+        description: 'K20/23 Hoàng Diệu St, Hải Châu District, Da Nang'
+        image: /Bánh xèo Bà Dưỡng.jpeg
     _template: bites
   - title: Explore Vietnam
     description: >-
