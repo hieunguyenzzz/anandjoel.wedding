@@ -1,6 +1,7 @@
 import Image from '@/components/common/image'
 import SourceProvider from '@/libs/source'
 import { UseTinaWithRouter } from '@/libs/tina'
+import localFont from 'next/font/local'
 import Link from 'next/link'
 import bitesImage from '../../../public/BITES-150x150.png'
 import eventsImage from '../../../public/EVENTS.png'
@@ -13,7 +14,25 @@ import storyImage from '../../../public/story.png'
 import travelImage from '../../../public/travel-tag-768x721.png'
 import client from '../../../tina/__generated__/client'
 import './globals.css'
-
+const font = localFont({
+  src: [
+    {
+      path: '../../../public/fonts/Regular.ttf',
+      weight: '400',
+      style: 'normal',
+    },
+    {
+      path: '../../../public/fonts/Thin.ttf',
+      weight: '300',
+      style: 'normal',
+    },
+    {
+      path: '../../../public/fonts/ThinItalic.ttf',
+      weight: '300',
+      style: 'italic',
+    },
+  ],
+})
 export const menuItems = [
   {
     title: 'Story',
@@ -68,7 +87,7 @@ const Header = () => {
           </li>
         })}
     </ul>
-    <div className='flex gap-6 justify-between lg:hidden w-full z-20 container  px-6 lg:px-12'>
+    <div className='w-full flex gap-6 justify-between lg:hidden  z-20   px-6 lg:px-12'>
       <Link href="/" className='w-[150px] text-shadow relative'>
         <Image priority src={logo} alt='logo' className='object-cover' />
       </Link>
@@ -128,9 +147,9 @@ export default async function RootLayout({
       <UseTinaWithRouter />
       <html lang="en" data-theme="light">
         <head><link rel="icon" href="/favicon.ico" sizes="any" /></head>
-        <body className={"bg-[#c2c5ff] min-h-screen text-[18px] md:text-[min(24px,5vw)]"}>
+        <body className={(font.className + " bg-[#c2c5ff] min-h-screen text-[18px] md:text-[min(24px,5vw)] tracking-wider")}>
           <Header />
-          <main className='px-6 lg:px-12 pb-12'>
+          <main className='px-6 lg:px-12 '>
             <noscript>
               <style>
                 {`img{

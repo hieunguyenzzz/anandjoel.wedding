@@ -11,9 +11,7 @@ const config: Config = {
   theme: {
     extend: {
       fontFamily: {
-        'subtitle': ['var(--font-subtitle)', 'ui-sans-serif', 'system-ui'],
-        'title': ['var(--font-title)', 'ui-serif', 'Georgia'],
-        'body': ['var(--font-body)', 'ui-serif', 'Georgia'],
+
       },
       backgroundImage: {
         'gradient-radial': 'radial-gradient(var(--tw-gradient-stops))',
