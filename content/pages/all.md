@@ -3,10 +3,6 @@ title: AnJoel
 blocks:
   - item:
       - variant: One
-        title: Elgin
-        description: '27 Mac Dinh Chi, Dakao, District 1, HCMC'
-        image: /Elgin .jpeg
-      - variant: One
         title: Phở bò Phú Gia
         description: '146e Lý Chính Thắng St, Ward 9, District 3, HCMC'
         image: /phở bò phú gia.jpeg
@@ -261,6 +257,10 @@ blocks:
           - /bites/saigon/Truffle/IMG_1378.jpeg
           - /bites/saigon/Truffle/IMG_1381.jpeg
           - /bites/saigon/Truffle/IMG_1383.jpeg
+      - variant: One
+        title: Elgin
+        description: '27 Mac Dinh Chi, Dakao, District 1, HCMC'
+        image: /Elgin .jpeg
       - variant: One
         title: CLAY
         description: '18 street no. 6, Thảo Điền Ward, District 2, HCMC'
