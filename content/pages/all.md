@@ -1,16 +1,11 @@
 ---
 title: AnJoel
-fields:
-  - name: at the Tree of Life
-    en: |
-      ## at the Tree of Life
-
-      december 16, 2023 
-      03:00 – 04:30
-      Thành phố Đà Lạt, Lâm Đồng, Vietnam
-      (transportation will be provided to and from the venue and hotel)
 blocks:
   - item:
+      - variant: One
+        title: Phở bò Phú Gia
+        description: '146e Lý Chính Thắng St, Ward 9, District 3, HCMC'
+        image: /phở bò phú gia.jpeg
       - variant: Two
         title: HỒ CHÍ MINH
         description: ''
