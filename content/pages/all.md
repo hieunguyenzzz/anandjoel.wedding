@@ -2,10 +2,6 @@
 title: AnJoel
 blocks:
   - item:
-      - variant: One
-        title: Phở bò Phú Gia
-        description: '146e Lý Chính Thắng St, Ward 9, District 3, HCMC'
-        image: /phở bò phú gia.jpeg
       - variant: Two
         title: HỒ CHÍ MINH
         description: ''
@@ -321,6 +317,10 @@ blocks:
           - >-
             /bites/saigon/Hum
             Vegetarian/c96cd461-d3a6-413b-8351-89a01da54989.jpeg
+      - variant: One
+        title: Phở bò Phú Gia
+        description: '146e Lý Chính Thắng St, Ward 9, District 3, HCMC'
+        image: /phở bò phú gia.jpeg
       - variant: Two
         title: HÀ NỘI
         description: ''
