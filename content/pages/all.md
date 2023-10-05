@@ -3,10 +3,6 @@ title: AnJoel
 blocks:
   - item:
       - variant: One
-        title: Cua Sapa
-        description: '592 Điện Biên Phủ St, Sapa Ward, Sapa, Lao Cai'
-        image: /Cua Sapa.jpeg
-      - variant: One
         title: Cốn Sủi Ông há
         description: '891 Điện Biên Phủ St, Sapa Ward, Sapa, Lao Cai'
         image: /Cốn Sủi Ông Há.jpeg
@@ -373,6 +369,10 @@ blocks:
         title: Red Dzao
         description: 'Thác Bạc St, Sapa, Lào Cai'
         image: /Red Dzao.jpeg
+      - variant: One
+        title: Cua Sapa
+        description: '592 Điện Biên Phủ St, Sapa Ward, Sapa, Lao Cai'
+        image: /Cua Sapa.jpeg
       - variant: One
         title: Thắng Cố A Phủ
         description: '15 Fansipan St, Sapa, Lào Cai'
