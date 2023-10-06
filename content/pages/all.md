@@ -7,6 +7,10 @@ blocks:
       in a more diverse way!
     item:
       - variant: One
+        title: Cơm gà bà Buội
+        description: '22 Phan Chu Trinh St, Minh An Ward, Hội An City'
+        image: /Cơm gà bà Buội.jpeg
+      - variant: One
         title: Chè Liên Hoa
         description: '59 Lê Văn Hưu St, Tân An Ward, Hội An City'
         image: /chè liên hoa hội an.jpeg
