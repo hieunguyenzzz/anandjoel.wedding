@@ -330,7 +330,10 @@ blocks:
         image: /phở bò phú gia.jpeg
       - variant: Two
         title: HÀ NỘI
-        description: ''
+        description: >-
+          Ha Noi cuisine features the most sophisticated and unique
+          characteristics of Vietnamese culinary art. You will be completely
+          surprised by its taste.
         image: /Happily Ever After (38 × 39 cm).png
       - variant: One
         title: Xới Cơm
