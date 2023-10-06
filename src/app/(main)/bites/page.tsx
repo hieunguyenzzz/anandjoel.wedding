@@ -19,7 +19,7 @@ export default function Page() {
   console.log({ data })
   return (
     <>
-      <div className="grid py-12 sm:grid-cols-2 lg:grid-cols-3 gap-3 isolate container mx-auto lg:gap-16 max-w-5xl">
+      <div className="grid py-12 grid-cols-2 lg:grid-cols-3 gap-3 isolate container mx-auto lg:gap-16 max-w-5xl">
         <Image src={bgImage} priority placeholder='blur' className='fixed object-top inset-0 w-full h-full max-w-full object-cover animate-fade' />
         <Image src={sideBG} priority placeholder='blur' className='fixed object-top object-scale-down left-0 w-[60px] top-0 h-full  animate-fade hidden' />
         <Image src={sideBG} priority placeholder='blur' className='fixed object-top right-0 h-full object-scale-down w-[60px] top-0  animate-fade hidden' />
@@ -32,8 +32,8 @@ export default function Page() {
 
             if (item?.variant === "Two") {
               return <React.Fragment key={index}>
-                <Field className={clsx("col-span-full mt-8 justify-between flex gap-6 items-center", left && "flex-row-reverse")} name={`blocks.0.item.${index}.title`}>
-                  <div className=' h-full py-12  relative'>
+                <Field className={clsx("col-span-full  py-12  mt-8 justify-between flex gap-6 flex-col md:items-center", left ? "md:flex-row-reverse" : "md:flex-row")} name={`blocks.0.item.${index}.title`}>
+                  <div className=' h-full relative'>
                     <h3 className="font-bold text-[2em] font-title uppercase text-magical-item leading-[1.2] whitespace-nowrap">{title}</h3>
                   </div>
                   <div className="  w-2/3 ">
@@ -83,9 +83,9 @@ export default function Page() {
         }
       </div >
       <Bitenext key={id} id={id} onClose={() => setid(-1)} />
-      <div className="relative isolate ">
+      <div className="relative isolate z-10">
         <div className=" flex pb-[20em] pt-[8em] justify-center items-center">
-          {data?.bottom_text && <div className="max-w-lg leading-relaxed mx-auto text-lg lg:text-3xl text-center px-10 lg:px-12"><TinaMarkdown content={data?.bottom_text} /></div>}
+          {data?.bottom_text && <div className="max-w-[40ch] leading-relaxed mx-auto text-lg lg:text-[2rem] text-center px-10 lg:px-12"><TinaMarkdown content={data?.bottom_text} /></div>}
         </div>
       </div>
       <div className=" sticky  bottom-[-300px] -mx-6 lg:-mx-12 lg:-right-12 pointer-events-none h-0">
