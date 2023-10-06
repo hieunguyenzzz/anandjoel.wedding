@@ -361,7 +361,9 @@ blocks:
         image: /Chả Cá Anh Vũ.jpeg
       - variant: Two
         title: SAPA
-        description: ''
+        description: >-
+          You can enjoy so many specialties in Sapa, not luxury, but definitely
+          unique, flavorful and yummy!
         image: image
       - variant: One
         title: Cá Tầm Vua Restaurant
