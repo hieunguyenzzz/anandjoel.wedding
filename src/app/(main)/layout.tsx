@@ -32,6 +32,11 @@ const font = localFont({
       style: 'italic',
     },
   ],
+  variable: '--font-body',
+})
+const fontHeader = localFont({
+  src: '../../../public/fonts/Header.ttf',
+  variable: '--font-header',
 })
 export const menuItems = [
   {
@@ -70,19 +75,19 @@ export const menuItems = [
   },
 ]
 const Header = () => {
-  return <header className='flex gap-6  justify-center mx-auto z-20  h-[126px]  isolate relative '>
+  return <header className={'flex gap-6  justify-center mx-auto z-20  h-[126px]  isolate relative ' + fontHeader.className}>
     <ul className='justify-center mx-auto items-center gap-6 hidden lg:flex relative   px-6 lg:px-12'>
       {/* <li className='absolute inset-[1.4em] rounded-lg backdrop-blur-sm pointer-events-none'></li> */}
       {
         menuItems.map((item, index) => {
           if (item.title === 'Home') return <li key={index} className='flex  flex-col  items-center gap-2 min-w-[200px]  h-[126px]  relative after:content-[""] after:pb-[100%]'>
             <Link href={item.href} className='hover:scale-110 duration-500 ease-in-out uppercase flex items-center text-2xl justify-center text-outline content-center transition-transform absolute inset-0'>
-              {item.title === 'Home' ? <Image src={item.image} fill alt={item.title} priority className='object-contain' /> : <div className='mt-[0.5em]'>{item.title}</div>}
+              {item.title === 'Home' ? <Image src={item.image} fill alt={item.title} priority className='object-contain' /> : <div className='mt-[0.5em] font-header'>{item.title}</div>}
             </Link>
           </li>
           return <li key={index} className='flex flex-col  items-center gap-2 w-[126px]  h-[126px]  relative after:content-[""] after:pb-[100%]'>
             <Link href={item.href} className='hover:scale-110 duration-500 ease-in-out uppercase flex items-center text-2xl justify-center text-outline content-center transition-transform absolute inset-0'>
-              {item.title === 'Home' ? <Image src={item.image} fill alt={item.title} priority className='object-cover' /> : <div className='mt-[0.5em]'>{item.title}</div>}
+              {item.title === 'Home' ? <Image src={item.image} fill alt={item.title} priority className='object-cover' /> : <div className='mt-[0.5em] font-header'>{item.title}</div>}
             </Link>
           </li>
         })}
@@ -93,7 +98,7 @@ const Header = () => {
       </Link>
       <div className="flex items-center space-x-6"
       >
-        <button className="flex flex-col lg:flex-row items-stretch uppercase  font-sweetsans  text-3xl text-white">
+        <button className="flex flex-col lg:flex-row items-stretch uppercase  text-3xl text-white">
           <svg fill="currentColor" width="1em" height="1em" xmlns="http://www.w3.org/2000/svg" xmlnsXlink="http://www.w3.org/1999/xlink" viewBox="0 0 116.93 111.19">
             <g>
               <path d="M51.4,68.9,38,97.81H33.47L20.06,68.9h5.66l10,22.58H36L46,68.9Z" />
@@ -147,7 +152,7 @@ export default async function RootLayout({
       <UseTinaWithRouter />
       <html lang="en" data-theme="light">
         <head><link rel="icon" href="/favicon.ico" sizes="any" /></head>
-        <body className={(font.className + " bg-[#c2c5ff] min-h-screen text-[18px] md:text-[min(24px,5vw)] tracking-wider")}>
+        <body className={([font.className, fontHeader.variable].join(' ') + " bg-[#c2c5ff] min-h-screen text-[18px] md:text-[min(24px,5vw)] tracking-wider")}>
           <Header />
           <main className='px-6 lg:px-12'>
             <noscript>

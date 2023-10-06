@@ -34,7 +34,7 @@ export default function Page() {
               return <React.Fragment key={index}>
                 <Field className={clsx("col-span-full  py-12  mt-8 justify-between flex gap-6 flex-col md:items-center", left ? "md:flex-row-reverse" : "md:flex-row")} name={`blocks.0.item.${index}.title`}>
                   <div className=' h-full relative'>
-                    <h3 className="font-bold text-[2em] font-title uppercase text-magical-item leading-[1.2] whitespace-nowrap">{title}</h3>
+                    <h3 className="text-[2em] font-title uppercase text-magical-item leading-[1.2] whitespace-nowrap">{title}</h3>
                   </div>
                   <div className="  w-2/3 ">
                     <div className={clsx("font-subtitle max-w-xl  flex-1 text-opacity-75 opacity-75", !left ? "ml-auto" : "mr-auto")}>{description || `Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonum-
