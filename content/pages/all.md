@@ -6,10 +6,6 @@ blocks:
       Hopefully, their food suggestions will help you explore Vietnamese cuisine
       in a more diverse way!
     item:
-      - variant: One
-        title: Émai Italian Restaurant & Gardens
-        description: '88 Hoàng Hoa Thám St, Ward 10, Đà Lạt City'
-        image: /Émai Italian Restaurant & Gardens.jpeg
       - variant: Two
         title: DA LAT
         description: description
@@ -468,6 +464,10 @@ blocks:
         title: Chefs DaLat
         description: '156 Phạm Ngọc Thạch St, Ward 6, Đà Lạt City'
         image: /Chefs DaLat.jpeg
+      - variant: One
+        title: Émai Italian Restaurant & Gardens
+        description: '88 Hoàng Hoa Thám St, Ward 10, Đà Lạt City'
+        image: /Émai Italian Restaurant & Gardens.jpeg
     _template: bites
   - title: Explore Vietnam
     description: >-
