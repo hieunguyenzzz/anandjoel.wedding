@@ -437,11 +437,7 @@ blocks:
         description: '59 Lê Văn Hưu St, Tân An Ward, Hội An City'
         image: /chè liên hoa hội an.jpeg
       - variant: Two
-        title: DA LAT
-        description: description
-        image: image
-      - variant: Two
-        title: DA LAT
+        title: ĐÀ LẠT
         description: description
         image: image
       - variant: One
