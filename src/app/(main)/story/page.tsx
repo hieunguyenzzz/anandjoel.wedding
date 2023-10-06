@@ -28,15 +28,15 @@ export default function Page() {
         <Image src={right} priority placeholder='blur' className='absolute object-top inset-0 w-full  h-auto max-w-full pointer-events-none object-cover animate-fade' />
         <Image src={left} priority placeholder='blur' className='absolute object-top inset-0 w-full  h-auto max-w-full pointer-events-none object-cover animate-fade' />
       </div>
-      <div className="transition-opacity  pt-[58vw]  pointer-events-none ease-in-out duration-500 isolate container mx-auto lg:gap-16 w-full relative">
+      <div className="transition-opacity  pt-[100vw]  pointer-events-none ease-in-out duration-500 isolate container mx-auto lg:gap-16 w-full relative">
         <div className="w-full absolute inset-0 flex justify-center items-center ">
-          <div className="max-w-[40ch] w-full leading-relaxed mx-auto text-lg lg:text-[2rem] text-center px-10 lg:px-12">
+          <div className=" max-w-[30ch] w-full leading-relaxed mx-auto text-lg lg:text-[2rem] text-center  lg:px-12">
             An & Joel have tried & loved almost all of the restaurants above. Hopefully, their food suggestions will help you explore Vietnamese cuisine in a more diverse way!
           </div>
         </div>
       </div >
       <div className="transition-all duration-[3s] ease-in-out isolate -z-10 relative">
-        <div className="-z-10 relative mx-auto px-[10vw] max-w-[65ch]">
+        <div className="-z-10 relative mx-auto px-[10vw] lg:max-w-none max-w-[65ch]">
           <Story />
         </div>
       </div>
