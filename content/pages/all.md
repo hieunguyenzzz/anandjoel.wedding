@@ -2,8 +2,9 @@
 title: AnJoel
 blocks:
   - bottom_text: >
-      Viết một câu chốt gì đó vô đây ngắn thôi maybe về ẩm thực vn . Lorem ipsum
-      dolor sit amet, consec-              tetuer adipiscing elit
+      An & Joel have tried & loved almost all of the restaurants above.
+      Hopefully, their food suggestions will help you explore Vietnamese cuisine
+      in a more diverse way!
     item:
       - variant: Two
         title: HỒ CHÍ MINH
