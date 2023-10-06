@@ -7,6 +7,10 @@ blocks:
       in a more diverse way!
     item:
       - variant: Two
+        title: DA LAT
+        description: description
+        image: image
+      - variant: Two
         title: HỒ CHÍ MINH
         description: >-
           An & Joel mainly stay in Ho Chi Minh City when returning to Vietnam,
