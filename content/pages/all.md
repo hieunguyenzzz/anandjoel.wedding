@@ -8,7 +8,10 @@ blocks:
     item:
       - variant: Two
         title: HỒ CHÍ MINH
-        description: ''
+        description: >-
+          An & Joel mainly stay in Ho Chi Minh City when returning to Vietnam,
+          so they have the most culinary experiences here! You can discover
+          everything from traditional dishes to fine dining all in this city!
         image: /Happily Ever After (38 × 39 cm).png
         images:
           - /1165791f-ac3a-4956-88c2-3877e2aa0154.jpeg
