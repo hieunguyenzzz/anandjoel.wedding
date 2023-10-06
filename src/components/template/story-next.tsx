@@ -113,7 +113,6 @@ export function StoryContent({ data }: { data: PageBlocksContent }) {
       <div style={{
         minHeight: ratio + 'vw',
       }} className='py-[min(24px,4vw)]  pb-[10vw] gap-[10vw] flex flex-col relative justify-center '>
-        <Image src={bgImage} priority placeholder='blur' className='fixed -z-10 inset-0 w-full h-full max-w-full object-cover animate-fade' />
         <div className=" w-full flex flex-col gap-1 md:gap-3 text-[1.4em] leading-normal">
           {data.fields?.map((i, ii) => {
             let C = i?.variant && compornent[i?.variant] || compornent.B3
@@ -133,7 +132,6 @@ export function StoryContent({ data }: { data: PageBlocksContent }) {
 export default function Story() {
   const source = useSource();
   let index = source?.blocks?.findIndex((item: any) => {
-    console.log({ item })
     return item?.__typename === 'PageBlocksContent' && item?.name === 'story'
   })
   const data = source?.blocks[index]

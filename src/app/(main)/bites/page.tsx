@@ -89,7 +89,7 @@ export default function Page() {
         </div>
       </div>
       <div className=" sticky  bottom-[-20vw] -mx-6 lg:-mx-12 lg:-right-12 pointer-events-none h-0">
-        <div style={{ background: 'linear-gradient(to bottom,transparent,#e1a0a9 20%)', position: 'absolute', bottom: '0', height: '40vw', left: 0, right: 0 }} />
+        <div style={{ background: 'linear-gradient(to bottom,transparent,#e1a0a9 20%)', position: 'absolute', bottom: '0', height: '26vw', left: 0, right: 0 }} />
         <Image src={bgBottom} priority placeholder='blur' className='w-full absolute bottom-0   max-w-none object-cover animate-fade' />
       </div>
     </>
