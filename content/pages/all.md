@@ -1018,7 +1018,101 @@ blocks:
   - name: event
     fields:
       - name: content
-        en: "### ![](/dfd-04.png)\n\n### at TBD\n\nDECEMBER 15, 2023\n\n***\n\n![](/dfd-02.png)\n\n### at Tiệm Cà phê Hoàng hôn chiều\n\nDECEMBER 16, 2023\n\n09:00 AM - 10:30 AM\n\n9th Hill, Da Lat city, Lam Dong province, Vietnam\n\nTransportation will be provided to and from the venue and hotel.\n\nPlease kindly be at the hotel lobby at  8:15 AM\n\n***\n\n![](/dfd-03.png)\n\n### at the Campville\n\nDECEMBER 16, 2023\n\n4:00 PM - 9:00 PM\n\nXuan Tho ward, Da Lat city, Lam Dong province, Vietnam\n\nTransportation will be provided to and from the venue and hotel.\n\nPlease kindly be at the hotel lobby at 3:15 PM\n\n***\n\n![](/TRANS.png)\n\nTransportation will be provided to and from the venue and hotel.\n\nPlease kindly be at the hotel lobby at 8:15 AM for ceremony and 3:15 PM for reception\n\n***\n\n![](/ACC.png)\n\nA block of complimentary rooms has been reserved at Hotel Du Parc in Da Lat city from December 15 to December 17.\_\n\nPlease kindly let us know if you will be staying here by November 15 and refer to An & Joel wedding.\n\n***\n\n![](/dfd-01.png)\n\nCeremony: White or light colors. No busy patterns.\n\nReception: Black tie\n"
+        en: >
+          # WELCOME DINNER
+
+
+          ### at TBD
+
+
+          DECEMBER 15, 2023
+
+
+          ***
+
+
+          # CEREMONY
+
+
+          ### at Tiệm Cà phê Hoàng hôn chiều
+
+
+          DECEMBER 16, 2023
+
+
+          09:00 AM - 10:30 AM
+
+
+          9th Hill, Da Lat city, Lam Dong province, Vietnam
+
+
+          Transportation will be provided to and from the venue and hotel
+
+
+          Please kindly be at the hotel lobby at  8:15 AM
+
+
+          ***
+
+
+          # RECEPTION
+
+
+          ### at the Campville
+
+
+          DECEMBER 16, 2023
+
+
+          4:00 PM - 9:00 PM
+
+
+          Xuan Tho ward, Da Lat city, Lam Dong province, Vietnam
+
+
+          Transportation will be provided to and from the venue and hotel
+
+
+          Please kindly be at the hotel lobby at 3:15 PM
+
+
+          ***
+
+
+          # TRANSPORTATION
+
+
+          Transportation will be provided to and from the venue and hotel
+
+
+          Please kindly be at the hotel lobby at 8:15 AM for ceremony and 3:15
+          PM for reception
+
+
+          ***
+
+
+          # ACCOMMODATION
+
+
+          A block of complimentary rooms has been reserved at Hotel Du Parc in
+          Da Lat city from December 15 to December 17
+
+
+          Please kindly let us know if you will be staying here by November 15
+          and refer to An & Joel wedding
+
+
+          ***
+
+
+          # DRESSCODE
+
+
+          Ceremony: White or light colors. No busy patterns
+
+
+          Reception: Black tie
     _template: content
   - name: qa
     title: Questions & Answers
@@ -1233,7 +1327,7 @@ blocks:
         name: content
         en: >
           An & Joel do not have a typical love story, but everything that
-          happens has its own reason to create an inspired love.
+          happens has its own reason to create an inspired love
         images:
           - /AJ.jpeg
       - variant: B2
@@ -1246,7 +1340,7 @@ blocks:
         en: >
           They have been together for 8 years, since the day An and Joel met in
           the US, which means a lot to them, a place where you can be true to
-          yourself and pursue your dreams and where dreams do become true.
+          yourself and pursue your dreams and where dreams do become true
       - variant: B4
         name: joel ring
         en: ''
@@ -1261,7 +1355,7 @@ blocks:
       - name: Câu 3
         en: >
           During the cloud hunting 1 year ago, An successfully proposed to Joel
-          in Da Lat, Vietnam, which is also An's hometown.
+          in Da Lat, Vietnam, which is also An's hometown
       - variant: B6
         name: on one knee
         en: ''
