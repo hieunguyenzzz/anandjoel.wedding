@@ -7,6 +7,10 @@ blocks:
       in a more diverse way!
     item:
       - variant: One
+        title: Túi Mơ To Cafe
+        description: '11 Alley, Sào Nam St, Ward 11, Đà Lạt City'
+        image: /Túi Mơ To Cafe.jpeg
+      - variant: One
         title: Ốc 33
         description: '33 Hai Bà Trưng St, Ward 6, Đà Lạt City'
         image: /Ốc 33.jpeg
