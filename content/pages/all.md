@@ -6,6 +6,10 @@ blocks:
       Hopefully, their food suggestions will help you explore Vietnamese cuisine
       in a more diverse way!
     item:
+      - variant: One
+        title: Chè Liên Hoa
+        description: '59 Lê Văn Hưu St, Tân An Ward, Hội An City'
+        image: /chè liên hoa hội an.jpeg
       - variant: Two
         title: HỒ CHÍ MINH
         description: >-
