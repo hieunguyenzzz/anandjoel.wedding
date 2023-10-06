@@ -6,6 +6,10 @@ blocks:
       Hopefully, their food suggestions will help you explore Vietnamese cuisine
       in a more diverse way!
     item:
+      - variant: Two
+        title: HỘI AN
+        description: ''
+        image: image
       - variant: One
         title: Cao lầu Thanh
         description: '26 Thái Phiên St, Minh An Ward, Hội An City'
