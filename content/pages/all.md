@@ -10,10 +10,6 @@ blocks:
         title: Émai Italian Restaurant & Gardens
         description: '88 Hoàng Hoa Thám St, Ward 10, Đà Lạt City'
         image: /Émai Italian Restaurant & Gardens.jpeg
-      - variant: One
-        title: Chefs DaLat
-        description: '156 Phạm Ngọc Thạch St, Ward 6, Đà Lạt City'
-        image: /Chefs DaLat.jpeg
       - variant: Two
         title: DA LAT
         description: description
@@ -468,6 +464,10 @@ blocks:
         title: Hoa Thông Brewing Co
         description: '112 Thông Thiên Học St, Ward 2, Đà Lạt City'
         image: /Hoa Thông Brewing Co.jpeg
+      - variant: One
+        title: Chefs DaLat
+        description: '156 Phạm Ngọc Thạch St, Ward 6, Đà Lạt City'
+        image: /Chefs DaLat.jpeg
     _template: bites
   - title: Explore Vietnam
     description: >-
