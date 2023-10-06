@@ -7,6 +7,10 @@ blocks:
       in a more diverse way!
     item:
       - variant: One
+        title: Chefs DaLat
+        description: '156 Phạm Ngọc Thạch St, Ward 6, Đà Lạt City'
+        image: /Chefs DaLat.jpeg
+      - variant: One
         title: Night market
         description: '6b Nguyễn Thị Minh Khai St, Ward 1, Đà Lạt City'
         image: /Night market.jpeg
