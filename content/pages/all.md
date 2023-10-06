@@ -420,6 +420,55 @@ blocks:
         title: Bánh xèo Bà Dưỡng
         description: 'K20/23 Hoàng Diệu St, Hải Châu District, Da Nang'
         image: /Bánh xèo Bà Dưỡng.jpeg
+      - variant: Two
+        title: HỘI AN
+        description: >-
+          Hoi An’s food truly gets a ‘taste’ of the place. Many of these dishes
+          are made from local ingredients, so you cannot find the same taste
+          outside of this area
+        image: image
+      - variant: One
+        title: Cao lầu Thanh
+        description: '26 Thái Phiên St, Minh An Ward, Hội An City'
+        image: /cao lầu ha.jpeg
+      - variant: One
+        title: Cơm gà bà Buội
+        description: '22 Phan Chu Trinh St, Minh An Ward, Hội An City'
+        image: /Cơm gà bà Buội.jpeg
+      - variant: One
+        title: Chè Liên Hoa
+        description: '59 Lê Văn Hưu St, Tân An Ward, Hội An City'
+        image: /chè liên hoa hội an.jpeg
+      - variant: Two
+        title: ĐÀ LẠT
+        description: >-
+          Đà Lạt city owns itself an excellent condition for farming, which
+          provides high-quality and fresh vegetables for every dish
+        image: image
+      - variant: One
+        title: Ốc 33
+        description: '33 Hai Bà Trưng St, Ward 6, Đà Lạt City'
+        image: /Ốc 33.jpeg
+      - variant: One
+        title: Túi Mơ To Cafe
+        description: '11 Alley, Sào Nam St, Ward 11, Đà Lạt City'
+        image: /Túi Mơ To Cafe.jpeg
+      - variant: One
+        title: Night market
+        description: '6b Nguyễn Thị Minh Khai St, Ward 1, Đà Lạt City'
+        image: /Night market.jpeg
+      - variant: One
+        title: Hoa Thông Brewing Co
+        description: '112 Thông Thiên Học St, Ward 2, Đà Lạt City'
+        image: /Hoa Thông Brewing Co.jpeg
+      - variant: One
+        title: Chefs DaLat
+        description: '156 Phạm Ngọc Thạch St, Ward 6, Đà Lạt City'
+        image: /Chefs DaLat.jpeg
+      - variant: One
+        title: Émai Italian Restaurant & Gardens
+        description: '88 Hoàng Hoa Thám St, Ward 10, Đà Lạt City'
+        image: /Émai Italian Restaurant & Gardens.jpeg
     _template: bites
   - title: Explore Vietnam
     description: >-
