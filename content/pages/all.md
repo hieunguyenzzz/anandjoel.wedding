@@ -7,6 +7,10 @@ blocks:
       in a more diverse way!
     item:
       - variant: One
+        title: Night market
+        description: '6b Nguyễn Thị Minh Khai St, Ward 1, Đà Lạt City'
+        image: /Night market.jpeg
+      - variant: One
         title: Hoa Thông Brewing Co
         description: '112 Thông Thiên Học St, Ward 2, Đà Lạt City'
         image: /Hoa Thông Brewing Co.jpeg
