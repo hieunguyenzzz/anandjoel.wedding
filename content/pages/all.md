@@ -1327,7 +1327,7 @@ blocks:
         name: content
         en: >
           An & Joel do not have a typical love story, but everything that
-          happens has its own reason to create an inspired love.
+          happens has its own reason to create an inspired love
         images:
           - /AJ.jpeg
       - variant: B2
