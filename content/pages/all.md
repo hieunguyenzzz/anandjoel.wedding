@@ -438,7 +438,9 @@ blocks:
         image: /chè liên hoa hội an.jpeg
       - variant: Two
         title: ĐÀ LẠT
-        description: description
+        description: >-
+          Đà Lạt city owns itself an excellent condition for farming, which
+          provides high-quality and fresh vegetables for every dish
         image: image
       - variant: One
         title: Ốc 33
