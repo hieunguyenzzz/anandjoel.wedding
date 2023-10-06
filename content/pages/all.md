@@ -6,6 +6,10 @@ blocks:
       Hopefully, their food suggestions will help you explore Vietnamese cuisine
       in a more diverse way!
     item:
+      - variant: One
+        title: Ốc 33
+        description: '33 Hai Bà Trưng St, Ward 6, Đà Lạt City'
+        image: /Ốc 33.jpeg
       - variant: Two
         title: DA LAT
         description: description
