@@ -422,7 +422,10 @@ blocks:
         image: /Bánh xèo Bà Dưỡng.jpeg
       - variant: Two
         title: HỘI AN
-        description: ''
+        description: >-
+          Hoi An’s food truly gets a ‘taste’ of the place. Many of these dishes
+          are made from local ingredients, so you cannot find the same taste
+          outside of this area.
         image: image
       - variant: One
         title: Cao lầu Thanh
