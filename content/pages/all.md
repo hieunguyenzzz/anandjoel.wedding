@@ -7,10 +7,6 @@ blocks:
       in a more diverse way!
     item:
       - variant: Two
-        title: DA LAT
-        description: description
-        image: image
-      - variant: Two
         title: HỒ CHÍ MINH
         description: >-
           An & Joel mainly stay in Ho Chi Minh City when returning to Vietnam,
@@ -440,6 +436,10 @@ blocks:
         title: Chè Liên Hoa
         description: '59 Lê Văn Hưu St, Tân An Ward, Hội An City'
         image: /chè liên hoa hội an.jpeg
+      - variant: Two
+        title: DA LAT
+        description: description
+        image: image
       - variant: Two
         title: DA LAT
         description: description
