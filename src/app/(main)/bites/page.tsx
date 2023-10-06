@@ -88,8 +88,8 @@ export default function Page() {
           {data?.bottom_text && <div className="max-w-[40ch] leading-relaxed mx-auto text-lg lg:text-[2rem] text-center px-10 lg:px-12"><TinaMarkdown content={data?.bottom_text} /></div>}
         </div>
       </div>
-      <div className=" sticky  bottom-[-300px] -mx-6 lg:-mx-12 lg:-right-12 pointer-events-none h-0">
-        <div style={{ background: 'linear-gradient(to bottom,transparent,#e1a0a9 70%)', position: 'absolute', bottom: 300, height: 300, left: 0, right: 0 }} />
+      <div className=" sticky  bottom-[-20vw] -mx-6 lg:-mx-12 lg:-right-12 pointer-events-none h-0">
+        <div style={{ background: 'linear-gradient(to bottom,transparent,#e1a0a9 20%)', position: 'absolute', bottom: '0', height: '40vw', left: 0, right: 0 }} />
         <Image src={bgBottom} priority placeholder='blur' className='w-full absolute bottom-0   max-w-none object-cover animate-fade' />
       </div>
     </>
