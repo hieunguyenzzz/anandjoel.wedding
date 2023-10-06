@@ -391,7 +391,10 @@ blocks:
         image: /Thắng Cố A Phủ.jpeg
       - variant: Two
         title: ĐÀ NẴNG
-        description: ''
+        description: >-
+          Da Nang offers various foods from both North, Central and South of
+          Vietnam. Get your virtual chopsticks ready with these must - try
+          restaurants in this destination!
         image: image
       - variant: One
         title: Cá Chuồn Cồ Vietnamese Restaurant
