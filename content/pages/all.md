@@ -14,14 +14,6 @@ blocks:
         title: Chefs DaLat
         description: '156 Phạm Ngọc Thạch St, Ward 6, Đà Lạt City'
         image: /Chefs DaLat.jpeg
-      - variant: One
-        title: Night market
-        description: '6b Nguyễn Thị Minh Khai St, Ward 1, Đà Lạt City'
-        image: /Night market.jpeg
-      - variant: One
-        title: Hoa Thông Brewing Co
-        description: '112 Thông Thiên Học St, Ward 2, Đà Lạt City'
-        image: /Hoa Thông Brewing Co.jpeg
       - variant: Two
         title: DA LAT
         description: description
@@ -468,6 +460,14 @@ blocks:
         title: Túi Mơ To Cafe
         description: '11 Alley, Sào Nam St, Ward 11, Đà Lạt City'
         image: /Túi Mơ To Cafe.jpeg
+      - variant: One
+        title: Night market
+        description: '6b Nguyễn Thị Minh Khai St, Ward 1, Đà Lạt City'
+        image: /Night market.jpeg
+      - variant: One
+        title: Hoa Thông Brewing Co
+        description: '112 Thông Thiên Học St, Ward 2, Đà Lạt City'
+        image: /Hoa Thông Brewing Co.jpeg
     _template: bites
   - title: Explore Vietnam
     description: >-
