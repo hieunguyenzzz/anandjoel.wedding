@@ -6,10 +6,6 @@ blocks:
       Hopefully, their food suggestions will help you explore Vietnamese cuisine
       in a more diverse way!
     item:
-      - variant: Two
-        title: HỘI AN
-        description: ''
-        image: image
       - variant: One
         title: Cao lầu Thanh
         description: '26 Thái Phiên St, Minh An Ward, Hội An City'
@@ -436,6 +432,10 @@ blocks:
         title: Bánh xèo Bà Dưỡng
         description: 'K20/23 Hoàng Diệu St, Hải Châu District, Da Nang'
         image: /Bánh xèo Bà Dưỡng.jpeg
+      - variant: Two
+        title: HỘI AN
+        description: ''
+        image: image
     _template: bites
   - title: Explore Vietnam
     description: >-
