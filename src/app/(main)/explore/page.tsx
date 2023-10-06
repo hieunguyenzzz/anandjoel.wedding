@@ -1,5 +1,5 @@
-import Explore from "@/components/template/explore";
+import ExploreNext from "@/components/template/explore/next";
 
-export default async function Page({ params: { handle } }: { params: { handle: string } }) {
-  return <Explore />
+export default function Page({ params: { handle } }: { params: { handle: string } }) {
+  return <ExploreNext />
 }

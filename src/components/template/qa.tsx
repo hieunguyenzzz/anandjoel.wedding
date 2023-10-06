@@ -8,6 +8,7 @@ import { PageBlocksContent } from '../../../tina/__generated__/types';
 
 import { useSource } from '@/libs/source';
 import { Field } from "@/libs/tina";
+import { TinaMarkdown } from 'tinacms/dist/rich-text';
 const temp = {
   "type": "root",
   "children": [
@@ -204,7 +205,6 @@ const temp = {
 } as const
 export function QAContent({ data }: { data: PageBlocksContent }) {
   let ratio = (bgImage.height / bgImage.width) * 100;
-
   return (
     <div className="min-h-screen text-[12px] lg:text-lg relative isolate text-[#111111ff] flex flex-col gap-6">
       <div style={{
@@ -216,27 +216,31 @@ export function QAContent({ data }: { data: PageBlocksContent }) {
           {
             data.fields?.flatMap((item, x) => {
               return item?.en?.children?.reduce((result: { h3: string, text: string }[] = [], item: any,) => {
-                console.log({ result })
                 if (item.type === 'h3') {
-                  result.push({ h3: item.children[0].text, text: '' })
+                  result.push({ q: item.children[0].text, a: [] })
+                } else {
+                  console.log({ item })
+                  result[result.length - 1].a.push(item)
                 }
-                if (item.type === 'p') {
-                  result[result.length - 1].text += item.children[0].text
-                }
+
                 return result
-              }, []).map((item: { h3: string, text: string }, i: number) => {
+              }, []).map((item: { q: string, a: any[] }, i: number) => {
+                console.log({ item })
                 return <div key={i} className="collapse  join-item border-b border-[#ceaabb]">
                   <input type="checkbox" name="my-accordion-4" className='peer' defaultChecked={i === 0} />
                   <Image priority alt="close" src={apple} width={40} height={40} className='visible h-[67px] peer-checked:invisible absolute lg:h-[84px]  object-scale-down  right-0 top-0 ' />
                   <Image priority alt="open" src={appleOpen} width={44} height={44} className='hidden absolute h-[67px] lg:h-[84px] animate-jump object-scale-down right-0 top-0  peer-checked:block' />
                   <div className="collapse-title flex gap6 justify-between ">
                     <h3 className='m-0'>
-                      {item.h3}
+                      {item.q}
                     </h3>
                     <div className='w-[84px]' />
                   </div>
                   <div className="collapse-content">
-                    <p>{item.text}</p>
+                    <TinaMarkdown content={{
+                      type: 'root',
+                      children: item.a
+                    }} />
                   </div>
                 </div>
               })
@@ -251,7 +255,6 @@ export function QAContent({ data }: { data: PageBlocksContent }) {
 export default function QA() {
   const source = useSource();
   let index = source?.blocks?.findIndex((item: any) => {
-    console.log({ item })
     return item?.__typename === 'PageBlocksContent' && item?.name === 'qa'
   })
   const data = source?.blocks[index]
