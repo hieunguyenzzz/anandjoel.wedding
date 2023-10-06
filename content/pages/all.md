@@ -7,6 +7,10 @@ blocks:
       in a more diverse way!
     item:
       - variant: One
+        title: Hoa Thông Brewing Co
+        description: '112 Thông Thiên Học St, Ward 2, Đà Lạt City'
+        image: /Hoa Thông Brewing Co.jpeg
+      - variant: One
         title: Túi Mơ To Cafe
         description: '11 Alley, Sào Nam St, Ward 11, Đà Lạt City'
         image: /Túi Mơ To Cafe.jpeg
