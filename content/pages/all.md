@@ -2,12 +2,16 @@
 title: AnJoel
 blocks:
   - bottom_text: >
-      Viết một câu chốt gì đó vô đây ngắn thôi maybe về ẩm thực vn . Lorem ipsum
-      dolor sit amet, consec-              tetuer adipiscing elit
+      An & Joel have tried & loved almost all of the restaurants above.
+      Hopefully, their food suggestions will help you explore Vietnamese cuisine
+      in a more diverse way!
     item:
       - variant: Two
         title: HỒ CHÍ MINH
-        description: ''
+        description: >-
+          An & Joel mainly stay in Ho Chi Minh City when returning to Vietnam,
+          so they have the most culinary experiences here! You can discover
+          everything from traditional dishes to fine dining all in this city!
         image: /Happily Ever After (38 × 39 cm).png
         images:
           - /1165791f-ac3a-4956-88c2-3877e2aa0154.jpeg
@@ -326,7 +330,10 @@ blocks:
         image: /phở bò phú gia.jpeg
       - variant: Two
         title: HÀ NỘI
-        description: ''
+        description: >-
+          Ha Noi cuisine features the most sophisticated and unique
+          characteristics of Vietnamese culinary art. You will be completely
+          surprised by its taste
         image: /Happily Ever After (38 × 39 cm).png
       - variant: One
         title: Xới Cơm
@@ -354,7 +361,9 @@ blocks:
         image: /Chả Cá Anh Vũ.jpeg
       - variant: Two
         title: SAPA
-        description: ''
+        description: >-
+          You can enjoy so many specialties in Sapa, not luxury, but definitely
+          unique, flavorful and yummy!
         image: image
       - variant: One
         title: Cá Tầm Vua Restaurant
@@ -382,7 +391,10 @@ blocks:
         image: /Thắng Cố A Phủ.jpeg
       - variant: Two
         title: ĐÀ NẴNG
-        description: ''
+        description: >-
+          Da Nang offers various foods from both North, Central and South of
+          Vietnam. Get your virtual chopsticks ready with these must - try
+          restaurants in this destination!
         image: image
       - variant: One
         title: Cá Chuồn Cồ Vietnamese Restaurant
