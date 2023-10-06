@@ -22,10 +22,6 @@ blocks:
         title: Hoa Thông Brewing Co
         description: '112 Thông Thiên Học St, Ward 2, Đà Lạt City'
         image: /Hoa Thông Brewing Co.jpeg
-      - variant: One
-        title: Túi Mơ To Cafe
-        description: '11 Alley, Sào Nam St, Ward 11, Đà Lạt City'
-        image: /Túi Mơ To Cafe.jpeg
       - variant: Two
         title: DA LAT
         description: description
@@ -468,6 +464,10 @@ blocks:
         title: Ốc 33
         description: '33 Hai Bà Trưng St, Ward 6, Đà Lạt City'
         image: /Ốc 33.jpeg
+      - variant: One
+        title: Túi Mơ To Cafe
+        description: '11 Alley, Sào Nam St, Ward 11, Đà Lạt City'
+        image: /Túi Mơ To Cafe.jpeg
     _template: bites
   - title: Explore Vietnam
     description: >-
