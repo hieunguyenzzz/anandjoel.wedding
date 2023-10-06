@@ -1,7 +1,10 @@
 ---
 title: AnJoel
 blocks:
-  - item:
+  - bottom_text: >
+      Viết một câu chốt gì đó vô đây ngắn thôi maybe về ẩm thực vn . Lorem ipsum
+      dolor sit amet, consec-              tetuer adipiscing elit
+    item:
       - variant: Two
         title: HỒ CHÍ MINH
         description: ''

@@ -149,7 +149,7 @@ export default async function RootLayout({
         <head><link rel="icon" href="/favicon.ico" sizes="any" /></head>
         <body className={(font.className + " bg-[#c2c5ff] min-h-screen text-[18px] md:text-[min(24px,5vw)] tracking-wider")}>
           <Header />
-          <main className='px-6 lg:px-12 '>
+          <main className='px-6 lg:px-12'>
             <noscript>
               <style>
                 {`img{

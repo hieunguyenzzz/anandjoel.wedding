@@ -5,6 +5,10 @@ export const schemaBites: Template = {
   name: 'bites',
   fields: [
     {
+      name: 'bottom_text',
+      type: 'rich-text'
+    },
+    {
       name: 'item',
       type: 'object',
       list: true,
@@ -24,7 +28,6 @@ export const schemaBites: Template = {
         {
           name: 'variant',
           type: 'string',
-
           options: [
             {
               value: "One",
@@ -35,11 +38,9 @@ export const schemaBites: Template = {
             }
           ]
         },
-
         {
           name: 'title',
           type: 'string'
-
         }, {
           name: 'description',
           type: 'string'

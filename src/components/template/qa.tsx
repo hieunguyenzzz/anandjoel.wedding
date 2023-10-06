@@ -3,7 +3,7 @@
 import Image from 'next/image';
 import appleOpen from '../../../public/apple-open.png';
 import apple from '../../../public/apple.png';
-import bgImage from '../../../public/qa_bg.png';
+import bgImage from '../../../public/bg-qa.jpeg';
 import { PageBlocksContent } from '../../../tina/__generated__/types';
 
 import { useSource } from '@/libs/source';
