@@ -21,8 +21,8 @@ export default function Page() {
     <>
       <div className="grid py-12 sm:grid-cols-2 lg:grid-cols-3 gap-3 isolate container mx-auto lg:gap-16 max-w-5xl">
         <Image src={bgImage} priority placeholder='blur' className='fixed object-top inset-0 w-full h-full max-w-full object-cover animate-fade' />
-        <Image src={sideBG} priority placeholder='blur' className='fixed object-top object-scale-down left-0 w-[60px] top-0 h-full  animate-fade' />
-        <Image src={sideBG} priority placeholder='blur' className='fixed object-top right-0 h-full object-scale-down w-[60px] top-0  animate-fade' />
+        <Image src={sideBG} priority placeholder='blur' className='fixed object-top object-scale-down left-0 w-[60px] top-0 h-full  animate-fade hidden' />
+        <Image src={sideBG} priority placeholder='blur' className='fixed object-top right-0 h-full object-scale-down w-[60px] top-0  animate-fade hidden' />
         {
           data?.item?.map((item, index) => {
             const title = item?.title || ''
@@ -37,8 +37,8 @@ export default function Page() {
                     <h3 className="font-bold text-[2em] font-title uppercase text-magical-item leading-[1.2] whitespace-nowrap">{title}</h3>
                   </div>
                   <div className="  w-2/3 ">
-                    <div className={clsx("font-subtitle max-w-xl  flex-1 text-opacity-75 opacity-75", !left ? "ml-auto" : "mr-auto")}>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonum-
-                      my nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.</div>
+                    <div className={clsx("font-subtitle max-w-xl  flex-1 text-opacity-75 opacity-75", !left ? "ml-auto" : "mr-auto")}>{description || `Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonum-
+                      my nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.`}</div>
                   </div>
                 </Field>
                 {
@@ -83,11 +83,14 @@ export default function Page() {
         }
       </div >
       <Bitenext key={id} id={id} onClose={() => setid(-1)} />
-      <div className="">
-        <div className="-mx-6 lg:-mx-12 ">
-          <Image src={bgBottom} priority placeholder='blur' className='w-full  max-w-none object-cover animate-fade' />
+      <div className="relative isolate ">
+        <div className=" flex pb-[20em] pt-[8em] justify-center items-center">
+          {data?.bottom_text && <div className="max-w-lg leading-relaxed mx-auto text-lg lg:text-3xl text-center px-10 lg:px-12"><TinaMarkdown content={data?.bottom_text} /></div>}
         </div>
-        {data?.bottom_text && <TinaMarkdown content={data?.bottom_text} />}
+      </div>
+      <div className=" sticky  bottom-[-300px] -mx-6 lg:-mx-12 lg:-right-12 pointer-events-none h-0">
+        <div style={{ background: 'linear-gradient(to bottom,transparent,#e1a0a9 70%)', position: 'absolute', bottom: 300, height: 300, left: 0, right: 0 }} />
+        <Image src={bgBottom} priority placeholder='blur' className='w-full absolute bottom-0   max-w-none object-cover animate-fade' />
       </div>
     </>
   )
