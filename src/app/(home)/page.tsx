@@ -1,8 +1,10 @@
 
+"use client"
 import AnimatedImage from '@/components/animateImage';
 import Image from '@/components/common/image';
 import { StaticImageData } from 'next/image';
 import Link from 'next/link';
+import { SyntheticEvent, useState } from 'react';
 import bgImage from '../../../public/main-page-update.png';
 import bgImageMoble from '../../../public/mobile-bg.png';
 import bite from './asset/bite-slide-1.png';
@@ -82,48 +84,64 @@ export const menuItemsL: {
 export default function Page() {
   const containerId = "containerId"
   const innerId = "innerId"
+  const [end, setEnd] = useState(false)
   return (
-    <div className=" w-full  text-[12px] lg:text-lg text-[#111111ff] flex flex-col gap-6 relative  isolate ">
-      <Image src={bgImageMoble} priority placeholder='blur' className=' -z-10 lg:hidden inset-0 fixed w-full h-full max-w-full object-cover animate-fade' />
-      <ul className='justify-center w-full animate-fade origin-top-right duration-300 text-center min-h-[calc(100vh-280px)] flex-col   isolate  z-10 top-0 left-0 flex items-center gap-6 lg:hidden'>
-        {
-          menuItems.map((item, index) => {
-            if (item.href === '/') {
-              return null
-            }
-            return <li key={index} style={{
-              animationDelay: `${300 + (index + 1) * 100}ms`
-            }} className='flex w-full flex-1 flex-col  animate-fade-up  items-center gap-2 relative max-w-[200px] lg:max-w-xs'>
-              <Link href={item.href} className='justify-center group flex items-center duration-500  ease-in-out  absolute inset-0  h-full text-shadow '>
-                <Image width={200} height={200} src={item.image} alt={item.title} className='object-cover transition-transform group-hover:scale-110 absolute inset-0 w-full h-full ' />
-                <div className='text-2xl font-semibold w-full uppercase hidden'>{item.title}</div>
-              </Link>
-            </li>
-          })}
-      </ul>
-      <div id={containerId} className='overflow-hidden container mx-auto flex flex-col relative justify-center items-center lg:relative '>
-        <div id={innerId} className='transition-transform duration-300 ease-in-out'>
-          <Image src={bgImage} priority placeholder='blur' className='hidden transition-transform lg:block -z-10 inset-0 w-full  max-w-full object-cover animate-fade' />
-          <ul className='hidden lg:block absolute inset-0 w-full h-full'>
-            {
-              menuItemsL.map((item, index) => {
-                return <li key={index} >
-                  <Link href={item.href} style={item.style} id={item.title} className='absolute '>
-                    <Image style={{
-                      animationDelay: `${300 + (index + 1) * 150}ms`
-                    }} width={200} height={200} src={item.image} alt={item.title} className='object-cover w-full absolute opacity-0 animate-fade-up hover:scale-110 duration-500  ease-in-out  transition-transform' />
-                    <div className='text-2xl font-semibold w-full uppercase hidden'>{item.title}</div>
-                  </Link>
-                </li>
-              })}
+    <div className='w-full'>
+      <div style={end ? { opacity: 1, display: "flex" } : { opacity: 0, display: 'none' }} className=" w-full delay-[2s] duration-[2s] text-[12px] lg:text-lg text-[#111111ff] flex flex-col gap-6 relative  isolate ">
+        <Image src={bgImageMoble} priority placeholder='blur' className=' -z-10 lg:hidden inset-0 fixed w-full h-full max-w-full object-cover animate-fade' />
+        <ul className='justify-center w-full animate-fade origin-top-right duration-300 text-center min-h-[calc(100vh-280px)] flex-col   isolate  z-10 top-0 left-0 flex items-center  lg:hidden'>
+          {
+            menuItems.map((item, index) => {
+              if (item.href === '/') {
+                return null
+              }
+              return <li key={index} style={{
+                animationDelay: `${300 + (index + 1) * 100}ms`
+              }} className='flex w-full flex-1 flex-col  animate-fade-up  items-center gap-2 relative max-w-[200px] lg:max-w-xs'>
+                <Link href={item.href} className='justify-center group flex items-center duration-500  ease-in-out  absolute inset-0  h-full text-shadow '>
+                  {/* <Image width={200} height={200} src={item.image} alt={item.title} className='object-cover transition-transform group-hover:scale-110 absolute inset-0 w-full h-full ' /> */}
+                  <div className='mt-[0.5em] font-header text-[8vw] font-extrabold'>{item.title}</div>
+                </Link>
+              </li>
+            })}
+        </ul>
+        <div id={containerId} className='overflow-hidden container mx-auto flex flex-col relative justify-center items-center lg:relative '>
+          <div id={innerId} className='transition-transform duration-300 ease-in-out'>
+            <Image src={bgImage} priority placeholder='blur' className='hidden transition-transform lg:block -z-10 inset-0 w-full  max-w-full object-cover animate-fade' />
+            <ul className='hidden lg:block absolute inset-0 w-full h-full'>
+              {
+                menuItemsL.map((item, index) => {
+                  return <li key={index} >
+                    <Link href={item.href} style={item.style} id={item.title} className='absolute '>
+                      <Image style={{
+                        animationDelay: `${300 + (index + 1) * 150}ms`
+                      }} width={200} height={200} src={item.image} alt={item.title} className='object-cover w-full absolute opacity-0 animate-fade-up hover:scale-110 duration-500  ease-in-out  transition-transform' />
+                      <div className='text-2xl font-semibold w-full uppercase hidden'>{item.title}</div>
+                    </Link>
+                  </li>
+                })}
 
-          </ul>
+            </ul>
+          </div>
+
+
+          <div className="absolute inset-0 hidden lg:block w-full h-full pointer-events-none" style={{ boxShadow: 'inset 0px 0px 16px 16px #C788B0, inset 0px 0px 33px 27px #C788B0' }} />
         </div>
-
-
-        <div className="absolute inset-0 hidden lg:block w-full h-full pointer-events-none" style={{ boxShadow: 'inset 0px 0px 16px 16px #C788B0, inset 0px 0px 33px 27px #C788B0' }} />
+        <AnimatedImage containerId={containerId} innerId={innerId} />
       </div>
-      <AnimatedImage containerId={containerId} innerId={innerId} />
+      <video onTimeUpdate={(e: SyntheticEvent<HTMLVideoElement, Event>) => {
+        console.log(e.currentTarget.currentTime)
+        if (e.currentTarget.currentTime > 6) {
+          if (e.currentTarget.style.opacity === '1') {
+            e.currentTarget.style.opacity = '0'
+            e.currentTarget.style.filter = 'blur(10px)'
+          }
+        }
+      }} style={end ? { opacity: 0, visibility: 'hidden' } : { opacity: 1 }} autoPlay muted onPlay={console.log} onEnded={e => {
+        setEnd(true)
+      }} className="fixed z-50 bg-[#6dc2e2] inset-0 w-full h-full transition-all lg:block duration-[2s] ease-in-out   max-w-full object-cover "
+        src="https://res.cloudinary.com/dfgbpib38/video/upload/f_auto:video,q_auto/AnJoel/scg2h68xh8xyvfac3l9d" />
     </div>
+
   )
 }

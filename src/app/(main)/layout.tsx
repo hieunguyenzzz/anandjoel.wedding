@@ -1,7 +1,4 @@
 import Image from '@/components/common/image'
-import SourceProvider from '@/libs/source'
-import { UseTinaWithRouter } from '@/libs/tina'
-import localFont from 'next/font/local'
 import Link from 'next/link'
 import bitesImage from '../../../public/BITES-150x150.png'
 import eventsImage from '../../../public/EVENTS.png'
@@ -13,31 +10,8 @@ import qaImage from '../../../public/qa-tag-150x150.png'
 import storyImage from '../../../public/story.png'
 import travelImage from '../../../public/travel-tag-768x721.png'
 import client from '../../../tina/__generated__/client'
-import './globals.css'
-const font = localFont({
-  src: [
-    {
-      path: '../../../public/fonts/Regular.ttf',
-      weight: '400',
-      style: 'normal',
-    },
-    {
-      path: '../../../public/fonts/Thin.ttf',
-      weight: '300',
-      style: 'normal',
-    },
-    {
-      path: '../../../public/fonts/ThinItalic.ttf',
-      weight: '300',
-      style: 'italic',
-    },
-  ],
-  variable: '--font-body',
-})
-const fontHeader = localFont({
-  src: '../../../public/fonts/Header.ttf',
-  variable: '--font-header',
-})
+
+
 export const menuItems = [
   {
     title: 'Story',
@@ -75,7 +49,7 @@ export const menuItems = [
   },
 ]
 const Header = () => {
-  return <header className={'flex gap-6  justify-center mx-auto z-20  h-[126px]  isolate relative ' + fontHeader.className}>
+  return <header className={'flex gap-6  justify-center mx-auto z-20  h-[126px]  isolate relative '}>
     <ul className='justify-center mx-auto items-center gap-6 hidden lg:flex relative   px-6 lg:px-12'>
       {/* <li className='absolute inset-[1.4em] rounded-lg backdrop-blur-sm pointer-events-none'></li> */}
       {
@@ -148,25 +122,19 @@ export default async function RootLayout({
 }) {
   const props = await client.queries.page({ relativePath: 'all.md' })
   return (
-    <SourceProvider defaultsource={props.data}>
-      <UseTinaWithRouter />
-      <html lang="en" data-theme="light">
-        <head><link rel="icon" href="/favicon.ico" sizes="any" /></head>
-        <body className={([font.className, fontHeader.variable].join(' ') + " bg-[#c2c5ff] min-h-screen text-[18px] md:text-[min(24px,5vw)] tracking-wider")}>
-          <Header />
-          <main className='px-6 lg:px-12'>
-            <noscript>
-              <style>
-                {`img{
+    <>
+      <Header />
+      <main className='px-6 lg:px-12'>
+        <noscript>
+          <style>
+            {`img{
                   opacity:100!important
                 }`}
-              </style>
-            </noscript>
+          </style>
+        </noscript>
 
-            {children}
-          </main>
-        </body>
-      </html>
-    </SourceProvider>
+        {children}
+      </main>
+    </>
   )
 }
