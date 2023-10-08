@@ -32,12 +32,12 @@ export default function Page() {
 
             if (item?.variant === "Two") {
               return <React.Fragment key={index}>
-                <Field className={clsx("col-span-full  py-12  mt-8 justify-between flex gap-6 flex-col md:items-center", left ? "md:flex-row-reverse" : "md:flex-row")} name={`blocks.0.item.${index}.title`}>
+                <Field className={clsx("col-span-full py-6 lg:py-12  lg:mt-8 justify-between flex gap-6 flex-col md:items-center", left ? "md:flex-row-reverse" : "md:flex-row")} name={`blocks.0.item.${index}.title`}>
                   <div className=' h-full relative'>
                     <h3 className="text-[2em] font-title uppercase text-magical-item leading-[1.2] whitespace-nowrap">{title}</h3>
                   </div>
-                  <div className=" md:w-2/3 ">
-                    <div className={clsx("font-subtitle max-w-xl  flex-1 text-opacity-75 opacity-75 text-justify", !left ? "ml-auto" : "mr-auto")}>{description || `Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonum-
+                  <div className=" lg:w-2/3 ">
+                    <div className={clsx("font-subtitle max-w-xl  flex-1 text-opacity-75 opacity-75 text-justify", !left ? "lg:ml-auto" : "lg:mr-auto")}>{description || `Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonum-
                       my nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.`}</div>
                   </div>
                 </Field>
