@@ -7,36 +7,17 @@ blocks:
       in a more diverse way!
     item:
       - variant: Two
+        location: saigon
         title: HỒ CHÍ MINH
         description: >-
           An & Joel mainly stay in Ho Chi Minh City when returning to Vietnam,
           so they have the most culinary experiences here! You can discover
           everything from traditional dishes to fine dining all in this city!
-        image: /Happily Ever After (38 × 39 cm).png
+        image: ''
         images:
           - /1165791f-ac3a-4956-88c2-3877e2aa0154.jpeg
-        gallery:
-          - name: image
-            image: /p4-destination-img-01.jpg
-          - name: image
-            image: /main-page-update.png
-          - name: image
-            image: /p4-destination-img-01.jpg
-          - name: image
-            image: /p4-destination-img-01.jpg
-          - name: image
-            image: /p4-destination-img-01.jpg
-          - name: image
-            image: /p4-destination-img-01.jpg
-          - name: image
-            image: /p4-destination-img-01.jpg
-          - name: image
-            image: /p4-destination-img-01.jpg
-          - name: image
-            image: /p4-destination-img-01.jpg
-          - name: image
-            image: /p4-destination-img-01.jpg
       - variant: One
+        location: hanoi
         title: Å by T.U.N.G
         description: '31-33 Đặng Dung Street, Tân Định Ward, District 1, HCMC'
         image: /a by tungg.webp
@@ -58,6 +39,7 @@ blocks:
           - name: image
             image: /bites/saigon/A by Tung/IMG_5500.jpeg
       - variant: One
+        location: sapa
         title: Mạ Quán
         description: 'Level 1, 153/02 Đồng Khởi, Bến Nghé Ward, District 1, HCMC'
         image: /MA QUAN.jpeg
@@ -67,6 +49,7 @@ blocks:
           - /bites/saigon/Mạ Quán/IMG_4559.jpeg
           - /bites/saigon/Mạ Quán/IMG_4560.jpeg
       - variant: One
+        location: danang
         title: Ivoire Pastry Boutique
         description: '28 Cao Bá Quát, Bến Nghé Ward, District 1, HCMC'
         image: /Ivoire Pastry Boutique.jpeg
@@ -87,6 +70,7 @@ blocks:
           - /bites/saigon/Ivore/IMG_2201.jpeg
           - /bites/saigon/Ivore/IMG_2202.jpeg
       - variant: One
+        location: hoian
         title: 'Bếp Nhà Lục Tỉnh '
         description: '37 Nam Kỳ Khởi Nghĩa, Nguyễn Thái Bình Ward, District 1, HCMC'
         image: /Bếp Nhà Lục TỉnhH.jpeg
@@ -98,6 +82,7 @@ blocks:
           - /bites/saigon/Bep Nha Luc Tinh/IMG_9271.jpeg
           - /bites/saigon/Bep Nha Luc Tinh/IMG_9274.jpeg
       - variant: One
+        location: dalat
         title: Park Hyatt Lounge
         description: '2 Lam Sơn Square, Bến Nghé Ward, District 1, HCMC'
         image: /Park Hyatt Lounge.jpeg

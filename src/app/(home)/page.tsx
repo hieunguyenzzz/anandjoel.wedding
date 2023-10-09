@@ -4,7 +4,7 @@ import AnimatedImage from '@/components/animateImage';
 import Image from '@/components/common/image';
 import { StaticImageData } from 'next/image';
 import Link from 'next/link';
-import { SyntheticEvent, useState } from 'react';
+import { SyntheticEvent, useEffect, useRef, useState } from 'react';
 import bgImage from '../../../public/main-page-update.png';
 import bgImageMoble from '../../../public/mobile-bg.png';
 import bite from './asset/bite-slide-1.png';
@@ -85,6 +85,15 @@ export default function Page() {
   const containerId = "containerId"
   const innerId = "innerId"
   const [end, setEnd] = useState(false)
+  const videoref = useRef<HTMLVideoElement>(null)
+  useEffect(() => {
+
+    setInterval(() => {
+      if (videoref.current?.currentTime === 0) {
+        videoref.current?.play()
+      }
+    }, 300)
+  }, [])
   return (
     <div className='w-full'>
       <div style={end ? { opacity: 1, display: "flex" } : { opacity: 0, display: 'none' }} className=" w-full delay-[2s] duration-[2s] text-[12px] lg:text-lg text-[#111111ff] flex flex-col gap-6 relative  isolate ">
@@ -129,15 +138,14 @@ export default function Page() {
         </div>
         <AnimatedImage containerId={containerId} innerId={innerId} />
       </div>
-      <video onTimeUpdate={(e: SyntheticEvent<HTMLVideoElement, Event>) => {
-        console.log(e.currentTarget.currentTime)
+      <video ref={videoref} onTimeUpdate={(e: SyntheticEvent<HTMLVideoElement, Event>) => {
         if (e.currentTarget.currentTime > 6) {
           if (e.currentTarget.style.opacity === '1') {
             e.currentTarget.style.opacity = '0'
             e.currentTarget.style.filter = 'blur(10px)'
           }
         }
-      }} style={end ? { opacity: 0, visibility: 'hidden' } : { opacity: 1 }} autoPlay muted onPlay={console.log} onEnded={e => {
+      }} style={end ? { opacity: 0, visibility: 'hidden' } : { opacity: 1 }} autoPlay onPlay={console.log} onEnded={e => {
         setEnd(true)
       }} className="fixed z-50 bg-[#6dc2e2] inset-0 w-full h-full transition-all lg:block duration-[2s] ease-in-out   max-w-full object-cover "
         src="https://res.cloudinary.com/dfgbpib38/video/upload/f_auto:video,q_auto/AnJoel/scg2h68xh8xyvfac3l9d" />

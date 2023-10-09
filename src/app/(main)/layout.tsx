@@ -124,7 +124,7 @@ export default async function RootLayout({
   return (
     <>
       <Header />
-      <main className='px-6 lg:px-12'>
+      <main className='px-6 lg:px-12 w-full'>
         <noscript>
           <style>
             {`img{
