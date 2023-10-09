@@ -97,11 +97,11 @@ function BiteDetail({ item, images: _images, onClose }: { item: PageBlocksExplor
       height: 400,
     }).props)))
   }
-
-  if (!images) return null
-  // console.log({ images })
   const id = useId()
   let modalId = `my_modal_${id}`
+  if (!images) return null
+  // console.log({ images })
+
   return (
     <>
       <dialog id={modalId} open onClose={onClose} className="modal modal-bottom  z-[51]">
