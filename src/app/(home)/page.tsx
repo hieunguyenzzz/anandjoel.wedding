@@ -87,12 +87,15 @@ export default function Page() {
   const [end, setEnd] = useState(false)
   const videoref = useRef<HTMLVideoElement>(null)
   useEffect(() => {
-
-    setInterval(() => {
+    let i = setInterval(() => {
       if (videoref.current?.currentTime === 0) {
         videoref.current?.play()
+        // i && clearInterval(i)
       }
     }, 300)
+    return () => {
+      i && clearInterval(i)
+    }
   }, [])
   return (
     <div className='w-full'>
@@ -138,7 +141,12 @@ export default function Page() {
         </div>
         <AnimatedImage containerId={containerId} innerId={innerId} />
       </div>
-      <video ref={videoref} onTimeUpdate={(e: SyntheticEvent<HTMLVideoElement, Event>) => {
+      <video onMouseOver={e => {
+        if (videoref.current?.currentTime === 0) {
+          videoref.current?.play()
+          // i && clearInterval(i)
+        }
+      }} ref={videoref} onTimeUpdate={(e: SyntheticEvent<HTMLVideoElement, Event>) => {
         if (e.currentTarget.currentTime > 6) {
           if (e.currentTarget.style.opacity === '1') {
             e.currentTarget.style.opacity = '0'

@@ -237,7 +237,7 @@ const Content = ({ id, setid, items, blockIndex, title, description, images, loc
           })
         }
       </div>
-      {current && <BiteDetail item={current} onClose={() => setCurrent(null)} images={images?.filter(img => img.includes(`/${location}/${current.title}/`))} />}
+      {current && <BiteDetail item={current} onClose={() => setCurrent(null)} images={images?.filter(img => img.includes(`/${current.title}/`))} />}
     </section >
   )
 }
