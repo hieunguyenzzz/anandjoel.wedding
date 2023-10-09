@@ -14,7 +14,7 @@ export function EventContent({ data }: { data: PageBlocksContent }) {
   return (
     <div className='isolate'>
       <Image src={bgImage} priority placeholder='blur' className='fixed  inset-0 object-cover  h-full top-0 left-0 w-full' />
-      <div className="min-h-screen -up animate-duration-[2000] animate-ease-in-out container mx-auto  relative isolate text-[#111111ff] flex flex-col gap-6">
+      <div className="min-h-screen -up animate-duration-[2000] animate-ease-in-out container mx-auto  relative isolate text-[#1a1a1a] flex flex-col gap-6">
         <div style={{
           minHeight: ratio + '%',
 
