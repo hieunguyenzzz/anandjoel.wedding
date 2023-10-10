@@ -84,7 +84,7 @@ const Mark = ({ children, open }: { children: ReactNode, open: boolean }) => {
     -webkit-mask-position: calc(${Math.floor(number / total * 14)} / 14 * 100%) calc(${Math.floor(number / total * 5)} / 5 * 100%);
 
   }`}</style>, [Math.floor(number / total * 14), Math.floor(number / total * 5)])}
-    <div data-number={number} className="fixed inset-0 w-full h-full mark bg-[#c788b0] " >
+    <div data-number={number} className="fixed inset-0 w-full h-full mark " >
       {children}
     </div>
   </>
@@ -118,8 +118,8 @@ export function Nav() {
                     }
                     return <li key={index} style={{
                       animationDelay: `${300 + (index + 1) * 100}ms`
-                    }} className='flex flex-1 w-full flex-col animate-fade-up  items-center gap-2 relative max-w-[200px] lg:max-w-xs'>
-                      <Link href={item.href} className='text-shadow '>
+                    }} className='flex w-full flex-col animate-fade-up  items-center gap-2 relative max-w-[200px] lg:max-w-xs'>
+                      <Link href={item.href} className='text-shadow py-6 lg:py-12'>
                         <div className='mt-[0.5em] font-header text-[min(4em,8vw)] font-extrabold'>{item.title}</div>
                       </Link>
                     </li>

@@ -48,7 +48,7 @@ export const menuItems = [
   },
 ]
 const Header = () => {
-  return <header className={'flex gap-6  justify-between mx-auto z-20  h-[126px]  isolate relative '}>
+  return <header className={'flex   justify-between mx-auto z-20  h-[126px]  isolate relative z-50'}>
     <ul className='justify-center mx-auto items-center gap-6 hidden lg:flex relative   px-6 lg:px-12'>
       {/* <li className='absolute inset-[1.4em] rounded-lg backdrop-blur-sm pointer-events-none'></li> */}
       {
@@ -66,8 +66,8 @@ const Header = () => {
         })}
     </ul>
     <div className='w-full flex gap-6 justify-between lg:hidden  z-20   px-6 lg:px-12'>
-      <Link href="/" className='w-[150px] flex items-center text-shadow relative'>
-        <Image priority src={logo} alt='logo' className='object-cover' />
+      <Link href="/" className='flex-1 flex items-center text-shadow relative'>
+        <Image priority src={logo} alt='logo' className='object-cover w-[150px]' />
       </Link>
       <div className="flex items-center space-x-6"
       >
