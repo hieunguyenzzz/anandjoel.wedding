@@ -296,18 +296,16 @@ export default function Page() {
   return <>
     <div className='flex flex-col lg:flex-row'>
       <div className='fixed left-0 top-0 h-screen w-full lg:w-[50%] isolate'>
-        <div className='z-10'>
-          <Map onSelect={e => {
-            // console.log({ e })
-            setid(e)
-          }} current={currentItem?.title} locations={locations || []} />
-        </div>
+        <Map onSelect={e => {
+          // console.log({ e })
+          setid(e)
+        }} current={currentItem?.title} locations={locations || []} />
       </div>
-      <div className='sticky  hidden md:flex top-[130px] h-[calc(100vh-126px)]  items-center justify-center w-[800px] md:max-w-[40vw] -z-10 pointer-events-none'>
+      <div className='sticky z-10 hidden md:flex top-[130px] h-[calc(100vh-126px)]  items-center justify-center w-[800px] md:max-w-[40vw] -z-10 pointer-events-none'>
         <div className='w-full flex-shrink-0'>
         </div>
       </div>
-      <div className=' w-full lg:w-auto flex-1 max-w-4xl'>
+      <div className='z-10 w-full lg:w-auto flex-1 max-w-4xl'>
         <Content {...{ id, setid, blockIndex, items, title: data?.title, location: currentItem?.location, description: data?.description, images }} />
       </div>
     </div>
