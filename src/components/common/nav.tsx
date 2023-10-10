@@ -34,7 +34,7 @@ const Mark = ({ children, open }: { children: ReactNode, open: boolean }) => {
             clearInterval(i)
             return 0
           }
-          return number - 1
+          return Math.max(number - 1, 0)
         })
       }, 24)
       return () => {
@@ -105,7 +105,7 @@ export function Nav() {
         }`
         }
       </style>}
-      <div className='peer-checked:opacity-100 opacity-0 transition-all pointer-events-none peer-checked:pointer-events-auto duration-1000 z-10 relative' >
+      <div className='peer-checked:opacity-100 invisible peer-checked:visible opacity-0 transition-all pointer-events-none peer-checked:pointer-events-auto duration-1000 z-10 relative' >
         <Mark open={open}>
           <div className='w-full isolate fixed inset-0 h-full z-50'>
             <div className=" w-full h-full  text-[12px] lg:text-lg text-[#1a1a1a] flex flex-col gap-6 relative  isolate ">

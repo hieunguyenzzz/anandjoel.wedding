@@ -35,7 +35,7 @@ const Mark = ({ children, open }: { children: ReactNode, open: boolean }) => {
             clearInterval(i)
             return 0
           }
-          return number - 1
+          return Math.max(0, number - 1)
         })
       }, 100)
       return () => {
