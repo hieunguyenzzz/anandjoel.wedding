@@ -1,11 +1,10 @@
 import Image from '@/components/common/image'
+import { Nav } from '@/components/common/nav'
 import Link from 'next/link'
 import bitesImage from '../../../public/BITES-150x150.png'
 import eventsImage from '../../../public/EVENTS.png'
 import exploreImage from '../../../public/explore-tag-3-150x150.png'
 import logo from '../../../public/logo-768x721.png'
-import bgImage from '../../../public/main-page-update.png'
-import bgImageMoble from '../../../public/mobile-bg.png'
 import qaImage from '../../../public/qa-tag-150x150.png'
 import storyImage from '../../../public/story.png'
 import travelImage from '../../../public/travel-tag-768x721.png'
@@ -49,7 +48,7 @@ export const menuItems = [
   },
 ]
 const Header = () => {
-  return <header className={'flex gap-6  justify-center mx-auto z-20  h-[126px]  isolate relative '}>
+  return <header className={'flex gap-6  justify-between mx-auto z-20  h-[126px]  isolate relative '}>
     <ul className='justify-center mx-auto items-center gap-6 hidden lg:flex relative   px-6 lg:px-12'>
       {/* <li className='absolute inset-[1.4em] rounded-lg backdrop-blur-sm pointer-events-none'></li> */}
       {
@@ -67,7 +66,7 @@ const Header = () => {
         })}
     </ul>
     <div className='w-full flex gap-6 justify-between lg:hidden  z-20   px-6 lg:px-12'>
-      <Link href="/" className='w-[150px] text-shadow relative'>
+      <Link href="/" className='w-[150px] flex items-center text-shadow relative'>
         <Image priority src={logo} alt='logo' className='object-cover' />
       </Link>
       <div className="flex items-center space-x-6"
@@ -83,36 +82,15 @@ const Header = () => {
           </svg>
         </button>
         <div className="group leading-none ">
-          <Link href="/" className="text-3xl text-white z-20 block">
+          <label htmlFor="menu-toggle" className="text-3xl text-white z-20 block">
             <svg fill="currentColor" width="1em" height="1em" xmlns="http://www.w3.org/2000/svg" xmlnsXlink="http://www.w3.org/1999/xlink" viewBox="0 0 116.92 111.19">
               <path d="M0,0V111.19H116.92V0ZM98.94,84.48H18v-10h81Zm0-23.9H18v-10h81Zm0-23.91H18v-10h81Z" />
             </svg>
-          </Link>
+          </label>
         </div>
       </div>
-
     </div>
-    <input type="checkbox" className="hidden peer" id="menu-toggle" />
-    <ul className='justify-center   origin-top-right duration-300 text-center pt-[150px] p-12 flex-col   h-screen isolate fixed z-10 top-0 overflow-auto left-0 hidden peer-checked:flex  w-full items-center gap-6 '>
-      <label htmlFor="menu-toggle">
-        <Image src={bgImage} priority placeholder='blur' className='hidden fixed md:block -z-10 left-0 bottom-0 w-full h-[120%] max-w-full object-cover -up' />
-        <Image src={bgImageMoble} priority placeholder='blur' className=' -z-10 md:hidden left-0 bottom-0 fixed w-full h-[120%] max-w-full object-cover -up' />
-      </label>
-      {
-        menuItems.map((item, index) => {
-          if (item.href === '/') {
-            return null
-          }
-          return <li key={index} style={{
-            animationDelay: `${(index + 1) * 100}ms`
-          }} className='flex w-full flex-1 flex-col  -up flex-shrink-0  items-center gap-2 relative max-w-xs'>
-            <Link href={item.href} className='hover:scale-110 justify-center flex items-center duration-500 ease-in-out transition-transform absolute inset-0  h-full text-shadow'>
-              <Image priority width={200} height={200} src={item.image} alt={item.title} className='object-contain' />
-              <div className='text-2xl font-semibold w-full uppercase hidden'>{item.title}</div>
-            </Link>
-          </li>
-        })}
-    </ul>
+    <Nav />
   </header>
 }
 export default async function RootLayout({
