@@ -14,7 +14,7 @@ export function EventContent({ data }: { data: PageBlocksContent }) {
   return (
     <div className='isolate'>
       <Image src={bgImage} priority placeholder='blur' className='fixed  inset-0 object-cover  h-full top-0 left-0 w-full' />
-      <div className="min-h-screen -up animate-duration-[2000] animate-ease-in-out container mx-auto  relative isolate text-[#111111ff] flex flex-col gap-6">
+      <div className="min-h-screen -up animate-duration-[2000] animate-ease-in-out container mx-auto  relative isolate text-[#1a1a1a] flex flex-col gap-6">
         <div style={{
           minHeight: ratio + '%',
 
@@ -22,7 +22,7 @@ export function EventContent({ data }: { data: PageBlocksContent }) {
 
           {
             data.fields?.map((item, index) => {
-              return <div key={index} data-tina-field={item ? tinaField(item, "en") : undefined} className='prose prose-hr:max-w-[50%] prose-hr:mx-auto prose-img:max-h-[2.4em]  lg:text-[calc(min(2vw,30px))] mx-auto whitespace-pre-wrap prose-h3:font-title prose-p:my-[0.3em] text-center prose-img:m-auto prose-h3:py-1 prose-h3:text-[1.4em] prose-h3:font-bold'><TinaMarkdown content={item?.en} /></div>
+              return <div key={index} data-tina-field={item ? tinaField(item, "en") : undefined} className='prose prose-hr:max-w-[50%] prose-h1:font-header prose-hr:mx-auto prose-img:max-h-[2.4em]  lg:text-[calc(min(2vw,30px))] mx-auto whitespace-pre-wrap prose-h3:font-title prose-p:my-[0.3em] text-center prose-img:m-auto prose-h3:py-1 prose-h3:text-[1.4em] prose-h3:font-bold'><TinaMarkdown content={item?.en} /></div>
             })
           }
           <div className='absolute top-0 left-0 w-full h-full pointer-events-none '></div>

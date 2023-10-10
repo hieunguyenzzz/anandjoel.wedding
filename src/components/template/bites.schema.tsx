@@ -1,5 +1,5 @@
 
-import { Template } from 'tinacms'
+import { Template } from 'tinacms';
 
 export const schemaBites: Template = {
   name: 'bites',
@@ -36,6 +36,18 @@ export const schemaBites: Template = {
               value: "Two",
               label: "two"
             }
+          ]
+        },
+        {
+          name: 'location',
+          type: 'string',
+          options: [
+            "dalat",
+            "danang",
+            "hanoi",
+            "hoian",
+            "saigon",
+            "sapa"
           ]
         },
         {

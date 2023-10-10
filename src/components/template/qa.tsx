@@ -206,7 +206,7 @@ const temp = {
 export function QAContent({ data }: { data: PageBlocksContent }) {
   let ratio = (bgImage.height / bgImage.width) * 100;
   return (
-    <div className="min-h-screen text-[12px] lg:text-lg relative isolate text-[#111111ff] flex flex-col gap-6">
+    <div className="min-h-screen text-[12px] lg:text-lg relative isolate text-[#1a1a1a] flex flex-col gap-6">
       <div style={{
         minHeight: ratio + 'vw',
       }} className='py-12 pb-[10vw] gap-[10vw] flex flex-col relative justify-center '>

@@ -84,7 +84,7 @@ export default function Page() {
   const containerId = "containerId"
   const innerId = "innerId"
   return (
-    <div className=" w-full  text-[12px] lg:text-lg text-[#111111ff] flex flex-col gap-6 relative  isolate ">
+    <div className=" w-full  text-[12px] lg:text-lg text-[#1a1a1a] flex flex-col gap-6 relative  isolate ">
 
       <Image src={bgImageMoble} priority placeholder='blur' className=' -z-10 lg:hidden inset-0 fixed w-full h-full max-w-full object-cover animate-fade' />
       <ul className='justify-center w-full animate-fade origin-top-right duration-300 text-center min-h-[calc(100vh-280px)] flex-col   isolate  z-10 top-0 left-0 flex items-center gap-6 lg:hidden'>
