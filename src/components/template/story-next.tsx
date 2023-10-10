@@ -113,7 +113,7 @@ export function StoryContent({ data }: { data: PageBlocksContent }) {
       <div style={{
         minHeight: ratio + 'vw',
       }} className='py-[min(24px,4vw)]  pb-[10vw] gap-[10vw] flex flex-col relative justify-center '>
-        <div className=" w-full flex flex-col gap-1 md:gap-3 text-[1.4em] leading-normal">
+        <div className=" w-full flex flex-col text-[1.4em] leading-normal gap-6">
           {data.fields?.map((i, ii) => {
             let C = i?.variant && compornent[i?.variant] || compornent.B3
             if (!C) return <div data-tina-field={tinaField(data, `fields.${ii}`)} key={ii} className='px-6 lg:px-12 xl:px-24 w-full mx-auto max-w-screen-xl'>
