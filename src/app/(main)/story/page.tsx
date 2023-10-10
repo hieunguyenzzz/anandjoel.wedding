@@ -14,13 +14,13 @@ const Mark = ({ children, open }: { children: ReactNode, open: boolean }) => {
     if (open) {
       let i = setInterval(() => {
         setNumber(number => {
-          if (number > total) {
+          if (number >= total) {
             clearInterval(i)
             return total
           }
-          return number + 14
+          return Math.min(number + 1, 84)
         })
-      }, 50)
+      }, 12)
       return () => {
         i && clearInterval(i)
       }
@@ -31,13 +31,13 @@ const Mark = ({ children, open }: { children: ReactNode, open: boolean }) => {
     if (!open) {
       let i = setInterval(() => {
         setNumber(number => {
-          if (number < 0) {
+          if (number <= 0) {
             clearInterval(i)
             return 0
           }
-          return Math.max(0, number - 1)
+          return Math.max(number - 1, 0)
         })
-      }, 100)
+      },)
       return () => {
         i && clearInterval(i)
       }
@@ -54,16 +54,8 @@ const Mark = ({ children, open }: { children: ReactNode, open: boolean }) => {
     bottom: 0;
     margin: auto;
     background-size: cover;
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
-    -ms-flex-direction: column;
-    flex-direction: column;
-    overflow-y: auto;
-    overflow-x: hidden;
-    padding-top: 36px;
     -webkit-mask: url(data:image/png;base64,png=);
     -webkit-mask-image: url(data:image/png;base64,png=);
     -webkit-mask-position-x: initial;
@@ -79,10 +71,9 @@ const Mark = ({ children, open }: { children: ReactNode, open: boolean }) => {
     -webkit-mask-size: 1500% 600%;
     -webkit-mask-image: url(/middle-240.webp);
     mask-image: url(/middle-240.webp);
-    -webkit-mask-position: calc(${Math.floor(number / total * 14)} / 14 * 100%) calc(${Math.floor(number / total * 5)} / 5 * 100%);
-
-  }`}</style>, [Math.floor(number / total * 14), Math.floor(number / total * 5)])}
-    <div data-number={number} className="fixed inset-0 w-full h-full mark-1 pointer-events-none backdrop-blur bg-opacity-1" >
+    -webkit-mask-position: calc(${number % 15} / 14 * 100%) calc(${Math.floor(number / 15)} / 5 * 100%);
+  }`}</style>, [number])}
+    <div className="absolute  inset-0 w-full h-full mark-1 pointer-events-none backdrop-blur bg-opacity-1" >
       {children}
     </div>
   </>
@@ -93,13 +84,12 @@ export default function Page() {
   return (
     <>
       <Image src={bgImage} priority placeholder='blur' className='fixed object-top inset-0 w-full  h-full max-w-full pointer-events-none object-cover animate-fade ' />
-
       <div className={clsx("isolate  fixed inset-0 h-full  w-full z-20 flex items-center")}>
         <div className="pointer-events-none">
-          <Image src={right} priority placeholder='blur' className='absolute top-0  w-[131vh] object-top right-0 h-auto max-w-full pointer-events-none object-cover animate-fade' />
-          <Image src={left} priority placeholder='blur' className='absolute  top-0 w-[131vh]  object-top left-0    h-auto max-w-full pointer-events-none object-cover animate-fade' />
+          <Image src={right} priority placeholder='blur' className='absolute top-0 w-1/2  md:w-[131vh] object-top right-0 h-auto max-w-full pointer-events-none object-cover animate-fade' />
+          <Image src={left} priority placeholder='blur' className='absolute  top-0 w-1/2 md:w-[131vh]  object-top left-0    h-auto max-w-full pointer-events-none object-cover animate-fade' />
         </div>
-        <div className="w-full h-full  flex flex-col relative  pt-[90vw] sm:pt-[20vw]  gap-24 ">
+        <div className="w-full h-full  flex flex-col relative pt-[20vw]  gap-24 ">
           <div className="max-w-[40ch]  text-xl md:text-[2vw] xl:text-[1.8vw] leading-relaxed mx-auto text-center px-14">
             An & Joel have tried & loved almost all of the restaurants above. Hopefully, their food suggestions will help you explore Vietnamese cuisine in a more diverse way!
           </div>
@@ -107,15 +97,17 @@ export default function Page() {
         </div>
       </div>
       {open && <div className="transition-all z-30 relative duration-[3s] ease-in-out isolate ">
-        <Mark open={open}>{<Image src={bgImage} priority placeholder='blur' className='fixed object-top inset-0 w-full  h-full max-w-full pointer-events-none object-cover  -z-10 ' />}</Mark>
-        <div className="pointer-events-none fixed inset-0 transform translate-y-[max(-70vw,-100vh)]">
-          <Image src={right} priority placeholder='blur' className='absolute top-0  w-[131vh] object-top right-0 h-auto max-w-full pointer-events-none object-cover animate-fade' />
-          <Image src={left} priority placeholder='blur' className='absolute  top-0 w-[131vh]  object-top left-0    h-auto max-w-full pointer-events-none object-cover animate-fade' />
-        </div>
+        <Mark open={open}>{<div className="pointer-events-none fixed inset-0 ">
+          <Image src={bgImage} priority placeholder='blur' className='fixed object-top inset-0 w-full  h-full max-w-full pointer-events-none object-cover  -z-10 ' />
+          <Image src={right} priority placeholder='blur' className='absolute transform translate-y-[max(-70vw,-100vh)] top-0  w-[131vh] object-top right-0 h-auto max-w-full pointer-events-none object-cover animate-fade' />
+          <Image src={left} priority placeholder='blur' className='absolute transform translate-y-[max(-70vw,-100vh)] top-0 w-[131vh]  object-top left-0    h-auto max-w-full pointer-events-none object-cover animate-fade' />
+        </div>}</Mark>
+
         <div className="z-10 relative mx-auto max-w-[65ch] px-6">
           <div>
-            <h2 className=" animate-fade-up animate-delay-300 font-header text-4xl lg:text-6xl font-bold text-center block my-12 lg:my-24">HOW IT BEGIN</h2></div>
-          <div className=" animate-fade-up animate-delay-500">
+            <h2 className=" animate-fade-up animate-delay-500 font-header text-4xl lg:text-6xl font-bold text-center block my-12 lg:my-24">HOW IT BEGIN</h2>
+          </div>
+          <div className=" animate-fade-up animate-delay-700">
             <Story />
           </div>
         </div>

@@ -5,7 +5,7 @@ import { usePathname } from 'next/navigation'
 import { ReactNode, useEffect, useMemo, useState } from 'react'
 import bgImageMoble from '../../../public/mobile-bg.png'
 import Image from './image'
-const total = 24
+const total = 84
 
 const Mark = ({ children, open }: { children: ReactNode, open: boolean }) => {
   const [number, setNumber] = useState(0)
@@ -13,13 +13,13 @@ const Mark = ({ children, open }: { children: ReactNode, open: boolean }) => {
     if (open) {
       let i = setInterval(() => {
         setNumber(number => {
-          if (number > total) {
+          if (number >= total) {
             clearInterval(i)
             return total
           }
-          return number + 1
+          return Math.min(number + 1, 84)
         })
-      }, 24)
+      },)
       return () => {
         i && clearInterval(i)
       }
@@ -30,13 +30,13 @@ const Mark = ({ children, open }: { children: ReactNode, open: boolean }) => {
     if (!open) {
       let i = setInterval(() => {
         setNumber(number => {
-          if (number < 0) {
+          if (number <= 0) {
             clearInterval(i)
             return 0
           }
           return Math.max(number - 1, 0)
         })
-      }, 24)
+      },)
       return () => {
         i && clearInterval(i)
       }
@@ -81,9 +81,10 @@ const Mark = ({ children, open }: { children: ReactNode, open: boolean }) => {
     -webkit-mask-size: 1500% 600%;
     -webkit-mask-image: url(/middle-240.webp);
     mask-image: url(/middle-240.webp);
-    -webkit-mask-position: calc(${Math.floor(number / total * 14)} / 14 * 100%) calc(${Math.floor(number / total * 5)} / 5 * 100%);
+    -webkit-mask-position: calc(${number % 15} / 14 * 100%) calc(${Math.floor(number / 15)} / 5 * 100%);
 
-  }`}</style>, [Math.floor(number / total * 14), Math.floor(number / total * 5)])}
+  }`}</style>, [number])}
+    <div className={('fixed -z-10 inset-0 w-full h-full bg-[#dc94aa]  transition-opacity duration-1000 ' + (open ? "opacity-100" : "opacity-0"))}></div>
     <div data-number={number} className="fixed inset-0 w-full h-full mark " >
       {children}
     </div>
@@ -105,26 +106,26 @@ export function Nav() {
         }`
         }
       </style>}
-      <div className='peer-checked:opacity-100 invisible peer-checked:visible opacity-0 transition-all pointer-events-none peer-checked:pointer-events-auto duration-1000 z-10 relative' >
+      <div className='peer-checked:opacity-100  peer-checked:visible transition-all pointer-events-none peer-checked:pointer-events-auto duration-300 z-10 relative' >
         <Mark open={open}>
           <div className='w-full isolate fixed inset-0 h-full z-50'>
-            <div className=" w-full h-full  text-[12px] lg:text-lg text-[#1a1a1a] flex flex-col gap-6 relative  isolate ">
+            <div className=" w-full h-full overflow-auto   text-[12px] lg:text-lg text-[#1a1a1a] flex flex-col gap-6 relative  isolate ">
               <Image src={bgImageMoble} priority placeholder='blur' className=' -z-10 object-top inset-0 fixed w-full h-full max-w-full object-cover ' />
-              <ul className='justify-center flex-1  w-full pt-[126px]  origin-top-right duration-300 text-center  flex-col   isolate  z-10 top-0 left-0 flex items-center '>
+              {open && <ul className='justify-center flex-1  w-full pt-[126px]  origin-top-right duration-300 text-center  flex-col   isolate  z-10 top-0 left-0 flex items-center '>
                 {
                   menuItems.map((item, index) => {
                     if (item.href === '/') {
                       return null
                     }
                     return <li key={index} style={{
-                      animationDelay: `${300 + (index + 1) * 100}ms`
+                      animationDelay: `${0 + (index + 1) * 100}ms`
                     }} className='flex w-full flex-col animate-fade-up  items-center gap-2 relative max-w-[200px] lg:max-w-xs'>
-                      <Link href={item.href} className='text-shadow py-6 lg:py-12'>
-                        <div className='mt-[0.5em] font-header text-[min(4em,8vw)] font-extrabold'>{item.title}</div>
+                      <Link href={item.href} className='py-3 md:py-6 lg:py-12'>
+                        <div className='font-header text-[min(4em,8vw)] text-shadow font-extrabold'>{item.title}</div>
                       </Link>
                     </li>
                   })}
-              </ul>
+              </ul>}
             </div>
           </div>
         </Mark>
