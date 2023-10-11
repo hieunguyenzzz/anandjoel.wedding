@@ -20,7 +20,7 @@ const Mark = ({ children, open }: { children: ReactNode, open: boolean }) => {
           }
           return Math.min(number + 1, 84)
         })
-      }, 12)
+      }, 10)
       return () => {
         i && clearInterval(i)
       }
@@ -89,7 +89,7 @@ export default function Page() {
           <Image src={right} priority placeholder='blur' className='absolute top-0 w-1/2  md:w-[131vh] object-top right-0 h-auto max-w-full pointer-events-none object-cover animate-fade' />
           <Image src={left} priority placeholder='blur' className='absolute  top-0 w-1/2 md:w-[131vh]  object-top left-0    h-auto max-w-full pointer-events-none object-cover animate-fade' />
         </div>
-        <div className="w-full h-full  flex flex-col relative pt-[20vw]  gap-24 ">
+        <div className="w-full h-full  flex flex-col relative pt-[299px]  md:pt-[20vw]  gap-24 ">
           <div className="max-w-[40ch]  text-xl md:text-[2vw] xl:text-[1.8vw] leading-relaxed mx-auto text-center px-14">
             An & Joel have tried & loved almost all of the restaurants above. Hopefully, their food suggestions will help you explore Vietnamese cuisine in a more diverse way!
           </div>
@@ -105,9 +105,9 @@ export default function Page() {
 
         <div className="z-10 relative mx-auto max-w-[65ch] px-6">
           <div>
-            <h2 className=" animate-fade-up animate-delay-500 font-header text-4xl lg:text-6xl font-bold text-center block my-12 lg:my-24">HOW IT BEGIN</h2>
+            <h2 className=" animate-fade-up animate-delay-700 font-header text-4xl lg:text-6xl font-bold text-center block my-12 lg:my-24">HOW IT BEGIN</h2>
           </div>
-          <div className=" animate-fade-up animate-delay-700">
+          <div className=" animate-fade-up animate-delay-[800ms]">
             <Story />
           </div>
         </div>
