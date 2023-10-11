@@ -90,7 +90,10 @@ export default function Page() {
     let i = setInterval(() => {
       if (videoref.current?.currentTime === 0) {
         videoref.current?.muted && (videoref.current.muted = false)
-        videoref.current?.play()
+        videoref.current?.play().then(() => { })
+          .catch((error) => {
+            console.error(error)
+          });
         i && clearInterval(i)
       }
     }, 300)
@@ -145,12 +148,18 @@ export default function Page() {
       <video onClick={e => {
         if (videoref.current?.currentTime === 0) {
           videoref.current?.muted && (videoref.current.muted = false)
-          videoref.current?.play()
+          videoref.current?.play().then(() => { })
+            .catch((error) => {
+              console.error(error)
+            });
         }
       }} onMouseOver={e => {
         if (videoref.current?.currentTime === 0) {
           videoref.current?.muted && (videoref.current.muted = false)
-          videoref.current?.play()
+          videoref.current?.play().then(() => { })
+            .catch((error) => {
+              console.error(error)
+            });
         }
       }} ref={videoref} onTimeUpdate={(e: SyntheticEvent<HTMLVideoElement, Event>) => {
         if (e.currentTarget.currentTime > 6) {
