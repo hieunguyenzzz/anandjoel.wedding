@@ -141,7 +141,12 @@ export default function Page() {
         </div>
         <AnimatedImage containerId={containerId} innerId={innerId} />
       </div>
-      <video onMouseOver={e => {
+      <video onClick={e => {
+        if (videoref.current?.currentTime === 0) {
+          videoref.current?.play()
+          // i && clearInterval(i)
+        }
+      }} onMouseOver={e => {
         if (videoref.current?.currentTime === 0) {
           videoref.current?.play()
           // i && clearInterval(i)
