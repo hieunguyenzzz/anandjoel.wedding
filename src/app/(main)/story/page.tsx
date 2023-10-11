@@ -8,50 +8,19 @@ import left from './_assets/AJ-web-03 (1).png';
 import bgImage from './_assets/bites-bg.png';
 const total = 84
 
-const Mark = ({ children, open }: { children: ReactNode, open: boolean }) => {
+const Mark = ({ children, id, className }: { children: ReactNode, id: string, className?: string }) => {
   const [number, setNumber] = useState(0)
-  useEffect(() => {
-    if (open) {
-      let i = setInterval(() => {
-        setNumber(number => {
-          if (number >= total) {
-            clearInterval(i)
-            return total
-          }
-          return Math.min(number + 1, 84)
-        })
-      }, 10)
-      return () => {
-        i && clearInterval(i)
-      }
-    }
 
-  }, [open])
   useEffect(() => {
-    if (!open) {
-      let i = setInterval(() => {
-        setNumber(number => {
-          if (number <= 0) {
-            clearInterval(i)
-            return 0
-          }
-          return Math.max(number - 1, 0)
-        })
-      },)
-      return () => {
-        i && clearInterval(i)
-      }
-    }
-
-  }, [open])
+    window.addEventListener("scroll", (e) => {
+      let height = window.innerHeight
+      console.log('scroll', window.scrollY, Math.floor((Math.max(height - window.scrollY, 0) / height * total)))
+      setNumber(total - Math.floor((Math.max(height - window.scrollY, 0) / height * total)))
+    });
+  }, []);
   return <>
     {useMemo(() => <style >{`
-  .mark-1{
-    position: fixed;
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0;
+  #mark-${id}{
     margin: auto;
     background-size: cover;
     -webkit-box-orient: vertical;
@@ -73,9 +42,9 @@ const Mark = ({ children, open }: { children: ReactNode, open: boolean }) => {
     mask-image: url(/middle-240.webp);
     -webkit-mask-position: calc(${number % 15} / 14 * 100%) calc(${Math.floor(number / 15)} / 5 * 100%);
   }`}</style>, [number])}
-    <div className="absolute  inset-0 w-full h-full mark-1 pointer-events-none backdrop-blur bg-opacity-1" >
+    <div id={`mark-${id}`} className={className + " pointer-events-none"} >
       {children}
-    </div>
+    </div >
   </>
 }
 export default function Page() {
@@ -89,29 +58,38 @@ export default function Page() {
           <Image src={right} priority placeholder='blur' className='absolute top-0 w-1/2  md:w-[131vh] object-top right-0 h-auto max-w-full pointer-events-none object-cover animate-fade' />
           <Image src={left} priority placeholder='blur' className='absolute  top-0 w-1/2 md:w-[131vh]  object-top left-0    h-auto max-w-full pointer-events-none object-cover animate-fade' />
         </div>
-        <div className="w-full h-full  flex flex-col relative pt-[299px]  md:pt-[20vw]  gap-24 ">
-          <div className="max-w-[40ch]  text-xl md:text-[2vw] xl:text-[1.8vw] leading-relaxed mx-auto text-center px-14">
-            An & Joel have tried & loved almost all of the restaurants above. Hopefully, their food suggestions will help you explore Vietnamese cuisine in a more diverse way!
-          </div>
-          <button onClick={() => setOpen(true)} className=" font-header text-4xl lg:text-[4vw] font-bold text-center block">HOW IT BEGIN</button>
-        </div>
-      </div>
-      {open && <div className="transition-all z-30 relative duration-[3s] ease-in-out isolate ">
-        <Mark open={open}>{<div className="pointer-events-none fixed inset-0 ">
-          <Image src={bgImage} priority placeholder='blur' className='fixed object-top inset-0 w-full  h-full max-w-full pointer-events-none object-cover  -z-10 ' />
-          <Image src={right} priority placeholder='blur' className='absolute transform translate-y-[max(-70vw,-100vh)] top-0  w-[131vh] object-top right-0 h-auto max-w-full pointer-events-none object-cover animate-fade' />
-          <Image src={left} priority placeholder='blur' className='absolute transform translate-y-[max(-70vw,-100vh)] top-0 w-[131vh]  object-top left-0    h-auto max-w-full pointer-events-none object-cover animate-fade' />
-        </div>}</Mark>
 
-        <div className="z-10 relative mx-auto max-w-[65ch] px-6">
-          <div>
-            <h2 className=" animate-fade-up animate-delay-700 font-header text-4xl lg:text-6xl font-bold text-center block my-12 lg:my-24">HOW IT BEGIN</h2>
+      </div>
+      <div className="transition-all z-30 relative duration-[3s] w-full ease-in-out isolate mx-auto">
+        <div className="z-10 relative mx-auto max-w-[65ch] px-6 ">
+          <div className="w-full h-full  flex flex-col relative pt-[100px]  md:pt-[20vw]  gap-24 ">
+            <div className="max-w-[40ch]  text-xl md:text-[2vw] xl:text-[1.8vw] leading-relaxed mx-auto text-center px-14">
+              An & Joel have tried & loved almost all of the restaurants above. Hopefully, their food suggestions will help you explore Vietnamese cuisine in a more diverse way!
+            </div>
           </div>
-          <div className=" animate-fade-up animate-delay-[800ms]">
-            <Story />
+          <div className="mt-24">
+            <h2 onClick={e => {
+              document.querySelector("#mark-content")?.scrollIntoView({
+                behavior: 'smooth',
+                block: 'start'
+              })
+            }} className=" animate-fade-up animate-delay-700 font-header text-4xl lg:text-6xl font-bold text-center block my-12 lg:my-24">HOW IT BEGIN</h2>
           </div>
+          <Mark id={'bg'} className="fixed inset-0 w-full h-full" ><div className="pointer-events-none fixed inset-0 ">
+            <Image src={bgImage} priority placeholder='blur' className='fixed object-top inset-0 w-full  h-full max-w-full pointer-events-none object-cover  -z-10 ' />
+            <Image src={right} priority placeholder='blur' className='absolute transform translate-y-[max(-70vw,-100vh)] top-0  w-[131vh] object-top right-0 h-auto max-w-full pointer-events-none object-cover animate-fade' />
+            <Image src={left} priority placeholder='blur' className='absolute transform translate-y-[max(-70vw,-100vh)] top-0 w-[131vh]  object-top left-0    h-auto max-w-full pointer-events-none object-cover animate-fade' />
+          </div></Mark>
+          <Mark id={'content'}>
+            <>
+              <div className=" animate-fade-up animate-delay-[800ms] pointer-events-auto pt-12">
+                <Story />
+              </div>
+            </>
+          </Mark>
+
         </div>
-      </div >}
+      </div >
     </>
 
   )

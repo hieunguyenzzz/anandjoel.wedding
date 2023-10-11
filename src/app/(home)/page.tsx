@@ -4,7 +4,7 @@ import AnimatedImage from '@/components/animateImage';
 import Image from '@/components/common/image';
 import { StaticImageData } from 'next/image';
 import Link from 'next/link';
-import { SyntheticEvent, useEffect, useRef, useState } from 'react';
+import { ReactNode, SyntheticEvent, useEffect, useMemo, useRef, useState } from 'react';
 import bgImage from '../../../public/main-page-update.png';
 import bgImageMoble from '../../../public/mobile-bg.png';
 import bite from './asset/bite-slide-1.png';
@@ -81,19 +81,108 @@ export const menuItemsL: {
       }
     },
   ]
+const total = 84
+
+const Mark = ({ children, open }: { children: ReactNode, open: boolean }) => {
+  const [number, setNumber] = useState(13)
+  useEffect(() => {
+    if (open) {
+      let i = setInterval(() => {
+        setNumber(number => {
+          if (number >= total) {
+            clearInterval(i)
+            return total
+          }
+          return Math.min(number + 1, 84)
+        })
+      },)
+      return () => {
+        i && clearInterval(i)
+      }
+    }
+
+  }, [open])
+  useEffect(() => {
+    if (!open) {
+      let i = setInterval(() => {
+        setNumber(number => {
+          if (number <= 0) {
+            clearInterval(i)
+            return 0
+          }
+          return Math.max(number - 1, 13)
+        })
+      },)
+      return () => {
+        i && clearInterval(i)
+      }
+    }
+
+  }, [open])
+  return <>
+    {useMemo(() => <style >{`
+    .mark-3{
+      position: fixed;
+      top: 0;
+      left: 0;
+      right: 0;
+      bottom: 0;
+      margin: auto;
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-orient: vertical;
+      -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+      flex-direction: column;
+      overflow-y: auto;
+      overflow-x: hidden;
+      padding-top: 36px;
+      -webkit-mask: url(data:image/png;base64,png=);
+      -webkit-mask-image: url(data:image/png;base64,png=);
+      -webkit-mask-position-x: initial;
+      -webkit-mask-position-y: initial;
+      -webkit-mask-repeat-x: initial;
+      -webkit-mask-repeat-y: initial;
+      -webkit-mask-origin: initial;
+      -webkit-mask-clip: initial;
+      mask-size: 1500% 600%;
+      -webkit-box-orient: vertical;
+      -webkit-mask-size: 1500% 600%;
+      -webkit-mask-image: url(/middle-240.webp);
+      mask-image: url(/middle-240.webp);
+      -webkit-mask-position: calc(${number % 15} / 14 * 100%) calc(${Math.floor(number / 15)} / 5 * 100%);
+  
+    }`}</style>, [number])}
+    <div className={('fixed -z-10 inset-0 w-full h-full pointer-events-none bg-[#dc94aa]  transition-opacity duration-1000 ' + (open ? "opacity-100" : "opacity-0"))}></div>
+    <div data-number={number} className="fixed inset-0 w-full h-full mark-3 pointer-events-none" >
+      {children}
+    </div>
+  </>
+}
+
 export default function Page() {
   const containerId = "containerId"
   const innerId = "innerId"
   const [end, setEnd] = useState(false)
+  const [open, setOpen] = useState(false)
   const videoref = useRef<HTMLVideoElement>(null)
   useEffect(() => {
+    if (!open) return
     let i = setInterval(() => {
       if (videoref.current?.currentTime === 0) {
-        videoref.current?.play().then(() => { })
+        videoref.current?.play().then(() => { console.log('videoref.current.muted', videoref.current.muted); videoref.current.muted = false })
           .catch((error) => {
-            console.error(error)
+            console.error('1', videoref.current, error)
             videoref.current.muted = true
-            videoref.current?.play()
+            console.log('1  videoref.current.muted ', videoref.current.muted)
+            videoref.current.autoplay = true
+
+            setTimeout(() => {
+              videoref.current?.play().then(() => { videoref.current.muted = false }).catch((error) => {
+                console.error('2', error)
+              })
+            }, 1000)
           });
         i && clearInterval(i)
       }
@@ -101,9 +190,9 @@ export default function Page() {
     return () => {
       i && clearInterval(i)
     }
-  }, [])
+  }, [open])
   return (
-    <div className='w-full'>
+    <div className='fixed inset-0 w-full h-full'>
       <div style={end ? { opacity: 1, display: "flex" } : { opacity: 0, display: 'none' }} className=" w-full delay-[2s] duration-[2s] text-[12px] lg:text-lg text-[#1a1a1a] flex flex-col gap-6 relative  isolate ">
         <Image src={bgImageMoble} priority placeholder='blur' className=' -z-10 lg:hidden inset-0 fixed w-full h-full max-w-full object-cover animate-fade' />
         <ul className='justify-center w-full animate-fade origin-top-right duration-300 text-center min-h-[calc(100vh-280px)] flex-col   isolate  z-10 top-0 left-0 flex items-center  lg:hidden'>
@@ -122,7 +211,7 @@ export default function Page() {
               </li>
             })}
         </ul>
-        <div id={containerId} className='overflow-hidden container mx-auto flex flex-col relative justify-center items-center lg:relative '>
+        <div id={containerId} className='overflow-hidden  mx-auto flex flex-col relative justify-center items-center lg:relative '>
           <div id={innerId} className='transition-transform duration-300 ease-in-out'>
             <Image src={bgImage} priority placeholder='blur' className='hidden transition-transform lg:block -z-10 inset-0 w-full  max-w-full object-cover animate-fade' />
             <ul className='hidden lg:block absolute inset-0 w-full h-full'>
@@ -137,46 +226,39 @@ export default function Page() {
                     </Link>
                   </li>
                 })}
-
             </ul>
           </div>
-
-
-          <div className="absolute inset-0 hidden lg:block w-full h-full pointer-events-none" style={{ boxShadow: 'inset 0px 0px 16px 16px #C788B0, inset 0px 0px 33px 27px #C788B0' }} />
+          {/* <div className="absolute inset-0 hidden lg:block w-full h-full pointer-events-none" style={{ boxShadow: 'inset 0px 0px 16px 16px #C788B0, inset 0px 0px 33px 27px #C788B0' }} /> */}
         </div>
         <AnimatedImage containerId={containerId} innerId={innerId} />
       </div>
-      <video onClick={e => {
-        if (videoref.current?.currentTime === 0) {
-          videoref.current?.muted && (videoref.current.muted = false)
-          videoref.current?.play().then(() => { })
-            .catch((error) => {
-              videoref.current.muted = true
-              videoref.current?.play()
-              console.error(error)
-            });
-        }
-      }} onMouseOver={e => {
-        if (videoref.current?.currentTime === 0) {
-          videoref.current?.muted && (videoref.current.muted = false)
-          videoref.current?.play().then(() => { })
-            .catch((error) => {
-              videoref.current.muted = true
-              videoref.current?.play()
-              console.error(error)
-            });
-        }
-      }} ref={videoref} onTimeUpdate={(e: SyntheticEvent<HTMLVideoElement, Event>) => {
-        if (e.currentTarget.currentTime > 6) {
-          if (e.currentTarget.style.opacity === '1') {
-            e.currentTarget.style.opacity = '0'
-            e.currentTarget.style.filter = 'blur(10px)'
-          }
-        }
-      }} style={end ? { opacity: 0, visibility: 'hidden' } : { opacity: 1 }} autoPlay webkit-playsinline playsInline onPlay={console.log} onEnded={e => {
-        setEnd(true)
-      }} className="fixed z-50 bg-[#6dc2e2] inset-0 w-full h-full transition-all lg:block duration-[2s] ease-in-out   max-w-full object-cover "
-        src="https://res.cloudinary.com/dfgbpib38/video/upload/f_auto:video,q_auto/AnJoel/scg2h68xh8xyvfac3l9d" />
+      <Mark open={open}>
+        <video
+          onMouseOver={e => {
+            if (!open) {
+              setOpen(true)
+            }
+          }} onClick={e => {
+            if (!open) {
+              setOpen(true)
+            } else {
+              if (e.currentTarget.currentTime > 1) {
+                setEnd(true)
+              }
+            }
+          }} ref={videoref} onTimeUpdate={(e: SyntheticEvent<HTMLVideoElement, Event>) => {
+            if (e.currentTarget.currentTime > 6) {
+              if (e.currentTarget.style.opacity === '1') {
+                e.currentTarget.style.opacity = '0'
+                e.currentTarget.style.filter = 'blur(10px)'
+              }
+            }
+          }} style={end ? { opacity: 0, visibility: 'hidden' } : { opacity: 1 }} webkit-playsinline="true" playsInline muted onEnded={e => {
+            setEnd(true)
+          }} className="fixed  z-50 inset-0 w-full h-full transition-all lg:block duration-[2s] ease-in-out  max-w-full object-cover pointer-events-auto"
+          src="https://res.cloudinary.com/dfgbpib38/video/upload/f_auto:video,q_auto/AnJoel/scg2h68xh8xyvfac3l9d" />
+      </Mark>
+
     </div>
 
   )
