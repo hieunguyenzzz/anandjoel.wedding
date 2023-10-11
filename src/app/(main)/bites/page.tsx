@@ -7,6 +7,7 @@ import { ImageProps, StaticImageData, unstable_getImgProps } from "next/image";
 import { usePathname, useRouter, useSearchParams } from 'next/navigation';
 import { useCallback, useEffect, useId, useState } from 'react';
 import 'react-image-lightbox/style.css';
+import { TinaMarkdown } from 'tinacms/dist/rich-text';
 import Lightbox, {
   RenderSlideProps,
   Slide,
@@ -157,7 +158,7 @@ const Content = ({ id, setid, items, blockIndex, title, description, images, loc
         {title || "Explore Vietnam"}
       </h1>
       <p className="mt-3 ">
-        {description || `An & Joel have tried & loved almost all of the restaurants above. Hopefully, their food suggestions will help you explore Vietnamese cuisine in a more diverse way!`}
+        {description && <TinaMarkdown content={description} /> || `An & Joel have tried & loved almost all of the restaurants above. Hopefully, their food suggestions will help you explore Vietnamese cuisine in a more diverse way!`}
       </p>
     </div>
     <div className="grid xl:grid-cols-2  mt-6 gap-6" id="galleryID">
@@ -192,7 +193,6 @@ const Content = ({ id, setid, items, blockIndex, title, description, images, loc
       }
     </div>
   </section>
-  console.log({ images, current, name: `/${location}/${current?.title}/` })
   return (
     <section className="mt-12 mx-auto px-4  md:px-8">
       <div key={currentItem?.title} className="prose">
