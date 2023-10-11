@@ -89,10 +89,11 @@ export default function Page() {
   useEffect(() => {
     let i = setInterval(() => {
       if (videoref.current?.currentTime === 0) {
-        videoref.current?.muted && (videoref.current.muted = false)
         videoref.current?.play().then(() => { })
           .catch((error) => {
             console.error(error)
+            videoref.current.muted = true
+            videoref.current?.play()
           });
         i && clearInterval(i)
       }
@@ -150,6 +151,8 @@ export default function Page() {
           videoref.current?.muted && (videoref.current.muted = false)
           videoref.current?.play().then(() => { })
             .catch((error) => {
+              videoref.current.muted = true
+              videoref.current?.play()
               console.error(error)
             });
         }
@@ -158,6 +161,8 @@ export default function Page() {
           videoref.current?.muted && (videoref.current.muted = false)
           videoref.current?.play().then(() => { })
             .catch((error) => {
+              videoref.current.muted = true
+              videoref.current?.play()
               console.error(error)
             });
         }
