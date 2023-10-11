@@ -89,8 +89,9 @@ export default function Page() {
   useEffect(() => {
     let i = setInterval(() => {
       if (videoref.current?.currentTime === 0) {
+        videoref.current?.muted && (videoref.current.muted = false)
         videoref.current?.play()
-        // i && clearInterval(i)
+        i && clearInterval(i)
       }
     }, 300)
     return () => {
@@ -143,13 +144,13 @@ export default function Page() {
       </div>
       <video onClick={e => {
         if (videoref.current?.currentTime === 0) {
+          videoref.current?.muted && (videoref.current.muted = false)
           videoref.current?.play()
-          // i && clearInterval(i)
         }
       }} onMouseOver={e => {
         if (videoref.current?.currentTime === 0) {
+          videoref.current?.muted && (videoref.current.muted = false)
           videoref.current?.play()
-          // i && clearInterval(i)
         }
       }} ref={videoref} onTimeUpdate={(e: SyntheticEvent<HTMLVideoElement, Event>) => {
         if (e.currentTarget.currentTime > 6) {
