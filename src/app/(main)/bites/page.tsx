@@ -157,8 +157,7 @@ const Content = ({ id, setid, items, blockIndex, title, description, images, loc
         {title || "Explore Vietnam"}
       </h1>
       <p className="mt-3 ">
-        {description || `Blogs that are loved by the community. Updated every hour.
-      The powerful gravity waves resulting from the impact of the planets, were finally resolved in 2015`}
+        {description || `An & Joel have tried & loved almost all of the restaurants above. Hopefully, their food suggestions will help you explore Vietnamese cuisine in a more diverse way!`}
       </p>
     </div>
     <div className="grid xl:grid-cols-2  mt-6 gap-6" id="galleryID">
@@ -306,7 +305,7 @@ export default function Page() {
         </div>
       </div>
       <div className='z-10 w-full lg:w-auto flex-1 max-w-4xl'>
-        <Content {...{ id, setid, blockIndex, items, title: data?.title, location: currentItem?.location, description: data?.description, images }} />
+        <Content {...{ id, setid, blockIndex, items, title: data?.title, location: currentItem?.location, description: data?.bottom_text, images }} />
       </div>
     </div>
   </>
