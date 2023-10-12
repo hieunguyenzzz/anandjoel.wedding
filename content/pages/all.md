@@ -1052,8 +1052,8 @@ blocks:
           Transportation will be provided to and from the venue and hotel
 
 
-          Please kindly be at the hotel lobby at 8:15 AM for ceremony and 3:15
-          PM for reception
+          *Please kindly be at the hotel lobby at 8:15 AM for ceremony and 3:15
+          PM for reception*
 
 
           ***
@@ -1066,8 +1066,8 @@ blocks:
           Da Lat city from December 15 to December 17
 
 
-          Please kindly let us know if you will be staying here by November 15
-          and refer to An & Joel wedding
+          *Please kindly let us know if you will be staying here by November 15
+          and refer to An & Joel wedding*
 
 
           ***
