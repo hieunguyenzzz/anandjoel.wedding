@@ -1007,7 +1007,7 @@ blocks:
           DECEMBER 15, 2023
 
 
-          ***
+          ![](</con nhện.png>)
 
 
           # CEREMONY
