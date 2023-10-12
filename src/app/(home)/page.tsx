@@ -192,7 +192,7 @@ export default function Page() {
     }
   }, [open])
   return (
-    <div className='fixed inset-0 w-full h-full'>
+    <div className='fixed inset-0 w-full h-full flex flex-col justify-center'>
       <div style={end ? { opacity: 1, display: "flex" } : { opacity: 0, display: 'none' }} className=" w-full delay-[2s] duration-[2s] text-[12px] lg:text-lg text-[#1a1a1a] flex flex-col gap-6 relative  isolate ">
         <Image src={bgImageMoble} priority placeholder='blur' className=' -z-10 lg:hidden inset-0 fixed w-full h-full max-w-full object-cover animate-fade' />
         <ul className='justify-center w-full animate-fade origin-top-right duration-300 text-center min-h-[calc(100vh-280px)] flex-col   isolate  z-10 top-0 left-0 flex items-center  lg:hidden'>
@@ -204,7 +204,7 @@ export default function Page() {
               return <li key={index} style={{
                 animationDelay: `${300 + (index + 1) * 100}ms`
               }} className='flex w-full flex-1 flex-col  animate-fade-up  items-center gap-2 relative max-w-[200px] lg:max-w-xs'>
-                <Link href={item.href} className='justify-center group flex items-center duration-500  ease-in-out  absolute inset-0  h-full text-shadow '>
+                <Link href={item.href} className='justify-center group flex items-center duration-500  ease-in-out  absolute inset-0  h-full '>
                   {/* <Image width={200} height={200} src={item.image} alt={item.title} className='object-cover transition-transform group-hover:scale-110 absolute inset-0 w-full h-full ' /> */}
                   <div className='mt-[0.5em] font-header text-[8vw] font-extrabold'>{item.title}</div>
                 </Link>
@@ -237,10 +237,12 @@ export default function Page() {
           onMouseOver={e => {
             if (!open) {
               setOpen(true)
+              e.currentTarget.muted = false
             }
           }} onClick={e => {
             if (!open) {
               setOpen(true)
+              e.currentTarget.muted = false
             } else {
               if (e.currentTarget.currentTime > 1) {
                 setEnd(true)
@@ -255,7 +257,7 @@ export default function Page() {
             }
           }} style={end ? { opacity: 0, visibility: 'hidden' } : { opacity: 1 }} webkit-playsinline="true" playsInline muted onEnded={e => {
             setEnd(true)
-          }} className="fixed  z-50 inset-0 w-full h-full transition-all lg:block duration-[2s] ease-in-out  max-w-full object-cover pointer-events-auto"
+          }} controls={false} autoPlay className="fixed  z-50 inset-0 w-full h-full transition-all lg:block duration-[2s] ease-in-out  max-w-full object-cover pointer-events-auto"
           src="https://res.cloudinary.com/dfgbpib38/video/upload/f_auto:video,q_auto/AnJoel/cudmqrtwawefjlrgova4" />
       </Mark>
 
