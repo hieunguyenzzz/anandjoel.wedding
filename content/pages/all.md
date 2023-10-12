@@ -1019,7 +1019,7 @@ blocks:
           DECEMBER 16, 2023
 
 
-          09:00 AM - 10:30 AM
+          **09:00 AM - 10:30 AM**
 
 
           9th Hill, Da Lat city, Lam Dong province, Vietnam
@@ -1037,7 +1037,7 @@ blocks:
           DECEMBER 16, 2023
 
 
-          4:00 PM - 9:00 PM
+          **4:00 PM - 9:00 PM**
 
 
           Xuan Tho ward, Da Lat city, Lam Dong province, Vietnam
