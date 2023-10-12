@@ -1043,7 +1043,7 @@ blocks:
           Xuan Tho ward, Da Lat city, Lam Dong province, Vietnam
 
 
-          ***
+          ![](</con bọ hung.png>)
 
 
           # TRANSPORTATION
@@ -1056,7 +1056,7 @@ blocks:
           PM for reception*
 
 
-          ***
+          ![](</con châu chấu.png>)
 
 
           # ACCOMMODATION
@@ -1070,7 +1070,7 @@ blocks:
           and refer to An & Joel wedding*
 
 
-          ***
+          **![](</con bươm bướm_.png>)
 
 
           # DRESSCODE
