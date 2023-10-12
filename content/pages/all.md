@@ -2,9 +2,9 @@
 title: AnJoel
 blocks:
   - bottom_text: >
-      An & Joel have tried & loved almost all of the restaurants above.
+      *An & Joel have tried & loved almost all of the restaurants above.
       Hopefully, their food suggestions will help you explore Vietnamese cuisine
-      in a more diverse way!
+      in a more diverse way!*
     item:
       - variant: Two
         title: HỒ CHÍ MINH
