@@ -1025,7 +1025,7 @@ blocks:
           9th Hill, Da Lat city, Lam Dong province, Vietnam
 
 
-          ***
+          ![](</con cào cào.png>)
 
 
           # RECEPTION
