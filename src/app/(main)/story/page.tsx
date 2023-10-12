@@ -21,7 +21,6 @@ const Mark = ({ children, id, className }: { children: ReactNode, id: string, cl
   return <>
     {useMemo(() => <style >{`
   #mark-${id}{
-    margin: auto;
     background-size: cover;
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
@@ -61,7 +60,7 @@ export default function Page() {
 
       </div>
       <div className="transition-all z-30 relative duration-[3s] w-full ease-in-out isolate mx-auto">
-        <div className="z-10 relative mx-auto max-w-[65ch] px-6 ">
+        <div className="z-10 relative mx-auto max-w-[65ch] ">
           <div className="w-full h-full  flex flex-col relative pt-[100px]  md:pt-[20vw]  gap-24 ">
             <div className="max-w-[40ch]  text-xl md:text-[2vw] xl:text-[1.8vw] leading-relaxed mx-auto text-center px-14">
               An & Joel have tried & loved almost all of the restaurants above. Hopefully, their food suggestions will help you explore Vietnamese cuisine in a more diverse way!
@@ -80,9 +79,9 @@ export default function Page() {
             <Image src={right} priority placeholder='blur' className='absolute transform translate-y-[max(-70vw,-100vh)] top-0  w-[131vh] object-top right-0 h-auto max-w-full pointer-events-none object-cover animate-fade' />
             <Image src={left} priority placeholder='blur' className='absolute transform translate-y-[max(-70vw,-100vh)] top-0 w-[131vh]  object-top left-0    h-auto max-w-full pointer-events-none object-cover animate-fade' />
           </div></Mark>
-          <Mark id={'content'}>
+          <Mark id={'content'} className="mt-[25vh]">
             <>
-              <div className=" animate-fade-up animate-delay-[800ms] pointer-events-auto pt-12">
+              <div className=" animate-fade-up animate-delay-[800ms] pointer-events-auto">
                 <Story />
               </div>
             </>
