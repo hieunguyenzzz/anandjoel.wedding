@@ -176,6 +176,8 @@ export default function Page() {
             let timeout = setTimeout(() => {
               videoref.current?.play().then(() => { clearTimeout(timeout) }).catch((error) => {
                 console.error('2', error)
+                videoref.current.muted = true
+                videoref.current?.play()
               })
             }, 1000)
           });
