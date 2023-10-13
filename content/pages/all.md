@@ -341,7 +341,7 @@ blocks:
         description: >-
           You can enjoy so many specialties in Sapa, not luxury, but definitely
           unique, flavorful and yummy!
-        image: image
+        image: /Red Dzao.jpeg
       - variant: One
         title: Cá Tầm Vua Restaurant
         description: '09 Fansipan St, Sapa, Lào Cai'
