@@ -566,7 +566,7 @@ blocks:
           place to explore on foot, this city is also known for its delectable
           cuisine, vibrant nightlife, silks and handicrafts, as well as a
           multicultural community that’s made up of Chinese, French and Russian
-          influences.
+          influences
         image: /hà NỘI.jpeg
         gallery:
           - name: Hotel de l'Opera Hanoi
