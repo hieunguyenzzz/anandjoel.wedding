@@ -458,8 +458,7 @@ blocks:
         description: >-
           Sapa is also fantastic, but you need time to travel there. Take a 10
           pm overnight train from Hanoi and arrive early at 5 am. Once there
-          hire a guide and trek all over the hills to see ethnic minority
-          tribes.
+          hire a guide and trek all over the hills to see ethnic minority tribes
         image: /sapaaa.jpeg
         gallery:
           - name: image
