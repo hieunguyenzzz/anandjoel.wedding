@@ -1006,6 +1006,7 @@ blocks:
 
           DECEMBER 15, 2023
 
+           
 
           ![](</con bươm bướm_.png>)
 
@@ -1338,6 +1339,7 @@ blocks:
           - /AJ.jpeg
           - /AJ.jpeg
       - variant: B7
+        en: ''
         images:
           - /IMG_0289.JPEG
     _template: content
