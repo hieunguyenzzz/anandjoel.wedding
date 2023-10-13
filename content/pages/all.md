@@ -372,7 +372,7 @@ blocks:
           Da Nang offers various foods from both North, Central and South of
           Vietnam. Get your virtual chopsticks ready with these must - try
           restaurants in this destination!
-        image: image
+        image: /danang cover.jpeg
       - variant: One
         title: Cá Chuồn Cồ Vietnamese Restaurant
         description: '99 Võ Nguyên Giáp St, Mỹ An, Ngũ Hành Sơn District, Đà Nẵng'
@@ -450,7 +450,7 @@ blocks:
   - title: Explore Vietnam
     description: >-
       A land of staggering natural beauty and cultural complexities, of dynamic
-      megacities and hill-tribe villages, Vietnam is unforgettably compelling
+      megacities and hill-tribe villages, Vietnam is unforgettably compelling.
     item:
       - location: Lào Cai
         variant: Two
@@ -458,7 +458,8 @@ blocks:
         description: >-
           Sapa is also fantastic, but you need time to travel there. Take a 10
           pm overnight train from Hanoi and arrive early at 5 am. Once there
-          hire a guide and trek all over the hills to see ethnic minority tribes
+          hire a guide and trek all over the hills to see ethnic minority
+          tribes.
         image: /sapaaa.jpeg
         gallery:
           - name: image
@@ -511,7 +512,7 @@ blocks:
         description: >-
           Ninh Binh is a mesmerizing area known locally as ‘Ha Long Bay on Land’
           thanks to its magical riverine landscape, with sheer limestone
-          mountains rising up from the paddies
+          mountains rising up from the paddies.
         image: /nINH BÌNH.jpeg
         gallery:
           - name: Hoa Lu Ancient Capital
@@ -566,7 +567,7 @@ blocks:
           place to explore on foot, this city is also known for its delectable
           cuisine, vibrant nightlife, silks and handicrafts, as well as a
           multicultural community that’s made up of Chinese, French and Russian
-          influences
+          influences.
         image: /hà NỘI.jpeg
         gallery:
           - name: Hotel de l'Opera Hanoi
@@ -619,7 +620,8 @@ blocks:
         description: >-
           You can witness the giant limestone formations and caves on an
           overnight boat cruise in HaLong Bay, which is arguably Vietnam’s most
-          recognized landscape, boasting over 1,600 limestone islands and islets
+          recognized landscape, boasting over 1,600 limestone islands and
+          islets. 
         image: /Hạ Long.jpeg
         gallery:
           - name: Aqua Of The Seas Cruise Halong
@@ -674,7 +676,7 @@ blocks:
           north-central part of the country. It is known for its stunning
           natural beauty, with limestone mountains, lush forests, and stunning
           beaches. Quang Binh is also home to some of the most spectacular caves
-          in the world, including the world-famous Son Doong Cave
+          in the world, including the world-famous Son Doong Cave. 
         image: /Quang bINH.jpeg
         gallery:
           - name: Sun Spa Resort & Villa
@@ -721,7 +723,7 @@ blocks:
         description: >-
           Da Nang is located in the middle of the northern capital. The main
           reason most visitors stay here is its proximity to the popular My Khe
-          Beach, Lang Co Beach, Hoi An, and My Son
+          Beach, Lang Co Beach, Hoi An, and My Son.
         image: /Đà Nẵng.jpeg
         gallery:
           - name: Intercontinental Danang Sun Peninsula Resort
@@ -774,7 +776,7 @@ blocks:
         description: >-
           Hoi An is just right next to Da Nang. You can take a taxi from Da Nang
           to Hoi AN. It's an old fishing village now a UNESCO World Heritage
-          Site. Small, quiet, touristy, and fantastic food
+          Site. Small, quiet, touristy, and fantastic food.
         image: /IMG_1656.jpeg
         gallery:
           - name: Four Seasons Resort The Nam Hai Hoi An
@@ -808,7 +810,7 @@ blocks:
           Many people come to Phu Yen to admire the vast rice fields, green
           lawns and forget that this coastal land has many other beautiful
           places to explore. We found a really cool resort named Zannier Hotels
-          Bãi San Hô on Instagram, make sure to check it out if you have time
+          Bãi San Hô on Instagram, make sure to check it out if you have time.
         image: /Phú Yên.jpeg
         gallery:
           - name: Zannier Hotels Bai San Ho
@@ -853,7 +855,7 @@ blocks:
         description: >-
           Dalat is a highly sought-after getaway destination that captivates our
           hearts no matter how many times we visit, and that’s why we choose to
-          host our wedding there
+          host our wedding there.
         image: /IMG_4041.jpeg
         gallery:
           - name: Cu Lan Village
@@ -893,7 +895,7 @@ blocks:
           "Pearl of the Far East" because of its charming heritage architecture,
           dynamic, vibrant and bustling atmosphere and friendly people. Here,
           you can immerse yourself in the diverse cuisine by the interference of
-          many regions, and countries
+          many regions, and countries.
         image: /SG.jpeg
         gallery:
           - name: Park Hyatt
@@ -946,7 +948,7 @@ blocks:
         description: >-
           Phu Quoc will fill your days with activities and tours, immerse in
           natural beauty, or simply puff a rollup and relax. And December is
-          also the perfect time to catch the wonderful Phu Quoc sunset
+          also the perfect time to catch the wonderful Phu Quoc sunset.
         image: /Phú Quốc.jpeg
         gallery:
           - name: InterContinental Phu Quoc Long Beach Resort
@@ -1303,7 +1305,7 @@ blocks:
         name: Câu 2
         en: >
           During the cloud hunting 1 year ago, An successfully proposed to Joel
-          in Da Lat, Vietnam, which is also An's hometown
+          in Da Lat, Vietnam, which is also An's hometown.
       - variant: B4
         name: joel ring
         en: ''
