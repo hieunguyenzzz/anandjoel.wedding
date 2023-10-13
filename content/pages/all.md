@@ -774,7 +774,7 @@ blocks:
         description: >-
           Hoi An is just right next to Da Nang. You can take a taxi from Da Nang
           to Hoi AN. It's an old fishing village now a UNESCO World Heritage
-          Site. Small, quiet, touristy, and fantastic food.
+          Site. Small, quiet, touristy, and fantastic food
         image: /IMG_1656.jpeg
         gallery:
           - name: Four Seasons Resort The Nam Hai Hoi An
