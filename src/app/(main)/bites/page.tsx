@@ -1,6 +1,5 @@
 "use client";
 import Image from '@/components/common/image';
-import Map from '@/components/template/explore/map';
 import { useSource } from '@/libs/source';
 import { Field } from '@/libs/tina';
 import { ImageProps, StaticImageData, unstable_getImgProps } from "next/image";
@@ -20,7 +19,8 @@ import Thumbnails from "yet-another-react-lightbox/plugins/thumbnails";
 import "yet-another-react-lightbox/plugins/thumbnails.css";
 import "yet-another-react-lightbox/styles.css";
 import { PageBlocksBites, PageBlocksBitesItem, PageBlocksExploreItem, PageBlocksExploreItemGallery } from '../../../../tina/__generated__/types';
-
+import bg from './_assets/bg.png';
+import Map from './map';
 function isNextJsImage(slide: Slide): slide is StaticImageData {
   return (
     isImageSlide(slide) &&
@@ -293,6 +293,7 @@ export default function Page() {
   }, [])
   console.log({ images, currentItem })
   return <>
+    <Image src={bg} width={400} className='fixed -z-10 inset-0 w-full h-full max-w-full object-cover animate-fade bg-[#f2b8ae] pointer-events-none' ></Image>
     <div className='flex flex-col lg:flex-row'>
       <div className='fixed left-0 top-0 h-screen w-full lg:w-[50%] isolate'>
         <Map onSelect={e => {
