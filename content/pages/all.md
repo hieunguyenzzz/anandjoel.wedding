@@ -1305,7 +1305,7 @@ blocks:
         name: Câu 2
         en: >
           During the cloud hunting 1 year ago, An successfully proposed to Joel
-          in Da Lat, Vietnam, which is also An's hometown.
+          in Da Lat, Vietnam, which is also An's hometown
       - variant: B4
         name: joel ring
         en: ''
