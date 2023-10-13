@@ -1005,7 +1005,7 @@ blocks:
           DECEMBER 15, 2023
 
 
-          ![](</con bươm bướm_.png>)
+          ![](</hình 2.png>)
 
 
           # CEREMONY
