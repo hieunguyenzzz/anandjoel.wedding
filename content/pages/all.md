@@ -1025,7 +1025,7 @@ blocks:
           9th Hill, Da Lat city, Lam Dong province, Vietnam
 
 
-          ![](</con nhện.png>)
+          ![](</con cào cào.png>)
 
 
           # RECEPTION
@@ -1043,7 +1043,7 @@ blocks:
           Xuan Tho ward, Da Lat city, Lam Dong province, Vietnam
 
 
-          ![](</con cào cào.png>)
+          ![](</con bọ hung.png>)
 
 
           # TRANSPORTATION
@@ -1056,7 +1056,7 @@ blocks:
           PM for reception*
 
 
-          ![](</con châu chấu.png>)
+          ![](</con nhện.png>)
 
 
           # ACCOMMODATION
