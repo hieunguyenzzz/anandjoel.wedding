@@ -311,7 +311,7 @@ blocks:
           Ha Noi cuisine features the most sophisticated and unique
           characteristics of Vietnamese culinary art. You will be completely
           surprised by its taste
-        image: /Bún Chả Hàng Quạt.jpeg
+        image: /Bún Chả Hàng Quạt.jpeg
       - variant: One
         title: Xới Cơm
         description: '107 Lane 36, Lang Ha Street, Dong Da, Hanoi, Vietnam'
@@ -372,7 +372,7 @@ blocks:
           Da Nang offers various foods from both North, Central and South of
           Vietnam. Get your virtual chopsticks ready with these must - try
           restaurants in this destination!
-        image: /Cơm gà bà Buội.jpeg
+        image: image
       - variant: One
         title: Cá Chuồn Cồ Vietnamese Restaurant
         description: '99 Võ Nguyên Giáp St, Mỹ An, Ngũ Hành Sơn District, Đà Nẵng'
@@ -1293,7 +1293,7 @@ blocks:
         en: >
           They have been together for 8 years, since the day An and Joel met in
           the US, which means a lot to them, a place where you can be true to
-          yourself, pursue your dreams and where dreams do become true.
+          yourself, pursue your dreams and where dreams do become true
         images:
           - /AJ.jpeg
       - variant: B7
