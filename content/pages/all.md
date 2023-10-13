@@ -1054,7 +1054,7 @@ blocks:
           PM for reception*
 
 
-          ![](</con châu chấu.png>)
+          ![](</hình 1.png>)
 
 
           # ACCOMMODATION
