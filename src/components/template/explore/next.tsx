@@ -128,7 +128,7 @@ export default function ExploreNext() {
   return <>
     <div className='flex isolate flex-col lg:flex-row'>
       <Image src={bg} width={400} className='fixed -z-10 inset-0 w-full h-full max-w-full object-cover animate-fade bg-[#f2b8ae] pointer-events-none' ></Image>
-      <div className='fixed -z-10 left-0 top-0 h-screen w-full lg:w-[50%]'>
+      <div className='fixed -z-10 flex items-center left-0 top-0 h-screen w-full lg:w-[50%]'>
         <Map onSelect={e => {
           console.log({ e })
           setid(e)
