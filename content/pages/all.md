@@ -403,7 +403,7 @@ blocks:
           Hoi An’s food truly gets a ‘taste’ of the place. Many of these dishes
           are made from local ingredients, so you cannot find the same taste
           outside of this area
-        image: image
+        image: ''
       - variant: One
         title: Cao lầu Thanh
         description: '26 Thái Phiên St, Minh An Ward, Hội An City'
@@ -421,7 +421,7 @@ blocks:
         description: >-
           Đà Lạt city owns itself an excellent condition for farming, which
           provides high-quality and fresh vegetables for every dish
-        image: /bites/dalat/Chefs DaLat /chefs-da-lat-tgroup-travel-7.jpeg
+        image: /cover đà lạt.jpeg
       - variant: One
         title: Ốc 33
         description: '33 Hai Bà Trưng St, Ward 6, Đà Lạt City'
