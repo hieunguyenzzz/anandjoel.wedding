@@ -1334,9 +1334,9 @@ blocks:
       - variant: B6
         en: ''
         images:
-          - /AJ.jpeg
-          - /AJ.jpeg
-          - /AJ.jpeg
+          - /2EAE61F5-F3AB-4508-968F-0F6CEF92FC04.jpeg
+          - /FA70A895-764D-4025-B727-3E8498DB4475.jpeg
+          - /B9FA486E-1392-4346-ABCA-E39871832254.jpeg
       - variant: B7
         en: ''
         images:
