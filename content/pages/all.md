@@ -1337,7 +1337,8 @@ blocks:
           - /AJ.jpeg
           - /AJ.jpeg
           - /AJ.jpeg
-      - images:
+      - variant: B7
+        images:
           - /IMG_0289.JPEG
     _template: content
 ---

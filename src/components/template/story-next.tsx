@@ -92,7 +92,7 @@ const compornent = {
   },
   B7: (props: PageBlocksContentFields): ReactNode => {
     return (
-      <Image src={props.images?.[0]} width={800} height={800} className='w-full h-full object-cover bg-slate-50 bg-opacity-30' />
+      <Image src={props.images?.[0]} width={800} height={800} className='w-full h-auto object-cover bg-slate-50 bg-opacity-30' />
     )
   }
 }
@@ -107,7 +107,7 @@ export function StoryContent({ data }: { data: PageBlocksContent }) {
           {data.fields?.map((i, ii) => {
             let C = i?.variant && compornent[i?.variant] || compornent.B3
 
-            return <div data-tina-field={tinaField(data, `fields.${ii}`)} key={ii} className='px-6 md:px-24 lg:px-12 xl:px-24 w-full mx-auto max-w-screen-xl'>
+            return <div data-tina-field={tinaField(data, `fields.${ii}`)} key={ii} className='px-6 md:px-24 lg:px-12  w-full mx-auto max-w-screen-xl'>
               <C {...i} />
             </div>
           })}
