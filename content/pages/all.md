@@ -450,7 +450,7 @@ blocks:
   - title: Explore Vietnam
     description: >-
       A land of staggering natural beauty and cultural complexities, of dynamic
-      megacities and hill-tribe villages, Vietnam is unforgettably compelling.
+      megacities and hill-tribe villages, Vietnam is unforgettably compelling
     item:
       - location: Lào Cai
         variant: Two
