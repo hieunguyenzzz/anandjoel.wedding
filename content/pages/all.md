@@ -1153,7 +1153,7 @@ blocks:
           #### GOING TO DA LAT
 
 
-          #### **\*Flying from Ho Chi Minh city to Da Lat**
+          ##### \*Flying from Ho Chi Minh city to Da Lat
 
 
           Check-in counters then proceed upstairs to security. In the mornings,
