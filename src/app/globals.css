@@ -10,30 +10,14 @@
   --background-end-rgb: 255, 255, 255;
 }
 
-.text-shadow:after {
-  content: "";
-  display: block;
-  position: absolute;
-  top: 0;
-  right: 0;
-  bottom: 0;
-  left: 0;
-  z-index: -1;
-  background: radial-gradient(rgba(255,255,255,.3),transparent 60%);
-  margin: -60px -20px;
-  transition: all linear .3s ease-in-out;
-  pointer-events: none;
-}
+
 .text-outline {
   color: transparent;
   -webkit-text-fill-color: transparent;
   -webkit-text-stroke: 1px black;
   font-family: var(--font-title);
 }
-.text-shadow:hover:after {
-  background: radial-gradient(rgba(255,255,255,.8),transparent 60%);
-  margin: -180px -140px;
-}
+
 
 .text-magical .text-magical-item{
   width: auto;
