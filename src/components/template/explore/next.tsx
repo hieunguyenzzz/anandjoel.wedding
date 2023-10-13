@@ -8,9 +8,9 @@ import 'react-image-lightbox/style.css';
 import { TinaMarkdown } from 'tinacms/dist/rich-text';
 import { PageBlocksExplore } from '../../../../tina/__generated__/types';
 import Image from '../../common/image';
+import bg from './_assets/bg.png';
 import Map from './map';
-
-const initid = (s: string) => s.replaceAll(' ', '-').toLowerCase()
+const initid = (s: string) => s.replaceAll(' ', '').replaceAll('_', '').toLowerCase()
 
 const Content = ({ id, setid, data, blockIndex }: { id: number, setid: (n: number) => void, data: PageBlocksExplore, blockIndex: number }) => {
   const currentItem = data?.item?.find((item, index) => initid(item?.title) === id)
@@ -123,10 +123,11 @@ export default function ExploreNext() {
   const setid = (id: string) => {
     router.replace(pathname + '?' + createQueryString('id', '' + initid(id)))
   }
-  const currentItem = data?.item?.find((item, index) => item?.title && initid(item?.title) === id)
+  const currentItem = data?.item?.find((item, index) => item?.title && initid(item?.title).includes(id))
+  console.log({ currentItem })
   return <>
     <div className='flex isolate flex-col lg:flex-row'>
-      <div className='fixed -z-10 inset-0 w-full h-full max-w-full object-cover animate-fade bg-[#50cbcd] pointer-events-none' ></div>
+      <Image src={bg} width={400} className='fixed -z-10 inset-0 w-full h-full max-w-full object-cover animate-fade bg-[#f2b8ae] pointer-events-none' ></Image>
       <div className='fixed -z-10 left-0 top-0 h-screen w-full lg:w-[50%]'>
         <Map onSelect={e => {
           console.log({ e })
@@ -138,7 +139,7 @@ export default function ExploreNext() {
 
         </div>
       </div>
-      <div className=' w-full lg:w-auto flex-1 max-w-4xl'>
+      <div key={id} className=' w-full lg:w-auto flex-1 max-w-4xl'>
         <Content {...{ id, setid, blockIndex, data }} />
       </div>
     </div>

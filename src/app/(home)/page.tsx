@@ -165,7 +165,6 @@ export default function Page() {
   const containerId = "containerId"
   const innerId = "innerId"
   const [end, setEnd] = useState(false)
-  const [open, setOpen] = useState(false)
   const videoref = useRef<HTMLVideoElement>(null)
   useEffect(() => {
     if (!open) return
@@ -228,38 +227,34 @@ export default function Page() {
                 })}
             </ul>
           </div>
-          {/* <div className="absolute inset-0 hidden lg:block w-full h-full pointer-events-none" style={{ boxShadow: 'inset 0px 0px 16px 16px #C788B0, inset 0px 0px 33px 27px #C788B0' }} /> */}
+          <div className="absolute inset-0 hidden lg:block w-full h-full pointer-events-none" style={{ boxShadow: 'inset 0px 0px 16px 16px #C788B0, inset 0px 0px 33px 27px #C788B0' }} />
         </div>
         <AnimatedImage containerId={containerId} innerId={innerId} />
       </div>
-      <Mark open={open}>
-        <video
-          onMouseOver={e => {
-            if (!open) {
-              setOpen(true)
-              e.currentTarget.muted = false
+      <video
+        onMouseOver={e => {
+          if (!open) {
+            e.currentTarget.muted = false
+          }
+        }} onClick={e => {
+          if (!open) {
+            e.currentTarget.muted = false
+          }
+        }} ref={videoref} onTimeUpdate={(e: SyntheticEvent<HTMLVideoElement, Event>) => {
+          if (e.currentTarget.muted) {
+            // e.currentTarget.muted = false
+
+          }
+          if (e.currentTarget.currentTime > 6) {
+            if (e.currentTarget.style.opacity === '1') {
+              e.currentTarget.style.opacity = '0'
+              e.currentTarget.style.filter = 'blur(10px)'
             }
-          }} onClick={e => {
-            if (!open) {
-              setOpen(true)
-              e.currentTarget.muted = false
-            } else {
-              if (e.currentTarget.currentTime > 1) {
-                setEnd(true)
-              }
-            }
-          }} ref={videoref} onTimeUpdate={(e: SyntheticEvent<HTMLVideoElement, Event>) => {
-            if (e.currentTarget.currentTime > 6) {
-              if (e.currentTarget.style.opacity === '1') {
-                e.currentTarget.style.opacity = '0'
-                e.currentTarget.style.filter = 'blur(10px)'
-              }
-            }
-          }} style={end ? { opacity: 0, visibility: 'hidden' } : { opacity: 1 }} webkit-playsinline="true" playsInline muted onEnded={e => {
-            setEnd(true)
-          }} controls={false} autoPlay className="fixed  z-50 inset-0 w-full h-full transition-all lg:block duration-[2s] ease-in-out  max-w-full object-cover pointer-events-auto"
-          src="https://res.cloudinary.com/dfgbpib38/video/upload/f_auto:video,q_auto/AnJoel/cudmqrtwawefjlrgova4" />
-      </Mark>
+          }
+        }} style={end ? { opacity: 0, visibility: 'hidden' } : { opacity: 1 }} webkit-playsinline="true" playsInline onEnded={e => {
+          setEnd(true)
+        }} controls={false} autoPlay className="fixed  z-50 inset-0 w-full h-full transition-all lg:block duration-[2s] ease-in-out  max-w-full object-cover pointer-events-auto"
+        src="https://res.cloudinary.com/dfgbpib38/video/upload/f_auto:video,q_auto/AnJoel/cudmqrtwawefjlrgova4" />
 
     </div>
 
