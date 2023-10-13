@@ -1153,7 +1153,7 @@ blocks:
           #### GOING TO DA LAT
 
 
-          ##### \*Flying from Ho Chi Minh city to Da Lat
+          ##### **\*Flying from Ho Chi Minh city to Da Lat**
 
 
           Check-in counters then proceed upstairs to security. In the mornings,
@@ -1167,7 +1167,7 @@ blocks:
           the driver directly and this will get you a better rate
 
 
-          \*Traveling from Ho Chi Minh city to Da Lat by sleeper bus
+          **\*Traveling from Ho Chi Minh city to Da Lat by sleeper bus**
 
 
           If you want to experience traveling to Da Lat by road, you can try the
