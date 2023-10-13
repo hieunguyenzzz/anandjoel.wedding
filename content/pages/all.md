@@ -1070,7 +1070,7 @@ blocks:
           and refer to An & Joel wedding*
 
 
-          ![](</con bọ hung.png>)
+          ![](</con châu chấu.png>)
 
 
           # DRESSCODE
