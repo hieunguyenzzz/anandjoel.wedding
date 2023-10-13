@@ -1319,10 +1319,9 @@ blocks:
           - /IMG_4041.jpeg
           - /2392F174-47E8-454D-AABC-39ADF1885977.jpeg
       - name: Câu 3
-        en: |
-          *Cheers to An & Joel's wedding and enjoy the fruits from *
-
-          *the Forbidden Garden!*
+        en: >
+          Cheers to An & Joel's wedding and enjoy the fruits from the Forbidden
+          Garden!
       - variant: B6
         name: on one knee
         en: ''
