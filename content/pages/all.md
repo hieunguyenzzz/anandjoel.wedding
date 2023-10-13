@@ -421,7 +421,7 @@ blocks:
         description: >-
           Đà Lạt city owns itself an excellent condition for farming, which
           provides high-quality and fresh vegetables for every dish
-        image: image
+        image: /bites/dalat/Chefs DaLat /chefs-da-lat-tgroup-travel-7.jpeg
       - variant: One
         title: Ốc 33
         description: '33 Hai Bà Trưng St, Ward 6, Đà Lạt City'
@@ -1071,7 +1071,7 @@ blocks:
           ![](</con bọ hung.png>)
 
 
-          # DRESSCODE
+          # DRESS CODE
 
 
           Ceremony: White or light colors. No busy patterns
@@ -1153,18 +1153,18 @@ blocks:
           #### GOING TO DA LAT
 
 
-          \*Flying from Ho Chi Minh city to Da Lat
+          ##### \*Flying from Ho Chi Minh city to Da Lat
 
 
           Check-in counters then proceed upstairs to security. In the mornings,
           security is quick. We recommend getting to the airport at least an
-          hour early to check in and get through security.
+          hour early to check in and get through security
 
 
           45 minutes taxi ride from the airport to the center of Da Lat. There
           aren’t a lot of Grabs in the area, so we recommend getting the contact
           of your taxi driver from outside the airport. You will be able to call
-          the driver directly and this will get you a better rate.
+          the driver directly and this will get you a better rate
 
 
           \*Traveling from Ho Chi Minh city to Da Lat by sleeper bus
@@ -1173,7 +1173,7 @@ blocks:
           If you want to experience traveling to Da Lat by road, you can try the
           sleeper bus with many more options such as private cabins, private
           beds, etc. It will take 8 hours to travel from HCMC to Da Lat so we
-          recommend you take the bus at night to arrive in the morning.
+          recommend you take the bus at night to arrive in the morning
 
           Here are some reputable sleeper bus brands:
 
@@ -1194,13 +1194,13 @@ blocks:
           exchange is at gold/jewelry stores. You can withdraw from ATMs however
           we’ve found it’s best to go inside a bank. The bank will require your
           passport and may charge a fee up to 4%, if your bank doesn’t reimburse
-          these fees then your best bet is to bring USD.
+          these fees then your best bet is to bring USD
 
 
-          OR you can order VND $ from your bank prior to the trip.
+          OR you can order VND $ from your bank prior to the trip
 
 
-          \*Some places do take debit/credit cards, but not all.
+          *\*Some places do take debit/credit cards, but not all*
       - name: MEDICINE
         en: >
           ### MEDICINE
