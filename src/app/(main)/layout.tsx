@@ -10,7 +10,7 @@ import storyImage from '../../../public/story.png'
 import travelImage from '../../../public/travel-tag-768x721.png'
 import client from '../../../tina/__generated__/client'
 
-
+import bg from '../../../public/bg.png'
 export const menuItems = [
   {
     title: 'Story',
@@ -102,6 +102,7 @@ export default async function RootLayout({
   return (
     <>
       <Header />
+      <Image src={bg} width={400} className='fixed -z-10 inset-0 w-full h-full max-w-full object-cover animate-fade bg-[#f2b8ae] pointer-events-none' ></Image>
       <main className='px-6 lg:px-12 w-full'>
         <noscript>
           <style>
