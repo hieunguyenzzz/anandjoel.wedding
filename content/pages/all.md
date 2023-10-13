@@ -1041,7 +1041,7 @@ blocks:
           Xuan Tho ward, Da Lat city, Lam Dong province, Vietnam
 
 
-          ![](</con cào cào.png>)
+          ![](</hình 5.png>)
 
 
           # TRANSPORTATION
