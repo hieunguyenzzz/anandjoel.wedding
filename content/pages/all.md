@@ -619,8 +619,7 @@ blocks:
         description: >-
           You can witness the giant limestone formations and caves on an
           overnight boat cruise in HaLong Bay, which is arguably Vietnam’s most
-          recognized landscape, boasting over 1,600 limestone islands and
-          islets. 
+          recognized landscape, boasting over 1,600 limestone islands and islets
         image: /Hạ Long.jpeg
         gallery:
           - name: Aqua Of The Seas Cruise Halong
