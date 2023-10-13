@@ -1068,7 +1068,7 @@ blocks:
           and refer to An & Joel wedding*
 
 
-          ![](</con bọ hung.png>)
+          ![](</hình 4.png>)
 
 
           # DRESS CODE
