@@ -1158,13 +1158,13 @@ blocks:
 
           Check-in counters then proceed upstairs to security. In the mornings,
           security is quick. We recommend getting to the airport at least an
-          hour early to check in and get through security.
+          hour early to check in and get through security
 
 
           45 minutes taxi ride from the airport to the center of Da Lat. There
           aren’t a lot of Grabs in the area, so we recommend getting the contact
           of your taxi driver from outside the airport. You will be able to call
-          the driver directly and this will get you a better rate.
+          the driver directly and this will get you a better rate
 
 
           \*Traveling from Ho Chi Minh city to Da Lat by sleeper bus
@@ -1173,7 +1173,7 @@ blocks:
           If you want to experience traveling to Da Lat by road, you can try the
           sleeper bus with many more options such as private cabins, private
           beds, etc. It will take 8 hours to travel from HCMC to Da Lat so we
-          recommend you take the bus at night to arrive in the morning.
+          recommend you take the bus at night to arrive in the morning
 
           Here are some reputable sleeper bus brands:
 
