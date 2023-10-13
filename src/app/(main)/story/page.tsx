@@ -51,7 +51,6 @@ export default function Page() {
   const [open, setOpen] = useState(false)
   return (
     <>
-      <Image src={bgImage} priority placeholder='blur' className='fixed object-top inset-0 w-full  h-full max-w-full pointer-events-none object-cover animate-fade ' />
       <div className={clsx("isolate  fixed inset-0 h-full  w-full z-20 flex items-center")}>
         <div className="pointer-events-none">
           <Image src={right} priority placeholder='blur' className='absolute top-[136px] md:top-0 w-1/2  md:w-[131vh] object-top right-0 h-auto max-w-full pointer-events-none object-cover animate-fade' />
