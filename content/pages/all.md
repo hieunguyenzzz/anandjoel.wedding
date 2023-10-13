@@ -1194,10 +1194,10 @@ blocks:
           exchange is at gold/jewelry stores. You can withdraw from ATMs however
           we’ve found it’s best to go inside a bank. The bank will require your
           passport and may charge a fee up to 4%, if your bank doesn’t reimburse
-          these fees then your best bet is to bring USD.
+          these fees then your best bet is to bring USD
 
 
-          OR you can order VND $ from your bank prior to the trip.
+          OR you can order VND $ from your bank prior to the trip
 
 
           \*Some places do take debit/credit cards, but not all.
