@@ -893,7 +893,7 @@ blocks:
           "Pearl of the Far East" because of its charming heritage architecture,
           dynamic, vibrant and bustling atmosphere and friendly people. Here,
           you can immerse yourself in the diverse cuisine by the interference of
-          many regions, and countries.
+          many regions, and countries
         image: /SG.jpeg
         gallery:
           - name: Park Hyatt
