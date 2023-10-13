@@ -1071,7 +1071,7 @@ blocks:
           ![](</con bọ hung.png>)
 
 
-          # DRESSCODE
+          # DRESS CODE
 
 
           Ceremony: White or light colors. No busy patterns
