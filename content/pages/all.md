@@ -372,7 +372,7 @@ blocks:
           Da Nang offers various foods from both North, Central and South of
           Vietnam. Get your virtual chopsticks ready with these must - try
           restaurants in this destination!
-        image: image
+        image: /Cơm gà bà Buội.jpeg
       - variant: One
         title: Cá Chuồn Cồ Vietnamese Restaurant
         description: '99 Võ Nguyên Giáp St, Mỹ An, Ngũ Hành Sơn District, Đà Nẵng'
