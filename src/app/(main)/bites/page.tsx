@@ -152,7 +152,7 @@ const Content = ({ id, setid, items, blockIndex, title, description, images, loc
   const [current, setCurrent] = useState(null)
   const currentItem = items?.find((item, index) => initid(item?.title) === id)
   if (!currentItem) return <section className="mt-12 mx-auto px-4  md:px-8">
-    <div className="max-w-lg">
+    <div className=" text-justify">
       {description && <TinaMarkdown content={description} /> || `An & Joel have tried & loved almost all of the restaurants above. Hopefully, their food suggestions will help you explore Vietnamese cuisine in a more diverse way!`}
     </div>
     <div className="grid xl:grid-cols-2  mt-6 gap-6" id="galleryID">
@@ -301,7 +301,7 @@ export default function Page() {
         <div className='w-full flex-shrink-0'>
         </div>
       </div>
-      <div className='z-10 w-full lg:w-auto flex-1 max-w-4xl'>
+      <div className='z-10 w-full lg:w-auto flex-1 max-w-4xl pb-12'>
         <Content {...{ id, setid, blockIndex, items, title: data?.title, location: currentItem?.location, description: data?.bottom_text, images }} />
       </div>
     </div>
