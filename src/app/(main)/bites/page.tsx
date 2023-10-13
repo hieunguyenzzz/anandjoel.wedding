@@ -154,12 +154,7 @@ const Content = ({ id, setid, items, blockIndex, title, description, images, loc
   const currentItem = items?.find((item, index) => initid(item?.title) === id)
   if (!currentItem) return <section className="mt-12 mx-auto px-4  md:px-8">
     <div className="max-w-lg">
-      <h1 className="text-[1.4em] font-title text-gray-800 font-semibold mt-2">
-        {title || "Explore Vietnam"}
-      </h1>
-      <p className="mt-3 ">
-        {description && <TinaMarkdown content={description} /> || `An & Joel have tried & loved almost all of the restaurants above. Hopefully, their food suggestions will help you explore Vietnamese cuisine in a more diverse way!`}
-      </p>
+      {description && <TinaMarkdown content={description} /> || `An & Joel have tried & loved almost all of the restaurants above. Hopefully, their food suggestions will help you explore Vietnamese cuisine in a more diverse way!`}
     </div>
     <div className="grid xl:grid-cols-2  mt-6 gap-6" id="galleryID">
       {
