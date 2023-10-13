@@ -421,7 +421,7 @@ blocks:
         description: >-
           Đà Lạt city owns itself an excellent condition for farming, which
           provides high-quality and fresh vegetables for every dish
-        image: image
+        image: /bites/dalat/Chefs DaLat /chefs-da-lat-tgroup-travel-7.jpeg
       - variant: One
         title: Ốc 33
         description: '33 Hai Bà Trưng St, Ward 6, Đà Lạt City'
