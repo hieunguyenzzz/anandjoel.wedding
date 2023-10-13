@@ -169,15 +169,12 @@ export default function Page() {
   useEffect(() => {
     let i = setInterval(() => {
       if (videoref.current?.currentTime === 0) {
-        videoref.current?.play().then(() => { console.log('videoref.current.muted', videoref.current.muted); videoref.current.muted = false })
+        videoref.current?.play().then(() => { })
           .catch((error) => {
             console.error('1', videoref.current, error)
-            videoref.current.muted = true
             console.log('1  videoref.current.muted ', videoref.current.muted)
-            videoref.current.autoplay = true
-
-            setTimeout(() => {
-              videoref.current?.play().then(() => { videoref.current.muted = false }).catch((error) => {
+            let timeout = setTimeout(() => {
+              videoref.current?.play().then(() => { clearTimeout(timeout) }).catch((error) => {
                 console.error('2', error)
               })
             }, 1000)
