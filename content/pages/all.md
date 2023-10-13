@@ -853,7 +853,7 @@ blocks:
         description: >-
           Dalat is a highly sought-after getaway destination that captivates our
           hearts no matter how many times we visit, and that’s why we choose to
-          host our wedding there.
+          host our wedding there
         image: /IMG_4041.jpeg
         gallery:
           - name: Cu Lan Village
