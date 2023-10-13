@@ -1023,7 +1023,7 @@ blocks:
           9th Hill, Da Lat city, Lam Dong province, Vietnam
 
 
-          ![](</con nhện.png>)
+          ![](</hình 3.png>)
 
 
           # RECEPTION
