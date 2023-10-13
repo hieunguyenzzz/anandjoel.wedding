@@ -12,9 +12,7 @@ blocks:
           An & Joel mainly stay in Ho Chi Minh City when returning to Vietnam,
           so they have the most culinary experiences here! You can discover
           everything from traditional dishes to fine dining all in this city!
-        image: /1165791f-ac3a-4956-88c2-3877e2aa0154.jpeg
-        images:
-          - /1165791f-ac3a-4956-88c2-3877e2aa0154.jpeg
+        image: /An Vegetarian.jpeg
       - variant: One
         title: Å by T.U.N.G
         description: '31-33 Đặng Dung Street, Tân Định Ward, District 1, HCMC'
