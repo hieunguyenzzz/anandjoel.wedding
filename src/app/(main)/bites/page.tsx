@@ -158,7 +158,7 @@ const Content = ({ id, setid, items, blockIndex, title, description, images, loc
     <div className="grid xl:grid-cols-2  mt-6 gap-6" id="galleryID">
       {
         items?.map((item, index) => {
-          // console.log({ item })
+          console.log({ item })
           const title = item?.title || ''
           return <Field key={index} name={`blocks.${blockIndex}.item.${index}.title`}>
             <div className='galleryID-item w-full h-full  pt-[100%] lg:pt-[100%] relative '>
@@ -288,11 +288,14 @@ export default function Page() {
   console.log({ images, currentItem })
   return <>
     <div className='flex flex-col lg:flex-row'>
-      <div className='fixed left-0 top-0 h-screen w-full lg:w-[50%] isolate'>
-        <Map onSelect={e => {
-          // console.log({ e })
-          setid(e)
-        }} current={currentItem?.title} locations={locations || []} />
+      <div className='fixed left-0 flex items-center top-0 h-screen w-full lg:w-[50%] isolate'>
+        <div className='max-h-[calc(100vh-136px)] relative'>
+          <Map onSelect={e => {
+            // console.log({ e })
+            setid(e)
+          }} current={currentItem?.title} locations={locations || []} />
+        </div>
+
       </div>
       <div className='sticky z-10 hidden md:flex top-[130px] h-[calc(100vh-126px)]  items-center justify-center w-[800px] md:max-w-[40vw] -z-10 pointer-events-none'>
         <div className='w-full flex-shrink-0'>
