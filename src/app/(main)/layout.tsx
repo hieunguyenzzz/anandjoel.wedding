@@ -48,12 +48,12 @@ export const menuItems = [
   },
 ]
 const Header = () => {
-  return <header className={'flex   justify-between mx-auto   h-[126px]  isolate relative z-50'}>
-    <ul className='justify-center mx-auto items-center gap-6 hidden xl:flex relative   px-6 xl:px-12'>
+  return <header className={'flex  justify-between mx-auto   h-[126px]  isolate relative z-50'}>
+    <ul className='justify-center mx-auto items-center gap-6 hidden xl:flex relative px-6 xl:px-12'>
       {/* <li className='absolute inset-[1.4em] rounded-lg backdrop-blur-sm pointer-events-none'></li> */}
       {
         menuItems.map((item, index) => {
-          if (item.title === 'Home') return <li key={index} className='flex  flex-col  items-center gap-2 min-w-[200px]  h-[126px]  relative after:content-[""] after:pb-[100%]'>
+          if (item.title === 'Home') return <li key={index} className='flex  flex-col items-center gap-2 min-w-[200px]  h-[126px]  relative after:content-[""] after:pb-[100%]'>
             <Link href={item.href} className='hover:scale-110 duration-500 ease-in-out uppercase flex items-center text-2xl justify-center text-outline content-center transition-transform absolute inset-0'>
               {item.title === 'Home' ? <Image src={item.image} fill alt={item.title} priority className='object-contain' /> : <div className='mt-[0.5em] font-header'>{item.title}</div>}
             </Link>
@@ -102,7 +102,7 @@ export default async function RootLayout({
   return (
     <>
       <Header />
-      <Image src={bg} width={400} className='fixed -z-10 inset-0 w-full h-full max-w-full object-cover animate-fade bg-[#f2b8ae] pointer-events-none' ></Image>
+      <Image src={bg} width={400} className='fixed  inset-0 w-full h-full max-w-full object-cover animate-fade bg-[#f2b8ae] pointer-events-none' ></Image>
       <main className='px-6 lg:px-12 w-full'>
         <noscript>
           <style>
