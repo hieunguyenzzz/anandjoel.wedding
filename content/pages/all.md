@@ -68,7 +68,7 @@ blocks:
       - variant: One
         title: 'Bếp Nhà Lục Tỉnh '
         description: '37 Nam Kỳ Khởi Nghĩa, Nguyễn Thái Bình Ward, District 1, HCMC'
-        image: /Bếp Nhà Lục TỉnhH.jpeg
+        image: /Bếp Nhà Lục TỉnhH.jpeg
         images:
           - /bites/saigon/Bep Nha Luc Tinh/IMG_9265.jpeg
           - /bites/saigon/Bep Nha Luc Tinh/IMG_9266.jpeg
@@ -122,7 +122,7 @@ blocks:
           - /bites/saigon/An vegetarian/IMG_2133.jpeg
       - variant: One
         title: Mojo Boutique Coffee
-        description: '129 Nguyễn Huệ, Bến Nghé Ward, District 1, HCMC'
+        description: '129 Nguyễn Huệ, Bến Nghé Ward, District 1, HCMC'
         image: /Mojo Boutique Coffee .jpeg
         images:
           - /bites/saigon/Mojo/IMG_2599.jpeg
@@ -132,7 +132,7 @@ blocks:
       - variant: One
         title: Bánh Canh Cua Út Lệ
         description: '204-210 Tô Hiến Thành, Ward 15, District 10, HCMC'
-        image: /Bánh Canh Cua Út Lệ.jpeg
+        image: /Bánh Canh Cua Út Lệ.jpeg
         images:
           - /bites/saigon/Banh canh cua ut le/IMG_2570.jpeg
           - /bites/saigon/Banh canh cua ut le/IMG_2572.jpeg
@@ -182,7 +182,7 @@ blocks:
       - variant: One
         title: Sủi Cảo
         description: 'District 5, HCMC'
-        image: /sủi cảo.jpeg
+        image: /sủi cảo.jpeg
         images:
           - >-
             /bites/saigon/Sui cao Ha Ton
@@ -192,7 +192,7 @@ blocks:
       - variant: One
         title: 'Phở Hoà Pasteur '
         description: '260C Pasteur, Ward 8, District 3, HCMC'
-        image: /Phở Hoà Pasteur .jpeg
+        image: /Phở Hoà Pasteur .jpeg
         images:
           - /bites/saigon/Phở Hoa/IMG_4784.jpeg
           - /bites/saigon/Phở Hoa/IMG_4785.jpeg
@@ -209,7 +209,7 @@ blocks:
       - variant: One
         title: Cục Gạch Quán
         description: '10 Đặng Tất, Tân Định Ward, District 1'
-        image: /Cục Gạch Quán.jpeg
+        image: /Cục Gạch Quán.jpeg
         images:
           - /bites/saigon/Cuc Gach/IMG_9589.jpeg
           - /bites/saigon/Cuc Gach/IMG_9590.jpeg
@@ -258,7 +258,7 @@ blocks:
       - variant: One
         title: Phở Phượng
         description: '25 Hoàng Sa, Đa Kao Ward, District 1, HCMC'
-        image: /Phở Phượng.jpeg
+        image: /Phở Phượng.jpeg
         images:
           - /bites/saigon/Pho Phuong/WhatsApp Image 2023-09-05 at 16.19.48.jpeg
           - >-
@@ -306,7 +306,7 @@ blocks:
       - variant: One
         title: Phở bò Phú Gia
         description: '146e Lý Chính Thắng St, Ward 9, District 3, HCMC'
-        image: /phở bò phú gia.jpeg
+        image: /phở bò phú gia.jpeg
       - variant: Two
         title: HÀ NỘI
         description: >-
@@ -317,11 +317,11 @@ blocks:
       - variant: One
         title: Xới Cơm
         description: '107 Lane 36, Lang Ha Street, Dong Da, Hanoi, Vietnam'
-        image: /Xới Cơm.jpeg
+        image: /Xới Cơm.jpeg
       - variant: One
         title: Cồ Đàm
         description: '68 Tran Hung Dao, Hoan Kiem, Hanoi, Vietnam'
-        image: /Cồ Đàm.jpeg
+        image: /Cồ Đàm.jpeg
       - variant: One
         title: T.U.N.G dining
         description: '2C Quang Trung Street, Hoan Kiem, Hanoi, Vietnam'
@@ -329,15 +329,15 @@ blocks:
       - variant: One
         title: Bánh Cuốn Bà Xuân
         description: '16 Doc, Hoe Nhai Street, Nguyen Trung Truc, Ba Dinh, Hanoi, Vietnam'
-        image: /Bánh Cuốn Bà Xuân.webp
+        image: /Bánh Cuốn Bà Xuân.webp
       - variant: One
         title: Bún Chả Hàng Quạt
         description: '74 Hàng Quạt St, Hàng Gai Ward, Hoàn Kiếm District, Hanoi, Vietnam'
-        image: /Bún Chả Hàng Quạt.jpeg
+        image: /Bún Chả Hàng Quạt.jpeg
       - variant: One
         title: Chả Cá Anh Vũ
         description: '120-K1 Giang Vo Ward, Cho Dua, Dong Da, Hanoi, Vietnam'
-        image: /Chả Cá Anh Vũ.jpeg
+        image: /Chả Cá Anh Vũ.jpeg
       - variant: Two
         title: SAPA
         description: >-
@@ -347,11 +347,11 @@ blocks:
       - variant: One
         title: Cá Tầm Vua Restaurant
         description: '09 Fansipan St, Sapa, Lào Cai'
-        image: /Cá Tầm Vua Restaurant.jpeg
+        image: /Cá Tầm Vua Restaurant.jpeg
       - variant: One
         title: Sang Mèo
         description: '29 Fansipan St, Sapa, Lào Cai'
-        image: /Sang Mèo.jpeg
+        image: /Sang Mèo.jpeg
       - variant: One
         title: Red Dzao
         description: 'Thác Bạc St, Sapa, Lào Cai'
@@ -363,11 +363,11 @@ blocks:
       - variant: One
         title: Cốn Sủi Ông há
         description: '891 Điện Biên Phủ St, Sapa Ward, Sapa, Lao Cai'
-        image: /Cốn Sủi Ông Há.jpeg
+        image: /Cốn Sủi Ông Há.jpeg
       - variant: One
         title: Thắng Cố A Phủ
         description: '15 Fansipan St, Sapa, Lào Cai'
-        image: /Thắng Cố A Phủ.jpeg
+        image: /Thắng Cố A Phủ.jpeg
       - variant: Two
         title: ĐÀ NẴNG
         description: >-
@@ -377,15 +377,15 @@ blocks:
         image: image
       - variant: One
         title: Cá Chuồn Cồ Vietnamese Restaurant
-        description: '99 Võ Nguyên Giáp St, Mỹ An, Ngũ Hành Sơn District, Đà Nẵng'
-        image: /Cá Chuồn Cồ Vietnamese Restaurant.jpeg
+        description: '99 Võ Nguyên Giáp St, Mỹ An, Ngũ Hành Sơn District, Đà Nẵng'
+        image: /Cá Chuồn Cồ Vietnamese Restaurant.jpeg
       - variant: One
         title: The Gypsy Rooftop Kitchen & Bar
-        description: '10th floor, 20 Dong Da,New Orient Hotel, Đà Nẵng'
+        description: '10th floor, 20 Dong Da,New Orient Hotel, Đà Nẵng'
         image: /The Gypsy Rooftop Kitchen & Bar.webp
       - variant: One
         title: Makara Bar
-        description: '162A Nguyen Chi Thanh, Hai Chau District, Đà Nẵng'
+        description: '162A Nguyen Chi Thanh, Hai Chau District, Đà Nẵng'
         image: /Makara Bar.jpeg
       - variant: One
         title: Fatfish Restaurant & Lounge Bar
@@ -394,11 +394,11 @@ blocks:
       - variant: One
         title: 'Nén Danang Restaurant '
         description: '16 Mỹ Đa Tây 2, Khuê Mỹ Ward, Ngũ Hành Sơn District, Đà Nẵng'
-        image: /Nén Danang Restaurant .jpeg
+        image: /Nén Danang Restaurant .jpeg
       - variant: One
         title: Bánh xèo Bà Dưỡng
         description: 'K20/23 Hoàng Diệu St, Hải Châu District, Da Nang'
-        image: /Bánh xèo Bà Dưỡng.jpeg
+        image: /Bánh xèo Bà Dưỡng.jpeg
       - variant: Two
         title: HỘI AN
         description: >-
@@ -409,15 +409,15 @@ blocks:
       - variant: One
         title: Cao lầu Thanh
         description: '26 Thái Phiên St, Minh An Ward, Hội An City'
-        image: /cao lầu ha.jpeg
+        image: /cao lầu ha.jpeg
       - variant: One
         title: Cơm gà bà Buội
         description: '22 Phan Chu Trinh St, Minh An Ward, Hội An City'
-        image: /Cơm gà bà Buội.jpeg
+        image: /Cơm gà bà Buội.jpeg
       - variant: One
         title: Chè Liên Hoa
         description: '59 Lê Văn Hưu St, Tân An Ward, Hội An City'
-        image: /chè liên hoa hội an.jpeg
+        image: /chè liên hoa hội an.jpeg
       - variant: Two
         title: ĐÀ LẠT
         description: >-
@@ -427,11 +427,11 @@ blocks:
       - variant: One
         title: Ốc 33
         description: '33 Hai Bà Trưng St, Ward 6, Đà Lạt City'
-        image: /Ốc 33.jpeg
+        image: /Ốc 33.jpeg
       - variant: One
         title: Túi Mơ To Cafe
         description: '11 Alley, Sào Nam St, Ward 11, Đà Lạt City'
-        image: /Túi Mơ To Cafe.jpeg
+        image: /Túi Mơ To Cafe.jpeg
       - variant: One
         title: Night market
         description: '6b Nguyễn Thị Minh Khai St, Ward 1, Đà Lạt City'
@@ -439,7 +439,7 @@ blocks:
       - variant: One
         title: Hoa Thông Brewing Co
         description: '112 Thông Thiên Học St, Ward 2, Đà Lạt City'
-        image: /Hoa Thông Brewing Co.jpeg
+        image: /Hoa Thông Brewing Co.jpeg
       - variant: One
         title: Chefs DaLat
         description: '156 Phạm Ngọc Thạch St, Ward 6, Đà Lạt City'
@@ -447,7 +447,7 @@ blocks:
       - variant: One
         title: Émai Italian Restaurant & Gardens
         description: '88 Hoàng Hoa Thám St, Ward 10, Đà Lạt City'
-        image: /Émai Italian Restaurant & Gardens.jpeg
+        image: /Émai Italian Restaurant & Gardens.jpeg
     _template: bites
   - title: Explore Vietnam
     description: >-
@@ -515,7 +515,7 @@ blocks:
           Ninh Binh is a mesmerizing area known locally as ‘Ha Long Bay on Land’
           thanks to its magical riverine landscape, with sheer limestone
           mountains rising up from the paddies.
-        image: /nINH BÌNH.jpeg
+        image: /nINH BÌNH.jpeg
         gallery:
           - name: Hoa Lu Ancient Capital
             content: |
@@ -570,7 +570,7 @@ blocks:
           cuisine, vibrant nightlife, silks and handicrafts, as well as a
           multicultural community that’s made up of Chinese, French and Russian
           influences.
-        image: /hà NỘI.jpeg
+        image: /hà NỘI.jpeg
         gallery:
           - name: Hotel de l'Opera Hanoi
             content: |
@@ -583,7 +583,7 @@ blocks:
               ### JW Mariott Hà Nội
 
               8 Đỗ Đức Dục, Mễ Trì Ward, Từ Liêm District, Hà Nội
-            image: /JW Mariott Hà Nội.jpeg
+            image: /JW Mariott Hà Nội.jpeg
           - name: Melia Hanoi Hotel
             content: |
               ### Melia Hanoi Hotel
@@ -615,7 +615,7 @@ blocks:
           - name: 1900 Le Théâtre
             content: |
               ### 1900 Le Théâtre
-            image: /1900 Le Théâtre .jpeg
+            image: /1900 Le Théâtre .jpeg
       - location: Quảng Ninh
         variant: One
         title: Ha Long Bay
@@ -624,13 +624,13 @@ blocks:
           overnight boat cruise in HaLong Bay, which is arguably Vietnam’s most
           recognized landscape, boasting over 1,600 limestone islands and
           islets. 
-        image: /Hạ Long.jpeg
+        image: /Hạ Long.jpeg
         gallery:
           - name: Aqua Of The Seas Cruise Halong
             content: |
               ### Aqua Of The Seas Cruise Halong
 
-              Gate 11, Tuan Chau Marina, Hạ Long, Quảng Ninh
+              Gate 11, Tuan Chau Marina, Hạ Long, Quảng Ninh
             image: /Aqua Of The Seas Cruise Halong.jpeg
           - name: Genesis Luxury Regal Cruises
             content: |
@@ -642,7 +642,7 @@ blocks:
             content: |
               ### The Yacht Hotel by DC
 
-              258 Bãi Cháy, Hạ Long, Quảng Ninh
+              258 Bãi Cháy, Hạ Long, Quảng Ninh
             image: /The Yacht Hotel by DC.jpeg
           - name: 'Vinpearl Resort & Spa Ha Long '
             content: |
@@ -697,7 +697,7 @@ blocks:
             content: |
               ### Melia Vinpearl Quang Binh
 
-              Quach Xuan Ky Street Quach Xuan Ky Street, Ðồng Hới, Việt Nam
+              Quach Xuan Ky Street Quach Xuan Ky Street, Ðồng Hới, Việt Nam
             image: /Melia Vinpearl Quang Binhh.jpeg
           - name: Phong Nha Cave
             content: |
@@ -726,7 +726,7 @@ blocks:
           Da Nang is located in the middle of the northern capital. The main
           reason most visitors stay here is its proximity to the popular My Khe
           Beach, Lang Co Beach, Hoi An, and My Son.
-        image: /Đà Nẵng.jpeg
+        image: /Đà Nẵng.jpeg
         gallery:
           - name: Intercontinental Danang Sun Peninsula Resort
             content: |
@@ -738,7 +738,7 @@ blocks:
             content: |
               ### Pullman Danang Beach Resort
 
-              101 Võ Nguyên Giáp Khuê Mỹ, Ngũ Hành Sơn, Đà Nẵng
+              101 Võ Nguyên Giáp Khuê Mỹ, Ngũ Hành Sơn, Đà Nẵng
             image: /Pullman Danang Beach Resort.jpeg
           - name: Hyatt Regency
             content: |
@@ -813,7 +813,7 @@ blocks:
           lawns and forget that this coastal land has many other beautiful
           places to explore. We found a really cool resort named Zannier Hotels
           Bãi San Hô on Instagram, make sure to check it out if you have time.
-        image: /Phú Yên.jpeg
+        image: /Phú Yên.jpeg
         gallery:
           - name: Zannier Hotels Bai San Ho
             content: |
@@ -951,7 +951,7 @@ blocks:
           Phu Quoc will fill your days with activities and tours, immerse in
           natural beauty, or simply puff a rollup and relax. And December is
           also the perfect time to catch the wonderful Phu Quoc sunset.
-        image: /Phú Quốc.jpeg
+        image: /Phú Quốc.jpeg
         gallery:
           - name: InterContinental Phu Quoc Long Beach Resort
             content: |
@@ -1006,9 +1006,8 @@ blocks:
 
           DECEMBER 15, 2023
 
-           
 
-          ![](</con bươm bướm_.png>)
+          ![](</con bươm bướm_.png>)
 
 
           # CEREMONY
@@ -1026,7 +1025,7 @@ blocks:
           9th Hill, Da Lat city, Lam Dong province, Vietnam
 
 
-          ![](</con nhện.png>)
+          ![](</con nhện.png>)
 
 
           # RECEPTION
@@ -1044,7 +1043,7 @@ blocks:
           Xuan Tho ward, Da Lat city, Lam Dong province, Vietnam
 
 
-          ![](</con cào cào.png>)
+          ![](</con cào cào.png>)
 
 
           # TRANSPORTATION
@@ -1057,7 +1056,7 @@ blocks:
           PM for reception*
 
 
-          ![](</con châu chấu.png>)
+          ![](</con châu chấu.png>)
 
 
           # ACCOMMODATION
@@ -1071,7 +1070,7 @@ blocks:
           and refer to An & Joel wedding*
 
 
-          ![](</con bọ hung.png>)
+          ![](</con bọ hung.png>)
 
 
           # DRESSCODE
@@ -1320,7 +1319,7 @@ blocks:
         en: ''
         images:
           - /IMG_4041.jpeg
-          - /23cfe32a356a7841e1099b5c07f638e9.JPG
+          - /2392F174-47E8-454D-AABC-39ADF1885977.jpeg
       - name: Câu 3
         en: >
           Cheers to An & Joel's wedding and enjoy the fruits from the Forbidden
