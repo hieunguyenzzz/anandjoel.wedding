@@ -1293,56 +1293,52 @@ blocks:
       - variant: B1
         name: content
         en: >
-          An & Joel do not have a typical love story, but everything that
-          happens has its own reason to create an inspired love
+          They have been together for 8 years, since the day An and Joel met in
+          the US, which means a lot to them, a place where you can be true to
+          yourself, pursue your dreams and where dreams do become true.
         images:
           - /AJ.jpeg
-      - variant: B2
+      - variant: B7
         name: hình 2
         en: ''
         images:
-          - /IMG_0974.jpg
+          - /IMG_2581.jpeg
       - variant: B3
         name: Câu 2
         en: >
-          They have been together for 8 years, since the day An and Joel met in
-          the US, which means a lot to them, a place where you can be true to
-          yourself and pursue your dreams and where dreams do become true
+          During the cloud hunting 1 year ago, An successfully proposed to Joel
+          in Da Lat, Vietnam, which is also An's hometown.
       - variant: B4
         name: joel ring
-        en: ''
-        images:
-          - /IMG_0254.JPEG
-          - /IMG_3224.jpeg
-      - variant: B2
-        name: all ngang
-        en: ''
-        images:
-          - /IMG_0289.JPEG
-      - name: Câu 3
-        en: >
-          During the cloud hunting 1 year ago, An successfully proposed to Joel
-          in Da Lat, Vietnam, which is also An's hometown
-      - variant: B6
-        name: on one knee
         en: ''
         images:
           - /IMG_0938.jpeg
           - /IMG_0989.jpeg
       - variant: B2
-        name: all dalat
+        name: all ngang
         en: ''
         images:
+          - /IMG_4041.jpeg
           - /23cfe32a356a7841e1099b5c07f638e9.JPG
-      - name: Câu 4
+      - name: Câu 3
         en: >
           Cheers to An & Joel's wedding and enjoy the fruits from the Forbidden
           Garden!
-      - variant: B2
-        name: cheers
+      - variant: B6
+        name: on one knee
         en: ''
         images:
-          - /IMG_9281.JPEG
+          - /AJ.jpeg
+          - /IMG_0938.jpeg
+          - /IMG_0989.jpeg
+      - variant: B6
+        en: ''
+        images:
+          - /AJ.jpeg
+          - /AJ.jpeg
+          - /AJ.jpeg
+      - images:
+          - /IMG_0289.JPEG
     _template: content
 ---
 

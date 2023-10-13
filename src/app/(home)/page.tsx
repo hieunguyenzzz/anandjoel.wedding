@@ -167,7 +167,6 @@ export default function Page() {
   const [end, setEnd] = useState(false)
   const videoref = useRef<HTMLVideoElement>(null)
   useEffect(() => {
-    if (!open) return
     let i = setInterval(() => {
       if (videoref.current?.currentTime === 0) {
         videoref.current?.play().then(() => { console.log('videoref.current.muted', videoref.current.muted); videoref.current.muted = false })
@@ -189,7 +188,7 @@ export default function Page() {
     return () => {
       i && clearInterval(i)
     }
-  }, [open])
+  }, [])
   return (
     <div className='fixed inset-0 w-full h-full flex flex-col justify-center'>
       <div style={end ? { opacity: 1, display: "flex" } : { opacity: 0, display: 'none' }} className=" w-full delay-[2s] duration-[2s] text-[12px] lg:text-lg text-[#1a1a1a] flex flex-col gap-6 relative  isolate ">

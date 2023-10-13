@@ -12,38 +12,43 @@ import Image from '../common/image';
 
 const compornent = {
   B1: (props: PageBlocksContentFields): ReactNode => {
-    return <div className="md:grid grid-cols-6 gap-1 md:gap-3 items-center">
-      <div className=" relative col-span-3">
-        <div className="relative grid" style={{ paddingBottom: '142.222%' }}>
-          <Image src={props.images?.[0]} fill className='absolute inset-0 w-full h-full object-cover bg-slate-50 bg-opacity-30' />
-        </div>
+    return <div>
+      {props.en && <div className="text-justify whitespace-pre-line px-12">
+        <TinaMarkdown content={props.en} >
+        </TinaMarkdown></div>}
+      <div className="relative grid mt-12" style={{ paddingBottom: '142.222%' }}>
+        <Image src={props.images?.[0]} fill className='absolute inset-0 w-full h-full object-cover bg-slate-50 bg-opacity-30' />
       </div>
-      <div className="col-span-3 py-12 md:pl-12">
-        {props.en && <TinaMarkdown content={props.en} className="text-justify whitespace-pre-line">
-        </TinaMarkdown>}
-      </div>
+
     </div>
 
   },
   B2: (props: PageBlocksContentFields): ReactNode => {
-    return <div className="relative grid" style={{ paddingBottom: '70.3125%' }}>
-      <div style={{ display: 'block', overflow: 'hidden', position: 'absolute', inset: 0, boxSizing: 'border-box', margin: 0 }}>
-        <Image src={props.images?.[0]} fill className='absolute inset-0 w-full h-full object-cover bg-slate-50 bg-opacity-30' />
+    return <div className="grid md:grid-cols-12 gap-1 md:gap-3">
+      <div className="md:col-span-5 h-full ">
+        <div className="relative grid h-full" style={{ paddingBottom: '142.222%' }}>
+          <Image src={props.images?.[0]} fill className='absolute inset-0 w-full h-full object-cover bg-slate-50 bg-opacity-30' />
+        </div>
+      </div>
+      <div className="grid h-full md:col-span-7">
+        <div className="relative  h-full">
+          <Image src={props.images?.[1]} width={800} height={800} className='md:absolute inset-0 w-full h-full object-cover bg-slate-50 bg-opacity-30' />
+        </div>
       </div>
     </div>
   },
   B3: (props: PageBlocksContentFields): ReactNode => {
     return <div className="flex flex-col items-center py-12 w-full">
-      <div className="whitespace-pre-line text-justify max-w-prose mx-auto">
+      <div className="whitespace-pre-line text-justify max-w-prose mx-auto px-12">
         <TinaMarkdown content={props.en} >
         </TinaMarkdown>
       </div>
     </div>
   },
   B4: (props: PageBlocksContentFields): ReactNode => {
-    return <div className="grid md:grid-cols-3 gap-1 md:gap-3">
-      <div className="md:col-span-2">
-        <div className="relative grid" style={{ paddingBottom: '70.3125%' }}>
+    return <div className="grid md:grid-cols-2 gap-1 md:gap-3">
+      <div className="md:col-span-1 h-full ">
+        <div className="relative grid" style={{ paddingBottom: '142.222%' }}>
           <Image src={props.images?.[0]} fill className='absolute inset-0 w-full h-full object-cover bg-slate-50 bg-opacity-30' />
         </div>
       </div>
@@ -73,36 +78,21 @@ const compornent = {
 
   },
   B6: (props: PageBlocksContentFields): ReactNode => {
-    return <div className="grid grid-cols-1 md:grid-cols-2 gap-1 md:gap-3">
-      <div className="relative grid" style={{ paddingBottom: '70.3125%' }}>
+    return <div className="grid grid-cols-1 md:grid-cols-3 gap-1 md:gap-3">
+      <div className="relative grid" style={{ paddingBottom: '140.3125%' }}>
         <Image src={props.images?.[0]} fill className='absolute inset-0 w-full h-full object-cover bg-slate-50 bg-opacity-30' />
       </div>
-      <div className="relative grid" style={{ paddingBottom: '70.3125%' }}>
+      <div className="relative grid h-full" style={{ paddingBottom: '140.3125%' }}>
         <Image src={props.images?.[1]} fill className='absolute inset-0 w-full h-full object-cover bg-slate-50 bg-opacity-30' />
+      </div>
+      <div className="relative grid h-full" style={{ paddingBottom: '140.3125%' }}>
+        <Image src={props.images?.[2]} fill className='absolute inset-0 w-full h-full object-cover bg-slate-50 bg-opacity-30' />
       </div>
     </div>
   },
   B7: (props: PageBlocksContentFields): ReactNode => {
     return (
-      <div className="grid md:grid-cols-3 gap-1 md:gap-3">
-        <div className="md:col-span-2">
-          <div className="relative grid" style={{ paddingBottom: '70.3125%' }}>
-            <Image src={props.images?.[0]} fill className='absolute inset-0 w-full h-full object-cover bg-slate-50 bg-opacity-30' />
-          </div>
-        </div>
-        <div className="flex flex-col space-y-2 lg:space-y-3">
-          <div className="flex-1 relative">
-            <div className="relative grid" style={{ paddingBottom: '70.3125%' }}>
-              <Image src={props.images?.[1]} fill className='absolute inset-0 w-full h-full object-cover bg-slate-50 bg-opacity-30' />
-            </div>
-          </div>
-          <div className="flex-1 relative">
-            <div className="relative grid" style={{ paddingBottom: '70.3125%' }}>
-              <Image src={props.images?.[2]} fill className='absolute inset-0 w-full h-full object-cover bg-slate-50 bg-opacity-30' />
-            </div>
-          </div>
-        </div>
-      </div>
+      <Image src={props.images?.[0]} width={800} height={800} className='w-full h-full object-cover bg-slate-50 bg-opacity-30' />
     )
   }
 }
@@ -113,13 +103,11 @@ export function StoryContent({ data }: { data: PageBlocksContent }) {
       <div style={{
         minHeight: ratio + 'vw',
       }} className='py-[min(24px,4vw)]  pb-[10vw] gap-[10vw] flex flex-col relative justify-center '>
-        <div className=" w-full flex flex-col text-[1.4em] leading-normal gap-6">
+        <div className=" w-full flex flex-col text-[1.4em] leading-normal gap-1 md:gap-3">
           {data.fields?.map((i, ii) => {
             let C = i?.variant && compornent[i?.variant] || compornent.B3
-            if (!C) return <div data-tina-field={tinaField(data, `fields.${ii}`)} key={ii} className='px-6 lg:px-12 xl:px-24 w-full mx-auto max-w-screen-xl'>
-              <C {...i} />
-            </div>
-            return <div data-tina-field={tinaField(data, `fields.${ii}`)} key={ii} className='px-6 lg:px-12 xl:px-24 w-full mx-auto max-w-screen-xl'>
+
+            return <div data-tina-field={tinaField(data, `fields.${ii}`)} key={ii} className='px-6 md:px-24 lg:px-12 xl:px-24 w-full mx-auto max-w-screen-xl'>
               <C {...i} />
             </div>
           })}

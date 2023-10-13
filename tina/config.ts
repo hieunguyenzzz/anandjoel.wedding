@@ -86,9 +86,7 @@ export default defineConfig({
                     },
                     {
                       name: 'name',
-                      isTitle: true,
                       type: "string",
-                      required: true
                     },
                     {
                       name: 'en',
