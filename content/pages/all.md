@@ -946,7 +946,7 @@ blocks:
         description: >-
           Phu Quoc will fill your days with activities and tours, immerse in
           natural beauty, or simply puff a rollup and relax. And December is
-          also the perfect time to catch the wonderful Phu Quoc sunset.
+          also the perfect time to catch the wonderful Phu Quoc sunset
         image: /Phú Quốc.jpeg
         gallery:
           - name: InterContinental Phu Quoc Long Beach Resort
