@@ -1328,9 +1328,9 @@ blocks:
         name: on one knee
         en: ''
         images:
-          - /AJ.jpeg
-          - /IMG_0938.jpeg
-          - /IMG_0989.jpeg
+          - /D3EB898C-D1A1-4296-A59B-24FECF7CABF7.jpeg
+          - /29C27207-D844-49AF-9B11-366F41E52D6F.jpeg
+          - /6055F2FF-B014-47A6-B3CA-9ACE70EE7436.jpeg
       - variant: B6
         en: ''
         images:
