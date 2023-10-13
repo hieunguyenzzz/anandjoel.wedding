@@ -14,7 +14,7 @@ const Mark = ({ children, id, className }: { children: ReactNode, id: string, cl
   useEffect(() => {
     window.addEventListener("scroll", (e) => {
       let height = window.innerHeight / 2
-      console.log('scroll', window.scrollY, Math.floor((Math.max(height - window.scrollY, 0) / height * total)))
+      // console.log('scroll', window.scrollY, Math.floor((Math.max(height - window.scrollY, 0) / height * total)))
       setNumber(total - Math.floor((Math.max(height - window.scrollY, 0) / height * total)))
     });
   }, []);
