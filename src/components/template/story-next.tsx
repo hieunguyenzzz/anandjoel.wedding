@@ -13,7 +13,7 @@ import Image from '../common/image';
 const compornent = {
   B1: (props: PageBlocksContentFields): ReactNode => {
     return <div>
-      {props.en && <div className="text-justify whitespace-pre-line px-12">
+      {props.en && <div className="text-justify whitespace-pre-line">
         <TinaMarkdown content={props.en} >
         </TinaMarkdown></div>}
       <div className="relative grid mt-12" style={{ paddingBottom: '142.222%' }}>
@@ -39,7 +39,7 @@ const compornent = {
   },
   B3: (props: PageBlocksContentFields): ReactNode => {
     return <div className="flex flex-col items-center py-12 w-full">
-      <div className="whitespace-pre-line text-justify max-w-prose mx-auto px-12">
+      <div className="whitespace-pre-line text-justify max-w-prose mx-auto px-3 md:px-12">
         <TinaMarkdown content={props.en} >
         </TinaMarkdown>
       </div>

@@ -29,7 +29,6 @@ export function StoryContent({ data }: { data: PageBlocksContent }) {
 export default function Story() {
   const source = useSource();
   let index = source?.blocks?.findIndex((item: any) => {
-    console.log({ item })
     return item?.__typename === 'PageBlocksContent' && item?.name === 'story'
   })
   const data = source?.blocks[index]
