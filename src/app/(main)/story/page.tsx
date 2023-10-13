@@ -86,7 +86,7 @@ export default function Page() {
                     behavior: 'smooth',
                     block: 'start'
                   })
-                }} className=" animate-fade-up animate-delay-700 font-header text-4xl lg:text-6xl font-bold text-center block my-12 lg:my-24">HOW IT ALL BEGAN</h2>
+                }} className=" animate-fade-up animate-delay-700 font-header text-4xl lg:text-6xl font-bold text-center block my-12 lg:my-24 lg:mb-12">HOW IT ALL BEGAN</h2>
               </div>
               <div className=" animate-fade-up animate-delay-[800ms] pointer-events-auto">
                 <Story />

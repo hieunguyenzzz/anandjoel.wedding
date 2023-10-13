@@ -22,7 +22,7 @@ export function EventContent({ data }: { data: PageBlocksContent }) {
 
           {
             data.fields?.map((item, index) => {
-              return <div key={index} data-tina-field={item ? tinaField(item, "en") : undefined} className='prose  prose-img:mt-[2em] prose-hr:max-w-[50%] prose-h1:font-header prose-hr:mx-auto prose-img:max-h-[2.4em]  lg:text-[calc(min(2vw,30px))] mx-auto whitespace-pre-wrap prose-h3:font-title prose-p:my-[0.3em] text-center prose-img:m-auto prose-h3:py-1 prose-h3:text-[1.4em] prose-h3:font-bold'><TinaMarkdown content={item?.en} /></div>
+              return <div key={index} data-tina-field={item ? tinaField(item, "en") : undefined} className='prose  max-w-[calc(100vw-24px)] full prose-img:my-[2em] prose-hr:max-w-[50%] prose-h1:mb-[0.5em] prose-h1:font-header prose-hr:mx-auto prose-img:max-h-[2.4em]  lg:text-[calc(min(2vw,28px))] mx-auto whitespace-pre-wrap prose-h3:font-title prose-p:my-[0.3em] text-center prose-img:m-auto prose-h3:py-1 prose-h3:text-[1.4em] prose-h3:font-bold'><TinaMarkdown content={item?.en} /></div>
             })
           }
           <div className='absolute top-0 left-0 w-full h-full pointer-events-none '></div>
