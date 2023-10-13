@@ -12,7 +12,7 @@ blocks:
           An & Joel mainly stay in Ho Chi Minh City when returning to Vietnam,
           so they have the most culinary experiences here! You can discover
           everything from traditional dishes to fine dining all in this city!
-        image: ''
+        image: /1165791f-ac3a-4956-88c2-3877e2aa0154.jpeg
         images:
           - /1165791f-ac3a-4956-88c2-3877e2aa0154.jpeg
       - variant: One
@@ -1007,7 +1007,7 @@ blocks:
           DECEMBER 15, 2023
 
 
-          ![](</con bươm bướm_.png>)
+          ![](</con bươm bướm_.png>)
 
 
           # CEREMONY
@@ -1025,7 +1025,7 @@ blocks:
           9th Hill, Da Lat city, Lam Dong province, Vietnam
 
 
-          ![](</con cào cào.png>)
+          ![](</con nhện.png>)
 
 
           # RECEPTION
@@ -1043,7 +1043,7 @@ blocks:
           Xuan Tho ward, Da Lat city, Lam Dong province, Vietnam
 
 
-          ![](</con bọ hung.png>)
+          ![](</con cào cào.png>)
 
 
           # TRANSPORTATION
@@ -1056,7 +1056,7 @@ blocks:
           PM for reception*
 
 
-          ![](</con nhện.png>)
+          ![](</con châu chấu.png>)
 
 
           # ACCOMMODATION
@@ -1070,7 +1070,7 @@ blocks:
           and refer to An & Joel wedding*
 
 
-          ![](</con châu chấu.png>)
+          ![](</con bọ hung.png>)
 
 
           # DRESSCODE
