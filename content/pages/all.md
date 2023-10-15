@@ -44,6 +44,10 @@ blocks:
           - /bites/saigon/Mạ Quán/IMG_4559.jpeg
           - /bites/saigon/Mạ Quán/IMG_4560.jpeg
       - variant: One
+        title: Phở bò Phú Gia
+        description: '146e Lý Chính Thắng St, Ward 9, District 3, HCMC'
+        image: /phở bò phú gia.jpeg
+      - variant: One
         title: Ivoire Pastry Boutique
         description: '28 Cao Bá Quát, Bến Nghé Ward, District 1, HCMC'
         image: /Ivoire Pastry Boutique.jpeg
@@ -301,10 +305,6 @@ blocks:
           - >-
             /bites/saigon/Hum
             Vegetarian/c96cd461-d3a6-413b-8351-89a01da54989.jpeg
-      - variant: One
-        title: Phở bò Phú Gia
-        description: '146e Lý Chính Thắng St, Ward 9, District 3, HCMC'
-        image: /phở bò phú gia.jpeg
       - variant: Two
         title: HÀ NỘI
         description: >-
@@ -320,10 +320,6 @@ blocks:
         title: Cồ Đàm
         description: '68 Tran Hung Dao, Hoan Kiem, Hanoi, Vietnam'
         image: /Cồ Đàm.jpeg
-      - variant: One
-        title: T.U.N.G dining
-        description: '2C Quang Trung Street, Hoan Kiem, Hanoi, Vietnam'
-        image: /T.U.N.G dining.jpeg
       - variant: One
         title: Bánh Cuốn Bà Xuân
         description: '16 Doc, Hoe Nhai Street, Nguyen Trung Truc, Ba Dinh, Hanoi, Vietnam'
