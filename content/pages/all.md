@@ -1247,8 +1247,8 @@ blocks:
           ### WEATHER
 
 
-          Although Vietnam’s weather is tropical, Da Lat’s weather is cool and
-          temperate which led it to the nickname “City of Eternal Spring”.
+          **Although Vietnam’s weather is tropical, Da Lat’s weather is cool and
+          temperate which led it to the nickname “City of Eternal Spring”**
       - name: ATTIRE
         en: >
           ### ATTIRE
