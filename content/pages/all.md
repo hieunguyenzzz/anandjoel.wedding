@@ -1122,17 +1122,17 @@ blocks:
           ### TRANSPORTATION
 
 
-          1. Download GRAB app (similar to Uber) and link it to your card - it
-          will make things a lot easier for you upon arrival.
+          1. **Download GRAB app (similar to Uber) and link it to your card - it
+          will make things a lot easier for you upon arrival.**
 
-          2. OR you can order a Taxi (it's pricier but negotiable).
+          2. **OR you can order a Taxi (it's pricier but negotiable).**
 
 
-          * Ho Chi Minh city - lots of Grab drivers, you can book one easily
-          anywhere even from the airport.
+          * **Ho Chi Minh city - lots of Grab drivers, you can book one easily
+          anywhere even from the airport.**
 
-          * Da Lat - hard to book a Grab driver, but there are lots of taxis
-          outside the airport.
+          * **Da Lat - hard to book a Grab driver, but there are lots of taxis
+          outside the airport.**
       - name: GOING TO DA LAT
         en: >
           #### GOING TO DA LAT
