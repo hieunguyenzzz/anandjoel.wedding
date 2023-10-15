@@ -1138,37 +1138,37 @@ blocks:
           #### GOING TO DA LAT
 
 
-          ##### **\*Flying from Ho Chi Minh city to Da Lat**
+          * ***Flying from Ho Chi Minh city to Da Lat***
 
 
-          Check-in counters then proceed upstairs to security. In the mornings,
-          security is quick. We recommend getting to the airport at least an
-          hour early to check in and get through security
+          **Check-in counters then proceed upstairs to security. In the
+          mornings, security is quick. We recommend getting to the airport at
+          least an hour early to check in and get through security**
 
 
-          45 minutes taxi ride from the airport to the center of Da Lat. There
+          **45 minutes taxi ride from the airport to the center of Da Lat. There
           aren’t a lot of Grabs in the area, so we recommend getting the contact
           of your taxi driver from outside the airport. You will be able to call
-          the driver directly and this will get you a better rate
+          the driver directly and this will get you a better rate**
 
 
-          **\*Traveling from Ho Chi Minh city to Da Lat by sleeper bus**
+          * ***Traveling from Ho Chi Minh city to Da Lat by sleeper bus***
 
 
-          If you want to experience traveling to Da Lat by road, you can try the
-          sleeper bus with many more options such as private cabins, private
+          **If you want to experience traveling to Da Lat by road, you can try
+          the sleeper bus with many more options such as private cabins, private
           beds, etc. It will take 8 hours to travel from HCMC to Da Lat so we
           recommend you take the bus at night to arrive in the morning
 
-          Here are some reputable sleeper bus brands:
+          Here are some reputable sleeper bus brands:**
 
 
-          * [FUTA Bus Lines](https://futabus.vn/): A one-way trip is about
-          300.000VND/pax (~$13/pax)
+          * **[FUTA Bus Lines](https://futabus.vn/): A one-way trip is about
+          300.000VND/pax (~$13/pax)**
 
-          * [Thanh Buoi](https://thanhbuoi.com.vn/tuyen-hcm-da-lat.html): A
+          * **[Thanh Buoi](https://thanhbuoi.com.vn/tuyen-hcm-da-lat.html): A
           one-way trip is ranging from 290.000 - 440.000VND/pax (~$13 - $19/pax)
-          with many options of seats (cabin/bed/chair)
+          with many options of seats (cabin/bed/chair)**
       - name: MONEY
         en: >
           ### MONEY
