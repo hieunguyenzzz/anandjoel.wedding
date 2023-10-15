@@ -996,18 +996,6 @@ blocks:
     fields:
       - name: content
         en: >
-          # WELCOME DINNER
-
-
-          ### at TBD
-
-
-          DECEMBER 15, 2023
-
-
-          ![](</hình 2.png>)
-
-
           # CEREMONY
 
 
