@@ -1174,74 +1174,74 @@ blocks:
           ### MONEY
 
 
-          If you bring USD, in order to get the best exchange rate, it needs to
-          be clean of new $100 bills, with no marks or small rips. Best place to
-          exchange is at gold/jewelry stores. You can withdraw from ATMs however
-          we’ve found it’s best to go inside a bank. The bank will require your
-          passport and may charge a fee up to 4%, if your bank doesn’t reimburse
-          these fees then your best bet is to bring USD
+          **If you bring USD, in order to get the best exchange rate, it needs
+          to be clean of new $100 bills, with no marks or small rips. Best place
+          to exchange is at gold/jewelry stores. You can withdraw from ATMs
+          however we’ve found it’s best to go inside a bank. The bank will
+          require your passport and may charge a fee up to 4%, if your bank
+          doesn’t reimburse these fees then your best bet is to bring USD**
 
 
-          OR you can order VND $ from your bank prior to the trip
+          **OR you can order VND $ from your bank prior to the trip**
 
 
-          *\*Some places do take debit/credit cards, but not all*
+          ***\*Some places do take debit/credit cards, but not all***
       - name: MEDICINE
         en: >
           ### MEDICINE
 
 
-          If you have a weak immune system or weak stomach, then please pack
+          **If you have a weak immune system or weak stomach, then please pack
           medicine (book an appointment with your doctor to get a prescription
-          beforehand).
+          beforehand).**
 
 
-          \*We typically bring Advil, Aquaphor (mosquito/ bug bites), Pepto
-          Bismol, & Flu medicine!
+          **\*We typically bring Advil, Aquaphor (mosquito/ bug bites), Pepto
+          Bismol, & Flu medicine!**
       - name: DAILY TRAVEL BAG
         en: >
           ### DAILY TRAVEL BAG
 
 
-          We recommend bringing a cross-body or fanny pack (none of that
+          **We recommend bringing a cross-body or fanny pack (none of that
           expensive stuff ladies & gents)! It's a very confident and safe place
-          to store your wallet, passport and other items.
+          to store your wallet, passport and other items.**
 
 
-          Here are some items we carry in our fanny packs:
+          **Here are some items we carry in our fanny packs:**
 
 
-          * Passport
+          * **Passport**
 
-          * Money/ wallet
+          * **Money/ wallet**
 
-          * Chapstick and lotions (sunscreen)
+          * **Chapstick and lotions (sunscreen)**
 
-          * Wipes and tissues!!! Hand wipes and napkins (you never know when
-          you’ll need an emergency napkin)
+          * **Wipes and tissues!!! Hand wipes and napkins (you never know when
+          you’ll need an emergency napkin)**
 
-          * Advil / small meds
+          * **Advil / small meds**
 
-          * AirPods or electronic accessories
+          * **AirPods or electronic accessories**
       - name: TOILET
         en: >
           ### TOILET
 
 
-          In Vietnam, most places do not use toilet paper (you can ask though).
-          They use a bidet to clean after going. If you’re not comfortable with
-          this, we highly suggest bringing toilet paper/ napkins/ tissues/ wipes
-          in your daily bag. Depending on location, some toilets cannot handle
-          toilet paper / paper products being flushed FYI. It’s recommended to
-          use the spray & dry off with napkins / tissue you bring. There will be
-          a small trash can to dispose of paper products.
+          **In Vietnam, most places do not use toilet paper (you can ask
+          though). They use a bidet to clean after going. If you’re not
+          comfortable with this, we highly suggest bringing toilet paper/
+          napkins/ tissues/ wipes in your daily bag. Depending on location, some
+          toilets cannot handle toilet paper / paper products being flushed FYI.
+          It’s recommended to use the spray & dry off with napkins / tissue you
+          bring. There will be a small trash can to dispose of paper products**
       - name: MAPS
         en: >
           ### MAPS
 
 
-          Both Apple and Google maps works, however Google maps is better and
-          has more restaurants listed and their ratings from trip advisor.
+          **Both Apple and Google maps works, however Google maps is better and
+          has more restaurants listed and their ratings from trip advisor**
       - name: WEATHER
         en: >
           ### WEATHER
