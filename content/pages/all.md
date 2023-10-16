@@ -1077,41 +1077,40 @@ blocks:
           ### FLIGHT
 
 
-          **If you are attending our wedding, we highly recommend booking a
-          flight going into Ho Chi Minh City and then taking a short domestic
-          flight into Da Lat (about 30 mins). Please note that the flight time
-          from the USA to Vietnam can be long (20-25 hours with 1 layover). We
-          recommend choosing tickets with at least 2 - 2.5 hours of layover time
-          to account for potential delays and allow for transfers between
+          If you are attending our wedding, we highly recommend booking a flight
+          going into Ho Chi Minh City and then taking a short domestic flight
+          into Da Lat (about 30 mins). Please note that the flight time from the
+          USA to Vietnam can be long (20-25 hours with 1 layover). We recommend
+          choosing tickets with at least 2 - 2.5 hours of layover time to
+          account for potential delays and allow for transfers between
           terminals, as some airports are large and may require additional
-          security checks or luggage re-screenings.**
+          security checks or luggage re-screenings.
 
 
-          **Below are other airlines we recommend:**
+          Below are other airlines we recommend:
 
 
-          **+ All Nippon Airways (ANA)**
+          \+ All Nippon Airways (ANA)
 
 
-          **+ Asiana Airlines**
+          \+ Asiana Airlines
       - name: conten
         en: >
           ### VISA INFO
 
 
-          **In order to receive a Vietnam Visa, your Passport needs to be valid
+          In order to receive a Vietnam Visa, your Passport needs to be valid
           for at least 6 months following your arrival date. Vietnam has fully
           opened its borders to all passengers, regardless of their vaccination
-          status, and visas are now the only entry requirement into the
-          country.**
+          status, and visas are now the only entry requirement into the country.
 
 
-          **Apply for Visa: About a month before you enter Vietnam, you'll want
-          to apply for a Vietnam E-Visa. This is a simple and quick process that
+          Apply for Visa: About a month before you enter Vietnam, you'll want to
+          apply for a Vietnam E-Visa. This is a simple and quick process that
           takes about 3 days and costs $25. You can apply in the link below.
           Enter for Vietnam: When you arrive in Vietnam, you'll simply walk
           through customs, show your Passport and E-Visa to receive your
-          entrance stamp and walk right in.**
+          entrance stamp and walk right in.
 
 
           <Link
@@ -1122,67 +1121,67 @@ blocks:
           ### TRANSPORTATION
 
 
-          1. **Download GRAB app (similar to Uber) and link it to your card - it
-          will make things a lot easier for you upon arrival.**
+          1. Download GRAB app (similar to Uber) and link it to your card - it
+          will make things a lot easier for you upon arrival.
 
-          2. **OR you can order a Taxi (it's pricier but negotiable).**
+          2. OR you can order a Taxi (it's pricier but negotiable).
 
 
-          * **Ho Chi Minh city - lots of Grab drivers, you can book one easily
-          anywhere even from the airport.**
+          * Ho Chi Minh city - lots of Grab drivers, you can book one easily
+          anywhere even from the airport.
 
-          * **Da Lat - hard to book a Grab driver, but there are lots of taxis
-          outside the airport.**
+          * Da Lat - hard to book a Grab driver, but there are lots of taxis
+          outside the airport.
       - name: GOING TO DA LAT
         en: >
           #### GOING TO DA LAT
 
 
-          * ***Flying from Ho Chi Minh city to Da Lat***
+          * **Flying from Ho Chi Minh city to Da Lat**
 
 
-          **Check-in counters then proceed upstairs to security. In the
-          mornings, security is quick. We recommend getting to the airport at
-          least an hour early to check in and get through security**
+          Check-in counters then proceed upstairs to security. In the mornings,
+          security is quick. We recommend getting to the airport at least an
+          hour early to check in and get through security
 
 
-          **45 minutes taxi ride from the airport to the center of Da Lat. There
+          45 minutes taxi ride from the airport to the center of Da Lat. There
           aren’t a lot of Grabs in the area, so we recommend getting the contact
           of your taxi driver from outside the airport. You will be able to call
-          the driver directly and this will get you a better rate**
+          the driver directly and this will get you a better rate
 
 
-          * ***Traveling from Ho Chi Minh city to Da Lat by sleeper bus***
+          * **Traveling from Ho Chi Minh city to Da Lat by sleeper bus**
 
 
-          **If you want to experience traveling to Da Lat by road, you can try
-          the sleeper bus with many more options such as private cabins, private
+          If you want to experience traveling to Da Lat by road, you can try the
+          sleeper bus with many more options such as private cabins, private
           beds, etc. It will take 8 hours to travel from HCMC to Da Lat so we
           recommend you take the bus at night to arrive in the morning
 
-          Here are some reputable sleeper bus brands:**
+          Here are some reputable sleeper bus brands:
 
 
-          * **[FUTA Bus Lines](https://futabus.vn/): A one-way trip is about
-          300.000VND/pax (~$13/pax)**
+          * [FUTA Bus Lines](https://futabus.vn/): A one-way trip is about
+          300.000VND/pax (~$13/pax)
 
-          * **[Thanh Buoi](https://thanhbuoi.com.vn/tuyen-hcm-da-lat.html): A
+          * [Thanh Buoi](https://thanhbuoi.com.vn/tuyen-hcm-da-lat.html): A
           one-way trip is ranging from 290.000 - 440.000VND/pax (~$13 - $19/pax)
-          with many options of seats (cabin/bed/chair)**
+          with many options of seats (cabin/bed/chair)
       - name: MONEY
         en: >
           ### MONEY
 
 
-          **If you bring USD, in order to get the best exchange rate, it needs
-          to be clean of new $100 bills, with no marks or small rips. Best place
-          to exchange is at gold/jewelry stores. You can withdraw from ATMs
-          however we’ve found it’s best to go inside a bank. The bank will
-          require your passport and may charge a fee up to 4%, if your bank
-          doesn’t reimburse these fees then your best bet is to bring USD**
+          If you bring USD, in order to get the best exchange rate, it needs to
+          be clean of new $100 bills, with no marks or small rips. Best place to
+          exchange is at gold/jewelry stores. You can withdraw from ATMs however
+          we’ve found it’s best to go inside a bank. The bank will require your
+          passport and may charge a fee up to 4%, if your bank doesn’t reimburse
+          these fees then your best bet is to bring USD
 
 
-          **OR you can order VND $ from your bank prior to the trip**
+          OR you can order VND $ from your bank prior to the trip
 
 
           ***\*Some places do take debit/credit cards, but not all***
@@ -1191,84 +1190,84 @@ blocks:
           ### MEDICINE
 
 
-          **If you have a weak immune system or weak stomach, then please pack
+          If you have a weak immune system or weak stomach, then please pack
           medicine (book an appointment with your doctor to get a prescription
-          beforehand).**
+          beforehand).
 
 
-          **\*We typically bring Advil, Aquaphor (mosquito/ bug bites), Pepto
-          Bismol, & Flu medicine!**
+          ***\*We typically bring Advil, Aquaphor (mosquito/ bug bites), Pepto
+          Bismol, & Flu medicine!***
       - name: DAILY TRAVEL BAG
         en: >
           ### DAILY TRAVEL BAG
 
 
-          **We recommend bringing a cross-body or fanny pack (none of that
+          We recommend bringing a cross-body or fanny pack (none of that
           expensive stuff ladies & gents)! It's a very confident and safe place
-          to store your wallet, passport and other items.**
+          to store your wallet, passport and other items.
 
 
-          **Here are some items we carry in our fanny packs:**
+          Here are some items we carry in our fanny packs:
 
 
-          * **Passport**
+          * Passport
 
-          * **Money/ wallet**
+          * Money/ wallet
 
-          * **Chapstick and lotions (sunscreen)**
+          * Chapstick and lotions (sunscreen)
 
-          * **Wipes and tissues!!! Hand wipes and napkins (you never know when
-          you’ll need an emergency napkin)**
+          * Wipes and tissues!!! Hand wipes and napkins (you never know when
+          you’ll need an emergency napkin)
 
-          * **Advil / small meds**
+          * Advil / small meds
 
-          * **AirPods or electronic accessories**
+          * AirPods or electronic accessories
       - name: TOILET
         en: >
           ### TOILET
 
 
-          **In Vietnam, most places do not use toilet paper (you can ask
-          though). They use a bidet to clean after going. If you’re not
-          comfortable with this, we highly suggest bringing toilet paper/
-          napkins/ tissues/ wipes in your daily bag. Depending on location, some
-          toilets cannot handle toilet paper / paper products being flushed FYI.
-          It’s recommended to use the spray & dry off with napkins / tissue you
-          bring. There will be a small trash can to dispose of paper products**
+          In Vietnam, most places do not use toilet paper (you can ask though).
+          They use a bidet to clean after going. If you’re not comfortable with
+          this, we highly suggest bringing toilet paper/ napkins/ tissues/ wipes
+          in your daily bag. Depending on location, some toilets cannot handle
+          toilet paper / paper products being flushed FYI. It’s recommended to
+          use the spray & dry off with napkins / tissue you bring. There will be
+          a small trash can to dispose of paper products
       - name: MAPS
         en: >
           ### MAPS
 
 
-          **Both Apple and Google maps works, however Google maps is better and
-          has more restaurants listed and their ratings from trip advisor**
+          Both Apple and Google maps works, however Google maps is better and
+          has more restaurants listed and their ratings from trip advisor
       - name: WEATHER
         en: >
           ### WEATHER
 
 
-          **Although Vietnam’s weather is tropical, Da Lat’s weather is cool and
-          temperate which led it to the nickname “City of Eternal Spring”**
+          Although Vietnam’s weather is tropical, Da Lat’s weather is cool and
+          temperate which led it to the nickname “City of Eternal Spring”
       - name: ATTIRE
         en: >
           ### ATTIRE
 
 
-          **You should wear several layers of clothing to keep you warm and this
+          You should wear several layers of clothing to keep you warm and this
           also allows you to tuck away a few layers if you get hot. (Except on
-          the wedding day because you need to dress up)**
+          the wedding day because you need to dress up)
 
 
-          **Most hotels offer laundry services, and prices change depending on
-          the item and materials. Try not to overpack, you will more than likely
-          reuse outfits / buy new outfits**
+          Most hotels offer laundry services, and prices change depending on the
+          item and materials. Try not to overpack, you will more than likely
+          reuse outfits / buy new outfits
       - name: LUGGAGE
         en: >
           ### LUGGAGE
 
 
-          **Pack light and bring an extra carry-on or duffle bag as you will
-          more than likely bring back more goods than what you came with**
+          Pack light and bring an extra carry-on or duffle bag as you will more
+          than likely bring back more goods than what you came with
     _template: content
   - name: story
     title: How it all began
