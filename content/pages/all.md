@@ -1195,8 +1195,8 @@ blocks:
           beforehand).
 
 
-          \*We typically bring Advil, Aquaphor (mosquito/ bug bites), Pepto
-          Bismol, & Flu medicine!
+          ***\*We typically bring Advil, Aquaphor (mosquito/ bug bites), Pepto
+          Bismol, & Flu medicine!***
       - name: DAILY TRAVEL BAG
         en: >
           ### DAILY TRAVEL BAG
