@@ -1007,9 +1007,6 @@ blocks:
           9th Hill, Da Lat city, Lam Dong province, Vietnam
 
 
-          ![](/buom_1.gif)
-
-
           ![](</hình 3.png>)
 
 
@@ -1291,9 +1288,7 @@ blocks:
           - /IMG_2581.jpeg
       - variant: B3
         name: Câu 2
-        en: >
-          During the cloud hunting 1 year ago, An successfully proposed to Joel
-          in Da Lat, Vietnam, which is also An's hometown.
+        en: "During the cloud hunting 1 year ago, An successfully proposed to Joel in Da Lat, Vietnam, which is also An's hometown\n\nThe charming and poetic nature give them a feeling of peace and comfort. That’s the reason why they choose Da Lat as a place to mark\_ a new milestone\n"
       - variant: B4
         name: joel ring
         en: ''
