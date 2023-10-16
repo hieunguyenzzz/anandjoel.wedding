@@ -126,17 +126,18 @@ export default function ExploreNext() {
   const currentItem = data?.item?.find((item, index) => item?.title && initid(item?.title).includes(id))
   console.log({ currentItem })
   return <>
-    <div className='flex isolate flex-col lg:flex-row'>
+    <div className='flex isolate flex-col lg:flex-row pb-12'>
       <Image src={bg} width={400} className='fixed -z-10 inset-0 w-full h-full max-w-full object-cover animate-fade bg-[#f2b8ae] pointer-events-none' ></Image>
-      <div className='fixed -z-10 flex items-center left-0 top-0 h-screen w-full lg:w-[50%]'>
-        <Map onSelect={e => {
-          console.log({ e })
-          setid(e)
-        }} current={currentItem?.title} locations={locations || []} />
+      <div className='lg:fixed left-0 flex items-center top-0 h-[min(100vw,70vh)] justify-center lg:h-screen w-full lg:w-[50%] isolate'>
+        <div className='lg:max-h-[calc(100vh-136px)] relative'>
+          <Map onSelect={e => {
+            // console.log({ e })
+            setid(e)
+          }} current={currentItem?.title} locations={locations || []} />
+        </div>
       </div>
-      <div className='sticky  hidden md:flex top-[130px] h-[calc(100vh-126px)]  items-center justify-center w-[800px] md:max-w-[40vw] -z-10 pointer-events-none'>
+      <div className='hidden lg:sticky  lg:flex top-[130px] h-[calc(100vh-126px)]  items-center justify-center w-[800px] md:max-w-[40vw] -z-10 pointer-events-none'>
         <div className='w-full flex-shrink-0'>
-
         </div>
       </div>
       <div key={id} className=' w-full lg:w-auto flex-1 max-w-4xl'>

@@ -285,17 +285,16 @@ export default function Page() {
   }, [])
   console.log({ images, currentItem })
   return <>
-    <div className='flex flex-col lg:flex-row'>
-      <div className='fixed left-0 flex items-center top-0 h-screen w-full lg:w-[50%] isolate'>
-        <div className='max-h-[calc(100vh-136px)] relative'>
+    <div className='flex flex-col lg:flex-row pb-12'>
+      <div className='lg:fixed left-0 flex items-center top-0 h-[min(100vw,70vh)] justify-center lg:h-screen w-full lg:w-[50%] isolate'>
+        <div className='lg:max-h-[calc(100vh-136px)] relative'>
           <Map onSelect={e => {
             // console.log({ e })
             setid(e)
           }} current={currentItem?.title} locations={locations || []} />
         </div>
-
       </div>
-      <div className='sticky z-10 hidden md:flex top-[130px] h-[calc(100vh-126px)]  items-center justify-center w-[800px] md:max-w-[40vw] -z-10 pointer-events-none'>
+      <div className='hidden lg:sticky  lg:flex top-[130px] h-[calc(100vh-126px)]  items-center justify-center w-[800px] md:max-w-[40vw] -z-10 pointer-events-none'>
         <div className='w-full flex-shrink-0'>
         </div>
       </div>

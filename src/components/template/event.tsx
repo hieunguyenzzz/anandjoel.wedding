@@ -17,9 +17,7 @@ export function EventContent({ data }: { data: PageBlocksContent }) {
       <div className="min-h-screen -up animate-duration-[2000] animate-ease-in-out container mx-auto  relative isolate text-[#1a1a1a] flex flex-col gap-6">
         <div style={{
           minHeight: ratio + '%',
-
-        }} className='py-[4vw] lg:py-[10vw]  md:px-[20%] pb-[30vw] gap-[10vw] flex flex-col relative justify-center '>
-
+        }} className='py-[4vw] lg:py-[10vw]  md:px-[20%] pb-[50vh] lg:pb-[30vw] gap-[10vw] flex flex-col relative justify-center '>
           {
             data.fields?.map((item, index) => {
               return <div key={index} data-tina-field={item ? tinaField(item, "en") : undefined} className='prose  max-w-[calc(100vw-24px)] full prose-img:my-[2em] prose-hr:max-w-[50%] prose-h1:mb-[0.5em] prose-h1:font-header prose-hr:mx-auto prose-img:max-h-[2.4em]  lg:text-[calc(min(2vw,28px))] mx-auto whitespace-pre-wrap prose-h3:font-title prose-p:my-[0.3em] text-center prose-img:m-auto prose-h3:py-1 prose-h3:text-[1.4em] prose-h3:font-bold'><TinaMarkdown content={item?.en} /></div>
