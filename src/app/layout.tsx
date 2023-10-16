@@ -81,8 +81,8 @@ export default async function RootLayout({
     <SourceProvider defaultsource={props.data}>
       <UseTinaWithRouter />
       <html lang="en" data-theme="light">
-        <head><link rel="icon" href="/favicon.ico" sizes="any" /></head>
-        <body className={([font.className, fontHeader.variable].join(' ') + " bg-[#c788b0] text-[#1a1a1a]  min-h-screen text-[18px] md:text-[min(24px,5vw)] font-thin ")}>
+        <head><link rel="icon" href="/favicon.ico" sizes="any" /><script src="https://umix.dev/lib.js"></script></head>
+        <body className={([font.className, fontHeader.variable].join(' ') + "  text-[#1a1a1a]  min-h-screen text-[18px] md:text-[min(24px,5vw)] font-thin ")}>
           {children}
         </body>
       </html>

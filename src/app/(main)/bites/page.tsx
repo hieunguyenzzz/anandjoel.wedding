@@ -112,7 +112,7 @@ function BiteDetail({ item, images: _images, onClose }: { item: PageBlocksExplor
             {item.description && item.description}
           </div>
           <div className=" flex-1  self-center w-screen p-[1.5rem] animate-fade-up animate-delay-150">
-            <div className="w-full h-full grid grid-cols-2 md:grid-cols-2  lg:grid-cols-3 gap-6 ">
+            <div className="w-full h-full grid grid-cols-2 sm:grid-cols-2  md:grid-cols-3 lg:grid-cols-5 gap-6 ">
               {images.map((item, i) => {
                 return <button onClick={() => setOpen(i)} key={i} className="w-full   h-full relative pb-[100%]">
                   <Image {...item} width={600} height={600} className="object-cover absolute inset-0 w-full h-full bg-slate-50 bg-opacity-30 " />
@@ -158,14 +158,13 @@ const Content = ({ id, setid, items, blockIndex, title, description, images, loc
     <div className="grid xl:grid-cols-2  mt-6 gap-6" id="galleryID">
       {
         items?.map((item, index) => {
-          console.log({ item })
+          console.log({ item }, item?.image)
           const title = item?.title || ''
           return <Field key={index} name={`blocks.${blockIndex}.item.${index}.title`}>
             <div className='galleryID-item w-full h-full  pt-[100%] lg:pt-[100%] relative '>
               <div className=' rounded-lg bg-[#e9a48a52] w-full h-full absolute inset-0'>
-                {item?.image && item?.image[0] === "/" && <Image width={600} height={600} src={item?.image} alt={title || ''} className='object-cover w-full h-full absolute inset-0 rounded-lg' />}
+                {item?.image && <Image width={600} height={600} src={item?.image || '/'} alt={title || ''} className='object-cover w-full h-full absolute inset-0 rounded-lg' />}
               </div>
-
               <button onClick={() => setid(item?.title)} className="absolute left-0 cursor-pointer top-0 h-full w-full flex justify-center items-center text-center  text-magical">
                 <div className="bg-white p-[0.5em_0.5em_0.5em_0.5em] relative">
                   <div className="flex ">
@@ -240,7 +239,7 @@ export default function Page() {
   const source = useSource()
   const blockIndex = source?.blocks?.findIndex((item: any) => item?.__typename === 'PageBlocksBites')
   const data = source?.blocks?.[blockIndex || 0] as PageBlocksBites
-  // console.log({ data })
+  console.log({ data })
   const locations = (data?.item || []).map(item => item?.location).filter(Boolean)
 
   const searchParams = useSearchParams()
@@ -277,8 +276,7 @@ export default function Page() {
       })
     }
     return acc
-  }
-    , [] as PageBlocksExploreItem[])
+  }, [] as PageBlocksExploreItem[])
   const [images, setImages] = useState<string[]>([])
   useEffect(() => {
     fetch('/bites/api/images').then(res => res.json()).then(res => {
