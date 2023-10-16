@@ -82,7 +82,7 @@ export default async function RootLayout({
       <UseTinaWithRouter />
       <html lang="en" data-theme="light">
         <head><link rel="icon" href="/favicon.ico" sizes="any" /></head>
-        <body className={([font.className, fontHeader.variable].join(' ') + "  text-[#1a1a1a]  min-h-screen text-[18px] md:text-[min(24px,5vw)] font-thin ")}>
+        <body className={([font.className, fontHeader.variable].join(' ') + "  text-[#1a1a1a] antialiased  min-h-screen  text-[18px] md:text-[min(24px,5vw)] font-thin ")}>
           {children}
         </body>
       </html>

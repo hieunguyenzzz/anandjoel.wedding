@@ -188,12 +188,14 @@ const Mark = ({ children, open }: { children: ReactNode, open: boolean }) => {
 }
 let played = false
 export default function Page() {
+  const [src, setSrc] = useState('')
   const containerId = "containerId"
   const innerId = "innerId"
   const [end, setEnd] = useState(played ? true : false)
   const [sound, setSound] = useState(false)
   const videoref = useRef<HTMLVideoElement>(null)
   useEffect(() => {
+    if (!src) return
     if (end) {
       played = true
       return () => {
@@ -201,11 +203,7 @@ export default function Page() {
           videoref.current.currentTime = 0
       }
     }
-    if (window.innerWidth < 1025) {
-      videoref.current.src = videoref.current.dataset.srcmobile || ''
-    } else {
-      videoref.current.src = videoref.current.dataset.src || ''
-    }
+
     let i = setInterval(() => {
       if (videoref.current?.currentTime === 0) {
         videoref.current?.play().then(() => { })
@@ -226,7 +224,7 @@ export default function Page() {
     return () => {
       i && clearInterval(i)
     }
-  }, [end])
+  }, [end, src])
   useEffect(() => {
     if (videoref.current?.muted !== undefined) {
       if (sound) {
@@ -236,9 +234,36 @@ export default function Page() {
       }
     }
   }, [sound])
+  useEffect(() => {
+    if (window.innerWidth < 1025) {
+      setSrc('https://res.cloudinary.com/dfgbpib38/video/upload/v1697439010/AnJoel/twuqvb2eqw2aw7o37gse.mp4')
+    } else {
+      setSrc('https://res.cloudinary.com/dfgbpib38/video/upload/f_auto:video,q_auto/AnJoel/cudmqrtwawefjlrgova4')
+    }
+  }, [sound])
   return (
     <div className='fixed inset-0 w-full h-full flex flex-col justify-center'>
-      <div style={end ? { opacity: 1, display: "flex" } : { opacity: 0, display: 'none' }} className=" w-full delay-[2s] duration-[2s] text-[12px] lg:text-lg text-[#1a1a1a] flex flex-col gap-6 relative  isolate ">
+
+      {src && <video
+        src={src}
+        ref={videoref} onTimeUpdate={(e: SyntheticEvent<HTMLVideoElement, Event>) => {
+          if (e.currentTarget.currentTime > 6) {
+            if (e.currentTarget.style.opacity === '1') {
+              e.currentTarget.style.opacity = '0'
+              e.currentTarget.style.filter = 'blur(10px)'
+            }
+          } else {
+            if (e.currentTarget.style.filter === 'blur(10px)') {
+              e.currentTarget.style.opacity = '1'
+              e.currentTarget.style.filter = 'blur(0px)'
+            }
+          }
+        }} style={{ filter: 'blur(10px)', opacity: '0' }} webkit-playsinline="true" playsInline onEnded={e => {
+          setEnd(true)
+        }} controls={false} muted className="fixed  inset-0 w-full h-full transition-all lg:block duration-[2s] ease-in-out  max-w-full object-cover pointer-events-auto"
+      >
+      </video>}
+      <div style={end ? { opacity: 1, display: "flex" } : { opacity: 0, display: 'none' }} className=" w-full  delay-[2s] duration-[2s] text-[12px] lg:text-lg text-[#1a1a1a] flex flex-col gap-6 relative  isolate ">
         <Image src={bgImageMoble} priority placeholder='blur' className=' -z-10 lg:hidden inset-0 fixed w-full h-full max-w-full object-cover animate-fade' />
         <ul className='justify-center w-full animate-fade origin-top-right duration-300 text-center min-h-[calc(100vh-280px)] flex-col   isolate  z-10 top-0 left-0 flex items-center  lg:hidden'>
           {
@@ -277,41 +302,7 @@ export default function Page() {
         </div>
         {/* <AnimatedImage containerId={containerId} innerId={innerId} /> */}
       </div>
-      <video
-        // src='https://res.cloudinary.com/dfgbpib38/video/upload/f_auto:video,q_auto/AnJoel/cudmqrtwawefjlrgova4'
-        data-src='https://res.cloudinary.com/dfgbpib38/video/upload/f_auto:video,q_auto/AnJoel/cudmqrtwawefjlrgova4'
-        data-srcMobile='https://res.cloudinary.com/dfgbpib38/video/upload/v1697439010/AnJoel/twuqvb2eqw2aw7o37gse.mp4'
-        onMouseOver={e => {
-          if (!open) {
-            e.currentTarget.muted = false
-          }
-        }} onClick={e => {
-          if (!open) {
-            e.currentTarget.muted = false
-          }
-        }} ref={videoref} onTimeUpdate={(e: SyntheticEvent<HTMLVideoElement, Event>) => {
-          if (e.currentTarget.muted) {
-            // e.currentTarget.muted = false
-
-          }
-          if (e.currentTarget.currentTime > 6) {
-            if (e.currentTarget.style.opacity === '1') {
-              e.currentTarget.style.opacity = '0'
-              e.currentTarget.style.filter = 'blur(10px)'
-            }
-          } else {
-            if (e.currentTarget.style.filter === 'blur(10px)') {
-              e.currentTarget.style.opacity = '1'
-              e.currentTarget.style.filter = 'blur(0px)'
-            }
-          }
-        }} style={{ filter: 'blur(10px)', opacity: '0' }} webkit-playsinline="true" playsInline onEnded={e => {
-          setEnd(true)
-        }} controls={false} muted className="fixed  z-50 inset-0 w-full h-full transition-all lg:block duration-[2s] ease-in-out  max-w-full object-cover pointer-events-auto"
-      >
-
-      </video>
-      <div className='fixed bottom-0 w-full h-[140px] flex justify-center gap-6 z-50 pointer-events-none items-center px-6 lg:px-12 '>
+      <div className='fixed bottom-0 w-full h-[140px] flex justify-center gap-6  pointer-events-none items-center px-6 lg:px-12 '>
         <div className=' flex gap-6 container '>
           <button onClick={e => { setSound(sound => !sound) }} className='text-[40px] border-2 border-white border-opacity-30 rounded-full backdrop-blur-2xl bg-white bg-opacity-0  pointer-events-auto relative lg:w-[70px] lg:h-[70px] w-[50px] h-[50px]  flex justify-center items-center'>
             {sound ? <svg stroke="currentColor" fill="currentColor" strokeWidth={0} viewBox="0 0 512 512" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg"><path d="M333.782 80c128 64 128 288 0 352 192-64 192-288 0-352zm-48 16c64 50.843 64 270.217 0 321.06 128-50.843 128-270.217 0-321.06zm-75.13 49.922c-35.468.215-70.268 6.618-89.253 14.863-14.084 43.136-16.33 127.919-6.736 180.518-8.452-4.265-18.337-6.543-28.445-6.555-28.719 0-52 17.909-52 40s23.281 40 52 40 52-17.909 52-40c-6.166-49.187-13.74-115.12-8.225-165.437 37.756-7.722 77.49-17.422 114.688-10.715-4.152 38.294-3.029 82.424 3.379 117.552-8.452-4.265-18.337-6.543-28.446-6.554-28.719 0-52 17.908-52 40 0 22.091 23.281 40 52 40 28.72 0 52-17.909 52-40-4.618-72.485-18.78-132.767.33-196.436-18.491-5.267-40.012-7.365-61.293-7.236zm5.456 15.635c11.697-.073 23.313.706 34.174 2.558-1.185 5.199-2.232 10.67-3.156 16.336-37.913-5.64-78.578 1.385-114.332 9.656a227.233 227.233 0 0 1 3.277-14.884c19.722-7.718 50.145-13.48 80.037-13.666z" /></svg>
