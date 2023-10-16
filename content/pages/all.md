@@ -1287,7 +1287,14 @@ blocks:
           - /IMG_2581.jpeg
       - variant: B3
         name: Câu 2
-        en: "During the cloud hunting 1 year ago, An successfully proposed to Joel in Da Lat, Vietnam, which is also An's hometown\n\nThe charming and poetic nature give them a feeling of peace and comfort. That’s the reason why they choose Da Lat as a place to mark\_ a new milestone\n"
+        en: >
+          During the cloud hunting 1 year ago, An successfully proposed to Joel
+          in Da Lat, Vietnam, which is also An's hometown
+
+
+          The charming and poetic nature give them a feeling of peace and
+          comfort. That’s the reason why they choose Da Lat as a place to mark a
+          new milestone
       - variant: B4
         name: joel ring
         en: ''
