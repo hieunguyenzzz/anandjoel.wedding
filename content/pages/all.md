@@ -1190,13 +1190,13 @@ blocks:
           ### MEDICINE
 
 
-          **If you have a weak immune system or weak stomach, then please pack
+          If you have a weak immune system or weak stomach, then please pack
           medicine (book an appointment with your doctor to get a prescription
-          beforehand).**
+          beforehand).
 
 
-          **\*We typically bring Advil, Aquaphor (mosquito/ bug bites), Pepto
-          Bismol, & Flu medicine!**
+          \*We typically bring Advil, Aquaphor (mosquito/ bug bites), Pepto
+          Bismol, & Flu medicine!
       - name: DAILY TRAVEL BAG
         en: >
           ### DAILY TRAVEL BAG
