@@ -201,6 +201,11 @@ export default function Page() {
           videoref.current.currentTime = 0
       }
     }
+    if (window.innerWidth < 1025) {
+      videoref.current.src = videoref.current.dataset.srcmobile || ''
+    } else {
+      videoref.current.src = videoref.current.dataset.src || ''
+    }
     let i = setInterval(() => {
       if (videoref.current?.currentTime === 0) {
         videoref.current?.play().then(() => { })
@@ -273,6 +278,9 @@ export default function Page() {
         {/* <AnimatedImage containerId={containerId} innerId={innerId} /> */}
       </div>
       <video
+        // src='https://res.cloudinary.com/dfgbpib38/video/upload/f_auto:video,q_auto/AnJoel/cudmqrtwawefjlrgova4'
+        data-src='https://res.cloudinary.com/dfgbpib38/video/upload/f_auto:video,q_auto/AnJoel/cudmqrtwawefjlrgova4'
+        data-srcMobile='https://res.cloudinary.com/dfgbpib38/video/upload/v1697439010/AnJoel/twuqvb2eqw2aw7o37gse.mp4'
         onMouseOver={e => {
           if (!open) {
             e.currentTarget.muted = false
@@ -291,11 +299,18 @@ export default function Page() {
               e.currentTarget.style.opacity = '0'
               e.currentTarget.style.filter = 'blur(10px)'
             }
+          } else {
+            if (e.currentTarget.style.filter === 'blur(10px)') {
+              e.currentTarget.style.opacity = '1'
+              e.currentTarget.style.filter = 'blur(0px)'
+            }
           }
-        }} style={end ? { opacity: 0, visibility: 'hidden' } : { opacity: 1 }} webkit-playsinline="true" playsInline onEnded={e => {
+        }} style={{ filter: 'blur(10px)', opacity: '0' }} webkit-playsinline="true" playsInline onEnded={e => {
           setEnd(true)
-        }} controls={false} autoPlay muted className="fixed  z-50 inset-0 w-full h-full transition-all lg:block duration-[2s] ease-in-out  max-w-full object-cover pointer-events-auto"
-        src="https://res.cloudinary.com/dfgbpib38/video/upload/f_auto:video,q_auto/AnJoel/cudmqrtwawefjlrgova4" />
+        }} controls={false} muted className="fixed  z-50 inset-0 w-full h-full transition-all lg:block duration-[2s] ease-in-out  max-w-full object-cover pointer-events-auto"
+      >
+
+      </video>
       <div className='fixed bottom-0 w-full h-[140px] flex justify-center gap-6 z-50 pointer-events-none items-center px-6 lg:px-12 '>
         <div className=' flex gap-6 container '>
           <button onClick={e => { setSound(sound => !sound) }} className='text-[40px] border-2 border-white border-opacity-30 rounded-full backdrop-blur-2xl bg-white bg-opacity-0  pointer-events-auto relative lg:w-[70px] lg:h-[70px] w-[50px] h-[50px]  flex justify-center items-center'>
