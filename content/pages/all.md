@@ -1227,13 +1227,13 @@ blocks:
           ### TOILET
 
 
-          **In Vietnam, most places do not use toilet paper (you can ask
-          though). They use a bidet to clean after going. If you’re not
-          comfortable with this, we highly suggest bringing toilet paper/
-          napkins/ tissues/ wipes in your daily bag. Depending on location, some
-          toilets cannot handle toilet paper / paper products being flushed FYI.
-          It’s recommended to use the spray & dry off with napkins / tissue you
-          bring. There will be a small trash can to dispose of paper products**
+          In Vietnam, most places do not use toilet paper (you can ask though).
+          They use a bidet to clean after going. If you’re not comfortable with
+          this, we highly suggest bringing toilet paper/ napkins/ tissues/ wipes
+          in your daily bag. Depending on location, some toilets cannot handle
+          toilet paper / paper products being flushed FYI. It’s recommended to
+          use the spray & dry off with napkins / tissue you bring. There will be
+          a small trash can to dispose of paper products
       - name: MAPS
         en: >
           ### MAPS
