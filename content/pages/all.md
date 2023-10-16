@@ -1007,6 +1007,9 @@ blocks:
           9th Hill, Da Lat city, Lam Dong province, Vietnam
 
 
+          ![](/buom_1.gif)
+
+
           ![](</hình 3.png>)
 
 
