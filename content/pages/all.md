@@ -1239,35 +1239,35 @@ blocks:
           ### MAPS
 
 
-          **Both Apple and Google maps works, however Google maps is better and
-          has more restaurants listed and their ratings from trip advisor**
+          Both Apple and Google maps works, however Google maps is better and
+          has more restaurants listed and their ratings from trip advisor
       - name: WEATHER
         en: >
           ### WEATHER
 
 
-          **Although Vietnam’s weather is tropical, Da Lat’s weather is cool and
-          temperate which led it to the nickname “City of Eternal Spring”**
+          Although Vietnam’s weather is tropical, Da Lat’s weather is cool and
+          temperate which led it to the nickname “City of Eternal Spring”
       - name: ATTIRE
         en: >
           ### ATTIRE
 
 
-          **You should wear several layers of clothing to keep you warm and this
+          You should wear several layers of clothing to keep you warm and this
           also allows you to tuck away a few layers if you get hot. (Except on
-          the wedding day because you need to dress up)**
+          the wedding day because you need to dress up)
 
 
-          **Most hotels offer laundry services, and prices change depending on
-          the item and materials. Try not to overpack, you will more than likely
-          reuse outfits / buy new outfits**
+          Most hotels offer laundry services, and prices change depending on the
+          item and materials. Try not to overpack, you will more than likely
+          reuse outfits / buy new outfits
       - name: LUGGAGE
         en: >
           ### LUGGAGE
 
 
-          **Pack light and bring an extra carry-on or duffle bag as you will
-          more than likely bring back more goods than what you came with**
+          Pack light and bring an extra carry-on or duffle bag as you will more
+          than likely bring back more goods than what you came with
     _template: content
   - name: story
     title: How it all began
