@@ -112,7 +112,7 @@ export function Nav() {
           <div className='w-full isolate fixed inset-0 h-full z-50'>
             <div className=" w-full h-full overflow-auto   text-[12px] lg:text-lg text-[#1a1a1a] flex flex-col gap-6 relative  isolate ">
               <Image src={bgImageMoble} priority placeholder='blur' className=' -z-10 object-top inset-0 fixed w-full h-full max-w-full object-cover ' />
-              <ul key={'' + open} className={clsx('justify-center flex-1  w-full pt-[126px]  origin-top-right duration-300 text-center  flex-col   isolate  z-10 top-0 left-0 flex items-center ')}>
+              <ul key={'' + open} className={clsx('justify-center flex-1  w-full  h-[calc(100vh-320px)] origin-top-right duration-300 text-center  flex-col   isolate  z-10 top-0 left-0 flex items-center ')}>
                 {
                   menuItems.map((item, index) => {
                     if (item.href === '/') {
@@ -121,7 +121,7 @@ export function Nav() {
                     return <li key={index} style={{
                       animationDelay: `${0 + (index + 1) * 100}ms`
                     }} className={clsx('flex w-full flex-col items-center gap-2 relative max-w-[200px] lg:max-w-xs transition-all', open ? "animate-fade-up" : "")}>
-                      <Link href={item.href} className='py-[3vh] lg:py-12'>
+                      <Link href={item.href} className='py-[3vh] lg:py-12 transform hover:scale-x-125  transition-transform duration-500'>
                         <div className='font-header text-[min(4vh,36px)] font-extrabold'>{item.title}</div>
                       </Link>
                     </li>
