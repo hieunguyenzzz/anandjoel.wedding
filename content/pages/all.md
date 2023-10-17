@@ -1105,22 +1105,7 @@ blocks:
       - name: GOING TO DA LAT
         en: "#### GOING TO DA LAT\n\n* **Traveling from Ho Chi Minh city to Da Lat by plane**\n\nFlying via plane is the quickest way to get from HCMC to Dalat. When entering SGN airport head to the Check-in counters then proceed upstairs to security. If you’re leaving in the morning security is generally quick and easy. We recommend getting to the airport at least an hour early to check in and get through security.\n\nOnce you arrive to Dalat, it takes approximately 45 minutes by taxi to arrive to the center of Da Lat. You may ask the driver for their contact info if you would like to continue using them throughout the trip.\_\n\n* **Traveling from Ho Chi Minh city to Da Lat by sleeper bus**\n\nIf you would like to experience traveling to Da Lat by road, you can try the sleeper bus. Buses\_ offer a few options such as private cabins, private beds, etc. It takes approximately 8 hours to travel from HCMC to Da Lat so we recommend taking the bus at night and arriving in the morning. We will provide a laying bed bus leaving Ho Chi Minh City early on Friday and leaving Dalat Sunday at noon. Please contact us should you want to join the complimentary bus ride.\n\nHere are some reputable sleeper bus brands:\n\n* [FUTA Bus Lines](https://futabus.vn/): A one-way trip is about 300.000VND/pax (~$13/pax)\n* [Thanh Buoi](https://thanhbuoi.com.vn/tuyen-hcm-da-lat.html): A one-way trip is ranging from 290.000 - 440.000VND/pax (~$13 - $19/pax) with many options of seats (cabin/bed/chair)\n"
       - name: MONEY
-        en: >
-          ### MONEY
-
-
-          If you bring USD, in order to get the best exchange rate, it needs to
-          be clean of new $100 bills, with no marks or small rips. Best place to
-          exchange is at gold/jewelry stores. You can withdraw from ATMs however
-          we’ve found it’s best to go inside a bank. The bank will require your
-          passport and may charge a fee up to 4%, if your bank doesn’t reimburse
-          these fees then your best bet is to bring USD
-
-
-          OR you can order VND $ from your bank prior to the trip
-
-
-          ***\*Some places do take debit/credit cards, but not all***
+        en: "### CURRENCY\n\nGetting Vietnamese Dong in the US can be tough. We recommend bringing USD and exchanging it in Vietnam. To get the best exchange rate, it is recommended to bring new $100 bills with no marks or rips. To get the best exchange rate we recommend exchanging it at a\_ gold or jewelry store (Most are located in the center of Ho Chi Minh City near Ben Thanh Market). You can also withdraw from the ATMs. However, for higher limits we recommend going to the teller with your debit card and passport. Check with your bank beforehand for fees\_\n\nThe following accounts offer no foreign transaction fees and will reimburse your ATM assed fee:\_\n\n1. Schwab Bank High Yield Investor Checking (Cheapest and most convenient options but limited branches)\n2. TD Beyond Checking\_\n3. Chase Sapphire checking or private banking\_\n4. CitiGold\n\nThe following credit cards have no foreign transaction fee\n\n1. Chase Amazon Card (No annual fee)\n2. Chase sapphire (Has an annual fee)\n3. Amex gold and platinum card (Has an annual fee)\n\n\\*Keep in mind that a lot of places take credit/debit but some still only accept local currency\n"
       - name: MEDICINE
         en: >
           ### MEDICINE
