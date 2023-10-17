@@ -422,8 +422,10 @@ blocks:
       - variant: Two
         title: ĐÀ LẠT
         description: >-
-          Đà Lạt city owns itself an excellent condition for farming, which
-          provides high-quality and fresh vegetables for every dish
+          Known for its fresh produce and dairy products, Dalat offers one of
+          the best culinary experiences in Vietnam for both Asian and Western
+          cuisine. Dalat is also known for its breathtaking coffee shops on
+          beautiful mountaintops, a must try while there
         image: /cover đà lạt.jpeg
       - variant: One
         title: Ốc 33
