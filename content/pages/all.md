@@ -2,9 +2,12 @@
 title: AnJoel
 blocks:
   - bottom_text: >
-      *An & Joel have tried & loved almost all of the restaurants above.
-      Hopefully, their food suggestions will help you explore Vietnamese cuisine
-      in a more diverse way!*
+      Here are a couple of suggestions from restaurants that An & Joel tried and
+      enjoyed
+
+
+      Vietnamese food is rich and diverse and varies by region. We hope you will
+      be able to explore some of these recommendations
     item:
       - variant: Two
         title: HỒ CHÍ MINH
