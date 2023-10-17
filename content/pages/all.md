@@ -1130,11 +1130,12 @@ blocks:
         en: "### BATHROOM ETIQUETTE\n\nIn Asia, some places do not use toilet paper, instead they use a bidet (water pipe)\_ to clean after going. If you’re not comfortable with this, we highly suggest bringing toilet paper or napkins in your daily bag in case. If you are planning to visit some of the more remote locations, some toilets cannot handle toilet paper. You will utilize the trash can next to you to dispose of the toilet paper\n"
       - name: MAPS
         en: >
-          ### MAPS
+          ### MAPS & PHONE SERVICES
 
 
-          Both Apple and Google maps works, however Google maps is better and
-          has more restaurants listed and their ratings from trip advisor
+          Google maps works well in Vietnam and most carriers have an
+          international plan. We will also provide a backup Vietnamese phone
+          preloaded with the essential apps and phone numbers
       - name: WEATHER
         en: >
           ### WEATHER
