@@ -1162,8 +1162,8 @@ blocks:
           ### LUGGAGE
 
 
-          Pack light and bring an extra carry-on or duffle bag as you will more
-          than likely bring back more goods than what you came with
+          We recommend bringing an extra carry-on or duffle bag as you will more
+          than likely bring back more goods than what you came with. 
     _template: content
   - name: story
     title: How it all began
