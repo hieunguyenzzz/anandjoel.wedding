@@ -1108,16 +1108,17 @@ blocks:
         en: "### CURRENCY\n\nGetting Vietnamese Dong in the US can be tough. We recommend bringing USD and exchanging it in Vietnam. To get the best exchange rate, it is recommended to bring new $100 bills with no marks or rips. To get the best exchange rate we recommend exchanging it at a\_ gold or jewelry store (Most are located in the center of Ho Chi Minh City near Ben Thanh Market). You can also withdraw from the ATMs. However, for higher limits we recommend going to the teller with your debit card and passport. Check with your bank beforehand for fees\_\n\nThe following accounts offer no foreign transaction fees and will reimburse your ATM assed fee:\_\n\n1. Schwab Bank High Yield Investor Checking (Cheapest and most convenient options but limited branches)\n2. TD Beyond Checking\_\n3. Chase Sapphire checking or private banking\_\n4. CitiGold\n\nThe following credit cards have no foreign transaction fee\n\n1. Chase Amazon Card (No annual fee)\n2. Chase sapphire (Has an annual fee)\n3. Amex gold and platinum card (Has an annual fee)\n\n\\*Keep in mind that a lot of places take credit/debit but some still only accept local currency\n"
       - name: MEDICINE
         en: >
-          ### MEDICINE
+          ### HEALTH & FOOD SAFETY
 
 
-          If you have a weak immune system or weak stomach, then please pack
-          medicine (book an appointment with your doctor to get a prescription
-          beforehand).
+          The food in Vietnam is generally fresh and tasty. However, If you have
+          a weak immune system or stomach, we recommend traveling with some
+          over-the-counter medicine. We also recommend booking an appointment
+          with your doctor beforehand to ensure a smooth trip
 
 
-          ***\*We typically bring Advil, Aquaphor (mosquito/ bug bites), Pepto
-          Bismol, & Flu medicine!***
+          \*We typically bring Advil, Aquaphor (mosquito/ bug bites), Pepto
+          Bismol, & Flu medicine
       - name: DAILY TRAVEL BAG
         en: >
           ### DAILY TRAVEL BAG
