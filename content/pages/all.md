@@ -1101,21 +1101,7 @@ blocks:
       - name: conten
         en: "### VISA INFO\n\nVietnam requires a visa for guests coming from the US. To qualify for\_ a Vietnamese Visa, your Passport needs to be valid for at least 6 months following your arrival date. However, visas are easy to obtain and Vietnam has fully opened its borders to all passengers, regardless of their vaccination status.\n\nDIY Visa: You can apply for Vietnam E-Visa online via the government website. The process is fairly simple, quick, and affordable. It takes approximately 3 days to process and costs $25. You can apply in the link below. Please remember to print out your visa and bring it with you. When you arrive in Vietnam, you'll simply walk through customs, show your Passport and E-Visa to the officer to receive your entrance stamp.\n\nFor an easier process you may want to have an agency process the visa on your behalf for an additional $25 ($50 total). You can also add a fasttrack option where at the airport an employee will help you through customs for an additional $70. We recommend the following agency:\n\n* +84 9 3434 0905 (Whatsapp/Zalo/Viber)\n* hanguyen@vietnamdiscovery.com\n\n<Link href=\"https://www.vietnam-visa.com/\" text=\"Click here\" />\n"
       - name: TRANSPORTATION
-        en: >
-          ### TRANSPORTATION
-
-
-          1. Download GRAB app (similar to Uber) and link it to your card - it
-          will make things a lot easier for you upon arrival.
-
-          2. OR you can order a Taxi (it's pricier but negotiable).
-
-
-          * Ho Chi Minh city - lots of Grab drivers, you can book one easily
-          anywhere even from the airport.
-
-          * Da Lat - hard to book a Grab driver, but there are lots of taxis
-          outside the airport.
+        en: "### TRANSPORTATION\n\nGetting around Vietnam is easy via taxi. In your phone you will have pre downloaded the following apps:\_\n\n1. GRAB (similar to Uber) - You can link your US card or give them local currency\n2. Taxi cabs are also available at the airport and vietnam\_\n   1. In Ho Chi Minh city there are a\_ lot of Grab drivers. It should be easy to book from anywhere including the airport.\n   2. In Da Lat - Grab may be slower to the airport, we recommend booking a taxi in the airport (remember to bring enough local currency)\n"
       - name: GOING TO DA LAT
         en: >
           #### GOING TO DA LAT
