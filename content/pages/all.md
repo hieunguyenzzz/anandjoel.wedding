@@ -1124,26 +1124,8 @@ blocks:
           ### DAILY TRAVEL BAG
 
 
-          We recommend bringing a cross-body or fanny pack (none of that
-          expensive stuff ladies & gents)! It's a very confident and safe place
-          to store your wallet, passport and other items.
-
-
-          Here are some items we carry in our fanny packs:
-
-
-          * Passport
-
-          * Money/ wallet
-
-          * Chapstick and lotions (sunscreen)
-
-          * Wipes and tissues!!! Hand wipes and napkins (you never know when
-          you’ll need an emergency napkin)
-
-          * Advil / small meds
-
-          * AirPods or electronic accessories
+          For daily items we recommend keeping it in a cross-body or fanny pack
+          (brand name bags are strongly discouraged in crowded areas)
       - name: TOILET
         en: >
           ### TOILET
