@@ -1031,7 +1031,8 @@ blocks:
           # TRANSPORTATION
 
 
-          Transportation will be provided to and from the venue and hotel
+          Transportation will be provided to and from the venues and Du Parc
+          Hotel
 
 
           *Please kindly be at the hotel lobby at 8:15 AM for ceremony and 3:15
