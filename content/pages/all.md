@@ -728,9 +728,9 @@ blocks:
         variant: One
         title: Da Nang
         description: >-
-          Da Nang is located in the middle of the northern capital. The main
-          reason most visitors stay here is its proximity to the popular My Khe
-          Beach, Lang Co Beach, Hoi An, and My Son.
+          Da Nang is located in the middle of Vietnam featuring the Ba Na Hills.
+          Its close proximity to the popular My Khe Beach, Lang Co Beach, & the
+          city Hoi An, and My Son makes it a desired destination
         image: /Đà Nẵng.jpeg
         gallery:
           - name: Intercontinental Danang Sun Peninsula Resort
