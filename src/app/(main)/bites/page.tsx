@@ -107,21 +107,21 @@ function BiteDetail({ item, images: _images, onClose }: { item: PageBlocksExplor
       <dialog id={modalId} open onClose={onClose} className="modal modal-bottom  z-[51]">
         <style>{`header{z-index:1!important}`}</style>
         <div className="modal-box overflow-y-auto  border-none  shadow-none bg-transparent overflow-hidden pb-0 min-h-screen  flex flex-col">
-          <div className="text-white animate-fade-up text-sm">
-            <h3 className='text-[1.8em] pb-2'>{item.title}</h3>
-            {item.description && item.description}
-          </div>
-          <div className=" flex-1  self-center w-screen p-[1.5rem] animate-fade-up animate-delay-150">
-            <div className="w-full h-full grid grid-cols-2 sm:grid-cols-2  md:grid-cols-3 lg:grid-cols-5 gap-6 ">
-              {images.map((item, i) => {
-                return <button onClick={() => setOpen(i)} key={i} className="w-full   h-full relative pb-[100%]">
-                  <Image {...item} width={600} height={600} className="object-cover absolute inset-0 w-full h-full bg-slate-50 bg-opacity-30 " />
-                </button>
-              })}
+          <div className='container w-full mx-auto'>
+            <div className="text-white animate-fade-up text-sm">
+              <h3 className='text-[1.8em] pb-2'>{item.title}</h3>
+              {item.description && item.description}
+            </div>
+            <div className=" flex-1  self-center w-full py-[1.5rem] animate-fade-up animate-delay-150">
+              <div className="w-full h-full grid grid-cols-2 sm:grid-cols-2  md:grid-cols-3 lg:grid-cols-5 gap-6 ">
+                {images.map((item, i) => {
+                  return <button onClick={() => setOpen(i)} key={i} className="w-full   h-full relative pb-[100%]">
+                    <Image {...item} width={600} height={600} className="object-cover absolute inset-0 w-full h-full bg-slate-50 bg-opacity-30 " />
+                  </button>
+                })}
+              </div>
             </div>
           </div>
-
-
         </div>
         <form method="dialog" className="modal-backdrop bg-black bg-opacity-60 backdrop-blur-xl ">
           <button>close</button>
@@ -188,12 +188,12 @@ const Content = ({ id, setid, items, blockIndex, title, description, images, loc
   </section>
   return (
     <section className="mt-12 mx-auto px-4  md:px-8">
-      <div key={currentItem?.title} className="prose">
+      <div key={currentItem?.title} className="w-full">
         {currentItem && <button className='underline animate-fade-up animate-duration-500 animate-ease-in-out' onClick={() => setid('')}>Back</button>}
         <h1 className="text-3xl font-title text-gray-800 animate-fade-up animate-delay-100 font-semibold mt-2 animate-duration-500 animate-ease-in-out">
           {currentItem?.title}
         </h1>
-        <p className="mt-3  animate-fade-up animate-delay-200 animate-duration-500 animate-ease-in-out">
+        <p className="mt-3 text-justify animate-fade-up animate-delay-200 animate-duration-500 animate-ease-in-out">
           {currentItem?.description}
         </p>
       </div>
@@ -221,7 +221,7 @@ const Content = ({ id, setid, items, blockIndex, title, description, images, loc
               <button onClick={e => {
                 setCurrent(i)
               }} className='opacity-0 rounded-lg p-6 flex justify-center items-center invisible transition-all absolute inset-0 bg-white backdrop-blur-sm bg-opacity-60 group-hover:visible group-hover:opacity-100'>
-                <div className='prose w-full'>
+                <div className='prose w-full font-bold'>
                   <h3>{i.name}</h3>
                   {content}
                 </div></button>
