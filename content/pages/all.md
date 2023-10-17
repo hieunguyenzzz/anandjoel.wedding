@@ -1138,11 +1138,14 @@ blocks:
           preloaded with the essential apps and phone numbers
       - name: WEATHER
         en: >
-          ### WEATHER
+          ### CLIMATE & WEATHER
 
 
-          Although Vietnam’s weather is tropical, Da Lat’s weather is cool and
-          temperate which led it to the nickname “City of Eternal Spring”
+          Vietnam’s weather is tropical but each region has its unique weather
+          patterns. Ho Chi Minh city is on the warmer side (usually 80-100 F).
+          However, Da Lat’s weather is cool and breezy (earning the nickname
+          “City of Eternal Spring”). At night it can get a bit chilly in Dalat
+          so make sure to bring some winter clothes
       - name: ATTIRE
         en: >
           ### ATTIRE
