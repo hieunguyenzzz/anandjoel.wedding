@@ -901,12 +901,12 @@ blocks:
         variant: One
         title: Ho Chi Minh
         description: >-
-          Ho Chi Minh City is a young city with a history of just over 300 years
-          of formation and development. This vibrant city is likened to the
-          "Pearl of the Far East" because of its charming heritage architecture,
-          dynamic, vibrant and bustling atmosphere and friendly people. Here,
-          you can immerse yourself in the diverse cuisine by the interference of
-          many regions, and countries.
+          Ho Chi Minh City is a comparatively young city with a history of just
+          over 300 years of formation and development. This vibrant city is
+          likened to the "Pearl of the Far East" because of its charming
+          heritage architecture, dynamic, vibrant and bustling atmosphere and
+          friendly people. Here, you can immerse yourself in the diverse cuisine
+          by the interference of many regions, and countries
         image: /SG.jpeg
         gallery:
           - name: Park Hyatt
