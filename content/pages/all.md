@@ -311,9 +311,9 @@ blocks:
       - variant: Two
         title: HÀ NỘI
         description: >-
-          Ha Noi cuisine features the most sophisticated and unique
-          characteristics of Vietnamese culinary art. You will be completely
-          surprised by its taste
+          Ha Noi is known for its unique pho and other northern delicacies.
+          However, it offers a wide variety of dishes from across Vietnam. Here
+          are some of An & Joel’s highlights
         image: /Bún Chả Hàng Quạt.jpeg
       - variant: One
         title: Xới Cơm
