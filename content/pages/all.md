@@ -1048,11 +1048,8 @@ blocks:
           # TRANSPORTATION
 
 
-          Transportation will be provided to and from the venues and Du Parc
-          Hotel
-
-
-          Please let the hotel know that you’re under An & Joel wedding
+          Specify that transportation will be provided from Hotel Du Parc and
+          shuttle buses from and to the airport on the 15th and 17th
 
 
           ![](/buom-buom.gif)
@@ -1065,8 +1062,7 @@ blocks:
           Da Lat city from December 15 to December 17
 
 
-          *Please kindly let us know if you will be staying here by November 15
-          and refer to An & Joel wedding*
+          Please let the hotel know that you’re under An & Joel wedding
 
 
           ![](/bo-ngua.gif)
