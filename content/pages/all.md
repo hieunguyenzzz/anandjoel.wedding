@@ -957,9 +957,11 @@ blocks:
         variant: One
         title: Phu Quoc
         description: >-
-          Phu Quoc will fill your days with activities and tours, immerse in
-          natural beauty, or simply puff a rollup and relax. And December is
-          also the perfect time to catch the wonderful Phu Quoc sunset.
+          The island of Phu Quoc is a beach island offering both many activities
+          and tours as well as an abundance of relaxing beach fronts. Immerse in
+          natural beauty, or sit at the beach and relax. Phu Quoc in December is
+          quite hot and the perfect weather to sit at the beach. You can also
+          catch one of the most beautiful sunsets if you’re lucky
         image: /Phú Quốc.jpeg
         gallery:
           - name: InterContinental Phu Quoc Long Beach Resort
