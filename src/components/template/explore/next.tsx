@@ -15,11 +15,11 @@ const initid = (s: string) => s.replaceAll(' ', '').replaceAll('_', '').toLowerC
 const Content = ({ id, setid, data, blockIndex }: { id: number, setid: (n: number) => void, data: PageBlocksExplore, blockIndex: number }) => {
   const currentItem = data?.item?.find((item, index) => initid(item?.title) === id)
   if (!currentItem) return <section className="mt-12 mx-auto px-4  md:px-8">
-    <div className="max-w-lg">
+    <div className="w-full">
       <h1 className="text-[1.4em] font-title text-gray-800 font-semibold mt-2">
         {data?.title || "Explore Vietnam"}
       </h1>
-      <p className="mt-3 ">
+      <p className="mt-3 text-justify">
         {data?.description || `Blogs that are loved by the community. Updated every hour.
       The powerful gravity waves resulting from the impact of the planets, were finally resolved in 2015`}
       </p>
@@ -56,12 +56,12 @@ const Content = ({ id, setid, data, blockIndex }: { id: number, setid: (n: numbe
   </section>
   return (
     <section className="mt-12 mx-auto px-4  md:px-8">
-      <div key={currentItem?.title} className="prose">
+      <div key={currentItem?.title} className="w-full">
         {currentItem && <button className='underline animate-fade-up animate-duration-500 animate-ease-in-out' onClick={() => setid('')}>Back</button>}
         <h1 className="text-3xl font-title text-gray-800 animate-fade-up animate-delay-100 font-semibold mt-2 animate-duration-500 animate-ease-in-out">
           {currentItem?.title}
         </h1>
-        <p className="mt-3  animate-fade-up animate-delay-200 animate-duration-500 animate-ease-in-out">
+        <p className="mt-3 text-justify animate-fade-up animate-delay-200 animate-duration-500 animate-ease-in-out">
           {currentItem?.description}
         </p>
       </div>
@@ -86,7 +86,7 @@ const Content = ({ id, setid, data, blockIndex }: { id: number, setid: (n: numbe
                   <Image width={600} height={600} src={img.props.src} alt={currentItem.title || ''} className='object-cover w-full h-full animate-fade-up absolute inset-0 rounded-lg bg-[#e9a48a52] ' />
                 </div>
               </Field>
-              <div className='opacity-0 p-6 flex justify-center items-center invisible transition-all absolute inset-0 bg-white backdrop-blur-sm bg-opacity-40 group-hover:visible group-hover:opacity-100'><div className='prose'>
+              <div className='opacity-0 p-6 font-bold flex justify-center items-center invisible transition-all absolute inset-0 bg-white backdrop-blur-sm bg-opacity-40 group-hover:visible group-hover:opacity-100'><div className='prose'>
                 {content && <TinaMarkdown content={content} />}
               </div></div>
             </div>
