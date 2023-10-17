@@ -1052,8 +1052,7 @@ blocks:
           Hotel
 
 
-          *Please kindly be at the hotel lobby at 8:15 AM for ceremony and 3:15
-          PM for reception*
+          Please let the hotel know that you’re under An & Joel wedding
 
 
           ![](/buom-buom.gif)
