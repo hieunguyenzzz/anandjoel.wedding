@@ -1148,17 +1148,15 @@ blocks:
           so make sure to bring some winter clothes
       - name: ATTIRE
         en: >
-          ### ATTIRE
+          ### DAILY ATTIRE
 
 
-          You should wear several layers of clothing to keep you warm and this
-          also allows you to tuck away a few layers if you get hot. (Except on
-          the wedding day because you need to dress up)
-
-
-          Most hotels offer laundry services, and prices change depending on the
-          item and materials. Try not to overpack, you will more than likely
-          reuse outfits / buy new outfits
+          In Saigon we recommend wearing light and breezy clothing. In Dalat we
+          recommend wearing several layers of clothing to keep warm. (Except on
+          the wedding day because you need to dress up). Most hotels offer
+          laundry services, and prices change depending on the item and
+          materials. We don’t recommend packing too many items. You will most
+          than likely reuse and buy new outfits
       - name: LUGGAGE
         en: >
           ### LUGGAGE
