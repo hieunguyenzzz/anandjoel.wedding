@@ -1127,17 +1127,7 @@ blocks:
           For daily items we recommend keeping it in a cross-body or fanny pack
           (brand name bags are strongly discouraged in crowded areas)
       - name: TOILET
-        en: >
-          ### TOILET
-
-
-          In Vietnam, most places do not use toilet paper (you can ask though).
-          They use a bidet to clean after going. If you’re not comfortable with
-          this, we highly suggest bringing toilet paper/ napkins/ tissues/ wipes
-          in your daily bag. Depending on location, some toilets cannot handle
-          toilet paper / paper products being flushed FYI. It’s recommended to
-          use the spray & dry off with napkins / tissue you bring. There will be
-          a small trash can to dispose of paper products
+        en: "### BATHROOM ETIQUETTE\n\nIn Asia, some places do not use toilet paper, instead they use a bidet (water pipe)\_ to clean after going. If you’re not comfortable with this, we highly suggest bringing toilet paper or napkins in your daily bag in case. If you are planning to visit some of the more remote locations, some toilets cannot handle toilet paper. You will utilize the trash can next to you to dispose of the toilet paper\n"
       - name: MAPS
         en: >
           ### MAPS
