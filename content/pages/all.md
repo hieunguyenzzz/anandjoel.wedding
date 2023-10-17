@@ -399,7 +399,7 @@ blocks:
           Hoi An’s food truly gets a ‘taste’ of the place. Many of these dishes
           are made from local ingredients, so you cannot find the same taste
           outside of this area
-        image: ''
+        image: /hoiancover.jpeg
       - variant: One
         title: Cao lầu Thanh
         description: '26 Thái Phiên St, Minh An Ward, Hội An City'
