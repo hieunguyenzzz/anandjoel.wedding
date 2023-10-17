@@ -12,10 +12,7 @@
 
 
 .text-outline {
-  color: transparent;
-  -webkit-text-fill-color: transparent;
-  -webkit-text-stroke: 1px black;
-  font-family: var(--font-title);
+font-weight: 700;
 }
 
 
