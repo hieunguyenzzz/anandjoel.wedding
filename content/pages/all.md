@@ -1042,7 +1042,7 @@ blocks:
           Xuan Tho ward, Da Lat city, Lam Dong province, Vietnam
 
 
-          ![](/nhen.gif)
+          ![](/nhen-re.gif)
 
 
           # TRANSPORTATION
@@ -1052,7 +1052,7 @@ blocks:
           shuttle buses from and to the airport on the 15th and 17th
 
 
-          ![](/buom-buom.gif)
+          ![](/bo-ngua-re.gif)
 
 
           # ACCOMMODATION
@@ -1065,7 +1065,7 @@ blocks:
           Please let the hotel know that you’re under An & Joel wedding
 
 
-          ![](/bo-ngua.gif)
+          ![](/buom-re-1.gif)
 
 
           # DRESS CODE
