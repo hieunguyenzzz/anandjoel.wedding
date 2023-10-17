@@ -1078,23 +1078,26 @@ blocks:
           ### FLIGHT
 
 
-          If you are attending our wedding, we highly recommend booking a flight
-          going into Ho Chi Minh City and then taking a short domestic flight
-          into Da Lat (about 30 mins). Please note that the flight time from the
-          USA to Vietnam can be long (20-25 hours with 1 layover). We recommend
-          choosing tickets with at least 2 - 2.5 hours of layover time to
-          account for potential delays and allow for transfers between
-          terminals, as some airports are large and may require additional
-          security checks or luggage re-screenings.
+          The cheapest and most efficient way to arrive in Vietnam is by booking
+          a flight to Ho Chi Minh City and then taking a short domestic flight
+          into Da Lat (about 30 mins). For those flying from the US, please note
+          that the flight to Vietnam can be long (20-25 hours). Flights from NYC
+          require at least one layover. We recommend choosing an itinerary with
+          at least 2 - 2.5 hours of layover time to account for potential delays
+          and allow for transfers between terminals, as some airports are large
+          and may require additional security checks or luggage re-screenings.
 
 
-          Below are other airlines we recommend:
+          Some airlines we recommend are:
 
 
           \+ All Nippon Airways (ANA)
 
 
           \+ Asiana Airlines
+
+
+          \+ Qatar Airline
       - name: conten
         en: >
           ### VISA INFO
