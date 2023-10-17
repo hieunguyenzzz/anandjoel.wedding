@@ -461,10 +461,12 @@ blocks:
         variant: Two
         title: Sapa
         description: >-
-          Sapa is also fantastic, but you need time to travel there. Take a 10
-          pm overnight train from Hanoi and arrive early at 5 am. Once there
-          hire a guide and trek all over the hills to see ethnic minority
-          tribes.
+          Sapa is a remote mountain town in Northern Vietnam with one of the
+          most scenic views that the country has to offer. Whether you want to
+          hike, explore the remote tribes of Vietnam or relax among the clouds,
+          Sapa is your destination to go.  Because of its remote nature, getting
+          to Sapa takes 5-6 hours from Hanoi via car or bus, but is well worth
+          the trek
         image: /sapaaa.jpeg
         gallery:
           - name: image
