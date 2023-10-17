@@ -12,9 +12,9 @@ blocks:
       - variant: Two
         title: HỒ CHÍ MINH
         description: >-
-          An & Joel mainly stay in Ho Chi Minh City when returning to Vietnam,
-          so they have the most culinary experiences here! You can discover
-          everything from traditional dishes to fine dining all in this city!
+          An’s hometown and where Joel and An spent the most time. Ho Chi Minh
+          city will offer every variety of Vietnamese and world cuisine. From
+          fine dining to street food, you won’t be able to get enough
         image: /An Vegetarian.jpeg
       - variant: One
         title: Å by T.U.N.G
