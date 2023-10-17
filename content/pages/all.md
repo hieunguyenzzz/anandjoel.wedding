@@ -338,8 +338,11 @@ blocks:
       - variant: Two
         title: SAPA
         description: >-
-          You can enjoy so many specialties in Sapa, not luxury, but definitely
-          unique, flavorful and yummy!
+          The unique flavors of Sapa will stay with you for a lifetime. From
+          boar meat to horse meat to homemade wine, it’ll be an experience you
+          will remember for the rest of your life. While Sapa doesn’t offer as
+          many luxury food options as other destinations its foods are unique,
+          flavorful and delicious
         image: /Red Dzao.jpeg
       - variant: One
         title: Cá Tầm Vua Restaurant
