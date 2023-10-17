@@ -1007,7 +1007,7 @@ blocks:
           9th Hill, Da Lat city, Lam Dong province, Vietnam
 
 
-          ![](</hình 3.png>)
+          ![](/buom-buom-1.gif)
 
 
           # RECEPTION
@@ -1025,7 +1025,7 @@ blocks:
           Xuan Tho ward, Da Lat city, Lam Dong province, Vietnam
 
 
-          ![](</hình 5.png>)
+          ![](/nhen.gif)
 
 
           # TRANSPORTATION
@@ -1038,7 +1038,7 @@ blocks:
           PM for reception*
 
 
-          ![](</hình 1.png>)
+          ![](/buom-buom.gif)
 
 
           # ACCOMMODATION
@@ -1052,7 +1052,7 @@ blocks:
           and refer to An & Joel wedding*
 
 
-          ![](</hình 4.png>)
+          ![](/bo-ngua.gif)
 
 
           # DRESS CODE
