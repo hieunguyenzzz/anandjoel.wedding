@@ -861,9 +861,12 @@ blocks:
         variant: One
         title: Da Lat
         description: >-
-          Dalat is a highly sought-after getaway destination that captivates our
-          hearts no matter how many times we visit, and that’s why we choose to
-          host our wedding there.
+          The beautiful city of Dalat is one of An & Joel’s favorite cities. Its
+          luscious mountains and fields combined with its eternal spring
+          weather, make it a perfect getaway destination. Dalat is also called
+          the Flower City supplying its beautiful flowers to all of Vietnam.
+          From the moment An & Joel set foot in Dalat it captivated our hearts.
+          That’s why we chose to host our wedding in Dalat
         image: /IMG_4041.jpeg
         gallery:
           - name: Cu Lan Village
