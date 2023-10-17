@@ -402,9 +402,10 @@ blocks:
       - variant: Two
         title: HỘI AN
         description: >-
-          Hoi An’s food truly gets a ‘taste’ of the place. Many of these dishes
-          are made from local ingredients, so you cannot find the same taste
-          outside of this area
+          Hoi An ranks as one of the top tourist destinations in Vietnam. It is
+          also one of An & Joel's favorite city’s (In no small part because it
+          is named after An..). The Banh Mi sandwiches and chicken rice dishes
+          will stay on your mind for the rest of your life
         image: /hoiancover.jpeg
       - variant: One
         title: Cao lầu Thanh
