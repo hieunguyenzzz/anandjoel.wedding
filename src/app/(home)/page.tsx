@@ -4,8 +4,8 @@ import Image from '@/components/common/image';
 import { StaticImageData } from 'next/image';
 import Link from 'next/link';
 import { ReactNode, SyntheticEvent, useEffect, useMemo, useRef, useState } from 'react';
-import bgImage from '../../../public/main-page-update.png';
 import bgImageMoble from '../../../public/mobile-bg.png';
+import bgImage from './asset/bg.jpg';
 import bite from './asset/bite-slide-1.png';
 import events from './asset/events-slide.png';
 import explore from './asset/explore-tag-1.png';
@@ -26,9 +26,9 @@ export const menuItemsL: {
       image: story,
       href: '/story',
       style: {
-        left: "51%",
-        width: "9%",
-        top: "55%",
+        left: "50%",
+        width: "11%",
+        top: "48%",
       }
     },
     {
@@ -36,17 +36,17 @@ export const menuItemsL: {
       image: events,
       href: '/event',
       style: {
-        left: "66%",
-        width: "8%",
-        top: "42%",
+        left: "69%",
+        width: "9%",
+        top: "33%",
       }
     }, {
       title: 'Travel',
       image: travel,
       href: '/travel', style: {
-        left: "63%",
-        width: "17%",
-        top: "79%",
+        left: "65%",
+        width: "21%",
+        top: "76%",
       }
     },
     {
@@ -54,9 +54,9 @@ export const menuItemsL: {
       image: bite,
       href: '/bites',
       style: {
-        left: "23.5%",
-        width: "9%",
-        top: "21%",
+        left: "16%",
+        width: "11%",
+        top: "8%",
       }
     },
     {
@@ -64,9 +64,9 @@ export const menuItemsL: {
       image: explore,
       href: '/explore',
       style: {
-        top: "63%",
-        left: "19%",
-        width: "7%"
+        top: "58%",
+        left: "11%",
+        width: "8%"
       }
     },
     {
@@ -74,9 +74,9 @@ export const menuItemsL: {
       image: qa,
       href: '/qa',
       style: {
-        left: "82%",
+        left: "89%",
         width: "6%",
-        top: "30%",
+        top: "19%",
       }
     },
   ]
