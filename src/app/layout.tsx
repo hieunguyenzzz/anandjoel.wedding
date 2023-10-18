@@ -1,5 +1,6 @@
 import SourceProvider from '@/libs/source'
 import { UseTinaWithRouter } from '@/libs/tina'
+import { Montserrat } from 'next/font/google'
 import localFont from 'next/font/local'
 import bitesImage from '../../public/BITES-150x150.png'
 import eventsImage from '../../public/EVENTS.png'
@@ -10,7 +11,7 @@ import storyImage from '../../public/story.png'
 import travelImage from '../../public/travel-tag-768x721.png'
 import client from '../../tina/__generated__/client'
 import './globals.css'
-const font = localFont({
+const fontTitle = localFont({
   src: [
     {
       path: '../../public/fonts/Regular.ttf',
@@ -28,8 +29,9 @@ const font = localFont({
       style: 'italic',
     },
   ],
-  variable: '--font-body',
+  variable: '--font-title',
 })
+const fontbase = Montserrat({ subsets: ['vietnamese'], variable: '--font-base', })
 const fontHeader = localFont({
   src: '../../public/fonts/Header.ttf',
   variable: '--font-header',
@@ -82,7 +84,7 @@ export default async function RootLayout({
       <UseTinaWithRouter />
       <html lang="en" data-theme="light">
         <head><link rel="icon" href="/favicon.ico" sizes="any" /></head>
-        <body className={([font.className, fontHeader.variable].join(' ') + "  text-[#1a1a1a] antialiased  min-h-screen  text-[18px] md:text-[min(24px,5vw)] font-thin ")}>
+        <body className={([fontbase.className, fontbase.variable, fontTitle.variable, fontHeader.variable].join(' ') + "  text-[#1a1a1a] antialiased  min-h-screen  text-[18px] md:text-[min(24px,5vw)] ")}>
           {children}
         </body>
       </html>

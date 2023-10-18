@@ -13,7 +13,7 @@ const config: Config = {
       fontFamily: {
         'subtitle': ['var(--font-subtitle)', 'ui-sans-serif', 'system-ui'],
         'header': ['var(--font-header)', 'ui-serif', 'Georgia'],
-        'title': ['var(--font-body)', 'ui-serif', 'Georgia'],
+        'title': ['var(--font-title)', 'ui-serif', 'Georgia'],
         'body': ['var(--font-body)', 'ui-serif', 'Georgia'],
       },
       backgroundImage: {

@@ -61,7 +61,7 @@ export default async function RootLayout({
   return (
     <>
       <header className='flex gap-6 justify-center px-6 lg:px-12 z-20 relative '>
-        <div className='flex gap-6 justify-between  w-full z-20 container'>
+        <div className='flex gap-6 justify-between  w-full z-20 '>
           <Link href="/" className='w-[150px] relative text-shadow'>
             <Image src={logo} alt='logo' className='object-cover' />
           </Link>

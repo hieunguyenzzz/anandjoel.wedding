@@ -65,7 +65,7 @@ export default function Page() {
       <div className="transition-all z-30 relative duration-[3s] w-full ease-in-out isolate mx-auto">
         <div className="z-10 relative mx-auto max-w-[65ch] ">
           <div className="w-full h-full hidden md:flex  flex-col relative pt-[100px]  md:pt-[20vw]  gap-24 ">
-            <div className="max-w-[40ch] tracking-normal  font-thin text-xl  md:text-[2vw] xl:text-[1.8vw] leading-relaxed mx-auto text-center px-14">
+            <div className="max-w-[40ch] tracking-normal font-title font-thin text-xl  md:text-[2vw] xl:text-[1.8vw] leading-relaxed mx-auto text-center px-14">
               An & Joel do not have a typical love Story
               <div className="whitespace-pre-wrap">
                 <span className="italic tracking-tight">but everything that happens has its own reason</span>
