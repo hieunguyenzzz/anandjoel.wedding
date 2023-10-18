@@ -1008,79 +1008,13 @@ blocks:
   - name: event
     fields:
       - name: content
-        en: >
-          # CEREMONY
-
-
-          ### at Tiệm Cà phê Hoàng hôn chiều
-
-
-          DECEMBER 16, 2023
-
-
-          **09:00 AM - 10:30 AM**
-
-
-          9th Hill, Da Lat city, Lam Dong province, Vietnam
-
-
-          ![](/buom-buom-1.gif)
-
-
-          # RECEPTION
-
-
-          ### at the Campville
-
-
-          DECEMBER 16, 2023
-
-
-          **4:00 PM - 9:00 PM**
-
-
-          Xuan Tho ward, Da Lat city, Lam Dong province, Vietnam
-
-
-          ![](/nhen-re.gif)
-
-
-          # TRANSPORTATION
-
-
-          Specify that transportation will be provided from Hotel Du Parc and
-          shuttle buses from and to the airport on the 15th and 17th
-
-
-          ![](/bo-ngua-re.gif)
-
-
-          # ACCOMMODATION
-
-
-          A block of complimentary rooms has been reserved at Hotel Du Parc in
-          Da Lat city from December 15 to December 17
-
-
-          Please let the hotel know that you’re under An & Joel wedding
-
-
-          ![](/buom-re-1.gif)
-
-
-          # DRESS CODE
-
-
-          Ceremony: White or light colors. No busy patterns
-
-
-          Reception: Black tie
+        en: "# CEREMONY\n\n### at Tiệm Cà Phê Hoàng hôn chiều\n\nDECEMBER 16, 2023\n\n**09:00 AM - 10:30 AM**\n\n9th Hill, Da Lat city, Lam Dong province, Vietnam\n\n![](/buom-buom-1.gif)\n\n# RECEPTION\n\n### at The Campville\n\nDECEMBER 16, 2023\n\n**4:00 PM - 9:00 PM**\n\nXuan Tho ward, Da Lat city, Lam Dong province, Vietnam\n\n![](/nhen-re.gif)\n\n# TRANSPORTATION\n\nTransportation will be provided from Du Parc hotel to the wedding venues and back.\_\n\nPlease kindly be at the hotel lobby at 8:15 AM for ceremony and 3:15 PM for reception\n\n![](/bo-ngua-re.gif)\n\n# ACCOMMODATION\n\nA block of complimentary rooms has been reserved at Hotel Du Parc in Da Lat city from December 15 to December 17\n\nPlease let the hotel know that you’re with An & Joel wedding\n\n![](/buom-re-1.gif)\n\n# DRESS CODE\n\nCeremony: White or light colors. No busy patterns\n\nReception: Black tie\n"
     _template: content
   - name: qa
     title: Questions & Answers
     fields:
       - name: content
-        en: "### Will transportation be provided from and to reception/hotel etc\n\nYes. Complimentary Shuttle buses will be provided between the two venues and from/to the hotel Du Parc. There will also be shuttle buses provided from and to the airport throughout the 15th and 17th of Dec. The exact details will be announced shortly\n\n### Will the ceremony, and reception take place indoors or outdoors?\n\nBoth will take place outdoors. The temperature in December is usually cool ranging from 20 –\_ 26 Celsius (60 – 72 Fahrenheit) in the mornings. At night it may get a bit cooler. We will have some outdoor heating but recommend dressing a bit warmer\n\n### Is there a registry or gift list?\n\nIn accordance with traditional Vietnamese culture a monetary gift represents the wedding gift. A cash gift is most appreciated, but not expected or required. Your presence is the greatest gift to us\n\n### Can I take photos during the ceremony?\n\nThere will be a professional photography team at the wedding but if you want to snap some memories of our special weekend, we kindly ask that you keep photos to a minimum during the ceremony. However, take as many as your heart desires during reception\n\n### Are children allowed at the ceremony?\n\nUnfortunately, no. Due to venue limitation, children age 12 or below are not allowed at the ceremony\n\n### What cuisine will be served at the reception?\n\nWe will serve Western food with Vietnamese influence. If you have any dietary restrictions please kindly remind us\n\n### When should we arrive in Vietnam?\n\nDue to the time difference, flight length, and jet lag, we recommend arriving at least 3 – 4 days prior to the wedding\n\n### When shopping, Is it ok to bargain pricing and if so, when & where?\n\nBargaining in Vietnam for goods is commonplace if there is no fixed price displayed. Bartering comes down to fine art. May the odds forever be in your favor!\n\n### What is the tipping culture in Vietnam?\n\nTipping isn’t mandatory or customary in Vietnam, but it is always appreciated. If you’re happy with the services provided by waiters, drivers and other service workers, leaving a small tip is a good way to show your appreciation. We recommend approximately 10%\n\n### How do things normally cost in Vietnam?\n\nFor accommodation, a 4-star hotel or above, on average, is $200/day. Food & drinks will be $100/day on average if you want to try a lot of different things (street foods / desserts / restaurants / coffee shops / etc.). If you go to clubs or some cool events or concert/rave or go to bars, it will be $200 – $500 for a week or so\n\n### Where can I exchange money?\n\n**In Ho Chi Minh City:**\n\n* EximBank Money Changer (135 Dong Khoi in District 1 of Ho Chi Minh City) is offering some of the best currency exchange rates in Saigon\n* Money Changers at Tan Son Nhat Airport (SGN)\n\n**In Ha Noi City:**\n\n* Money changers on Ha Trung St in the Old Quarter. You should compare the rate before exchanging money\n* Ha Noi Money Exchange: 19B Hang Be, Hoan Kiem District, Ha Noi\n\n### Can I rent a suit/ tuxedo in Vietnam?\n\nYes. We recommend Wedding Book at 583 Su Van Hanh st, Ward 3, District 10, HCMC to rent a suit or tuxedo. Please keep in mind that sizes in Vietnam run smaller than in the US/EU \n"
+        en: "### Will transportation be provided from and to reception/hotel etc\n\nYes. Complimentary Shuttle buses will be provided between the two venues and from/to the hotel Du Parc. There will also be shuttle buses provided from and to the airport throughout the 15th and 17th of Dec. The exact details will be announced shortly\n\n### Will the ceremony, and reception take place indoors or outdoors?\n\nBoth will take place outdoors. The temperature in December is usually cool ranging from 20 –\_ 26 Celsius (60 – 72 Fahrenheit) in the mornings. At night it may get a bit cooler. We will have some outdoor heating but recommend dressing a bit warmer\n\n### Is there a registry or gift list?\n\nIn accordance with traditional Vietnamese culture a monetary gift represents the wedding gift. A cash gift is most appreciated, but not expected or required. Your presence is the greatest gift to us\n\n### Can I take photos during the ceremony?\n\nThere will be a professional photography team at the wedding but if you want to snap some memories of our special weekend, we kindly ask that you keep photos to a minimum during the ceremony. However, take as many as your heart desires during reception\n\n### Are children allowed at the ceremony?\n\nUnfortunately, no. Due to venue limitation, children age 12 or below are not allowed at the ceremony\n\n### What cuisine will be served at the reception?\n\nWe will serve Western food with Vietnamese influence. If you have any dietary restrictions please kindly remind us\n\n### When should we arrive in Vietnam?\n\nDue to the time difference, flight length, and jet lag, we recommend arriving at least 3 – 4 days prior to the wedding\n\n### When shopping, Is it ok to bargain pricing and if so, when & where?\n\nBargaining in Vietnam for goods is commonplace if there is no fixed price displayed. Bartering comes down to fine art. May the odds forever be in your favor!\n\n### What is the tipping culture in Vietnam?\n\nTipping isn’t mandatory or customary in Vietnam, but it is always appreciated. If you’re happy with the services provided by waiters, drivers and other service workers, leaving a small tip is a good way to show your appreciation. We recommend approximately 10%\n\n### How do things normally cost in Vietnam?\n\nFor accommodation, a 4-star hotel or above, on average, is $200/day. Food & drinks will be $100/day on average if you want to try a lot of different things (street foods / desserts / restaurants / coffee shops / etc.). If you go to clubs or some cool events or concert/rave or go to bars, it will be $200 – $500 for a week or so\n\n### Where can I exchange money?\n\n**In Ho Chi Minh City:**\n\n* EximBank Money Changer (135 Dong Khoi in District 1 of Ho Chi Minh City) is offering some of the best currency exchange rates in Saigon\n* Money Changers at Tan Son Nhat Airport (SGN)\n\n**In Ha Noi City:**\n\n* Money changers on Ha Trung St in the Old Quarter. You should compare the rate before exchanging money\n* Ha Noi Money Exchange: 19B Hang Be, Hoan Kiem District, Ha Noi\n\n### Can I rent a suit/ tuxedo in Vietnam?\n\nYes. We recommend Wedding Book at 583 Su Van Hanh st, Ward 3, District 10, HCMC to rent a suit or tuxedo. Please keep in mind that sizes in Vietnam run smaller than in the US/EU\n"
     _template: content
   - name: travel
     title: TRAVEL & STAY
