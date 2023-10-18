@@ -1218,8 +1218,8 @@ blocks:
           - /IMG_2581.jpeg
       - variant: Text
         en: >
-          Now, An and Joel are excited and honored to commemorate this, our love
-          story, with you in the very same mountain town where An proposed.
+          Now, An and Joel are excited and honored to commemorate this, their
+          love story, with you in the very same mountain town where An proposed
       - variant: B6
         name: on one knee
         en: ''
