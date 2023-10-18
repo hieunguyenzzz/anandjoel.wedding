@@ -1114,45 +1114,97 @@ blocks:
   - name: story
     title: How it all began
     fields:
-      - variant: B1
-        name: content
+      - variant: Title
+        name: OUR STORY
+        en: ''
+      - variant: Text
         en: >
-          They have been together for 8 years, since the day An and Joel met in
-          the US, which means a lot to them, a place where you can be true to
-          yourself, pursue your dreams and where dreams do become true
+          The tale of An and Joel, unique as it is, beautifully illustrates the
+          profound truth that love recognizes no boundaries – not vast
+          distances, nor sky-high mountain ranges, nor the widest of rivers.
+          It's the celestial dance of Duyên and of Bashert, a concept common to
+          both the Jewish and Vietnamese cultures, a serendipity predestined by
+          fate, written in the stars, of two souls destined to cross paths.
+      - variant: B7
+        en: ''
         images:
-          - /AJ.jpeg
+          - /6055F2FF-B014-47A6-B3CA-9ACE70EE7436.jpeg
+      - variant: Images_1_1
+        en: ''
+        images:
+          - /6055F2FF-B014-47A6-B3CA-9ACE70EE7436.jpeg
+          - /6055F2FF-B014-47A6-B3CA-9ACE70EE7436.jpeg
+      - variant: B7
+        en: ''
+        images:
+          - /23cfe32a356a7841e1099b5c07f638e9.JPG
+      - variant: Title
+        name: HOW IT ALL BEGAN
+        en: ''
+      - variant: Text
+        en: >
+          Our journey together begins in 2015, when Joel sent An “a confusing
+          message” online — after all, Joel
+      - variant: Image_1_2
+        en: ''
+        images:
+          - /6055F2FF-B014-47A6-B3CA-9ACE70EE7436.jpeg
+          - /6055F2FF-B014-47A6-B3CA-9ACE70EE7436.jpeg
+      - variant: Images_1_1
+        en: ''
+        images:
+          - /6055F2FF-B014-47A6-B3CA-9ACE70EE7436.jpeg
+          - /23cfe32a356a7841e1099b5c07f638e9.JPG
+      - variant: Text_Image
+        en: >
+          So, a lunch date was made; and, as fate would have it, lunch developed
+          into a delightful spree of manipedi, dessert, a movie, and an
+          unforgettable dinner. A single hour stretched into twelve, and what
+          began as a simple date blossomed into an enchanting journey that has
+          lasted eighth year and counting.
+        images:
+          - /6055F2FF-B014-47A6-B3CA-9ACE70EE7436.jpeg
+      - variant: Image_2_1
+        en: ''
+        images:
+          - /23cfe32a356a7841e1099b5c07f638e9.JPG
+          - /23cfe32a356a7841e1099b5c07f638e9.JPG
+      - variant: B6
+        en: ''
+        images:
+          - /6055F2FF-B014-47A6-B3CA-9ACE70EE7436.jpeg
+          - /6055F2FF-B014-47A6-B3CA-9ACE70EE7436.jpeg
+          - /23cfe32a356a7841e1099b5c07f638e9.JPG
+          - /23cfe32a356a7841e1099b5c07f638e9.JPG
+          - /23cfe32a356a7841e1099b5c07f638e9.JPG
+          - /23cfe32a356a7841e1099b5c07f638e9.JPG
+      - variant: Title
+        name: IT’S A YES
+        en: ''
+      - variant: Text
+        en: >
+          Seven years into our shared bliss, amidst the scenic backdrop of the
+          mountains of Dalat, as the sun cast its first golden hues, An decided
+          it was the moment to begin our next chapter together. On May 18, 2022,
+          with a long, heartfelt speech rehearsed and ready, all that An could
+          muster in that moment was, "I think
+      - variant: Images_1_1
+        en: ''
+      - variant: Images_1_1
+        en: ''
+      - variant: Text
+        en: >
+          "Hark, My Beloved, There he comes leaping over the mountains, bounding
+          over hills." - Song of Songs 2:8
       - variant: B7
         name: hình 2
         en: ''
         images:
           - /IMG_2581.jpeg
-      - variant: B3
-        name: Câu 2
+      - variant: Text
         en: >
-          During the cloud hunting 1 year ago, An successfully proposed to Joel
-          in Da Lat, Vietnam, which is also An's hometown
-
-
-          The charming and poetic nature give them a feeling of peace and
-          comfort. That’s the reason why they choose Da Lat as a place to mark a
-          new milestone
-      - variant: B4
-        name: joel ring
-        en: ''
-        images:
-          - /IMG_0938.jpeg
-          - /IMG_0989.jpeg
-      - variant: B2
-        name: all ngang
-        en: ''
-        images:
-          - /IMG_4041.jpeg
-          - /2392F174-47E8-454D-AABC-39ADF1885977.jpeg
-      - name: Câu 3
-        en: >
-          Cheers to An & Joel's wedding and enjoy the fruits from the Forbidden
-          Garden!
+          Now, An and Joel are excited and honored to commemorate this, our love
+          story, with you in the very same mountain town where An proposed.
       - variant: B6
         name: on one knee
         en: ''

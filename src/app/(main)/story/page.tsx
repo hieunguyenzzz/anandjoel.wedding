@@ -80,14 +80,6 @@ export default function Page() {
           </div></Mark>
           <Mark id={'content'} className="mt-6 md:mt-[50vh]">
             <>
-              <div className="">
-                <h2 onClick={e => {
-                  document.querySelector("#mark-content")?.scrollIntoView({
-                    behavior: 'smooth',
-                    block: 'start'
-                  })
-                }} className=" animate-fade-up animate-delay-700 font-header text-4xl lg:text-6xl font-bold text-center block my-12 lg:my-24 lg:mb-12">HOW IT ALL BEGAN</h2>
-              </div>
               <div className=" animate-fade-up animate-delay-[800ms] pointer-events-auto">
                 <Story />
               </div>

@@ -78,11 +78,17 @@ export default defineConfig({
                   type: "object",
                   name: "fields",
                   list: true,
+                  ui: {
+                    itemProps: (item) => ({
+                      ...item,
+                      label: item.title || item.name || item.variant,
+                    }),
+                  },
                   fields: [
                     {
                       name: 'variant',
                       type: "string",
-                      options: ["B1", "B2", "B3", "B4", "B5", "B6", "B7"],
+                      options: ["Title", "Text", "Images", "Images_1_1", "Image_1_2", "Image_2_1", "Text_Image", "Images_6", "B1", "B2", "B3", "B4", "B5", "B6", "B7"],
                     },
                     {
                       name: 'name',

@@ -11,13 +11,76 @@ import { TinaMarkdown } from 'tinacms/dist/rich-text';
 import Image from '../common/image';
 
 const compornent = {
+  Title: (props: PageBlocksContentFields): ReactNode => {
+    return <h2 className=" animate-fade-up animate-delay-700 font-header text-4xl lg:text-6xl font-bold text-center block my-12 lg:my-24 lg:mb-12">
+      {props.name}
+    </h2>
+  },
+  Text: (props: PageBlocksContentFields): ReactNode => {
+    return <div className=" text-center whitespace-pre-wrap [&_p]:my-6">
+      <TinaMarkdown content={props.en} >
+      </TinaMarkdown>
+    </div>
+  },
+  "Images_1_1": (props: PageBlocksContentFields): ReactNode => {
+    return <div className="grid md:grid-cols-2 gap-1 md:gap-3">
+      <div className="md:col-span-1 h-full ">
+        <div className="relative grid" style={{ paddingBottom: '142.222%' }}>
+          <Image src={props.images?.[0] || '/holder.png'} fill className='absolute inset-0 w-full h-full object-cover bg-slate-50 bg-opacity-30' />
+        </div>
+      </div>
+      <div className="grid">
+        <div className="relative grid" style={{ paddingBottom: '142.222%' }}>
+          <Image src={props.images?.[1] || '/holder.png'} fill className='absolute inset-0 w-full h-full object-cover bg-slate-50 bg-opacity-30' />
+        </div>
+      </div>
+    </div>
+  }, "Image_1_2": (props: PageBlocksContentFields): ReactNode => {
+    return <div className="grid md:grid-cols-12 gap-1 md:gap-3">
+      <div className="md:col-span-5 h-full ">
+        <div className="relative grid h-full" style={{ paddingBottom: '142.222%' }}>
+          <Image src={props.images?.[0] || '/holder.png'} fill className='absolute inset-0 w-full h-full object-cover bg-slate-50 bg-opacity-30' />
+        </div>
+      </div>
+      <div className="grid h-full md:col-span-7">
+        <div className="relative  h-full">
+          <Image src={props.images?.[1] || '/holder.png'} width={800} height={800} className='md:absolute inset-0 w-full h-full object-cover bg-slate-50 bg-opacity-30' />
+        </div>
+      </div>
+    </div>
+  }, "Image_2_1": (props: PageBlocksContentFields): ReactNode => {
+    return <div className="grid md:grid-cols-12 gap-1 md:gap-3">
+      <div className="md:col-span-7 h-full ">
+        <div className="relative grid h-full" style={{ paddingBottom: '142.222%' }}>
+          <Image src={props.images?.[0] || '/holder.png'} fill className='absolute inset-0 w-full h-full object-cover bg-slate-50 bg-opacity-30' />
+        </div>
+      </div>
+      <div className="grid h-full md:col-span-5">
+        <div className="relative  h-full">
+          <Image src={props.images?.[1] || '/holder.png'} width={800} height={800} className='md:absolute inset-0 w-full h-full object-cover bg-slate-50 bg-opacity-30' />
+        </div>
+      </div>
+    </div>
+  }, "Text_Image": (props: PageBlocksContentFields): ReactNode => {
+    return <div className="grid md:grid-cols-2 gap-1 md:gap-3">
+      <div className="md:col-span-1 h-full flex items-center text-justify md:px-8 py-6">
+        <TinaMarkdown content={props.en} >
+        </TinaMarkdown>
+      </div>
+      <div className="grid">
+        <div className="relative grid" style={{ paddingBottom: '142.222%' }}>
+          <Image src={props.images?.[0] || '/holder.png'} fill className='absolute inset-0 w-full h-full object-cover bg-slate-50 bg-opacity-30' />
+        </div>
+      </div>
+    </div>
+  },
   B1: (props: PageBlocksContentFields): ReactNode => {
     return <div>
       {props.en && <div className="text-center whitespace-pre-line">
         <TinaMarkdown content={props.en} >
         </TinaMarkdown></div>}
       <div className="relative grid mt-12" style={{ paddingBottom: '142.222%' }}>
-        <Image src={props.images?.[0]} fill className='absolute inset-0 w-full h-full object-cover bg-slate-50 bg-opacity-30' />
+        <Image src={props.images?.[0] || '/holder.png'} fill className='absolute inset-0 w-full h-full object-cover bg-slate-50 bg-opacity-30' />
       </div>
 
     </div>
@@ -27,12 +90,12 @@ const compornent = {
     return <div className="grid md:grid-cols-12 gap-1 md:gap-3">
       <div className="md:col-span-5 h-full ">
         <div className="relative grid h-full" style={{ paddingBottom: '142.222%' }}>
-          <Image src={props.images?.[0]} fill className='absolute inset-0 w-full h-full object-cover bg-slate-50 bg-opacity-30' />
+          <Image src={props.images?.[0] || '/holder.png'} fill className='absolute inset-0 w-full h-full object-cover bg-slate-50 bg-opacity-30' />
         </div>
       </div>
       <div className="grid h-full md:col-span-7">
         <div className="relative  h-full">
-          <Image src={props.images?.[1]} width={800} height={800} className='md:absolute inset-0 w-full h-full object-cover bg-slate-50 bg-opacity-30' />
+          <Image src={props.images?.[1] || '/holder.png'} width={800} height={800} className='md:absolute inset-0 w-full h-full object-cover bg-slate-50 bg-opacity-30' />
         </div>
       </div>
     </div>
@@ -49,12 +112,12 @@ const compornent = {
     return <div className="grid md:grid-cols-2 gap-1 md:gap-3">
       <div className="md:col-span-1 h-full ">
         <div className="relative grid" style={{ paddingBottom: '142.222%' }}>
-          <Image src={props.images?.[0]} fill className='absolute inset-0 w-full h-full object-cover bg-slate-50 bg-opacity-30' />
+          <Image src={props.images?.[0] || '/holder.png'} fill className='absolute inset-0 w-full h-full object-cover bg-slate-50 bg-opacity-30' />
         </div>
       </div>
       <div className="grid">
         <div className="relative grid" style={{ paddingBottom: '142.222%' }}>
-          <Image src={props.images?.[1]} fill className='absolute inset-0 w-full h-full object-cover bg-slate-50 bg-opacity-30' />
+          <Image src={props.images?.[1] || '/holder.png'} fill className='absolute inset-0 w-full h-full object-cover bg-slate-50 bg-opacity-30' />
         </div>
       </div>
     </div>
@@ -64,7 +127,7 @@ const compornent = {
       <div className="flex-1 relative">
         <div style={{ zIndex: -1 }}>
           <div className="relative grid" style={{ paddingBottom: '70.3125%' }}>
-            <Image src={props.images?.[0]} fill className='absolute inset-0 w-full h-full object-cover bg-slate-50 bg-opacity-30' />
+            <Image src={props.images?.[0] || '/holder.png'} fill className='absolute inset-0 w-full h-full object-cover bg-slate-50 bg-opacity-30' />
           </div>
         </div>
       </div>
@@ -79,20 +142,19 @@ const compornent = {
   },
   B6: (props: PageBlocksContentFields): ReactNode => {
     return <div className="grid grid-cols-1 md:grid-cols-3 gap-1 md:gap-3">
-      <div className="relative grid" style={{ paddingBottom: '140.3125%' }}>
-        <Image src={props.images?.[0]} fill className='absolute inset-0 w-full h-full object-cover bg-slate-50 bg-opacity-30' />
-      </div>
-      <div className="relative grid h-full" style={{ paddingBottom: '140.3125%' }}>
-        <Image src={props.images?.[1]} fill className='absolute inset-0 w-full h-full object-cover bg-slate-50 bg-opacity-30' />
-      </div>
-      <div className="relative grid h-full" style={{ paddingBottom: '140.3125%' }}>
-        <Image src={props.images?.[2]} fill className='absolute inset-0 w-full h-full object-cover bg-slate-50 bg-opacity-30' />
-      </div>
+      {
+        props.images?.map((img, ii) => {
+          return <div key={ii} className="relative grid" style={{ paddingBottom: '140.3125%' }}>
+            <Image src={img || '/holder.png'} fill className='absolute inset-0 w-full h-full object-cover bg-slate-50 bg-opacity-30' />
+          </div>
+        }
+        )
+      }
     </div>
   },
   B7: (props: PageBlocksContentFields): ReactNode => {
     return (
-      <Image src={props.images?.[0]} width={800} height={800} className='w-full h-auto object-cover bg-slate-50 bg-opacity-30' />
+      <Image src={props.images?.[0] || '/holder.png'} width={800} height={800} className='w-full h-auto object-cover bg-slate-50 bg-opacity-30' />
     )
   }
 }
@@ -103,7 +165,7 @@ export function StoryContent({ data }: { data: PageBlocksContent }) {
       <div style={{
         minHeight: ratio + 'vw',
       }} className='py-[min(24px,4vw)]  pb-[10vw] gap-[10vw] flex flex-col relative justify-center '>
-        <div className=" w-full flex flex-col text-[1.4em] leading-normal gap-1 md:gap-3">
+        <div className=" w-full flex flex-col text-[1.4em] leading-normal gap-1 md:gap-3 [&_h2]:font-header">
           {data.fields?.map((i, ii) => {
             let C = i?.variant && compornent[i?.variant] || compornent.B3
 
