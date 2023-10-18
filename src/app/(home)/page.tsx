@@ -282,7 +282,7 @@ export default function Page() {
         </ul>
         <div id={containerId} className='overflow-hidden  mx-auto flex flex-col relative justify-center items-center lg:relative '>
           <div id={innerId} className='transition-transform w-full duration-300 ease-in-out'>
-            <Image src={bgImage} priority placeholder='blur' className='hidden transition-transform lg:block -z-10 inset-0 w-full  max-w-full object-cover animate-fade' />
+            <Image src={bgImage} priority placeholder='blur' className='hidden max-h-screen transition-transform lg:block -z-10 inset-0 w-full  max-w-full object-cover animate-fade' />
             <ul className='hidden lg:block absolute inset-0 w-full h-full'>
               {
                 menuItemsL.map((item, index) => {
