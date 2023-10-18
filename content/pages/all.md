@@ -1182,6 +1182,9 @@ blocks:
         name: IT’S A YES
         en: ''
       - variant: B7
+        en: ''
+        images:
+          - /AJ.jpeg
       - variant: Text
         en: >
           Seven years into our shared bliss, amidst the scenic backdrop of the
@@ -1192,9 +1195,13 @@ blocks:
       - variant: Images_1_1
         en: ''
         images:
-          - ''
+          - /E347B483-01F8-4D33-A801-75837A70A504.jpeg
+          - /2AAF4ED3-17CE-4FFB-83BE-F077EAD733E6.jpeg
       - variant: Images_1_1
         en: ''
+        images:
+          - /A1E5D1E8-0793-495A-A17B-2A339EA896FE.jpeg
+          - /BE21A5B0-3DFA-4914-ABB0-D8BF8D45E073.jpeg
       - variant: Text
         en: >
           "Hark, My Beloved, There he comes leaping over the mountains, bounding
