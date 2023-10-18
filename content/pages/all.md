@@ -1166,7 +1166,7 @@ blocks:
           into a delightful spree of manipedi, dessert, a movie, and an
           unforgettable dinner. A single hour stretched into twelve, and what
           began as a simple date blossomed into an enchanting journey that has
-          lasted eighth year and counting.
+          lasted eighth year and counting
         images:
           - /0B858AC0-A437-4100-BF46-FD6EF8EC1EFC.jpeg
       - variant: Image_2_1
