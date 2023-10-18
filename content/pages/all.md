@@ -426,7 +426,7 @@ blocks:
           the best culinary experiences in Vietnam for both Asian and Western
           cuisine. Dalat is also known for its breathtaking coffee shops on
           beautiful mountaintops, a must try while there
-        image: /cover đà lạt.jpeg
+        image: /cover đà lạt.jpeg
       - variant: One
         title: Ốc 33
         description: '33 Hai Bà Trưng St, Ward 6, Đà Lạt City'
@@ -1128,16 +1128,16 @@ blocks:
       - variant: B7
         en: ''
         images:
-          - /6055F2FF-B014-47A6-B3CA-9ACE70EE7436.jpeg
+          - /D2419045-2CB6-4A63-8422-5D7F68359A33.jpeg
       - variant: Images_1_1
         en: ''
         images:
-          - /6055F2FF-B014-47A6-B3CA-9ACE70EE7436.jpeg
-          - /6055F2FF-B014-47A6-B3CA-9ACE70EE7436.jpeg
+          - /1AEF3DE9-971C-4484-9EAC-147140B2123A.jpeg
+          - /F5E9EB8E-C5F7-460D-8AD8-6352A9027DC5.jpeg
       - variant: B7
         en: ''
         images:
-          - /23cfe32a356a7841e1099b5c07f638e9.JPG
+          - /CF90E2C8-4201-44A1-A297-52CE5FD9D2EB.jpeg
       - variant: Title
         name: HOW IT ALL BEGAN
         en: ''
@@ -1148,13 +1148,13 @@ blocks:
       - variant: Image_1_2
         en: ''
         images:
-          - /6055F2FF-B014-47A6-B3CA-9ACE70EE7436.jpeg
-          - /6055F2FF-B014-47A6-B3CA-9ACE70EE7436.jpeg
+          - /E362F5E5-408B-42CA-924B-38C595D66B02.jpeg
+          - /2F8A0D5C-1124-43F2-A201-D1FAD8FFD33B.jpeg
       - variant: Images_1_1
         en: ''
         images:
-          - /6055F2FF-B014-47A6-B3CA-9ACE70EE7436.jpeg
-          - /23cfe32a356a7841e1099b5c07f638e9.JPG
+          - /6FE2747D-9101-4A35-B22E-66AFA73D63C7.jpeg
+          - /E519844F-E880-4205-978A-6A32A77045E4.jpeg
       - variant: Text_Image
         en: >
           So, a lunch date was made; and, as fate would have it, lunch developed
@@ -1163,7 +1163,7 @@ blocks:
           began as a simple date blossomed into an enchanting journey that has
           lasted eighth year and counting.
         images:
-          - /6055F2FF-B014-47A6-B3CA-9ACE70EE7436.jpeg
+          - /0B858AC0-A437-4100-BF46-FD6EF8EC1EFC.jpeg
       - variant: Image_2_1
         en: ''
         images:
