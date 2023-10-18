@@ -63,7 +63,7 @@ const compornent = {
     </div>
   }, "Text_Image": (props: PageBlocksContentFields): ReactNode => {
     return <div className="grid md:grid-cols-2 gap-1 md:gap-3">
-      <div className="md:col-span-1 h-full flex items-center text-justify md:px-8 py-6">
+      <div className="md:col-span-1 h-full  flex items-center text-justify md:text-left md:px-8 py-6">
         <TinaMarkdown content={props.en} >
         </TinaMarkdown>
       </div>

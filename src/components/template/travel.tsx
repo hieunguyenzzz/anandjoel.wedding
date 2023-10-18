@@ -24,7 +24,7 @@ export function StoryContent({ data }: { data: PageBlocksContent }) {
         <Image src={right} priority placeholder='blur' className='fixed -z-10 top-0 right-0 w-[15vw] max-w-[300px]  object-cover animate-fade' />
         <div className="join join-vertical w-full  prose mx-auto  lg:text-[min(2vw,20px)] whitespace-pre-wrap prose-h3:font-title prose-p:my-[0.3em] prose-img:m-auto prose-h3:py-1 prose-h3:text-[1.4em] prose-h3:font-bold">
           <h1 className='text-[3.4em] py-4 text-center font-header'>{data.title}</h1>
-          <div className="join join-vertical w-full  prose mx-auto lg:text-[min(2vw,20px)]  prose-img:mt-[2em] whitespace-pre-wrap prose-h3:font-title text-justify prose-p:my-[0.3em] prose-img:m-auto prose-h3:py-1 prose-h3:!mt-[1em]  prose-h3:text-[2em] prose-h3:font-bold">
+          <div className="join join-vertical w-full  prose mx-auto lg:text-[min(2vw,20px)]  prose-img:mt-[2em] whitespace-pre-wrap prose-h3:font-title prose-p:my-[0.3em] prose-img:m-auto prose-h3:py-1 prose-h3:!mt-[1em]  prose-h3:text-[2em] prose-h3:font-bold">
             {data.fields?.map((i, ii) => <div key={ii} data-tina-field={tinaField(data, `fields.${ii}.en`)}><Content content={i?.en}></Content></div>)}
           </div>
         </div>
