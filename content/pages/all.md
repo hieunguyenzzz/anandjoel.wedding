@@ -1007,7 +1007,77 @@ blocks:
   - name: event
     fields:
       - name: content
-        en: "# CEREMONY\n\n### at Tiệm Cà Phê Hoàng Hôn Chiều\n\nDECEMBER 16, 2023\n\n**09:00 AM - 10:30 AM**\n\n9th Hill, Da Lat city, Lam Dong province, Vietnam\n\n![](/buom-buom-1.gif)\n\n# RECEPTION\n\n### at The Campville\n\nDECEMBER 16, 2023\n\n**4:00 PM - 9:00 PM**\n\nXuan Tho ward, Da Lat city, Lam Dong province, Vietnam\n\n![](/nhen-re.gif)\n\n# TRANSPORTATION\n\nTransportation will be provided from Du Parc hotel to the wedding venues and back.\_\n\nPlease kindly be at the hotel lobby at 8:15 AM for ceremony and 3:15 PM for reception\n\n![](/bo-ngua-re.gif)\n\n# ACCOMMODATION\n\nA block of complimentary rooms has been reserved at Hotel Du Parc in Da Lat city from December 15 to December 17\n\nPlease let the hotel know that you’re with An & Joel wedding\n\n![](/buom-re-1.gif)\n\n# DRESS CODE\n\nCeremony: White or light colors. No busy patterns\n\nReception: Black tie\n"
+        en: >
+          # CEREMONY
+
+
+          ### at Tiệm Cà Phê Hoàng Hôn Chiều
+
+
+          DECEMBER 16, 2023
+
+
+          **09:00 AM - 10:30 AM**
+
+
+          9th Hill, Da Lat city, Lam Dong province, Vietnam
+
+
+          ![](/buom-buom-1.gif)
+
+
+          # RECEPTION
+
+
+          ### at The Campville
+
+
+          DECEMBER 16, 2023
+
+
+          **4:00 PM - 9:00 PM**
+
+
+          Xuan Tho ward, Da Lat city, Lam Dong province, Vietnam
+
+
+          ![](/nhen-re.gif)
+
+
+          # TRANSPORTATION
+
+
+          Transportation will be provided from Du Parc hotel to the wedding
+          venues and back
+
+
+          Please kindly be at the hotel lobby at 8:15 AM for ceremony and 3:15
+          PM for reception
+
+
+          ![](/bo-ngua-re.gif)
+
+
+          # ACCOMMODATION
+
+
+          A block of complimentary rooms has been reserved at Hotel Du Parc in
+          Da Lat city from December 15 to December 17
+
+
+          Please let the hotel know that you’re with An & Joel wedding
+
+
+          ![](/buom-re-1.gif)
+
+
+          # DRESS CODE
+
+
+          Ceremony: White or light colors. No busy patterns
+
+
+          Reception: Black tie
     _template: content
   - name: qa
     title: Questions & Answers
