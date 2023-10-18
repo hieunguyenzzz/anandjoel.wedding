@@ -682,7 +682,7 @@ blocks:
           north-central part of the country. It is known for its stunning
           natural beauty, with limestone mountains, lush forests, and stunning
           beaches. Quang Binh is also home to some of the most spectacular caves
-          in the world, including the world-famous Son Doong Cave. 
+          in the world, including the world-famous Son Doong Cave
         image: /Quang bINH.jpeg
         gallery:
           - name: Sun Spa Resort & Villa
