@@ -1189,14 +1189,12 @@ blocks:
         images:
           - /AJ.jpeg
       - variant: Text
-        en: >+
+        en: >
           Seven years into their shared bliss, amidst the scenic backdrop of the
           mountains of Dalat, as the sun cast its first golden hues, An decided
           it was the moment to begin their next chapter together. On May 18,
           2022, with a long, heartfelt speech rehearsed and ready, all that An
           could muster in that moment was, "I think it's time."
-
-
       - variant: Images_1_1
         en: ''
         images:
