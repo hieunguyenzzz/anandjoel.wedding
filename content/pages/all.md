@@ -1141,15 +1141,15 @@ blocks:
       - variant: Title
         name: HOW IT ALL BEGAN
         en: ''
+      - variant: Text
+        en: >
+          Our journey together begins in 2015, when Joel sent An “a confusing
+          message” online — after all, Joel
       - variant: B7
         name: hình 2
         en: ''
         images:
           - /32C39D51-384A-47EA-A196-9286BDCB0EEF.jpeg
-      - variant: Text
-        en: >
-          Our journey together begins in 2015, when Joel sent An “a confusing
-          message” online — after all, Joel
       - variant: Image_1_2
         en: ''
         images:
