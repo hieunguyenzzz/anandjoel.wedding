@@ -1184,10 +1184,6 @@ blocks:
       - variant: Title
         name: IT’S A YES
         en: ''
-      - variant: B7
-        en: ''
-        images:
-          - /AJ.jpeg
       - variant: Text
         en: >
           Seven years into their shared bliss, amidst the scenic backdrop of the
@@ -1210,10 +1206,9 @@ blocks:
           "Hark, My Beloved, There he comes leaping over the mountains, bounding
           over hills." - Song of Songs 2:8
       - variant: B7
-        name: hình 2
         en: ''
         images:
-          - /IMG_2581.jpeg
+          - /AJ.jpeg
       - variant: Text
         en: >
           Now, An and Joel are excited and honored to commemorate this, their
