@@ -121,7 +121,7 @@ export function Nav() {
                     return <li key={index} style={{
                       animationDelay: `${0 + (index + 1) * 100}ms`
                     }} className={clsx('flex w-full flex-col items-center gap-2 relative max-w-[200px] lg:max-w-xs transition-all', open ? "animate-fade-up" : "")}>
-                      <Link href={item.href} className='py-[3vh] lg:py-12 transform hover:scale-x-125  transition-transform duration-500'>
+                      <Link href={item.href} className='py-[2vh] lg:py-12 transform hover:scale-x-125  transition-transform duration-500'>
                         <div className='font-header text-[min(4vh,36px)] font-extrabold'>{item.title}</div>
                       </Link>
                     </li>
