@@ -1143,8 +1143,15 @@ blocks:
         en: ''
       - variant: Text
         en: >
-          Our journey together begins in 2015, when Joel sent An “a confusing
-          message” online — after all, Joel
+          Their journey together begins in 2015, when Joel sent An “a confusing
+          message” online — after all, Joel didn’t grow up speaking English.
+          Historically An always favored longer text exchanges before a personal
+          meeting, but this time he felt a mysterious nudge to embrace the
+          unknown. So, a lunch date was made; and, as fate would have it, lunch
+          developed into a delightful spree of mani-pedi, dessert, a movie, and
+          an unforgettable dinner. A single hour stretched into twelve, and what
+          began as a simple date blossomed into an enchanting journey that has
+          lasted eight years and counting
       - variant: Image_1_2
         en: ''
         images:
