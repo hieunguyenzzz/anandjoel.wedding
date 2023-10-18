@@ -75,9 +75,10 @@ export const menuItemsL: {
       image: qa,
       href: '/qa',
       style: {
-        left: "90%",
-        width: "6%",
-        top: "41%",
+        left: "82%",
+        width: "7%",
+        top: "43%",
+        transform: `rotate(-22deg)`
       }
     },
   ]

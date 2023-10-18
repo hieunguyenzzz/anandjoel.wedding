@@ -52,8 +52,6 @@ const Mark = ({ children, id, className }: { children: ReactNode, id: string, cl
   </>
 }
 export default function Page() {
-
-  const [open, setOpen] = useState(false)
   return (
     <>
       <div className={clsx("isolate invisible md:visible fixed inset-0 h-full  w-full z-20 flex items-center")}>

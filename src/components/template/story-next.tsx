@@ -165,7 +165,7 @@ export function StoryContent({ data }: { data: PageBlocksContent }) {
       <div style={{
         minHeight: ratio + 'vw',
       }} className='py-[min(24px,4vw)]  pb-[10vw] gap-[10vw] flex flex-col relative justify-center '>
-        <div className=" w-full flex flex-col text-[1.4em] leading-normal gap-1 md:gap-3 [&_h2]:font-header">
+        <div className=" w-full flex flex-col text-[1.4em] leading-normal gap-1 md:gap-3 [&_h2]:font-header md:text-[min(2vw,20px)]">
           {data.fields?.map((i, ii) => {
             let C = i?.variant && compornent[i?.variant] || compornent.B3
 
