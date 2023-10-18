@@ -3,9 +3,9 @@
 import Image from '@/components/common/image';
 import { StaticImageData } from 'next/image';
 import Link from 'next/link';
-import { ReactNode, SyntheticEvent, useEffect, useMemo, useRef, useState } from 'react';
+import { SyntheticEvent, useEffect, useRef, useState } from 'react';
 import bgImageMoble from '../../../public/mobile-bg.png';
-import bgImage from './asset/bg.jpg';
+import bgImage from './asset/bg-new.png';
 import bite from './asset/bite-slide-1.png';
 import events from './asset/events-slide.png';
 import explore from './asset/explore-tag-1.png';
@@ -26,9 +26,9 @@ export const menuItemsL: {
       image: story,
       href: '/story',
       style: {
-        left: "50%",
+        left: "45%",
         width: "11%",
-        top: "48%",
+        top: "51%",
       }
     },
     {
@@ -36,16 +36,17 @@ export const menuItemsL: {
       image: events,
       href: '/event',
       style: {
-        left: "69%",
-        width: "9%",
-        top: "33%",
+        left: "61%",
+        width: "8%",
+        top: "38%",
       }
     }, {
       title: 'Travel',
       image: travel,
-      href: '/travel', style: {
+      href: '/travel',
+      style: {
         left: "65%",
-        width: "21%",
+        width: "20%",
         top: "76%",
       }
     },
@@ -54,9 +55,9 @@ export const menuItemsL: {
       image: bite,
       href: '/bites',
       style: {
-        left: "16%",
+        left: "21%",
         width: "11%",
-        top: "8%",
+        top: "15%",
       }
     },
     {
@@ -65,7 +66,7 @@ export const menuItemsL: {
       href: '/explore',
       style: {
         top: "58%",
-        left: "11%",
+        left: "17%",
         width: "8%"
       }
     },
@@ -74,118 +75,13 @@ export const menuItemsL: {
       image: qa,
       href: '/qa',
       style: {
-        left: "89%",
+        left: "90%",
         width: "6%",
-        top: "19%",
+        top: "41%",
       }
     },
   ]
-const total = 84
 
-const Mark = ({ children, open }: { children: ReactNode, open: boolean }) => {
-  const [number, setNumber] = useState(13)
-  useEffect(() => {
-    if (open) {
-      let i = setInterval(() => {
-        setNumber(number => {
-          if (number >= total) {
-            clearInterval(i)
-            return total
-          }
-          return Math.min(number + 1, 84)
-        })
-      },)
-      return () => {
-        i && clearInterval(i)
-      }
-    }
-
-  }, [open])
-  useEffect(() => {
-    if (!open) {
-      let i = setInterval(() => {
-        setNumber(number => {
-          if (number <= 0) {
-            clearInterval(i)
-            return 0
-          }
-          return Math.max(number - 1, 13)
-        })
-      },)
-      return () => {
-        i && clearInterval(i)
-      }
-    }
-
-  }, [open])
-  return <>
-    {useMemo(() => <style >{`
-    .mark-3{
-      position: fixed;
-      top: 0;
-      left: 0;
-      right: 0;
-      bottom: 0;
-      margin: auto;
-      display: -webkit-box;
-      display: -ms-flexbox;
-      display: flex;
-      -webkit-box-orient: vertical;
-      -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-      flex-direction: column;
-      overflow-y: auto;
-      overflow-x: hidden;
-      padding-top: 36px;
-      -webkit-mask: url(data:image/png;base64,png=);
-      -webkit-mask-image: url(data:image/png;base64,png=);
-      -webkit-mask-position-x: initial;
-      -webkit-mask-position-y: initial;
-      -webkit-mask-repeat-x: initial;
-      -webkit-mask-repeat-y: initial;
-      -webkit-mask-origin: initial;
-      -webkit-mask-clip: initial;
-      mask-size: 1500% 600%;
-      -webkit-box-orient: vertical;
-      -webkit-mask-size: 1500% 600%;
-      -webkit-mask-image: url(/middle-240.webp);
-      mask-image: url(/middle-240.webp);
-      -webkit-mask-position: calc(${number % 15} / 14 * 100%) calc(${Math.floor(number / 15)} / 5 * 100%);
-  
-    }.mark-btn{
-      position: absulute;
-      top: 0;
-      left: 0;
-      right: 0;
-      bottom: 0;
-      -webkit-box-orient: vertical;
-      -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-      flex-direction: column;
-      overflow-y: auto;
-      overflow-x: hidden;
-      -webkit-mask: url(data:image/png;base64,png=);
-      -webkit-mask-image: url(data:image/png;base64,png=);
-      -webkit-mask-position-x: initial;
-      -webkit-mask-position-y: initial;
-      -webkit-mask-repeat-x: initial;
-      -webkit-mask-repeat-y: initial;
-      -webkit-mask-origin: initial;
-      -webkit-mask-clip: initial;
-      mask-size: 1500% 600%;
-      -webkit-box-orient: vertical;
-      -webkit-mask-size: 1500% 600%;
-      -webkit-mask-image: url(/middle-240.webp);
-      mask-image: url(/middle-240.webp);
-      -webkit-mask-position: calc(10 / 14 * 100%) calc(3 / 5 * 100%);
-  
-    }`}</style>, [number])}
-    <div className={('fixed -z-10 inset-0 w-full h-full pointer-events-none bg-[#dc94aa]  transition-opacity duration-1000 ' + (open ? "opacity-100" : "opacity-0"))}></div>
-    <div data-number={number} className="fixed inset-0 w-full h-full mark-3 pointer-events-none" >
-      {children}
-    </div>
-  </>
-}
 let played = false
 export default function Page() {
   const [src, setSrc] = useState('')
@@ -282,7 +178,7 @@ export default function Page() {
         </ul>
         <div id={containerId} className='overflow-hidden  mx-auto flex flex-col relative justify-center items-center lg:relative '>
           <div id={innerId} className='transition-transform w-full duration-300 ease-in-out'>
-            <Image src={bgImage} priority placeholder='blur' className='hidden max-h-screen transition-transform lg:block -z-10 inset-0 w-full  max-w-full object-cover animate-fade' />
+            <Image src={bgImage} priority placeholder='blur' className='hidden  transition-transform lg:block -z-10 inset-0 w-full  max-w-full object-cover animate-fade' />
             <ul className='hidden lg:block absolute inset-0 w-full h-full'>
               {
                 menuItemsL.map((item, index) => {
