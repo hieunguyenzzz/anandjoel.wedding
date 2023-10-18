@@ -1167,17 +1167,17 @@ blocks:
       - variant: Image_2_1
         en: ''
         images:
-          - /23cfe32a356a7841e1099b5c07f638e9.JPG
-          - /23cfe32a356a7841e1099b5c07f638e9.JPG
+          - /7F710AF9-54B2-4C50-BB24-D7D4EBA78D72.jpeg
+          - /1325859A-9B65-4FA8-8B80-CBFA4CAF17D1.jpeg
       - variant: B6
         en: ''
         images:
-          - /6055F2FF-B014-47A6-B3CA-9ACE70EE7436.jpeg
-          - /6055F2FF-B014-47A6-B3CA-9ACE70EE7436.jpeg
-          - /23cfe32a356a7841e1099b5c07f638e9.JPG
-          - /23cfe32a356a7841e1099b5c07f638e9.JPG
-          - /23cfe32a356a7841e1099b5c07f638e9.JPG
-          - /23cfe32a356a7841e1099b5c07f638e9.JPG
+          - /BC625B69-9989-4687-8CE4-A45196A8D8F6.jpeg
+          - /A8551024-0AE2-4F69-923E-939DFCF7110D.jpeg
+          - /4326D884-D28F-4889-9091-FDF5298FEBFD.jpeg
+          - /F19FF7F1-BB1E-4AF2-AF35-9F57FB0C4EF8.jpeg
+          - /C9D58524-3554-4FE6-A589-8430A1E80795.jpeg
+          - /C41B1DB6-1F7B-4F03-84CD-B161D6580835.jpeg
       - variant: Title
         name: IT’S A YES
         en: ''
@@ -1190,6 +1190,8 @@ blocks:
           muster in that moment was, "I think
       - variant: Images_1_1
         en: ''
+        images:
+          - ''
       - variant: Images_1_1
         en: ''
       - variant: Text
