@@ -243,7 +243,6 @@ export default function Page() {
   }, [sound])
   return (
     <div className='fixed inset-0 w-full h-full flex flex-col justify-center'>
-
       {src && <video
         src={src}
         ref={videoref} onTimeUpdate={(e: SyntheticEvent<HTMLVideoElement, Event>) => {
@@ -258,7 +257,7 @@ export default function Page() {
               e.currentTarget.style.filter = 'blur(0px)'
             }
           }
-        }} style={{ filter: 'blur(10px)', opacity: '0' }} webkit-playsinline="true" playsInline onEnded={e => {
+        }} style={end ? { visibility: 'hidden' } : { filter: 'blur(10px)', opacity: '0' }} webkit-playsinline="true" playsInline onEnded={e => {
           setEnd(true)
         }} controls={false} muted className="fixed  inset-0 w-full h-full transition-all lg:block duration-[2s] ease-in-out  max-w-full object-cover pointer-events-auto"
       >

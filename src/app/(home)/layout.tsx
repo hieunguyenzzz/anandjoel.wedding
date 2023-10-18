@@ -60,14 +60,14 @@ export default async function RootLayout({
   const props = await client.queries.page({ relativePath: 'all.md' })
   return (
     <>
-      <header className='flex gap-6 justify-center px-6 lg:px-12 z-20 relative '>
+      <header className='flex gap-6 justify-center px-6 lg:px-12 z-20 relative pointer-events-none'>
         <div className='flex gap-6 justify-between  w-full z-20 '>
-          <Link href="/" className='w-[150px] relative text-shadow'>
+          <Link href="/" className='w-[150px] relative text-shadow pointer-events-auto'>
             <Image src={logo} alt='logo' className='object-cover' />
           </Link>
           <div className="flex items-center space-x-6"
           >
-            <button className="flex flex-col lg:flex-row items-stretch uppercase  font-sweetsans  text-3xl text-white">
+            <button className="flex pointer-events-auto flex-col lg:flex-row items-stretch uppercase  font-sweetsans  text-3xl text-white">
               <svg fill="currentColor" width="1em" height="1em" xmlns="http://www.w3.org/2000/svg" xmlnsXlink="http://www.w3.org/1999/xlink" viewBox="0 0 116.93 111.19">
                 <g>
                   <path d="M51.4,68.9,38,97.81H33.47L20.06,68.9h5.66l10,22.58H36L46,68.9Z" />

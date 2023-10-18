@@ -12,12 +12,12 @@ import Image from '../common/image';
 
 const compornent = {
   Title: (props: PageBlocksContentFields): ReactNode => {
-    return <h2 className=" animate-fade-up animate-delay-700 font-header text-4xl lg:text-6xl font-bold text-center block my-12 lg:my-24 lg:mb-12">
+    return <h2 className=" animate-fade-up animate-delay-700 font-header text-4xl lg:text-6xl font-bold text-center block my-12 mb-0 lg:my-24 lg:mb-12">
       {props.name}
     </h2>
   },
   Text: (props: PageBlocksContentFields): ReactNode => {
-    return <div className=" text-center whitespace-pre-wrap [&_p]:my-6">
+    return <div className=" text-center whitespace-pre-wrap [&_p]:my-6 px-6">
       <TinaMarkdown content={props.en} >
       </TinaMarkdown>
     </div>
