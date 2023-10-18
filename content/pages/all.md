@@ -1181,6 +1181,7 @@ blocks:
       - variant: Title
         name: IT’S A YES
         en: ''
+      - variant: B7
       - variant: Text
         en: >
           Seven years into our shared bliss, amidst the scenic backdrop of the
