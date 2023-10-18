@@ -19,7 +19,7 @@ const Content = ({ id, setid, data, blockIndex }: { id: number, setid: (n: numbe
       <h1 className="text-[1.4em] font-title text-gray-800 font-semibold mt-2">
         {data?.title || "Explore Vietnam"}
       </h1>
-      <p className="mt-3 text-justify">
+      <p className="mt-3 ">
         {data?.description || `Blogs that are loved by the community. Updated every hour.
       The powerful gravity waves resulting from the impact of the planets, were finally resolved in 2015`}
       </p>
@@ -61,7 +61,7 @@ const Content = ({ id, setid, data, blockIndex }: { id: number, setid: (n: numbe
         <h1 className="text-3xl font-title text-gray-800 animate-fade-up animate-delay-100 font-semibold mt-2 animate-duration-500 animate-ease-in-out">
           {currentItem?.title}
         </h1>
-        <p className="mt-3 text-justify animate-fade-up animate-delay-200 animate-duration-500 animate-ease-in-out">
+        <p className="mt-3 animate-fade-up animate-delay-200 animate-duration-500 animate-ease-in-out">
           {currentItem?.description}
         </p>
       </div>
