@@ -1124,7 +1124,7 @@ blocks:
           distances, nor sky-high mountain ranges, nor the widest of rivers.
           It's the celestial dance of Duyên and of Bashert, a concept common to
           both the Jewish and Vietnamese cultures, a serendipity predestined by
-          fate, written in the stars, of two souls destined to cross paths.
+          fate, written in the stars, of two souls destined to cross paths
       - variant: B7
         en: ''
         images:
@@ -1143,13 +1143,11 @@ blocks:
         en: ''
       - variant: Text
         en: >
-          Our journey together begins in 2015, when Joel sent An “a confusing
-          message” online — after all, Joel
-      - variant: B7
-        name: hình 2
-        en: ''
-        images:
-          - /32C39D51-384A-47EA-A196-9286BDCB0EEF.jpeg
+          Their journey together begins in 2015, when Joel sent An “a confusing
+          message” online — after all, Joel didn’t grow up speaking English.
+          Historically An always favored longer text exchanges before a personal
+          meeting, but this time he felt a mysterious nudge to embrace the
+          unknown
       - variant: Image_1_2
         en: ''
         images:
@@ -1163,10 +1161,10 @@ blocks:
       - variant: Text_Image
         en: >
           So, a lunch date was made; and, as fate would have it, lunch developed
-          into a delightful spree of manipedi, dessert, a movie, and an
+          into a delightful spree of mani-pedi, dessert, a movie, and an
           unforgettable dinner. A single hour stretched into twelve, and what
           began as a simple date blossomed into an enchanting journey that has
-          lasted eighth year and counting
+          lasted eight years and counting
         images:
           - /0B858AC0-A437-4100-BF46-FD6EF8EC1EFC.jpeg
       - variant: Image_2_1
@@ -1186,13 +1184,17 @@ blocks:
       - variant: Title
         name: IT’S A YES
         en: ''
+      - variant: B7
+        en: ''
+        images:
+          - /AJ.jpeg
       - variant: Text
         en: >
-          Seven years into our shared bliss, amidst the scenic backdrop of the
+          Seven years into their shared bliss, amidst the scenic backdrop of the
           mountains of Dalat, as the sun cast its first golden hues, An decided
-          it was the moment to begin our next chapter together. On May 18, 2022,
-          with a long, heartfelt speech rehearsed and ready, all that An could
-          muster in that moment was, "I think
+          it was the moment to begin their next chapter together. On May 18,
+          2022, with a long, heartfelt speech rehearsed and ready, all that An
+          could muster in that moment was, "I think it's time."
       - variant: Images_1_1
         en: ''
         images:
@@ -1208,13 +1210,14 @@ blocks:
           "Hark, My Beloved, There he comes leaping over the mountains, bounding
           over hills." - Song of Songs 2:8
       - variant: B7
+        name: hình 2
         en: ''
         images:
-          - /AJ.jpeg
+          - /IMG_2581.jpeg
       - variant: Text
         en: >
-          Now, An and Joel are excited and honored to commemorate this, our love
-          story, with you in the very same mountain town where An proposed.
+          Now, An and Joel are excited and honored to commemorate this, their
+          love story, with you in the very same mountain town where An proposed
       - variant: B6
         name: on one knee
         en: ''
