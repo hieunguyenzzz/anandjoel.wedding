@@ -37,7 +37,7 @@ export default function Page() {
                     <h3 className="text-[2em] font-title uppercase text-magical-item leading-[1.2] whitespace-nowrap">{title}</h3>
                   </div>
                   <div className=" lg:w-2/3 ">
-                    <div className={clsx("font-subtitle max-w-xl  flex-1 text-opacity-75 opacity-75 text-justify", !left ? "lg:ml-auto" : "lg:mr-auto")}>{description || `Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonum-
+                    <div className={clsx("font-subtitle max-w-xl  flex-1 text-opacity-75 opacity-75", !left ? "lg:ml-auto" : "lg:mr-auto")}>{description || `Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonum-
                       my nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.`}</div>
                   </div>
                 </Field>

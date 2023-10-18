@@ -152,7 +152,7 @@ const Content = ({ id, setid, items, blockIndex, title, description, images, loc
   const [current, setCurrent] = useState(null)
   const currentItem = items?.find((item, index) => initid(item?.title) === id)
   if (!currentItem) return <section className="mt-12 mx-auto px-4  md:px-8">
-    <div className=" text-justify">
+    <div className="">
       {description && <TinaMarkdown content={description} /> || `An & Joel have tried & loved almost all of the restaurants above. Hopefully, their food suggestions will help you explore Vietnamese cuisine in a more diverse way!`}
     </div>
     <div className="grid xl:grid-cols-2  mt-6 gap-6" id="galleryID">
@@ -193,7 +193,7 @@ const Content = ({ id, setid, items, blockIndex, title, description, images, loc
         <h1 className="text-3xl font-title text-gray-800 animate-fade-up animate-delay-100 font-semibold mt-2 animate-duration-500 animate-ease-in-out">
           {currentItem?.title}
         </h1>
-        <p className="mt-3 text-justify animate-fade-up animate-delay-200 animate-duration-500 animate-ease-in-out">
+        <p className="mt-3 animate-fade-up animate-delay-200 animate-duration-500 animate-ease-in-out">
           {currentItem?.description}
         </p>
       </div>
