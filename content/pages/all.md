@@ -1159,21 +1159,12 @@ blocks:
           - /6FE2747D-9101-4A35-B22E-66AFA73D63C7.jpeg
           - /E519844F-E880-4205-978A-6A32A77045E4.jpeg
       - variant: Text_Image
-        en: >+
-          Seven years into their shared bliss, amidst the scenic backdrop of the
-          mountains of Dalat, as the sun cast its first golden hues, An decided
-          it was the moment to begin their next chapter together. On May 18,
-          2022, with a long, heartfelt speech rehearsed and ready, all that An
-          could muster in that moment was, "I think it's time."
-
-
-
-
-
-          "Hark, My Beloved, There he comes leaping over the mountains, bounding
-          over hills." - Song of Songs 2:8
-
-
+        en: >
+          So, a lunch date was made; and, as fate would have it, lunch developed
+          into a delightful spree of mani-pedi, dessert, a movie, and an
+          unforgettable dinner. A single hour stretched into twelve, and what
+          began as a simple date blossomed into an enchanting journey that has
+          lasted eight years and counting
         images:
           - /0B858AC0-A437-4100-BF46-FD6EF8EC1EFC.jpeg
       - variant: Image_2_1
