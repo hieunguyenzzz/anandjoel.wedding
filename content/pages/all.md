@@ -51,6 +51,11 @@ blocks:
         title: Phở bò Phú Gia
         description: '146e Lý Chính Thắng St, Ward 9, District 3, HCMC'
         image: /phở bò phú gia.jpeg
+        gallery:
+          - name: image
+            image: /9318B018-D278-40A2-8480-82EA1FF023C6.jpeg
+          - name: image
+            image: /4861C5CD-CD89-4BA5-A6DC-436D63B84DFB.jpeg
       - variant: One
         title: Ivoire Pastry Boutique
         description: '28 Cao Bá Quát, Bến Nghé Ward, District 1, HCMC'
