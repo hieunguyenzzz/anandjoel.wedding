@@ -1182,7 +1182,46 @@ blocks:
              1. Hồ Chí Minh có rất nhiều tài xế Grab. Sẽ dễ dàng đặt vé từ bất cứ đâu kể cả sân bay
              2. Ở Đà Lạt - Grab có thể đến sân bay chậm hơn, chúng tôi khuyên bạn nên đặt taxi tại sân bay (nhớ mang đủ tiền địa phương)
       - name: GOING TO DA LAT
-        en: "#### GOING TO DA LAT\n\n* **Traveling from Ho Chi Minh city to Da Lat by plane**\n\nFlying via plane is the quickest way to get from HCMC to Dalat. When entering SGN airport head to the Check-in counters then proceed upstairs to security. If you’re leaving in the morning security is generally quick and easy. We recommend getting to the airport at least an hour early to check in and get through security.\n\nOnce you arrive to Dalat, it takes approximately 45 minutes by taxi to arrive to the center of Da Lat. You may ask the driver for their contact info if you would like to continue using them throughout the trip.\_\n\n* **Traveling from Ho Chi Minh city to Da Lat by sleeper bus**\n\nIf you would like to experience traveling to Da Lat by road, you can try the sleeper bus. Buses\_ offer a few options such as private cabins, private beds, etc. It takes approximately 8 hours to travel from HCMC to Da Lat so we recommend taking the bus at night and arriving in the morning. We will provide a laying bed bus leaving Ho Chi Minh City early on Friday and leaving Dalat Sunday at noon. Please contact us should you want to join the complimentary bus ride.\n\nHere are some reputable sleeper bus brands:\n\n* [FUTA Bus Lines](https://futabus.vn/): A one-way trip is about 300.000VND/pax (~$13/pax)\n* [Thanh Buoi](https://thanhbuoi.com.vn/tuyen-hcm-da-lat.html): A one-way trip is ranging from 290.000 - 440.000VND/pax (~$13 - $19/pax) with many options of seats (cabin/bed/chair)\n"
+        en: >
+          #### ĐI ĐẾN ĐÀ LẠT
+
+
+          * Di chuyển từ thành phố Hồ Chí Minh đến Đà Lạt bằng máy bay
+
+
+          Đi máy bay là cách nhanh nhất để đi từ TP.HCM đến Đà Lạt. Khi vào sân
+          bay SGN, hãy đến quầy làm thủ tục, sau đó đi lên tầng trên để kiểm tra
+          an ninh. Nếu bạn rời đi vào buổi sáng thì việc kiểm tra an ninh thường
+          nhanh chóng và dễ dàng. Chúng tôi khuyên bạn nên đến sân bay sớm ít
+          nhất một giờ để làm thủ tục và qua cửa kiểm tra
+
+
+          Khi đến Đà Lạt, bạn mất khoảng 45 phút đi taxi để đến trung tâm Đà
+          Lạt. Bạn có thể yêu cầu tài xế cung cấp thông tin liên hệ của họ nếu
+          bạn muốn tiếp tục sử dụng chúng trong suốt chuyến đi
+
+
+          * Di chuyển từ thành phố Hồ Chí Minh đến Đà Lạt bằng xe giường nằm
+
+
+          Nếu bạn muốn trải nghiệm du lịch Đà Lạt bằng đường bộ thì có thể thử
+          dùng xe giường nằm. Xe buýt có một số lựa chọn như cabin riêng, giường
+          riêng, v.v. Mất khoảng 8 giờ để đi từ TP.HCM đến Đà Lạt nên chúng tôi
+          khuyên bạn nên đi xe buýt vào ban đêm và đến vào buổi sáng. Chúng tôi
+          sẽ cung cấp xe giường nằm rời Thành phố Hồ Chí Minh sớm vào thứ Sáu và
+          rời Đà Lạt vào buổi trưa Chủ nhật. Vui lòng liên hệ với chúng tôi nếu
+          bạn muốn tham gia chuyến xe buýt miễn phí.
+
+
+          Dưới đây là một số thương hiệu xe giường nằm uy tín:
+
+
+          * [FUTA Bus Lines](https://futabus.vn/): Giá vé một chiều khoảng
+          300.000đ/khách (~$13/pax)
+
+          * [Thanh Buoi](https://thanhbuoi.com.vn/tuyen-hcm-da-lat.html): Giá vé
+          một chiều dao động từ 290.000 - 440.000đ/pax (~$13 - $19/pax) với
+          nhiều lựa chọn về chỗ ngồi (cabin/giường/ghế)
       - name: MONEY
         en: "### CURRENCY\n\nGetting Vietnamese Dong in the US can be tough. We recommend bringing USD and exchanging it in Vietnam. To get the best exchange rate, it is recommended to bring new $100 bills with no marks or rips. To get the best exchange rate we recommend exchanging it at a\_ gold or jewelry store (Most are located in the center of Ho Chi Minh City near Ben Thanh Market). You can also withdraw from the ATMs. However, for higher limits we recommend going to the teller with your debit card and passport. Check with your bank beforehand for fees\_\n\nThe following accounts offer no foreign transaction fees and will reimburse your ATM assed fee:\_\n\n1. Schwab Bank High Yield Investor Checking (Cheapest and most convenient options but limited branches)\n2. TD Beyond Checking\_\n3. Chase Sapphire checking or private banking\_\n4. CitiGold\n\nThe following credit cards have no foreign transaction fee\n\n1. Chase Amazon Card (No annual fee)\n2. Chase sapphire (Has an annual fee)\n3. Amex gold and platinum card (Has an annual fee)\n\n\\*Keep in mind that a lot of places take credit/debit but some still only accept local currency\n"
       - name: MEDICINE
