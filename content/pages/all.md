@@ -1208,12 +1208,13 @@ blocks:
         en: ''
       - variant: Text
         en: >
-          The tale of An and Joel, unique as it is, beautifully illustrates the
-          profound truth that love recognizes no boundaries – not vast
-          distances, nor sky-high mountain ranges, nor the widest of rivers.
-          It's the celestial dance of Duyên and of Bashert, a concept common to
-          both the Jewish and Vietnamese cultures, a serendipity predestined by
-          fate, written in the stars, of two souls destined to cross paths
+          Câu chuyện của An và Joel, tuy độc đáo nhưng lại là một minh chứng rõ
+          ràng nhất rằng tình yêu không có ranh giới - không phải khoảng cách xa
+          xôi, cũng không phải núi cao ngất trời, cũng không phải dòng sông rộng
+          nhất. Đó là sự kết hợp của "Duyên" và "Bashert" một khái niệm chung
+          trong cả hai nền văn hóa Việt Nam và Do Thái, một sự tình cờ được định
+          mệnh sắp đặt, được viết trên các vì sao, của hai tâm hồn có số phận
+          phải giao nhau
       - variant: B7
         en: ''
         images:
