@@ -1057,7 +1057,7 @@ blocks:
           **4:00 PM - 9:00 PM**
 
 
-          Phường Xuân Thọ, Thành phố Đà Lạt, Tỉnh Lâm Đồng, Việt Nam
+          Xuan Tho ward, Da Lat city, Lam Dong province, Vietnam
 
 
           ![](/nhen-re.gif)
@@ -1066,8 +1066,8 @@ blocks:
           # TRANSPORTATION
 
 
-          Transportation will be provided from Du Parc hotel to the wedding
-          venues and back
+          An & Joel có chuẩn bị xe di chuyển từ Hotel Du Parc đến các địa điểm
+          và ngược lại
 
 
           Please kindly be at the hotel lobby at 8:15 AM for ceremony and 3:15
@@ -1080,11 +1080,12 @@ blocks:
           # ACCOMMODATION
 
 
-          A block of complimentary rooms has been reserved at Hotel Du Parc in
-          Da Lat city from December 15 to December 17
+          Phòng đã được An & Joel đặt tại Hotel Du Parc từ ngày 15 đến ngày 17
+          tháng 12
 
 
-          Please let the hotel know that you’re with An & Joel wedding
+          Hãy nói với nhân viên khách sạn rằng bạn là khách của An & Joel để
+          được hỗ trợ chu đáo nhất!
 
 
           ![](/buom-re-1.gif)
