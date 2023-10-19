@@ -1,11 +1,11 @@
 "use client"
-import { menuItems } from '@/app/layout'
-import bgImageMoble from '@/public/mobile-bg.png'
-import Link from 'next/link'
-import { usePathname } from 'next/navigation'
-import { ReactNode, useEffect, useMemo, useState } from 'react'
-import { clsx } from 'yet-another-react-lightbox'
-import Image from './image'
+import { menuItems } from '@/app/layout';
+import Link from '@/components/common/link';
+import bgImageMoble from '@/public/mobile-bg.png';
+import { usePathname } from 'next/navigation';
+import { ReactNode, useEffect, useMemo, useState } from 'react';
+import { clsx } from 'yet-another-react-lightbox';
+import Image from './image';
 const total = 84
 
 const Mark = ({ children, open }: { children: ReactNode, open: boolean }) => {

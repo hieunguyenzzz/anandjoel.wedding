@@ -1,9 +1,9 @@
 
 "use client"
 import Image from '@/components/common/image';
+import Link from '@/components/common/link';
 import bgImageMoble from '@/public/mobile-bg.png';
 import { StaticImageData } from 'next/image';
-import Link from 'next/link';
 import { SyntheticEvent, useEffect, useRef, useState } from 'react';
 import bgImage from './asset/bg-new.png';
 import bite from './asset/bite-slide-1.png';
@@ -137,6 +137,7 @@ export default function Page() {
       setSrc('https://res.cloudinary.com/dfgbpib38/video/upload/f_auto:video,q_auto/AnJoel/cudmqrtwawefjlrgova4')
     }
   }, [sound])
+
   return (
     <div className='fixed inset-0 w-full h-full flex flex-col justify-center'>
       {src && <video

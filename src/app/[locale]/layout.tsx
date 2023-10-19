@@ -1,4 +1,5 @@
 import SourceProvider from '@/libs/source'
+import UseTinaWithRouter from '@/libs/tina'
 import client from '../../../tina/__generated__/client'
 
 const getrelativePath = (locale: string) => {
@@ -20,7 +21,7 @@ export default async function RootLayout({
   const props = await client.queries.page({ relativePath: getrelativePath(locale) })
   return (
     <SourceProvider defaultsource={props.data}>
-      {/* <UseTinaWithRouter relativePath={props.variables.relativePath} /> */}
+      <UseTinaWithRouter relativePath={props.variables.relativePath} />
       {children}
     </SourceProvider>
   )
