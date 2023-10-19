@@ -1113,8 +1113,6 @@ blocks:
           ### CHUYẾN BAY
 
 
-          CHUYẾN BAY
-
           Cách rẻ nhất và hiệu quả nhất để đến Việt Nam là đặt chuyến bay đến
           Thành phố Hồ Chí Minh và sau đó bắt chuyến bay nội địa ngắn đến Đà Lạt
           (khoảng 30 phút). Với những ai bay từ Mỹ, xin lưu ý chuyến bay về Việt
@@ -1134,7 +1132,7 @@ blocks:
           \+ Hãng hàng không Qatar
       - name: conten
         en: >
-          ### THÔNG TIN VISA 
+          ### THÔNG TIN VISA
 
 
           Việt Nam yêu cầu phải có visa đối với khách đến từ Mỹ. Để đủ điều kiện
@@ -1239,7 +1237,7 @@ blocks:
           Bismol và thuốc cảm cúm
       - name: DAILY TRAVEL BAG
         en: >
-          ### TÚI ĐEO HÀNG NGÀY
+          ### TÚI ĐEO HẰNG NGÀY
 
 
           Đối với các vật dụng hàng ngày, chúng tôi khuyên bạn nên để nó trong
@@ -1266,25 +1264,25 @@ blocks:
           phòng được cài sẵn các ứng dụng và số điện thoại cần thiết
       - name: WEATHER
         en: >
-          ### KHÍ HẬU & THỜI TIẾT
+          ### CLIMATE & WEATHER
 
 
-          Thời tiết Việt Nam thuộc vùng nhiệt đới nhưng mỗi vùng lại có kiểu
-          thời tiết riêng. Thành phố Hồ Chí Minh ở phía ấm hơn (thường là 80-100
-          F). Tuy nhiên, thời tiết Đà Lạt mát mẻ, trong lành (được mệnh danh là
-          "City of Eternal Spring”). Vào ban đêm ở Đà Lạt có thể hơi lạnh nên
-          hãy nhớ mang theo quần áo mùa đông
+          Vietnam’s weather is tropical but each region has its unique weather
+          patterns. Ho Chi Minh city is on the warmer side (usually 80-100 F).
+          However, Da Lat’s weather is cool and breezy (earning the nickname
+          “City of Eternal Spring”). At night it can get a bit chilly in Dalat
+          so make sure to bring some winter clothes
       - name: ATTIRE
         en: >
-          ### TRANG PHỤC HÀNG NGÀY
+          ### DAILY ATTIRE
 
 
-          Ở Sài Gòn chúng tôi khuyên bạn nên mặc quần áo nhẹ nhàng và thoáng
-          mát. Ở Đà Lạt chúng tôi khuyên bạn nên mặc nhiều lớp quần áo để giữ
-          ấm. (Ngoại trừ ngày cưới vì bạn cần ăn diện). Hầu hết các khách sạn
-          đều cung cấp dịch vụ giặt là và giá cả thay đổi tùy theo mặt hàng,
-          chất liệu. Chúng tôi không khuyên bạn nên đóng gói quá nhiều mặt hàng.
-          Rất có thể bạn sẽ tái sử dụng và mua trang phục mới
+          In Saigon we recommend wearing light and breezy clothing. In Dalat we
+          recommend wearing several layers of clothing to keep warm. (Except on
+          the wedding day because you need to dress up). Most hotels offer
+          laundry services, and prices change depending on the item and
+          materials. We don’t recommend packing too many items. You will most
+          than likely reuse and buy new outfits
       - name: LUGGAGE
         en: >
           ### LUGGAGE
