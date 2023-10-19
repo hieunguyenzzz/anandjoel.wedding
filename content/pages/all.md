@@ -260,6 +260,8 @@ blocks:
         image: /Elgin .jpeg
         gallery:
           - name: image
+            image: /8B88A3E7-216E-46BD-8593-8D9708B8713D.jpeg
+          - name: image
             image: /2BA8BCF2-523B-403D-BD97-D3EB8D4DF46D.webp
           - name: image
             image: /F476BF84-F1D8-4FB2-994D-62BF3EE8830E.webp
