@@ -1285,11 +1285,11 @@ blocks:
           than likely reuse and buy new outfits
       - name: LUGGAGE
         en: >
-          ### LUGGAGE
+          ### HÀNH LÝ
 
 
-          We recommend bringing an extra carry-on or duffle bag as you will more
-          than likely bring back more goods than what you came with
+          Chúng tôi khuyên bạn nên mang thêm túi xách tay hoặc túi vải thô vì
+          rất có thể bạn sẽ mang về nhiều hàng hóa hơn những gì bạn mang theo
     _template: content
   - name: story
     title: How it all began
