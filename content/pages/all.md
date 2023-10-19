@@ -53,7 +53,7 @@ blocks:
         image: /phở bò phú gia.jpeg
         gallery:
           - name: image
-            image: /CDD90F9C-EA93-47FC-BCA9-B544484F569A.jpeg
+            image: /21B8351E-8158-4E20-856C-1E00537B3A3A.jpeg
           - name: image
             image: /619505CD-1FEE-4E97-B1F7-4D6606D10AC0.jpeg
           - name: image
