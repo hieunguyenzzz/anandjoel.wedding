@@ -1110,29 +1110,28 @@ blocks:
     fields:
       - name: conten
         en: >
-          ### FLIGHT
+          ### CHUYẾN BAY
 
 
-          The cheapest and most efficient way to arrive in Vietnam is by booking
-          a flight to Ho Chi Minh City and then taking a short domestic flight
-          into Da Lat (about 30 mins). For those flying from the US, please note
-          that the flight to Vietnam can be long (20-25 hours). Flights from NYC
-          require at least one layover. We recommend choosing an itinerary with
-          at least 2 - 2.5 hours of layover time to account for potential delays
-          and allow for transfers between terminals, as some airports are large
-          and may require additional security checks or luggage re-screenings.
+          CHUYẾN BAY
 
+          Cách rẻ nhất và hiệu quả nhất để đến Việt Nam là đặt chuyến bay đến
+          Thành phố Hồ Chí Minh và sau đó bắt chuyến bay nội địa ngắn đến Đà Lạt
+          (khoảng 30 phút). Với những ai bay từ Mỹ, xin lưu ý chuyến bay về Việt
+          Nam có thể kéo dài (20-25 tiếng). Các chuyến bay từ NYC yêu cầu ít
+          nhất một lần quá cảnh. Chúng tôi khuyên bạn nên chọn hành trình có
+          thời gian quá cảnh ít nhất 2 - 2,5 giờ để phòng trường hợp có thể bị
+          chậm trễ và cho phép chuyển tuyến giữa các nhà ga vì một số sân bay
+          lớn và có thể yêu cầu kiểm tra an ninh bổ sung hoặc soi chiếu lại hành
+          lý.
 
-          Some airlines we recommend are:
+          Một số hãng hàng không chúng tôi đề xuất là:
 
+          \+ Hãng hàng không All Nippon Airways (ANA)
 
-          \+ All Nippon Airways (ANA)
+          \+ Hãng hàng không Asiana
 
-
-          \+ Asiana Airlines
-
-
-          \+ Qatar Airline
+          \+ Hãng hàng không Qatar
       - name: conten
         en: "### VISA INFO\n\nVietnam requires a visa for guests coming from the US. To qualify for\_ a Vietnamese Visa, your Passport needs to be valid for at least 6 months following your arrival date. However, visas are easy to obtain and Vietnam has fully opened its borders to all passengers, regardless of their vaccination status.\n\nDIY Visa: You can apply for Vietnam E-Visa online via the government website. The process is fairly simple, quick, and affordable. It takes approximately 3 days to process and costs $25. You can apply in the link below. Please remember to print out your visa and bring it with you. When you arrive in Vietnam, you'll simply walk through customs, show your Passport and E-Visa to the officer to receive your entrance stamp.\n\nFor an easier process you may want to have an agency process the visa on your behalf for an additional $25 ($50 total). You can also add a fasttrack option where at the airport an employee will help you through customs for an additional $70. We recommend the following agency:\n\n* +84 9 3434 0905 (Whatsapp/Zalo/Viber)\n* hanguyen@vietnamdiscovery.com\n\n<Link href=\"https://www.vietnam-visa.com/\" text=\"Click here\" />\n"
       - name: TRANSPORTATION
