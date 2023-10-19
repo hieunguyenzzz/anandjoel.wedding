@@ -440,10 +440,11 @@ blocks:
       - variant: Two
         title: ĐÀ LẠT
         description: >-
-          Known for its fresh produce and dairy products, Dalat offers one of
-          the best culinary experiences in Vietnam for both Asian and Western
-          cuisine. Dalat is also known for its breathtaking coffee shops on
-          beautiful mountaintops, a must try while there
+          Được biết đến với các sản phẩm tươi sống và các sản phẩm từ sữa, Đà
+          Lạt mang đến một trong những trải nghiệm ẩm thực tuyệt vời nhất ở Việt
+          Nam cho cả ẩm thực châu Á và phương Tây. Đà Lạt còn nổi tiếng với
+          những quán cà phê tuyệt đẹp trên những đỉnh núi tuyệt đẹp, nhất định
+          phải thử khi đến đó
         image: /cover đà lạt.jpeg
       - variant: One
         title: Ốc 33
