@@ -1277,11 +1277,12 @@ blocks:
         en: ''
       - variant: Text
         en: >
-          Seven years into their shared bliss, amidst the scenic backdrop of the
-          mountains of Dalat, as the sun cast its first golden hues, An decided
-          it was the moment to begin their next chapter together. On May 18,
-          2022, with a long, heartfelt speech rehearsed and ready, all that An
-          could muster in that moment was, "I think it's time."
+          Sau bảy năm chung sống hạnh phúc, giữa khung cảnh tuyệt đẹp của dãy
+          núi Đà Lạt, khi mặt trời chiếu những sắc vàng đầu tiên, An quyết định
+          đây là thời điểm để bắt đầu chương tiếp theo của họ. Vào ngày 18 tháng
+          5 năm 2022, với lời phát biểu dài và chân thành có vẻ đã được luyện
+          tập. Ngay khi sẵn sàng, tất cả những gì An có thể nghĩ đến được trong
+          khoảnh khắc đó là “Anh nghĩ đã đến lúc rồi!"
       - variant: Images_1_1
         en: ''
         images:
