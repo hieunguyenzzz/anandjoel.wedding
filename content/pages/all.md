@@ -589,11 +589,10 @@ blocks:
         variant: One
         title: Ha Noi
         description: >-
-          Hanoi is the capital city, a 2-hour flight north of Đà Lạt. A great
-          place to explore on foot, this city is also known for its delectable
-          cuisine, vibrant nightlife, silks and handicrafts, as well as a
-          multicultural community that’s made up of Chinese, French and Russian
-          influences
+          Hà Nội là thủ đô, cách Đà Lạt 2 giờ bay về phía bắc. Là một nơi tuyệt
+          vời để đi bộ khám phá, thành phố này còn nổi tiếng với ẩm thực ngon
+          lành, cuộc sống về đêm sôi động, tơ lụa và đồ thủ công cũng như một
+          cộng đồng đa văn hóa chịu ảnh hưởng của Trung Quốc, Pháp và Nga
         image: /hà NỘI.jpeg
         gallery:
           - name: Hotel de l'Opera Hanoi
