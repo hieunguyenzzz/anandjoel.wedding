@@ -4,14 +4,14 @@ import { tinaField, useTina } from "tinacms/dist/react"
 import client from "../../../tina/__generated__/client"
 import { Exact, PageQuery } from "../../../tina/__generated__/types"
 import { useSetSource, useSource } from '../source'
-export const UseTinaWithRouter = () => {
+export const UseTinaWithRouter = ({ relativePath }: { relativePath: string }) => {
   const [tinaData, setTinadata] = useState<{
     data: PageQuery,
     variables: Exact<{ relativePath: string }>,
     query: string
   } | null | undefined>()
   useEffect(() => {
-    client.queries.page({ relativePath: 'all' + '.md' }).then((data) => {
+    client.queries.page({ relativePath }).then((data) => {
       setTinadata(data)
     })
   }, [])

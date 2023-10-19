@@ -81,7 +81,7 @@ export default async function RootLayout({
   const props = await client.queries.page({ relativePath: 'all.md' })
   return (
     <SourceProvider defaultsource={props.data}>
-      <UseTinaWithRouter />
+      <UseTinaWithRouter relativePath={props.variables.relativePath} />
       <html lang="en" data-theme="light">
         <head><link rel="icon" href="/favicon.ico" sizes="any" /></head>
         <body className={([fontbase.className, fontbase.variable, fontTitle.variable, fontHeader.variable].join(' ') + "  text-[#1a1a1a] antialiased  min-h-screen  text-[18px] md:text-[min(24px,5vw)] ")}>

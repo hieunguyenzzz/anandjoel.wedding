@@ -45,9 +45,9 @@ export const menuItemsL: {
       image: travel,
       href: '/travel',
       style: {
-        left: "65%",
-        width: "20%",
-        top: "76%",
+        left: "68%",
+        width: "16%",
+        top: "78%",
       }
     },
     {
@@ -78,7 +78,7 @@ export const menuItemsL: {
         left: "82%",
         width: "7%",
         top: "43%",
-        transform: `rotate(-22deg)`
+        "--tw-rotate": "-22deg",
       }
     },
   ]
