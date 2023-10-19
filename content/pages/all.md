@@ -1094,7 +1094,7 @@ blocks:
           # DRESS CODE
 
 
-          Ceremony: White or light colors. No busy patterns
+          Ceremony: Trắng hoặc các tone màu sáng. Chọn các họa tiết đơn giản
 
 
           Reception: Black tie
