@@ -799,10 +799,10 @@ blocks:
         variant: One
         title: Hoi An
         description: >-
-          The beautiful city of Hoi An is sitting next to Da Nang. It's design
-          features an old fishing village, now classified a UNESCO World
-          Heritage Site. Small, quiet, but tourist friendly offering deliciously
-          fresh food
+          Thành phố Hội An xinh đẹp nằm cạnh Đà Nẵng. Nơi đây hình thành từ một
+          làng chài mang đậm nét lịch sử, hiện được UNESCO công nhận là Di sản
+          Thế giới. Hội An nhỏ nhắn, yên tĩnh nhưng thân thiện với khách du lịch
+          và phục vụ đồ ăn tươi ngon hết nấc
         image: /IMG_1656.jpeg
         gallery:
           - name: Four Seasons Resort The Nam Hai Hoi An
