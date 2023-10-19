@@ -2,12 +2,10 @@
 title: AnJoel
 blocks:
   - bottom_text: >
-      Here are a couple of suggestions from restaurants that An & Joel tried and
-      enjoyed
+      Dưới đây là một vài gợi ý từ các nhà hàng mà An & Joel đã thử và rất thích
 
-
-      Vietnamese food is rich and diverse and varies by region. We hope you will
-      be able to explore some of these recommendations
+      Món ăn Việt Nam phong phú, đa dạng và thay đổi theo từng vùng miền. Chúng
+      tôi hy vọng bạn sẽ có thể khám phá một số đề xuất này
     item:
       - variant: Two
         title: HỒ CHÍ MINH
