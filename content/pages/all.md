@@ -1036,7 +1036,7 @@ blocks:
           Ngày 16 tháng 12 năm 2023
 
 
-          09:00 AM - 10:30 AM
+          **09:00 AM - 10:30 AM**
 
 
           Dốc số 9, Thành phố Đà Lạt, Tỉnh Lâm Đồng, Việt Nam
@@ -1048,16 +1048,16 @@ blocks:
           # RECEPTION
 
 
-          ### at The Campville
+          ### tại The Campville
 
 
-          DECEMBER 16, 2023
+          Ngày 16 tháng 12 năm 2023
 
 
           **4:00 PM - 9:00 PM**
 
 
-          Xuan Tho ward, Da Lat city, Lam Dong province, Vietnam
+          Phường Xuân Thọ, Thành phố Đà Lạt, Tỉnh Lâm Đồng, Việt Nam
 
 
           ![](/nhen-re.gif)
