@@ -1239,7 +1239,7 @@ blocks:
           Bismol và thuốc cảm cúm
       - name: DAILY TRAVEL BAG
         en: >
-          ### DAILY TRAVEL BAG
+          ### TÚI ĐEO HẰNG NGÀY
 
 
           Đối với các vật dụng hàng ngày, chúng tôi khuyên bạn nên để nó trong
