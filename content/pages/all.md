@@ -420,10 +420,10 @@ blocks:
       - variant: Two
         title: HỘI AN
         description: >-
-          Hoi An ranks as one of the top tourist destinations in Vietnam. It is
-          also one of An & Joel's favorite city’s (In no small part because it
-          is named after An..). The Banh Mi sandwiches and chicken rice dishes
-          will stay on your mind for the rest of your life
+          Hội An được xếp hạng là một trong những điểm du lịch hàng đầu ở Việt
+          Nam. Đây cũng là một trong những thành phố yêu thích của An & Joel
+          (Một phần vì trong Hội An có An). Món bánh mì, cơm gà sẽ đọng lại
+          trong tâm trí bạn đến hết cuộc đời
         image: /hoiancover.jpeg
       - variant: One
         title: Cao lầu Thanh
