@@ -1030,16 +1030,16 @@ blocks:
           # CEREMONY
 
 
-          ### at Tiệm Cà Phê Hoàng Hôn Chiều
+          ### tại Tiệm Cà Phê Hoàng Hôn Chiều
 
 
-          DECEMBER 16, 2023
+          Ngày 16 tháng 12 năm 2023
 
 
-          **09:00 AM - 10:30 AM**
+          09:00 AM - 10:30 AM
 
 
-          9th Hill, Da Lat city, Lam Dong province, Vietnam
+          Dốc số 9, Thành phố Đà Lạt, Tỉnh Lâm Đồng, Việt Nam
 
 
           ![](/buom-buom-1.gif)
