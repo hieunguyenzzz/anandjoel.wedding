@@ -1295,8 +1295,8 @@ blocks:
           - /BE21A5B0-3DFA-4914-ABB0-D8BF8D45E073.jpeg
       - variant: Text
         en: >
-          "Hark, My Beloved, There he comes leaping over the mountains, bounding
-          over hills." - Song of Songs 2:8
+          “Này, người yêu dấu của tôi, anh ấy vượt núi băng sông ...” - Trích
+          Songs 2:8
       - variant: B7
         en: ''
         images:
