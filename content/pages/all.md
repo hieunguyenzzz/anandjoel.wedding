@@ -833,10 +833,10 @@ blocks:
         variant: One
         title: Phu Yen
         description: >-
-          Located near Da Lat, many people come to Phu Yen to admire the vast
-          rice fields, green lawns. Phu Yen will offer you a relaxing and unique
-          view of Vietnam. We recommend staying at the resort named Zannier
-          Hotels Bãi San Hô
+          Nằm gần Đà Lạt, nhiều người đến Phú Yên để chiêm ngưỡng những cánh
+          đồng lúa bạt ngàn, thảm cỏ xanh. Phú Yên sẽ mang đến cho bạn một cái
+          nhìn thư giãn và độc đáo về Việt Nam. Chúng tôi khuyên bạn nên lưu trú
+          tại khu nghỉ dưỡng có tên Zannier Hotels Bãi San Hô
         image: /Phú Yên.jpeg
         gallery:
           - name: Zannier Hotels Bai San Ho
