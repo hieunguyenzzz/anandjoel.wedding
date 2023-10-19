@@ -697,11 +697,11 @@ blocks:
         variant: One
         title: Quang Binh
         description: >-
-          Quang Binh is a beautiful province in Vietnam, located in the
-          north-central part of the country. It is known for its stunning
-          natural beauty, with limestone mountains, lush forests, and stunning
-          beaches. Quang Binh is also home to some of the most spectacular caves
-          in the world, including the world-famous Son Doong Cave
+          Quảng Bình là một tỉnh xinh đẹp của Việt Nam, nằm ở phía Bắc Trung Bộ
+          của đất nước. Nó được biết đến với vẻ đẹp tự nhiên tuyệt đẹp, với
+          những ngọn núi đá vôi, những khu rừng tươi tốt và những bãi biển tuyệt
+          đẹp. Quảng Bình cũng là nơi có một số hang động ngoạn mục nhất thế
+          giới, trong đó có hang Sơn Đoòng nổi tiếng thế giới
         image: /Quang bINH.jpeg
         gallery:
           - name: Sun Spa Resort & Villa
