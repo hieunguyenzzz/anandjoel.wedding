@@ -1258,12 +1258,12 @@ blocks:
           Bạn sẽ tận dụng thùng rác bên cạnh để vứt giấy vệ sinh
       - name: MAPS
         en: >
-          ### MAPS & PHONE SERVICES
+          ### BẢN ĐỒ VÀ DỊCH VỤ ĐIỆN THOẠI
 
 
-          Google maps works well in Vietnam and most carriers have an
-          international plan. We will also provide a backup Vietnamese phone
-          preloaded with the essential apps and phone numbers
+          Google maps hoạt động tốt ở Việt Nam và hầu hết các nhà mạng đều có
+          gói quốc tế. Chúng tôi cũng sẽ cung cấp một điện thoại Việt Nam dự
+          phòng được cài sẵn các ứng dụng và số điện thoại cần thiết
       - name: WEATHER
         en: >
           ### CLIMATE & WEATHER
