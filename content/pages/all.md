@@ -1246,7 +1246,16 @@ blocks:
           túi đeo chéo hoặc túi đeo hông (túi có thương hiệu không được khuyến
           khích ở những khu vực đông người)
       - name: TOILET
-        en: "### BATHROOM ETIQUETTE\n\nIn Asia, some places do not use toilet paper, instead they use a bidet (water pipe)\_ to clean after going. If you’re not comfortable with this, we highly suggest bringing toilet paper or napkins in your daily bag in case. If you are planning to visit some of the more remote locations, some toilets cannot handle toilet paper. You will utilize the trash can next to you to dispose of the toilet paper\n"
+        en: >
+          ### NHÀ VỆ SINH
+
+
+          Ở châu Á, một số nơi không sử dụng giấy vệ sinh mà thay vào đó họ dùng
+          bidet để vệ sinh sau khi đi. Nếu bạn không thoải mái với điều này,
+          chúng tôi khuyên bạn nên mang theo giấy vệ sinh hoặc khăn giấy trong
+          túi hàng ngày của mình để đề phòng. Nếu bạn dự định đến thăm một số
+          địa điểm xa hơn, một số nhà vệ sinh không thể xử lý được giấy vệ sinh.
+          Bạn sẽ tận dụng thùng rác bên cạnh để vứt giấy vệ sinh
       - name: MAPS
         en: >
           ### MAPS & PHONE SERVICES
