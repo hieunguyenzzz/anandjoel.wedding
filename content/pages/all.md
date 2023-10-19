@@ -389,9 +389,9 @@ blocks:
       - variant: Two
         title: ĐÀ NẴNG
         description: >-
-          Da Nang offers various foods from both North, Central and South of
-          Vietnam. Get your virtual chopsticks ready with these must - try
-          restaurants in this destination!
+          Đà Nẵng cung cấp nhiều loại thực phẩm khác nhau từ cả Bắc, Trung và
+          Nam Việt Nam. Hãy chuẩn bị sẵn sàng với những nhà hàng phải thử ở điểm
+          đến này!
         image: /danang cover.jpeg
       - variant: One
         title: Cá Chuồn Cồ Vietnamese Restaurant
