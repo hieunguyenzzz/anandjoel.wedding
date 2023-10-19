@@ -481,12 +481,11 @@ blocks:
         variant: Two
         title: Sapa
         description: >-
-          Sapa is a remote mountain town in Northern Vietnam with one of the
-          most scenic views that the country has to offer. Whether you want to
-          hike, explore the remote tribes of Vietnam or relax among the clouds,
-          Sapa is your destination to go.  Because of its remote nature, getting
-          to Sapa takes 5-6 hours from Hanoi via car or bus, but is well worth
-          the trek
+          Sapa là một thị trấn miền núi xa xôi ở miền Bắc Việt Nam với một trong
+          những cảnh đẹp nhất đất nước. Cho dù bạn muốn đi bộ đường dài, khám
+          phá các bộ lạc xa xôi của Việt Nam hay thư giãn giữa mây trời, Sapa là
+          điểm đến dành cho bạn. Vì tính chất xa xôi nên việc đến Sapa mất 5-6
+          giờ từ Hà Nội bằng ô tô hoặc xe buýt, nhưng rất đáng để trek
         image: /sapaaa.jpeg
         gallery:
           - name: image
