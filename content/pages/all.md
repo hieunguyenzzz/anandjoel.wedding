@@ -11,8 +11,8 @@ blocks:
         title: HỒ CHÍ MINH
         description: >-
           Quê hương của An và nơi Joel và An dành nhiều thời gian nhất. Thành
-          phố Hồ Chí Minh sẽ chịó đủ loại ẩm thực của Việt Nam và thế giới. Từ
-          đồ ăn ngon đến đồ ăn đường phố, bạn sẽ không bao giờ cảm thấy "đủ" khi
+          phố Hồ Chí Minh sẽ có đủ loại ẩm thực của Việt Nam và thế giới. Từ đồ
+          ăn ngon đến đồ ăn đường phố, bạn sẽ không bao giờ cảm thấy "đủ" khi
           trải nghiệm ẩm thực ở thành phố này
         image: /An Vegetarian.jpeg
       - variant: One
