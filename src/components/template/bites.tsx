@@ -2,8 +2,8 @@
 import Image from "@/components/common/image";
 import { useSource } from "@/libs/source";
 import { Field } from "@/libs/tina";
+import bgImage from '@/public/qa_bg.png';
 import React, { useState } from "react";
-import bgImage from '../../../public/qa_bg.png';
 import Bitenext from "./bites-detail-next";
 export default function Bites() {
   const [id, setid] = useState(-1)

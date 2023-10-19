@@ -4,10 +4,9 @@ export default function Image(props: Omit<ImageProps, 'alt'> & {
   alt?: string,
   animated?: boolean,
 }) {
-  const { style, className, animated, href = "/", ...rest } = props
-  console.log("href", href)
+  const { style, className, animated, src = "/", ...rest } = props
   return (
-    <NextImage {...rest} alt={props.alt || 'image'} href={href || '/'}
+    <NextImage {...rest} alt={props.alt || 'image'} src={src || '/'}
       className={className}
     />
   )

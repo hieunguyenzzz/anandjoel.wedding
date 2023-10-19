@@ -1,9 +1,9 @@
 
 "use client";
+import bgImage from '@/public/bg.png';
+import left from '@/public/bottom-left.png';
+import right from '@/public/top-right.png';
 import Image from 'next/image';
-import bgImage from '../../../public/bg.png';
-import left from '../../../public/bottom-left.png';
-import right from '../../../public/top-right.png';
 import { PageBlocksContent } from '../../../tina/__generated__/types';
 
 import { useSource } from '@/libs/source';

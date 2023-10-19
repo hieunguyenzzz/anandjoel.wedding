@@ -1,16 +1,16 @@
 
 "use client";
-import Image from 'next/image';
-import appleOpen from '../../../public/apple-open.png';
-import apple from '../../../public/apple.png';
-import bgImage from '../../../public/bg.png';
-import left from '../../../public/bottom-left.png';
-import right from '../../../public/top-right.png';
+import appleOpen from '@/public/apple-open.png';
+import apple from '@/public/apple.png';
+import bgImage from '@/public/bg.png';
+import left from '@/public/bottom-left.png';
+import right from '@/public/top-right.png';
 import { PageBlocksContent } from '../../../tina/__generated__/types';
 
 import { useSource } from '@/libs/source';
 import { Field } from "@/libs/tina";
 import { TinaMarkdown } from 'tinacms/dist/rich-text';
+import Image from '../common/image';
 const temp = {
   "type": "root",
   "children": [

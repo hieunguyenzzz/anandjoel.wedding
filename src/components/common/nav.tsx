@@ -1,10 +1,10 @@
 "use client"
 import { menuItems } from '@/app/layout'
+import bgImageMoble from '@/public/mobile-bg.png'
 import Link from 'next/link'
 import { usePathname } from 'next/navigation'
 import { ReactNode, useEffect, useMemo, useState } from 'react'
 import { clsx } from 'yet-another-react-lightbox'
-import bgImageMoble from '../../../public/mobile-bg.png'
 import Image from './image'
 const total = 84
 

@@ -1,7 +1,7 @@
 
 "use client";
 import Image from '@/components/common/image';
-import bgImage from '../../../public/event/bg2.png';
+import bgImage from '@/public/event/bg2.png';
 import { PageBlocksContent } from '../../../tina/__generated__/types';
 
 import { useSource } from '@/libs/source';

@@ -3,13 +3,13 @@
 "use client";
 import { useSource } from '@/libs/source';
 import { Field } from '@/libs/tina';
+import bgImage from '@/public/website layout _travel stay.jpg';
 import { unstable_getImgProps } from 'next/image';
 import { usePathname, useRouter, useSearchParams } from 'next/navigation';
 import { useCallback, useState } from 'react';
 import Lightbox from 'react-image-lightbox';
 import 'react-image-lightbox/style.css';
 import { TinaMarkdown } from 'tinacms/dist/rich-text';
-import bgImage from '../../../public/website layout _travel stay.jpg';
 import { PageBlocksExplore } from '../../../tina/__generated__/types';
 import Image from '../common/image';
 import Vietnammap from '../vietnammap';

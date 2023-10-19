@@ -1,10 +1,10 @@
 
 "use client"
 import Image from '@/components/common/image';
+import bgImageMoble from '@/public/mobile-bg.png';
 import { StaticImageData } from 'next/image';
 import Link from 'next/link';
 import { SyntheticEvent, useEffect, useRef, useState } from 'react';
-import bgImageMoble from '../../../public/mobile-bg.png';
 import bgImage from './asset/bg-new.png';
 import bite from './asset/bite-slide-1.png';
 import events from './asset/events-slide.png';
@@ -106,11 +106,10 @@ export default function Page() {
         videoref.current?.play().then(() => { })
           .catch((error) => {
             console.error('1', videoref.current, error)
-            console.log('1  videoref.current.muted ', videoref.current.muted)
             let timeout = setTimeout(() => {
               videoref.current?.play().then(() => { clearTimeout(timeout) }).catch((error) => {
                 console.error('2', error)
-                videoref.current.muted = true
+                videoref.current && (videoref.current.muted = true)
                 videoref.current?.play()
               })
             }, 1000)
@@ -143,6 +142,11 @@ export default function Page() {
       {src && <video
         src={src}
         ref={videoref} onTimeUpdate={(e: SyntheticEvent<HTMLVideoElement, Event>) => {
+          if (end) {
+            e.currentTarget.style.opacity = '0'
+            e.currentTarget.style.filter = 'blur(10px)'
+            return
+          }
           if (e.currentTarget.currentTime > 6) {
             if (e.currentTarget.style.opacity === '1') {
               e.currentTarget.style.opacity = '0'
@@ -154,7 +158,7 @@ export default function Page() {
               e.currentTarget.style.filter = 'blur(0px)'
             }
           }
-        }} style={end ? { visibility: 'hidden' } : { filter: 'blur(10px)', opacity: '0' }} webkit-playsinline="true" playsInline onEnded={e => {
+        }} style={{ filter: 'blur(10px)', opacity: '0' }} webkit-playsinline="true" playsInline onEnded={e => {
           setEnd(true)
         }} controls={false} muted className="fixed  inset-0 w-full h-full transition-all lg:block duration-[2s] ease-in-out  max-w-full object-cover pointer-events-auto"
       >

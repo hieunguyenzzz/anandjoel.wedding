@@ -1,13 +1,12 @@
 import Image from '@/components/common/image'
+import bitesImage from '@/public/BITES-150x150.png'
+import eventsImage from '@/public/EVENTS.png'
+import exploreImage from '@/public/explore-tag-3-150x150.png'
+import logo from '@/public/logo-768x721.png'
+import qaImage from '@/public/qa-tag-150x150.png'
+import storyImage from '@/public/story.png'
+import travelImage from '@/public/travel-tag-768x721.png'
 import Link from 'next/link'
-import bitesImage from '../../../public/BITES-150x150.png'
-import eventsImage from '../../../public/EVENTS.png'
-import exploreImage from '../../../public/explore-tag-3-150x150.png'
-import logo from '../../../public/logo-768x721.png'
-import qaImage from '../../../public/qa-tag-150x150.png'
-import storyImage from '../../../public/story.png'
-import travelImage from '../../../public/travel-tag-768x721.png'
-import client from '../../../tina/__generated__/client'
 import bite from './asset/bite-slide-1.png'
 import events from './asset/events-slide.png'
 import explore from './asset/explore-tag-1.png'
@@ -57,7 +56,6 @@ export default async function RootLayout({
 }: {
   children: React.ReactNode
 }) {
-  const props = await client.queries.page({ relativePath: 'all.md' })
   return (
     <>
       <header className='flex gap-6 justify-center px-6 lg:px-12 z-20 relative pointer-events-none'>
