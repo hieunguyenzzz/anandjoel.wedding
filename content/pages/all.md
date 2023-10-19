@@ -10,10 +10,10 @@ blocks:
       - variant: Two
         title: HỒ CHÍ MINH
         description: >-
-          An’s hometown and where Joel and An spend the most time usually. Ho
-          Chi Minh city will offer every variety of Vietnamese and world
-          cuisine. From fine dining to street food, you won’t be able to get
-          enough
+          Quê hương của An và nơi Joel và An dành nhiều thời gian nhất. Thành
+          phố Hồ Chí Minh sẽ chịó đủ loại ẩm thực của Việt Nam và thế giới. Từ
+          đồ ăn ngon đến đồ ăn đường phố, bạn sẽ không bao giờ cảm thấy "đủ" khi
+          trải nghiệm ẩm thực ở thành phố này
         image: /An Vegetarian.jpeg
       - variant: One
         title: Å by T.U.N.G
