@@ -330,9 +330,9 @@ blocks:
       - variant: Two
         title: HÀ NỘI
         description: >-
-          Ha Noi is known for its unique pho and other northern delicacies.
-          However, it offers a wide variety of dishes from across Vietnam. Here
-          are some of An & Joel’s highlights
+          Hà Nội được biết đến với món phở độc đáo và các món ngon miền Bắc
+          khác. Tuy nhiên, nó cung cấp rất nhiều món ăn từ khắp Việt Nam. Dưới
+          đây là một số quán ăn nổi bật của An & Joel
         image: /Bún Chả Hàng Quạt.jpeg
       - variant: One
         title: Xới Cơm
