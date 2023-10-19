@@ -643,9 +643,10 @@ blocks:
         variant: One
         title: Ha Long Bay
         description: >-
-          You can witness the giant limestone formations and caves on an
-          overnight boat cruise in HaLong Bay, which is arguably Vietnam’s most
-          recognized landscape, boasting over 1,600 limestone islands and islets
+          Bạn có thể chứng kiến những khối đá vôi khổng lồ và hang động trên
+          chuyến du ngoạn bằng thuyền qua đêm ở Vịnh Hạ Long, nơi được cho là
+          cảnh quan nổi tiếng nhất của Việt Nam, tự hào với hơn 1.600 hòn đảo đá
+          vôi và đảo nhỏ.
         image: /Hạ Long.jpeg
         gallery:
           - name: Aqua Of The Seas Cruise Halong
