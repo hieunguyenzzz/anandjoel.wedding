@@ -8,6 +8,7 @@ function getLocale(request: NextRequest) {
   return locales[0]
 }
 const paths = [
+  '/',
   '/bites',
   '/explore',
   '/qa',

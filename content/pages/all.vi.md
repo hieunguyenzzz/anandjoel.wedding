@@ -1,5 +1,5 @@
 ---
-title: AnJoel-VI
+title: AnJoel-vi
 blocks:
   - bottom_text: >
       Here are a couple of suggestions from restaurants that An & Joel tried and
@@ -12,9 +12,10 @@ blocks:
       - variant: Two
         title: HỒ CHÍ MINH
         description: >-
-          An’s hometown and where Joel and An spent the most time. Ho Chi Minh
-          city will offer every variety of Vietnamese and world cuisine. From
-          fine dining to street food, you won’t be able to get enough
+          An’s hometown and where Joel and An spend the most time usually. Ho
+          Chi Minh city will offer every variety of Vietnamese and world
+          cuisine. From fine dining to street food, you won’t be able to get
+          enough
         image: /An Vegetarian.jpeg
       - variant: One
         title: Å by T.U.N.G
@@ -519,7 +520,7 @@ blocks:
         description: >-
           Ninh Binh is a mesmerizing area known locally as ‘Ha Long Bay on Land’
           thanks to its magical riverine landscape, with sheer limestone
-          mountains rising up from the paddies.
+          mountains rising up from the paddies
         image: /nINH BÌNH.jpeg
         gallery:
           - name: Hoa Lu Ancient Capital
@@ -574,7 +575,7 @@ blocks:
           place to explore on foot, this city is also known for its delectable
           cuisine, vibrant nightlife, silks and handicrafts, as well as a
           multicultural community that’s made up of Chinese, French and Russian
-          influences.
+          influences
         image: /hà NỘI.jpeg
         gallery:
           - name: Hotel de l'Opera Hanoi
@@ -627,8 +628,7 @@ blocks:
         description: >-
           You can witness the giant limestone formations and caves on an
           overnight boat cruise in HaLong Bay, which is arguably Vietnam’s most
-          recognized landscape, boasting over 1,600 limestone islands and
-          islets. 
+          recognized landscape, boasting over 1,600 limestone islands and islets
         image: /Hạ Long.jpeg
         gallery:
           - name: Aqua Of The Seas Cruise Halong
@@ -683,7 +683,7 @@ blocks:
           north-central part of the country. It is known for its stunning
           natural beauty, with limestone mountains, lush forests, and stunning
           beaches. Quang Binh is also home to some of the most spectacular caves
-          in the world, including the world-famous Son Doong Cave. 
+          in the world, including the world-famous Son Doong Cave
         image: /Quang bINH.jpeg
         gallery:
           - name: Sun Spa Resort & Villa
@@ -865,8 +865,8 @@ blocks:
           luscious mountains and fields combined with its eternal spring
           weather, make it a perfect getaway destination. Dalat is also called
           the Flower City supplying its beautiful flowers to all of Vietnam.
-          From the moment An & Joel set foot in Dalat it captivated our hearts.
-          That’s why we chose to host our wedding in Dalat
+          From the moment An & Joel set foot in Dalat it captivated their
+          hearts. That’s why they chose to host their wedding in Dalat
         image: /IMG_4041.jpeg
         gallery:
           - name: Cu Lan Village
@@ -1008,7 +1008,77 @@ blocks:
   - name: event
     fields:
       - name: content
-        en: "# CEREMONY\n\n### at Tiệm Cà Phê Hoàng Hôn Chiều\n\nDECEMBER 16, 2023\n\n**09:00 AM - 10:30 AM**\n\n9th Hill, Da Lat city, Lam Dong province, Vietnam\n\n![](/buom-buom-1.gif)\n\n# RECEPTION\n\n### at The Campville\n\nDECEMBER 16, 2023\n\n**4:00 PM - 9:00 PM**\n\nXuan Tho ward, Da Lat city, Lam Dong province, Vietnam\n\n![](/nhen-re.gif)\n\n# TRANSPORTATION\n\nTransportation will be provided from Du Parc hotel to the wedding venues and back.\_\n\nPlease kindly be at the hotel lobby at 8:15 AM for ceremony and 3:15 PM for reception\n\n![](/bo-ngua-re.gif)\n\n# ACCOMMODATION\n\nA block of complimentary rooms has been reserved at Hotel Du Parc in Da Lat city from December 15 to December 17\n\nPlease let the hotel know that you’re with An & Joel wedding\n\n![](/buom-re-1.gif)\n\n# DRESS CODE\n\nCeremony: White or light colors. No busy patterns\n\nReception: Black tie\n"
+        en: >
+          # CEREMONY
+
+
+          ### at Tiệm Cà Phê Hoàng Hôn Chiều
+
+
+          DECEMBER 16, 2023
+
+
+          **09:00 AM - 10:30 AM**
+
+
+          9th Hill, Da Lat city, Lam Dong province, Vietnam
+
+
+          ![](/buom-buom-1.gif)
+
+
+          # RECEPTION
+
+
+          ### at The Campville
+
+
+          DECEMBER 16, 2023
+
+
+          **4:00 PM - 9:00 PM**
+
+
+          Xuan Tho ward, Da Lat city, Lam Dong province, Vietnam
+
+
+          ![](/nhen-re.gif)
+
+
+          # TRANSPORTATION
+
+
+          Transportation will be provided from Du Parc hotel to the wedding
+          venues and back
+
+
+          Please kindly be at the hotel lobby at 8:15 AM for ceremony and 3:15
+          PM for reception
+
+
+          ![](/bo-ngua-re.gif)
+
+
+          # ACCOMMODATION
+
+
+          A block of complimentary rooms has been reserved at Hotel Du Parc in
+          Da Lat city from December 15 to December 17
+
+
+          Please let the hotel know that you’re with An & Joel wedding
+
+
+          ![](/buom-re-1.gif)
+
+
+          # DRESS CODE
+
+
+          Ceremony: White or light colors. No busy patterns
+
+
+          Reception: Black tie
     _template: content
   - name: qa
     title: Questions & Answers
