@@ -258,6 +258,11 @@ blocks:
         title: Elgin
         description: '27 Mac Dinh Chi, Dakao, District 1, HCMC'
         image: /Elgin .jpeg
+        gallery:
+          - name: image
+            image: /2BA8BCF2-523B-403D-BD97-D3EB8D4DF46D.webp
+          - name: image
+            image: /F476BF84-F1D8-4FB2-994D-62BF3EE8830E.webp
       - variant: One
         title: CLAY
         description: '18 street no. 6, Thảo Điền Ward, District 2, HCMC'
