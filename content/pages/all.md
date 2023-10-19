@@ -975,11 +975,11 @@ blocks:
         variant: One
         title: Phu Quoc
         description: >-
-          The island of Phu Quoc is a beach island offering both many activities
-          and tours as well as an abundance of relaxing beach fronts. Immerse in
-          natural beauty, or sit at the beach and relax. Phu Quoc in December is
-          quite hot and the perfect weather to sit at the beach. You can also
-          catch one of the most beautiful sunsets if you’re lucky
+          Đảo Phú Quốc là một hòn đảo ven biển cung cấp nhiều hoạt động và tour
+          du lịch cũng như vô số bãi biển thư giãn. Đắm mình trong vẻ đẹp thiên
+          nhiên, hoặc ngồi trên bãi biển và thư giãn. Phú Quốc vào tháng 12 khá
+          nóng và thời tiết hoàn hảo để ngồi ở bãi biển. Bạn cũng có thể bắt
+          được một trong những cảnh hoàng hôn đẹp nhất nếu may mắn
         image: /Phú Quốc.jpeg
         gallery:
           - name: InterContinental Phu Quoc Long Beach Resort
