@@ -1303,8 +1303,8 @@ blocks:
           - /AJ.jpeg
       - variant: Text
         en: >
-          Now, An and Joel are excited and honored to commemorate this, their
-          love story, with you in the very same mountain town where An proposed
+          Giờ đây, An và Joel đang rất vui mừng và vinh dự được kỷ niệm điều
+          này, câu chuyện tình yêu của họ, với bạn tại chính nơi An đã cầu hôn
       - variant: B6
         name: on one knee
         en: ''
