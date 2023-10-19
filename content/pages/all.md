@@ -536,9 +536,9 @@ blocks:
         variant: One
         title: Ninh Binh
         description: >-
-          Ninh Binh is a mesmerizing area known locally as ‘Ha Long Bay on Land’
-          thanks to its magical riverine landscape, with sheer limestone
-          mountains rising up from the paddies
+          Ninh Bình là một khu vực mê hoặc được người dân địa phương gọi là
+          'Vịnh Hạ Long trên cạn' nhờ phong cảnh ven sông huyền diệu, với những
+          ngọn núi đá vôi dựng đứng nhô lên từ cánh đồng
         image: /nINH BÌNH.jpeg
         gallery:
           - name: Hoa Lu Ancient Capital
