@@ -1274,15 +1274,15 @@ blocks:
           hãy nhớ mang theo quần áo mùa đông
       - name: ATTIRE
         en: >
-          ### DAILY ATTIRE
+          ### TRANG PHỤC HÀNG NGÀY
 
 
-          In Saigon we recommend wearing light and breezy clothing. In Dalat we
-          recommend wearing several layers of clothing to keep warm. (Except on
-          the wedding day because you need to dress up). Most hotels offer
-          laundry services, and prices change depending on the item and
-          materials. We don’t recommend packing too many items. You will most
-          than likely reuse and buy new outfits
+          Ở Sài Gòn chúng tôi khuyên bạn nên mặc quần áo nhẹ nhàng và thoáng
+          mát. Ở Đà Lạt chúng tôi khuyên bạn nên mặc nhiều lớp quần áo để giữ
+          ấm. (Ngoại trừ ngày cưới vì bạn cần ăn diện). Hầu hết các khách sạn
+          đều cung cấp dịch vụ giặt là và giá cả thay đổi tùy theo mặt hàng,
+          chất liệu. Chúng tôi không khuyên bạn nên đóng gói quá nhiều mặt hàng.
+          Rất có thể bạn sẽ tái sử dụng và mua trang phục mới
       - name: LUGGAGE
         en: >
           ### HÀNH LÝ
