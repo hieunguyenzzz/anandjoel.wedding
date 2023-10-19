@@ -879,12 +879,12 @@ blocks:
         variant: One
         title: Da Lat
         description: >-
-          The beautiful city of Dalat is one of An & Joel’s favorite cities. Its
-          luscious mountains and fields combined with its eternal spring
-          weather, make it a perfect getaway destination. Dalat is also called
-          the Flower City supplying its beautiful flowers to all of Vietnam.
-          From the moment An & Joel set foot in Dalat it captivated their
-          hearts. That’s why they chose to host their wedding in Dalat
+          Thành phố Đà Lạt xinh đẹp là một trong những thành phố được An & Joel
+          yêu thích. Những ngọn núi và cánh đồng tươi tốt kết hợp với thời tiết
+          thoáng mát khiến nơi đây trở thành một điểm đến nghỉ ngơi hoàn hảo. Đà
+          Lạt còn được gọi là Thành phố ngàn hoa cung cấp hoa đẹp cho cả nước
+          Việt Nam. Ngay từ khi An & Joel đặt chân đến Đà Lạt đã làm say đắm
+          trái tim họ. Đó là lý do họ chọn tổ chức đám cưới ở Đà Lạt
         image: /IMG_4041.jpeg
         gallery:
           - name: Cu Lan Village
