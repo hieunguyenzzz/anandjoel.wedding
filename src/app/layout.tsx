@@ -78,7 +78,7 @@ export default async function RootLayout({
   return (
     <html lang="en" data-theme="light">
       <head><link rel="icon" href="/favicon.ico" sizes="any" /></head>
-      <body className={([fontbase.className, fontbase.variable, fontTitle.variable, fontHeader.variable].join(' ') + "  text-[#1a1a1a] antialiased  min-h-screen  text-[18px] md:text-[min(24px,5vw)] ")}>
+      <body className={([fontbase.className, fontbase.variable, fontTitle.variable, fontHeader.variable].join(' ') + "  text-[#1a1a1a] antialiased  min-h-screen  text-[18px] lg:text-[min(2vw,20px)]  ")}>
         {children}
       </body>
     </html>
