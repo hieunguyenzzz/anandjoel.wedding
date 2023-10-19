@@ -1233,11 +1233,11 @@ blocks:
         en: ''
       - variant: Text
         en: >
-          Their journey together begins in 2015, when Joel sent An “a confusing
-          message” online — after all, Joel didn’t grow up speaking English.
-          Historically An always favored longer text exchanges before a personal
-          meeting, but this time he felt a mysterious nudge to embrace the
-          unknown
+          Hành trình cùng nhau của họ bắt đầu vào năm 2015, khi Joel gửi cho An
+          “một tin nhắn khó hiểu” - thật ra, Joel không quá quen dung tiếng Anh.
+          Ngày trước, An luôn thích nhắn tin tìm hiểu trước khi có một cuộc gặp
+          riêng, nhưng lần này anh cảm thấy có một sự thôi thúc bí ẩn để đón
+          nhận một điều chưa biết
       - variant: Image_1_2
         en: ''
         images:
