@@ -1133,7 +1133,39 @@ blocks:
 
           \+ Hãng hàng không Qatar
       - name: conten
-        en: "### VISA INFO\n\nVietnam requires a visa for guests coming from the US. To qualify for\_ a Vietnamese Visa, your Passport needs to be valid for at least 6 months following your arrival date. However, visas are easy to obtain and Vietnam has fully opened its borders to all passengers, regardless of their vaccination status.\n\nDIY Visa: You can apply for Vietnam E-Visa online via the government website. The process is fairly simple, quick, and affordable. It takes approximately 3 days to process and costs $25. You can apply in the link below. Please remember to print out your visa and bring it with you. When you arrive in Vietnam, you'll simply walk through customs, show your Passport and E-Visa to the officer to receive your entrance stamp.\n\nFor an easier process you may want to have an agency process the visa on your behalf for an additional $25 ($50 total). You can also add a fasttrack option where at the airport an employee will help you through customs for an additional $70. We recommend the following agency:\n\n* +84 9 3434 0905 (Whatsapp/Zalo/Viber)\n* hanguyen@vietnamdiscovery.com\n\n<Link href=\"https://www.vietnam-visa.com/\" text=\"Click here\" />\n"
+        en: >
+          ### THÔNG TIN VISA
+
+
+          Việt Nam yêu cầu phải có visa đối với khách đến từ Mỹ. Để đủ điều kiện
+          xin Visa Việt Nam, Hộ chiếu của bạn cần phải còn hiệu lực ít nhất 6
+          tháng kể từ ngày bạn đến. Tuy nhiên, thị thực rất dễ xin và Việt Nam
+          đã mở cửa hoàn toàn biên giới cho tất cả hành khách, bất kể tình trạng
+          tiêm chủng của họ.
+
+
+          Visa DIY: Bạn có thể nộp đơn xin Visa điện tử Việt Nam trực tuyến
+          thông qua trang web của chính phủ. Quá trình này khá đơn giản, nhanh
+          chóng và giá cả phải chăng. Quá trình xử lý mất khoảng 3 ngày và chi
+          phí là 25 USD. Bạn có thể đăng ký trong liên kết dưới đây. Hãy nhớ in
+          visa của bạn và mang theo bên mình. Khi đến Việt Nam, bạn chỉ cần làm
+          thủ tục hải quan, xuất trình Hộ chiếu và Visa điện tử cho nhân viên để
+          nhận tem nhập cảnh.
+
+
+          Để có quy trình dễ dàng hơn, bạn có thể nhờ một cơ quan thay mặt bạn
+          xử lý thị thực với số tiền bổ sung là $25 (tổng cộng là $50). Bạn cũng
+          có thể thêm tùy chọn theo dõi nhanh trong đó tại sân bay, nhân viên sẽ
+          giúp bạn làm thủ tục hải quan với khoản phí bổ sung là 70 USD. Chúng
+          tôi đề nghị cơ quan sau:
+
+
+          * +84 9 3434 0905 (Whatsapp/Zalo/Viber)
+
+          * hanguyen@vietnamdiscovery.com
+
+
+          <Link href="https://www.vietnam-visa.com/" text="Click here" />
       - name: TRANSPORTATION
         en: "### TRANSPORTATION\n\nGetting around Vietnam is easy via taxi. In your phone you will have pre downloaded the following apps:\_\n\n1. GRAB (similar to Uber) - You can link your US card or give them local currency\n2. Taxi cabs are also available at the airport and vietnam\_\n   1. In Ho Chi Minh city there are a\_ lot of Grab drivers. It should be easy to book from anywhere including the airport.\n   2. In Da Lat - Grab may be slower to the airport, we recommend booking a taxi in the airport (remember to bring enough local currency)\n"
       - name: GOING TO DA LAT
