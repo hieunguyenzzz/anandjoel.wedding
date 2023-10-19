@@ -1264,14 +1264,14 @@ blocks:
           phòng được cài sẵn các ứng dụng và số điện thoại cần thiết
       - name: WEATHER
         en: >
-          ### CLIMATE & WEATHER
+          ### KHÍ HẬU & THỜI TIẾT
 
 
-          Vietnam’s weather is tropical but each region has its unique weather
-          patterns. Ho Chi Minh city is on the warmer side (usually 80-100 F).
-          However, Da Lat’s weather is cool and breezy (earning the nickname
-          “City of Eternal Spring”). At night it can get a bit chilly in Dalat
-          so make sure to bring some winter clothes
+          Thời tiết Việt Nam thuộc vùng nhiệt đới nhưng mỗi vùng lại có kiểu
+          thời tiết riêng. Thành phố Hồ Chí Minh ở phía ấm hơn (thường là 80-100
+          F). Tuy nhiên, thời tiết Đà Lạt mát mẻ, trong lành (được mệnh danh là
+          "City of Eternal Spring”). Vào ban đêm ở Đà Lạt có thể hơi lạnh nên
+          hãy nhớ mang theo quần áo mùa đông
       - name: ATTIRE
         en: >
           ### DAILY ATTIRE
