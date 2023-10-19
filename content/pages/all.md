@@ -66,8 +66,6 @@ blocks:
           - /bites/saigon/Ivore/IMG_2186.jpeg
           - /bites/saigon/Ivore/IMG_2188.jpeg
           - /bites/saigon/Ivore/IMG_2190.jpeg
-          - /bites/saigon/Ivore/IMG_2191.jpeg
-          - /bites/saigon/Ivore/IMG_2192.jpeg
           - /bites/saigon/Ivore/IMG_2193.jpeg
           - /bites/saigon/Ivore/IMG_2194.jpeg
           - /bites/saigon/Ivore/IMG_2195.jpeg
