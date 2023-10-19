@@ -473,8 +473,9 @@ blocks:
     _template: bites
   - title: Explore Vietnam
     description: >-
-      A land of staggering natural beauty and cultural complexities, of dynamic
-      megacities and hill-tribe villages, Vietnam is unforgettably compelling
+      Một vùng đất có vẻ đẹp tự nhiên đáng kinh ngạc và sự phức tạp về văn hóa,
+      của những siêu đô thị năng động và những ngôi làng của người dân tộc miền
+      núi, Việt Nam có sức hấp dẫn khó quên
     item:
       - location: Lào Cai
         variant: Two
