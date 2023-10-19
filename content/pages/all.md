@@ -357,11 +357,10 @@ blocks:
       - variant: Two
         title: SAPA
         description: >-
-          The unique flavors of Sapa will stay with you for a lifetime. From
-          boar meat to horse meat to homemade wine, it’ll be an experience you
-          will remember for the rest of your life. While Sapa doesn’t offer as
-          many luxury food options as other destinations its foods are unique,
-          flavorful and delicious
+          Những hương vị độc đáo của Sapa sẽ ở lại với bạn suốt đời. Từ thịt lợn
+          rừng, thịt ngựa đến rượu tự làm, đó sẽ là trải nghiệm bạn sẽ nhớ mãi.
+          Mặc dù Sapa không có nhiều lựa chọn ăn uống sang trọng như các điểm
+          đến khác nhưng đồ ăn ở đây rất độc đáo, có hương vị và thơm ngon
         image: /Red Dzao.jpeg
       - variant: One
         title: Cá Tầm Vua Restaurant
