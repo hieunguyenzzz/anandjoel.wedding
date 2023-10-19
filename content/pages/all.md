@@ -4,8 +4,8 @@ blocks:
   - bottom_text: >
       Dưới đây là một vài gợi ý từ các nhà hàng mà An & Joel đã thử và rất thích
 
-      Món ăn Việt Nam phong phú, đa dạng và thay đổi theo từng vùng miền. Chúng
-      tôi hy vọng bạn sẽ có thể khám phá một số đề xuất này
+      Món ăn Việt Nam phong phú, đa dạng và thay đổi theo từng vùng miền. An &
+      Joel hy vọng bạn sẽ có thể khám phá một số đề xuất này
     item:
       - variant: Two
         title: HỒ CHÍ MINH
