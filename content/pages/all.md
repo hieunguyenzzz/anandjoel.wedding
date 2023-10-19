@@ -746,9 +746,9 @@ blocks:
         variant: One
         title: Da Nang
         description: >-
-          Da Nang is located in the middle of Vietnam featuring the Ba Na Hills.
-          Its close proximity to the popular My Khe Beach, Lang Co Beach, & the
-          city Hoi An, and My Son makes it a desired destination
+          Đà Nẵng nằm ở miền Trung Việt Nam với Bà Nà Hills. Nằm gần bãi biển Mỹ
+          Khê nổi tiếng, bãi biển Lăng Cô và thành phố Hội An và Mỹ Sơn khiến
+          nơi đây trở thành điểm đến mong muốn của tất cả du khách
         image: /Đà Nẵng.jpeg
         gallery:
           - name: Intercontinental Danang Sun Peninsula Resort
