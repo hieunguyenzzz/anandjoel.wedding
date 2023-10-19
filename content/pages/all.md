@@ -1250,11 +1250,12 @@ blocks:
           - /E519844F-E880-4205-978A-6A32A77045E4.jpeg
       - variant: Text_Image
         en: >
-          So, a lunch date was made; and, as fate would have it, lunch developed
-          into a delightful spree of mani-pedi, dessert, a movie, and an
-          unforgettable dinner. A single hour stretched into twelve, and what
-          began as a simple date blossomed into an enchanting journey that has
-          lasted eight years and counting
+          Vì vậy, một cuộc hẹn ăn trưa đã được chọn; và, như số phận đã sắp đặt,
+          bữa trưa đã phát triển thành một bữa tiệc thú vị với món mani-pedi,
+          đến tráng miệng, rồi một bộ phim và kết thúc bằng một bữa tối khó
+          quên. Một giờ kéo dài thành mười hai giờ, và những gì bắt đầu như một
+          cuộc hẹn hò đơn giản đã tạo thành một cuộc hành trình đầy mê hoặc kéo
+          dài tám năm và còn hơn thế nữa
         images:
           - /0B858AC0-A437-4100-BF46-FD6EF8EC1EFC.jpeg
       - variant: Image_2_1
