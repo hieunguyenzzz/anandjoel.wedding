@@ -1,7 +1,7 @@
 "use client"
 
-import Link from "next/link"
 import { TinaMarkdown, TinaMarkdownContent } from 'tinacms/dist/rich-text'
+import Link from './link'
 
 const components = {
   // The "NewsletterSignup" key maps to a "template" defined

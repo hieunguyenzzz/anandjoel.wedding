@@ -7,9 +7,9 @@ import logo from '@/public/logo-768x721.png'
 import qaImage from '@/public/qa-tag-150x150.png'
 import storyImage from '@/public/story.png'
 import travelImage from '@/public/travel-tag-768x721.png'
-import Link from 'next/link'
 import client from '../../../../tina/__generated__/client'
 
+import Link from '@/components/common/link'
 import LangButton from '@/components/langbutton'
 import bg from '@/public/bg.png'
 export const menuItems = [
