@@ -1158,7 +1158,7 @@ blocks:
 
           * +84 9 3434 0905 (Whatsapp/Zalo/Viber)
 
-          * hanguyen@vietnamdiscovery.com
+          * hanguyen\@vietnamdiscovery.com
 
 
           <Link href="https://www.vietnam-visa.com/" text="Click here" />
@@ -1213,10 +1213,10 @@ blocks:
 
 
           * [FUTA Bus Lines](https://futabus.vn/): Giá vé một chiều khoảng
-          300.000đ/khách (~$13/pax)
+          300.000đ/khách (\~$13/pax)
 
           * [Thanh Buoi](https://thanhbuoi.com.vn/tuyen-hcm-da-lat.html): Giá vé
-          một chiều dao động từ 290.000 - 440.000đ/pax (~$13 - $19/pax) với
+          một chiều dao động từ 290.000 - 440.000đ/pax (\~$13 - $19/pax) với
           nhiều lựa chọn về chỗ ngồi (cabin/giường/ghế)
       - name: MONEY
         en: "### TIỀN TỆ\n\nViệc đổi tiền Việt Nam ở Mỹ có thể khó khăn. Chúng tôi khuyên bạn nên mang theo USD và đổi tại Việt Nam. Để có được tỷ giá hối đoái tốt nhất, bạn nên mang theo tờ 100 đô la mới, không có dấu vết hoặc vết rách. Để có được tỷ giá hối đoái tốt nhất, chúng tôi khuyên bạn nên đổi tại cửa hàng vàng bạc hoặc trang sức (Hầu hết đều nằm ở trung tâm Thành phố Hồ Chí Minh gần chợ Bến Thành). Bạn cũng có thể rút tiền từ máy ATM. Tuy nhiên, đối với các giới hạn cao hơn, chúng tôi khuyên bạn nên đến quầy thu ngân mang theo thẻ ghi nợ và hộ chiếu của bạn. Kiểm tra trước với ngân hàng của bạn về phí\n\nCác tài khoản sau không miễn phí giao dịch nước ngoài và sẽ hoàn trả phí ATM của bạn:\n\n1. Schwab Bank High Yield Investor Checking (Rẻ và tiện dụng nhất nhưng có khá ít chi nhánh)\n2. TD Beyond Checking\_\n3. Chase Sapphire checking or private banking\_\n4. CitiGold\n\nCác thẻ tín dụng sau không tính phí giao dịch nước ngoài:\n\n1. Chase Amazon Card (Không tính phí thường niên)\n2. Chase sapphire (Có phí thường niên)\n3. Amex gold and platinum card (Có phí thường niên)\n\n\\*Hãy nhớ rằng nhiều nơi chấp nhận thẻ tín dụng/ghi nợ nhưng một số vẫn chỉ chấp nhận tiền địa phương\n"
