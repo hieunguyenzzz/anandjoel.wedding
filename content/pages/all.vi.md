@@ -6,8 +6,8 @@ blocks:
       enjoyed
 
 
-      Vietnamese food is rich and diverse and varies by region. We hope you will
-      be able to explore some of these recommendations
+      Vietnamese food is rich and diverse and varies by region. They hope you
+      will be able to explore some of these recommendations
     item:
       - variant: Two
         title: HỒ CHÍ MINH

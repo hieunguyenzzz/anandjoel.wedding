@@ -2,20 +2,18 @@
 title: AnJoel
 blocks:
   - bottom_text: >
-      Here are a couple of suggestions from restaurants that An & Joel tried and
-      enjoyed
+      Dưới đây là một vài gợi ý từ các nhà hàng mà An & Joel đã thử và rất thích
 
-
-      Vietnamese food is rich and diverse and varies by region. We hope you will
-      be able to explore some of these recommendations
+      Món ăn Việt Nam phong phú, đa dạng và thay đổi theo từng vùng miền. An &
+      Joel hy vọng bạn sẽ có thể khám phá một số đề xuất này
     item:
       - variant: Two
         title: HỒ CHÍ MINH
         description: >-
-          An’s hometown and where Joel and An spend the most time usually. Ho
-          Chi Minh city will offer every variety of Vietnamese and world
-          cuisine. From fine dining to street food, you won’t be able to get
-          enough
+          Quê hương của An và nơi Joel và An dành nhiều thời gian nhất. Thành
+          phố Hồ Chí Minh sẽ có đủ loại ẩm thực của Việt Nam và thế giới. Từ đồ
+          ăn ngon đến đồ ăn đường phố, bạn sẽ không bao giờ cảm thấy "đủ" khi
+          trải nghiệm ẩm thực ở thành phố này
         image: /An Vegetarian.jpeg
       - variant: One
         title: Å by T.U.N.G
@@ -51,6 +49,15 @@ blocks:
         title: Phở bò Phú Gia
         description: '146e Lý Chính Thắng St, Ward 9, District 3, HCMC'
         image: /phở bò phú gia.jpeg
+        gallery:
+          - name: image
+            image: /21B8351E-8158-4E20-856C-1E00537B3A3A.jpeg
+          - name: image
+            image: /619505CD-1FEE-4E97-B1F7-4D6606D10AC0.jpeg
+          - name: image
+            image: /9318B018-D278-40A2-8480-82EA1FF023C6.jpeg
+          - name: image
+            image: /4861C5CD-CD89-4BA5-A6DC-436D63B84DFB.jpeg
       - variant: One
         title: Ivoire Pastry Boutique
         description: '28 Cao Bá Quát, Bến Nghé Ward, District 1, HCMC'
@@ -59,8 +66,6 @@ blocks:
           - /bites/saigon/Ivore/IMG_2186.jpeg
           - /bites/saigon/Ivore/IMG_2188.jpeg
           - /bites/saigon/Ivore/IMG_2190.jpeg
-          - /bites/saigon/Ivore/IMG_2191.jpeg
-          - /bites/saigon/Ivore/IMG_2192.jpeg
           - /bites/saigon/Ivore/IMG_2193.jpeg
           - /bites/saigon/Ivore/IMG_2194.jpeg
           - /bites/saigon/Ivore/IMG_2195.jpeg
@@ -249,6 +254,17 @@ blocks:
         title: Elgin
         description: '27 Mac Dinh Chi, Dakao, District 1, HCMC'
         image: /Elgin .jpeg
+        gallery:
+          - name: image
+            image: /91320F8D-80C3-4105-BDB4-AD0922B6BCDA.jpeg
+          - name: image
+            image: /DAD51971-535A-4112-B4DC-DD2F6452A602.jpeg
+          - name: image
+            image: /8B88A3E7-216E-46BD-8593-8D9708B8713D.jpeg
+          - name: image
+            image: /2BA8BCF2-523B-403D-BD97-D3EB8D4DF46D.webp
+          - name: image
+            image: /F476BF84-F1D8-4FB2-994D-62BF3EE8830E.webp
       - variant: One
         title: CLAY
         description: '18 street no. 6, Thảo Điền Ward, District 2, HCMC'
@@ -312,9 +328,9 @@ blocks:
       - variant: Two
         title: HÀ NỘI
         description: >-
-          Ha Noi is known for its unique pho and other northern delicacies.
-          However, it offers a wide variety of dishes from across Vietnam. Here
-          are some of An & Joel’s highlights
+          Hà Nội được biết đến với món phở độc đáo và các món ngon miền Bắc
+          khác. Tuy nhiên, nó cung cấp rất nhiều món ăn từ khắp Việt Nam. Dưới
+          đây là một số quán ăn nổi bật của An & Joel
         image: /Bún Chả Hàng Quạt.jpeg
       - variant: One
         title: Xới Cơm
@@ -339,11 +355,10 @@ blocks:
       - variant: Two
         title: SAPA
         description: >-
-          The unique flavors of Sapa will stay with you for a lifetime. From
-          boar meat to horse meat to homemade wine, it’ll be an experience you
-          will remember for the rest of your life. While Sapa doesn’t offer as
-          many luxury food options as other destinations its foods are unique,
-          flavorful and delicious
+          Những hương vị độc đáo của Sapa sẽ ở lại với bạn suốt đời. Từ thịt lợn
+          rừng, thịt ngựa đến rượu tự làm, đó sẽ là trải nghiệm bạn sẽ nhớ mãi.
+          Mặc dù Sapa không có nhiều lựa chọn ăn uống sang trọng như các điểm
+          đến khác nhưng đồ ăn ở đây rất độc đáo, có hương vị và thơm ngon
         image: /Red Dzao.jpeg
       - variant: One
         title: Cá Tầm Vua Restaurant
@@ -372,9 +387,9 @@ blocks:
       - variant: Two
         title: ĐÀ NẴNG
         description: >-
-          Da Nang offers various foods from both North, Central and South of
-          Vietnam. Get your virtual chopsticks ready with these must - try
-          restaurants in this destination!
+          Đà Nẵng cung cấp nhiều loại thực phẩm khác nhau từ cả Bắc, Trung và
+          Nam Việt Nam. Hãy chuẩn bị sẵn sàng với những nhà hàng phải thử ở điểm
+          đến này!
         image: /danang cover.jpeg
       - variant: One
         title: Cá Chuồn Cồ Vietnamese Restaurant
@@ -403,10 +418,10 @@ blocks:
       - variant: Two
         title: HỘI AN
         description: >-
-          Hoi An ranks as one of the top tourist destinations in Vietnam. It is
-          also one of An & Joel's favorite city’s (In no small part because it
-          is named after An..). The Banh Mi sandwiches and chicken rice dishes
-          will stay on your mind for the rest of your life
+          Hội An được xếp hạng là một trong những điểm du lịch hàng đầu ở Việt
+          Nam. Đây cũng là một trong những thành phố yêu thích của An & Joel
+          (Một phần vì trong Hội An có An). Món bánh mì, cơm gà sẽ đọng lại
+          trong tâm trí bạn đến hết cuộc đời
         image: /hoiancover.jpeg
       - variant: One
         title: Cao lầu Thanh
@@ -423,10 +438,11 @@ blocks:
       - variant: Two
         title: ĐÀ LẠT
         description: >-
-          Known for its fresh produce and dairy products, Dalat offers one of
-          the best culinary experiences in Vietnam for both Asian and Western
-          cuisine. Dalat is also known for its breathtaking coffee shops on
-          beautiful mountaintops, a must try while there
+          Được biết đến với các sản phẩm tươi sống và các sản phẩm từ sữa, Đà
+          Lạt mang đến một trong những trải nghiệm ẩm thực tuyệt vời nhất ở Việt
+          Nam cho cả ẩm thực châu Á và phương Tây. Đà Lạt còn nổi tiếng với
+          những quán cà phê tuyệt đẹp trên những đỉnh núi tuyệt đẹp, nhất định
+          phải thử khi đến đó
         image: /cover đà lạt.jpeg
       - variant: One
         title: Ốc 33
@@ -455,19 +471,19 @@ blocks:
     _template: bites
   - title: Explore Vietnam
     description: >-
-      A land of staggering natural beauty and cultural complexities, of dynamic
-      megacities and hill-tribe villages, Vietnam is unforgettably compelling
+      Một vùng đất có vẻ đẹp tự nhiên đáng kinh ngạc và sự phức tạp về văn hóa,
+      của những siêu đô thị năng động và những ngôi làng của người dân tộc miền
+      núi, Việt Nam có sức hấp dẫn khó quên
     item:
       - location: Lào Cai
         variant: Two
         title: Sapa
         description: >-
-          Sapa is a remote mountain town in Northern Vietnam with one of the
-          most scenic views that the country has to offer. Whether you want to
-          hike, explore the remote tribes of Vietnam or relax among the clouds,
-          Sapa is your destination to go.  Because of its remote nature, getting
-          to Sapa takes 5-6 hours from Hanoi via car or bus, but is well worth
-          the trek
+          Sapa là một thị trấn miền núi xa xôi ở miền Bắc Việt Nam với một trong
+          những cảnh đẹp nhất đất nước. Cho dù bạn muốn đi bộ đường dài, khám
+          phá các bộ lạc xa xôi của Việt Nam hay thư giãn giữa mây trời, Sapa là
+          điểm đến dành cho bạn. Vì tính chất xa xôi nên việc đến Sapa mất 5-6
+          giờ từ Hà Nội bằng ô tô hoặc xe buýt, nhưng rất đáng để trek
         image: /sapaaa.jpeg
         gallery:
           - name: image
@@ -518,9 +534,9 @@ blocks:
         variant: One
         title: Ninh Binh
         description: >-
-          Ninh Binh is a mesmerizing area known locally as ‘Ha Long Bay on Land’
-          thanks to its magical riverine landscape, with sheer limestone
-          mountains rising up from the paddies
+          Ninh Bình là một khu vực mê hoặc được người dân địa phương gọi là
+          'Vịnh Hạ Long trên cạn' nhờ phong cảnh ven sông huyền diệu, với những
+          ngọn núi đá vôi dựng đứng nhô lên từ cánh đồng
         image: /nINH BÌNH.jpeg
         gallery:
           - name: Hoa Lu Ancient Capital
@@ -571,11 +587,10 @@ blocks:
         variant: One
         title: Ha Noi
         description: >-
-          Hanoi is the capital city, a 2-hour flight north of Đà Lạt. A great
-          place to explore on foot, this city is also known for its delectable
-          cuisine, vibrant nightlife, silks and handicrafts, as well as a
-          multicultural community that’s made up of Chinese, French and Russian
-          influences
+          Hà Nội là thủ đô, cách Đà Lạt 2 giờ bay về phía bắc. Là một nơi tuyệt
+          vời để đi bộ khám phá, thành phố này còn nổi tiếng với ẩm thực ngon
+          lành, cuộc sống về đêm sôi động, tơ lụa và đồ thủ công cũng như một
+          cộng đồng đa văn hóa chịu ảnh hưởng của Trung Quốc, Pháp và Nga
         image: /hà NỘI.jpeg
         gallery:
           - name: Hotel de l'Opera Hanoi
@@ -626,9 +641,10 @@ blocks:
         variant: One
         title: Ha Long Bay
         description: >-
-          You can witness the giant limestone formations and caves on an
-          overnight boat cruise in HaLong Bay, which is arguably Vietnam’s most
-          recognized landscape, boasting over 1,600 limestone islands and islets
+          Bạn có thể chứng kiến những khối đá vôi khổng lồ và hang động trên
+          chuyến du ngoạn bằng thuyền qua đêm ở Vịnh Hạ Long, nơi được cho là
+          cảnh quan nổi tiếng nhất của Việt Nam, tự hào với hơn 1.600 hòn đảo đá
+          vôi và đảo nhỏ.
         image: /Hạ Long.jpeg
         gallery:
           - name: Aqua Of The Seas Cruise Halong
@@ -679,11 +695,11 @@ blocks:
         variant: One
         title: Quang Binh
         description: >-
-          Quang Binh is a beautiful province in Vietnam, located in the
-          north-central part of the country. It is known for its stunning
-          natural beauty, with limestone mountains, lush forests, and stunning
-          beaches. Quang Binh is also home to some of the most spectacular caves
-          in the world, including the world-famous Son Doong Cave
+          Quảng Bình là một tỉnh xinh đẹp của Việt Nam, nằm ở phía Bắc Trung Bộ
+          của đất nước. Nó được biết đến với vẻ đẹp tự nhiên tuyệt đẹp, với
+          những ngọn núi đá vôi, những khu rừng tươi tốt và những bãi biển tuyệt
+          đẹp. Quảng Bình cũng là nơi có một số hang động ngoạn mục nhất thế
+          giới, trong đó có hang Sơn Đoòng nổi tiếng thế giới
         image: /Quang bINH.jpeg
         gallery:
           - name: Sun Spa Resort & Villa
@@ -728,9 +744,9 @@ blocks:
         variant: One
         title: Da Nang
         description: >-
-          Da Nang is located in the middle of Vietnam featuring the Ba Na Hills.
-          Its close proximity to the popular My Khe Beach, Lang Co Beach, & the
-          city Hoi An, and My Son makes it a desired destination
+          Đà Nẵng nằm ở miền Trung Việt Nam với Bà Nà Hills. Nằm gần bãi biển Mỹ
+          Khê nổi tiếng, bãi biển Lăng Cô và thành phố Hội An và Mỹ Sơn khiến
+          nơi đây trở thành điểm đến mong muốn của tất cả du khách
         image: /Đà Nẵng.jpeg
         gallery:
           - name: Intercontinental Danang Sun Peninsula Resort
@@ -781,10 +797,10 @@ blocks:
         variant: One
         title: Hoi An
         description: >-
-          The beautiful city of Hoi An is sitting next to Da Nang. It's design
-          features an old fishing village, now classified a UNESCO World
-          Heritage Site. Small, quiet, but tourist friendly offering deliciously
-          fresh food
+          Thành phố Hội An xinh đẹp nằm cạnh Đà Nẵng. Nơi đây hình thành từ một
+          làng chài mang đậm nét lịch sử, hiện được UNESCO công nhận là Di sản
+          Thế giới. Hội An nhỏ nhắn, yên tĩnh nhưng thân thiện với khách du lịch
+          và phục vụ đồ ăn tươi ngon hết nấc
         image: /IMG_1656.jpeg
         gallery:
           - name: Four Seasons Resort The Nam Hai Hoi An
@@ -815,10 +831,10 @@ blocks:
         variant: One
         title: Phu Yen
         description: >-
-          Located near Da Lat, many people come to Phu Yen to admire the vast
-          rice fields, green lawns. Phu Yen will offer you a relaxing and unique
-          view of Vietnam. We recommend staying at the resort named Zannier
-          Hotels Bãi San Hô
+          Nằm gần Đà Lạt, nhiều người đến Phú Yên để chiêm ngưỡng những cánh
+          đồng lúa bạt ngàn, thảm cỏ xanh. Phú Yên sẽ mang đến cho bạn một cái
+          nhìn thư giãn và độc đáo về Việt Nam. Chúng tôi khuyên bạn nên lưu trú
+          tại khu nghỉ dưỡng có tên Zannier Hotels Bãi San Hô
         image: /Phú Yên.jpeg
         gallery:
           - name: Zannier Hotels Bai San Ho
@@ -861,12 +877,12 @@ blocks:
         variant: One
         title: Da Lat
         description: >-
-          The beautiful city of Dalat is one of An & Joel’s favorite cities. Its
-          luscious mountains and fields combined with its eternal spring
-          weather, make it a perfect getaway destination. Dalat is also called
-          the Flower City supplying its beautiful flowers to all of Vietnam.
-          From the moment An & Joel set foot in Dalat it captivated their
-          hearts. That’s why they chose to host their wedding in Dalat
+          Thành phố Đà Lạt xinh đẹp là một trong những thành phố được An & Joel
+          yêu thích. Những ngọn núi và cánh đồng tươi tốt kết hợp với thời tiết
+          thoáng mát khiến nơi đây trở thành một điểm đến nghỉ ngơi hoàn hảo. Đà
+          Lạt còn được gọi là Thành phố ngàn hoa cung cấp hoa đẹp cho cả nước
+          Việt Nam. Ngay từ khi An & Joel đặt chân đến Đà Lạt đã làm say đắm
+          trái tim họ. Đó là lý do họ chọn tổ chức đám cưới ở Đà Lạt
         image: /IMG_4041.jpeg
         gallery:
           - name: Cu Lan Village
@@ -901,12 +917,12 @@ blocks:
         variant: One
         title: Ho Chi Minh
         description: >-
-          Ho Chi Minh City is a comparatively young city with a history of just
-          over 300 years of formation and development. This vibrant city is
-          likened to the "Pearl of the Far East" because of its charming
-          heritage architecture, dynamic, vibrant and bustling atmosphere and
-          friendly people. Here, you can immerse yourself in the diverse cuisine
-          by the interference of many regions, and countries
+          Thành phố Hồ Chí Minh là một thành phố tương đối trẻ với lịch sử chỉ
+          hơn 300 năm hình thành và phát triển. Thành phố sôi động này được ví
+          như “Hòn ngọc Viễn Đông” bởi kiến trúc di sản quyến rũ, bầu không khí
+          năng động, sôi động và nhộn nhịp cùng con người thân thiện. Tại đây,
+          bạn có thể hòa mình vào nền ẩm thực đa dạng bởi sự giao thoa của nhiều
+          vùng miền, quốc gia
         image: /SG.jpeg
         gallery:
           - name: Park Hyatt
@@ -957,11 +973,11 @@ blocks:
         variant: One
         title: Phu Quoc
         description: >-
-          The island of Phu Quoc is a beach island offering both many activities
-          and tours as well as an abundance of relaxing beach fronts. Immerse in
-          natural beauty, or sit at the beach and relax. Phu Quoc in December is
-          quite hot and the perfect weather to sit at the beach. You can also
-          catch one of the most beautiful sunsets if you’re lucky
+          Đảo Phú Quốc là một hòn đảo ven biển cung cấp nhiều hoạt động và tour
+          du lịch cũng như vô số bãi biển thư giãn. Đắm mình trong vẻ đẹp thiên
+          nhiên, hoặc ngồi trên bãi biển và thư giãn. Phú Quốc vào tháng 12 khá
+          nóng và thời tiết hoàn hảo để ngồi ở bãi biển. Bạn cũng có thể bắt
+          được một trong những cảnh hoàng hôn đẹp nhất nếu may mắn
         image: /Phú Quốc.jpeg
         gallery:
           - name: InterContinental Phu Quoc Long Beach Resort
@@ -1012,16 +1028,16 @@ blocks:
           # CEREMONY
 
 
-          ### at Tiệm Cà Phê Hoàng Hôn Chiều
+          ### tại Tiệm Cà Phê Hoàng Hôn Chiều
 
 
-          DECEMBER 16, 2023
+          Ngày 16 tháng 12 năm 2023
 
 
           **09:00 AM - 10:30 AM**
 
 
-          9th Hill, Da Lat city, Lam Dong province, Vietnam
+          Dốc số 9, Thành phố Đà Lạt, Tỉnh Lâm Đồng, Việt Nam
 
 
           ![](/buom-buom-1.gif)
@@ -1030,16 +1046,16 @@ blocks:
           # RECEPTION
 
 
-          ### at The Campville
+          ### tại The Campville
 
 
-          DECEMBER 16, 2023
+          Ngày 16 tháng 12 năm 2023
 
 
           **4:00 PM - 9:00 PM**
 
 
-          Xuan Tho ward, Da Lat city, Lam Dong province, Vietnam
+          Phường Xuân Thọ, Thành phố Đà Lạt, Tỉnh Lâm Đồng, Việt Nam
 
 
           ![](/nhen-re.gif)
@@ -1048,12 +1064,12 @@ blocks:
           # TRANSPORTATION
 
 
-          Transportation will be provided from Du Parc hotel to the wedding
-          venues and back
+          An & Joel có chuẩn bị xe di chuyển từ Hotel Du Parc đến các địa điểm
+          và ngược lại
 
 
-          Please kindly be at the hotel lobby at 8:15 AM for ceremony and 3:15
-          PM for reception
+          Vui lòng có mặt tại sảnh lobby lúc 8:15 AM cho lễ ceremony và 3:15 PM
+          cho tiệc tối
 
 
           ![](/bo-ngua-re.gif)
@@ -1062,11 +1078,12 @@ blocks:
           # ACCOMMODATION
 
 
-          A block of complimentary rooms has been reserved at Hotel Du Parc in
-          Da Lat city from December 15 to December 17
+          Phòng đã được An & Joel đặt tại Hotel Du Parc từ ngày 15 đến ngày 17
+          tháng 12
 
 
-          Please let the hotel know that you’re with An & Joel wedding
+          Hãy nói với nhân viên khách sạn rằng bạn là khách của An & Joel để
+          được hỗ trợ chu đáo nhất!
 
 
           ![](/buom-re-1.gif)
@@ -1075,7 +1092,7 @@ blocks:
           # DRESS CODE
 
 
-          Ceremony: White or light colors. No busy patterns
+          Ceremony: Trắng hoặc các tone màu sáng. Chọn các họa tiết đơn giản
 
 
           Reception: Black tie
@@ -1084,102 +1101,193 @@ blocks:
     title: Questions & Answers
     fields:
       - name: content
-        en: "### Will transportation be provided from and to reception/hotel etc\n\nYes. Complimentary Shuttle buses will be provided between the two venues and from/to the hotel Du Parc. There will also be shuttle buses provided from and to the airport throughout the 15th and 17th of Dec. The exact details will be announced shortly\n\n### Will the ceremony, and reception take place indoors or outdoors?\n\nBoth will take place outdoors. The temperature in December is usually cool ranging from 20 –\_ 26 Celsius (60 – 72 Fahrenheit) in the mornings. At night it may get a bit cooler. We will have some outdoor heating but recommend dressing a bit warmer\n\n### Is there a registry or gift list?\n\nIn accordance with traditional Vietnamese culture a monetary gift represents the wedding gift. A cash gift is most appreciated, but not expected or required. Your presence is the greatest gift to us\n\n### Can I take photos during the ceremony?\n\nThere will be a professional photography team at the wedding but if you want to snap some memories of our special weekend, we kindly ask that you keep photos to a minimum during the ceremony. However, take as many as your heart desires during reception\n\n### Are children allowed at the ceremony?\n\nUnfortunately, no. Due to venue limitation, children age 12 or below are not allowed at the ceremony\n\n### What cuisine will be served at the reception?\n\nWe will serve Western food with Vietnamese influence. If you have any dietary restrictions please kindly remind us\n\n### When should we arrive in Vietnam?\n\nDue to the time difference, flight length, and jet lag, we recommend arriving at least 3 – 4 days prior to the wedding\n\n### When shopping, Is it ok to bargain pricing and if so, when & where?\n\nBargaining in Vietnam for goods is commonplace if there is no fixed price displayed. Bartering comes down to fine art. May the odds forever be in your favor!\n\n### What is the tipping culture in Vietnam?\n\nTipping isn’t mandatory or customary in Vietnam, but it is always appreciated. If you’re happy with the services provided by waiters, drivers and other service workers, leaving a small tip is a good way to show your appreciation. We recommend approximately 10%\n\n### How do things normally cost in Vietnam?\n\nFor accommodation, a 4-star hotel or above, on average, is $200/day. Food & drinks will be $100/day on average if you want to try a lot of different things (street foods / desserts / restaurants / coffee shops / etc.). If you go to clubs or some cool events or concert/rave or go to bars, it will be $200 – $500 for a week or so\n\n### Where can I exchange money?\n\n**In Ho Chi Minh City:**\n\n* EximBank Money Changer (135 Dong Khoi in District 1 of Ho Chi Minh City) is offering some of the best currency exchange rates in Saigon\n* Money Changers at Tan Son Nhat Airport (SGN)\n\n**In Ha Noi City:**\n\n* Money changers on Ha Trung St in the Old Quarter. You should compare the rate before exchanging money\n* Ha Noi Money Exchange: 19B Hang Be, Hoan Kiem District, Ha Noi\n\n### Can I rent a suit/ tuxedo in Vietnam?\n\nYes. We recommend Wedding Book at 583 Su Van Hanh st, Ward 3, District 10, HCMC to rent a suit or tuxedo. Please keep in mind that sizes in Vietnam run smaller than in the US/EU\n"
+        en: "### Có xe cộ đưa đón chúng tôi đến các địa điểm chứ?\n\nTất nhiên rồi. Xe di chuyển sẽ được cung cấp giữa hai địa điểm và từ/đến khách sạn Du Parc. Cũng sẽ có xe đưa đón từ và đến sân bay trong suốt ngày 15 và 17 tháng 12. Thông tin chi tiết chính xác sẽ sớm được thông báo\n\n### Ceremony và reception sẽ diễn ra trong nhà hay ngoài trời?\n\nCả hai sẽ diễn ra ngoài trời. Nhiệt độ vào tháng 12 thường mát mẻ, dao động từ 20 –\_ 26 độ C (60 – 72 độ F) vào buổi sáng. Vào ban đêm nó có thể mát hơn một chút. Chúng ta sẽ sưởi ấm ngoài trời nhưng khuyên bạn nên mặc ấm hơn một chút\n\n### Làm thế nào để chúng tôi có thể tặng quà cho hai bạn?\n\nTheo văn hóa truyền thống của người Việt, quà bằng tiền tượng trưng cho quà cưới. Phong bì sẽ là món quà cưới hợp lý nhất nhưng đây không phải là yêu cầu bắt buộc. Sự hiện diện của bạn là món quà lớn nhất đối với chúng tôi\n\n### Tôi có thể chụp ảnh trong buổi lễ không?\n\nSẽ có một đội ngũ chụp ảnh chuyên nghiệp tại đám cưới nhưng nếu bạn muốn ghi lại một số kỷ niệm về ngày cuối tuần đặc biệt của chúng tôi, chúng tôi hi vọng bạn sẽ chụp số lượng ảnh vừa phải trong quá trình buổi lễ diễn ra. Tuy nhiên, tại reception, hãy thỏa sức chụp những bức ảnh xinh đẹp lộng lẫy bao nhiêu tùy thích nhé\n\n### Trẻ em có được phép tham dự buổi lễ không?\n\nTiếc quá, do giới hạn về địa điểm, trẻ em từ 12 tuổi trở xuống không được khuyến khích tham dự buổi lễ. Hi vọng bạn thông cảm\n\n### Những món ăn nào sẽ được phục vụ tại reception?\n\nChúng tôi sẽ phục vụ các món ăn phương Tây mang âm hưởng Việt Nam. Nếu bạn có bất kỳ lưu ý gì về thực phẩm/ dị ứng, vui lòng báo cho chúng tôi nhé\n\n### Khi nào tôi nên đến Việt Nam?\n\nDo chênh lệch múi giờ, độ dài chuyến bay và độ trễ chuyến bay, chúng tôi khuyên bạn nên đến trước đám cưới ít nhất 3 – 4 ngày\n\n### Khi mua sắm, tôi có thể mặc cả giá được không và nếu có thì khi nào và ở đâu?\n\nViệc mặc cả hàng hóa ở Việt Nam là chuyện bình thường nếu không niêm yết giá cố định. Xin giảm giá là điều nên làm, và đây cũng là nét văn hóa thú vị khi mua sắm ở Việt Nam\n\n### Văn hóa tip ở Việt Nam là gì?\n\nTiền boa không phải là bắt buộc hay phong tục ở Việt Nam, nhưng nó luôn được đánh giá cao. Nếu bạn hài lòng với dịch vụ được cung cấp bởi người phục vụ, tài xế và nhân viên phục vụ khác, việc để lại một khoản tiền boa nhỏ là một cách hay để thể hiện sự đánh giá cao của bạn. Khoảng 10% là mức hợp lý\n\n### Mọi thứ thường có giá như thế nào ở Việt Nam?\n\nVề chỗ ở, khách sạn 4 sao trở lên trung bình là 200$/ngày. Đồ ăn & đồ uống sẽ có giá trung bình $100/ngày nếu bạn muốn thử nhiều món khác nhau (món ăn đường phố/món tráng miệng/nhà hàng/quán cà phê/v.v.). Nếu bạn đến câu lạc bộ hoặc một số sự kiện thú vị hoặc buổi hòa nhạc/rave hoặc đến quán bar, số tiền sẽ là $200 – $500 trong một tuần hoặc lâu hơn\n\n### Tôi có thể đổi tiền ở đâu?\n\n\\*\\* Tại Thành phố Hồ Chí Minh:\\*\\*\n\n* EximBank Money Changer (135 Đồng Khởi, Quận 1, Thành phố Hồ Chí Minh) đang cung cấp một số tỷ giá hối đoái tốt nhất tại Sài Gòn\n* Money Changers tại sân bay Tân Sơn Nhất SGN)\n\n**Tại Thủ đô Hà Nội:**\n\n* Quầy đổi tiền trên đường Hà Trung, khu phố cổ. Bạn nên so sánh tỷ giá trước khi đổi tiền\n* Ha Noi Money Exchange: 19B Hàng Bè, quận Hoàn Kiếm, Hà Nội\n\n### Tôi có thể thuê vest/tuxedo ở Việt Nam không?\n\nĐương nhiên rồi. Chúng tôi giới thiệu Wedding Book tại 583 Sư Vạn Hạnh, Phường 3, Quận 10, TP.HCM để thuê vest hoặc tuxedo. Xin lưu ý rằng kích thước ở Việt Nam nhỏ hơn ở Mỹ/EU\n"
     _template: content
   - name: travel
     title: TRAVEL & STAY
     fields:
       - name: conten
         en: >
-          ### FLIGHT
+          ### CHUYẾN BAY
 
 
-          The cheapest and most efficient way to arrive in Vietnam is by booking
-          a flight to Ho Chi Minh City and then taking a short domestic flight
-          into Da Lat (about 30 mins). For those flying from the US, please note
-          that the flight to Vietnam can be long (20-25 hours). Flights from NYC
-          require at least one layover. We recommend choosing an itinerary with
-          at least 2 - 2.5 hours of layover time to account for potential delays
-          and allow for transfers between terminals, as some airports are large
-          and may require additional security checks or luggage re-screenings.
+          Cách rẻ nhất và hiệu quả nhất để đến Việt Nam là đặt chuyến bay đến
+          Thành phố Hồ Chí Minh và sau đó bắt chuyến bay nội địa ngắn đến Đà Lạt
+          (khoảng 30 phút). Với những ai bay từ Mỹ, xin lưu ý chuyến bay về Việt
+          Nam có thể kéo dài (20-25 tiếng). Các chuyến bay từ NYC yêu cầu ít
+          nhất một lần quá cảnh. Chúng tôi khuyên bạn nên chọn hành trình có
+          thời gian quá cảnh ít nhất 2 - 2,5 giờ để phòng trường hợp có thể bị
+          chậm trễ và cho phép chuyển tuyến giữa các nhà ga vì một số sân bay
+          lớn và có thể yêu cầu kiểm tra an ninh bổ sung hoặc soi chiếu lại hành
+          lý.
 
+          Một số hãng hàng không chúng tôi đề xuất là:
 
-          Some airlines we recommend are:
+          \+ Hãng hàng không All Nippon Airways (ANA)
 
+          \+ Hãng hàng không Asiana
 
-          \+ All Nippon Airways (ANA)
-
-
-          \+ Asiana Airlines
-
-
-          \+ Qatar Airline
+          \+ Hãng hàng không Qatar
       - name: conten
-        en: "### VISA INFO\n\nVietnam requires a visa for guests coming from the US. To qualify for\_ a Vietnamese Visa, your Passport needs to be valid for at least 6 months following your arrival date. However, visas are easy to obtain and Vietnam has fully opened its borders to all passengers, regardless of their vaccination status.\n\nDIY Visa: You can apply for Vietnam E-Visa online via the government website. The process is fairly simple, quick, and affordable. It takes approximately 3 days to process and costs $25. You can apply in the link below. Please remember to print out your visa and bring it with you. When you arrive in Vietnam, you'll simply walk through customs, show your Passport and E-Visa to the officer to receive your entrance stamp.\n\nFor an easier process you may want to have an agency process the visa on your behalf for an additional $25 ($50 total). You can also add a fasttrack option where at the airport an employee will help you through customs for an additional $70. We recommend the following agency:\n\n* +84 9 3434 0905 (Whatsapp/Zalo/Viber)\n* hanguyen@vietnamdiscovery.com\n\n<Link href=\"https://www.vietnam-visa.com/\" text=\"Click here\" />\n"
+        en: >
+          ### THÔNG TIN VISA
+
+
+          Việt Nam yêu cầu phải có visa đối với khách đến từ Mỹ. Để đủ điều kiện
+          xin Visa Việt Nam, Hộ chiếu của bạn cần phải còn hiệu lực ít nhất 6
+          tháng kể từ ngày bạn đến. Tuy nhiên, thị thực rất dễ xin và Việt Nam
+          đã mở cửa hoàn toàn biên giới cho tất cả hành khách, bất kể tình trạng
+          tiêm chủng của họ.
+
+
+          Visa DIY: Bạn có thể nộp đơn xin Visa điện tử Việt Nam trực tuyến
+          thông qua trang web của chính phủ. Quá trình này khá đơn giản, nhanh
+          chóng và giá cả phải chăng. Quá trình xử lý mất khoảng 3 ngày và chi
+          phí là 25 USD. Bạn có thể đăng ký trong liên kết dưới đây. Hãy nhớ in
+          visa của bạn và mang theo bên mình. Khi đến Việt Nam, bạn chỉ cần làm
+          thủ tục hải quan, xuất trình Hộ chiếu và Visa điện tử cho nhân viên để
+          nhận tem nhập cảnh.
+
+
+          Để có quy trình dễ dàng hơn, bạn có thể nhờ một cơ quan thay mặt bạn
+          xử lý thị thực với số tiền bổ sung là $25 (tổng cộng là $50). Bạn cũng
+          có thể thêm tùy chọn theo dõi nhanh trong đó tại sân bay, nhân viên sẽ
+          giúp bạn làm thủ tục hải quan với khoản phí bổ sung là 70 USD. Chúng
+          tôi đề nghị cơ quan sau:
+
+
+          * +84 9 3434 0905 (Whatsapp/Zalo/Viber)
+
+          * hanguyen\@vietnamdiscovery.com
+
+
+          <Link href="https://www.vietnam-visa.com/" text="Click here" />
       - name: TRANSPORTATION
-        en: "### TRANSPORTATION\n\nGetting around Vietnam is easy via taxi. In your phone you will have pre downloaded the following apps:\_\n\n1. GRAB (similar to Uber) - You can link your US card or give them local currency\n2. Taxi cabs are also available at the airport and vietnam\_\n   1. In Ho Chi Minh city there are a\_ lot of Grab drivers. It should be easy to book from anywhere including the airport.\n   2. In Da Lat - Grab may be slower to the airport, we recommend booking a taxi in the airport (remember to bring enough local currency)\n"
+        en: >
+          ### PHƯƠNG TIỆN DI CHUYỂN
+
+
+          Đi vòng quanh Việt Nam thật dễ dàng bằng taxi. Trong điện thoại của
+          bạn, bạn sẽ tải xuống trước các ứng dụng sau:
+
+
+          1. GRAB (Tương tự như Uber) - Bạn có thể liên kết thẻ Hoa Kỳ của mình
+          hoặc đưa cho họ nội tệ
+
+          2. Xe taxi cũng có sẵn ở sân bay và Việt Nam
+             1. Hồ Chí Minh có rất nhiều tài xế Grab. Sẽ dễ dàng đặt vé từ bất cứ đâu kể cả sân bay
+             2. Ở Đà Lạt - Grab có thể đến sân bay chậm hơn, chúng tôi khuyên bạn nên đặt taxi tại sân bay (nhớ mang đủ tiền địa phương)
       - name: GOING TO DA LAT
-        en: "#### GOING TO DA LAT\n\n* **Traveling from Ho Chi Minh city to Da Lat by plane**\n\nFlying via plane is the quickest way to get from HCMC to Dalat. When entering SGN airport head to the Check-in counters then proceed upstairs to security. If you’re leaving in the morning security is generally quick and easy. We recommend getting to the airport at least an hour early to check in and get through security.\n\nOnce you arrive to Dalat, it takes approximately 45 minutes by taxi to arrive to the center of Da Lat. You may ask the driver for their contact info if you would like to continue using them throughout the trip.\_\n\n* **Traveling from Ho Chi Minh city to Da Lat by sleeper bus**\n\nIf you would like to experience traveling to Da Lat by road, you can try the sleeper bus. Buses\_ offer a few options such as private cabins, private beds, etc. It takes approximately 8 hours to travel from HCMC to Da Lat so we recommend taking the bus at night and arriving in the morning. We will provide a laying bed bus leaving Ho Chi Minh City early on Friday and leaving Dalat Sunday at noon. Please contact us should you want to join the complimentary bus ride.\n\nHere are some reputable sleeper bus brands:\n\n* [FUTA Bus Lines](https://futabus.vn/): A one-way trip is about 300.000VND/pax (~$13/pax)\n* [Thanh Buoi](https://thanhbuoi.com.vn/tuyen-hcm-da-lat.html): A one-way trip is ranging from 290.000 - 440.000VND/pax (~$13 - $19/pax) with many options of seats (cabin/bed/chair)\n"
+        en: >
+          #### ĐI ĐẾN ĐÀ LẠT
+
+
+          * Di chuyển từ thành phố Hồ Chí Minh đến Đà Lạt bằng máy bay
+
+
+          Đi máy bay là cách nhanh nhất để đi từ TP.HCM đến Đà Lạt. Khi vào sân
+          bay SGN, hãy đến quầy làm thủ tục, sau đó đi lên tầng trên để kiểm tra
+          an ninh. Nếu bạn rời đi vào buổi sáng thì việc kiểm tra an ninh thường
+          nhanh chóng và dễ dàng. Chúng tôi khuyên bạn nên đến sân bay sớm ít
+          nhất một giờ để làm thủ tục và qua cửa kiểm tra
+
+
+          Khi đến Đà Lạt, bạn mất khoảng 45 phút đi taxi để đến trung tâm Đà
+          Lạt. Bạn có thể yêu cầu tài xế cung cấp thông tin liên hệ của họ nếu
+          bạn muốn tiếp tục sử dụng chúng trong suốt chuyến đi
+
+
+          * Di chuyển từ thành phố Hồ Chí Minh đến Đà Lạt bằng xe giường nằm
+
+
+          Nếu bạn muốn trải nghiệm du lịch Đà Lạt bằng đường bộ thì có thể thử
+          dùng xe giường nằm. Xe buýt có một số lựa chọn như cabin riêng, giường
+          riêng, v.v. Mất khoảng 8 giờ để đi từ TP.HCM đến Đà Lạt nên chúng tôi
+          khuyên bạn nên đi xe buýt vào ban đêm và đến vào buổi sáng. Chúng tôi
+          sẽ cung cấp xe giường nằm rời Thành phố Hồ Chí Minh sớm vào thứ Sáu và
+          rời Đà Lạt vào buổi trưa Chủ nhật. Vui lòng liên hệ với chúng tôi nếu
+          bạn muốn tham gia chuyến xe buýt miễn phí.
+
+
+          Dưới đây là một số thương hiệu xe giường nằm uy tín:
+
+
+          * [FUTA Bus Lines](https://futabus.vn/): Giá vé một chiều khoảng
+          300.000đ/khách (\~$13/pax)
+
+          * [Thanh Buoi](https://thanhbuoi.com.vn/tuyen-hcm-da-lat.html): Giá vé
+          một chiều dao động từ 290.000 - 440.000đ/pax (\~$13 - $19/pax) với
+          nhiều lựa chọn về chỗ ngồi (cabin/giường/ghế)
       - name: MONEY
-        en: "### CURRENCY\n\nGetting Vietnamese Dong in the US can be tough. We recommend bringing USD and exchanging it in Vietnam. To get the best exchange rate, it is recommended to bring new $100 bills with no marks or rips. To get the best exchange rate we recommend exchanging it at a\_ gold or jewelry store (Most are located in the center of Ho Chi Minh City near Ben Thanh Market). You can also withdraw from the ATMs. However, for higher limits we recommend going to the teller with your debit card and passport. Check with your bank beforehand for fees\_\n\nThe following accounts offer no foreign transaction fees and will reimburse your ATM assed fee:\_\n\n1. Schwab Bank High Yield Investor Checking (Cheapest and most convenient options but limited branches)\n2. TD Beyond Checking\_\n3. Chase Sapphire checking or private banking\_\n4. CitiGold\n\nThe following credit cards have no foreign transaction fee\n\n1. Chase Amazon Card (No annual fee)\n2. Chase sapphire (Has an annual fee)\n3. Amex gold and platinum card (Has an annual fee)\n\n\\*Keep in mind that a lot of places take credit/debit but some still only accept local currency\n"
+        en: "### TIỀN TỆ\n\nViệc đổi tiền Việt Nam ở Mỹ có thể khó khăn. Chúng tôi khuyên bạn nên mang theo USD và đổi tại Việt Nam. Để có được tỷ giá hối đoái tốt nhất, bạn nên mang theo tờ 100 đô la mới, không có dấu vết hoặc vết rách. Để có được tỷ giá hối đoái tốt nhất, chúng tôi khuyên bạn nên đổi tại cửa hàng vàng bạc hoặc trang sức (Hầu hết đều nằm ở trung tâm Thành phố Hồ Chí Minh gần chợ Bến Thành). Bạn cũng có thể rút tiền từ máy ATM. Tuy nhiên, đối với các giới hạn cao hơn, chúng tôi khuyên bạn nên đến quầy thu ngân mang theo thẻ ghi nợ và hộ chiếu của bạn. Kiểm tra trước với ngân hàng của bạn về phí\n\nCác tài khoản sau không miễn phí giao dịch nước ngoài và sẽ hoàn trả phí ATM của bạn:\n\n1. Schwab Bank High Yield Investor Checking (Rẻ và tiện dụng nhất nhưng có khá ít chi nhánh)\n2. TD Beyond Checking\_\n3. Chase Sapphire checking or private banking\_\n4. CitiGold\n\nCác thẻ tín dụng sau không tính phí giao dịch nước ngoài:\n\n1. Chase Amazon Card (Không tính phí thường niên)\n2. Chase sapphire (Có phí thường niên)\n3. Amex gold and platinum card (Có phí thường niên)\n\n\\*Hãy nhớ rằng nhiều nơi chấp nhận thẻ tín dụng/ghi nợ nhưng một số vẫn chỉ chấp nhận tiền địa phương\n"
       - name: MEDICINE
         en: >
-          ### HEALTH & FOOD SAFETY
+          ### SỨC KHỎE & AN TOÀN THỰC PHẨM
 
 
-          The food in Vietnam is generally fresh and tasty. However, If you have
-          a weak immune system or stomach, we recommend traveling with some
-          over-the-counter medicine. We also recommend booking an appointment
-          with your doctor beforehand to ensure a smooth trip
+          Đồ ăn ở Việt Nam nhìn chung tươi ngon. Tuy nhiên, nếu bạn có hệ thống
+          miễn dịch hoặc dạ dày yếu, chúng tôi khuyên bạn nên mang theo một số
+          loại thuốc không kê đơn khi đi du lịch. Chúng tôi cũng khuyên bạn nên
+          đặt lịch hẹn trước với bác sĩ để đảm bảo chuyến đi suôn sẻ
 
 
-          \*We typically bring Advil, Aquaphor (mosquito/ bug bites), Pepto
-          Bismol, & Flu medicine
+          \*Chúng tôi thường mang theo Advil, Aquaphor (muỗi/rệp cắn), Pepto
+          Bismol và thuốc cảm cúm
       - name: DAILY TRAVEL BAG
         en: >
-          ### DAILY TRAVEL BAG
+          ### TÚI ĐEO HẰNG NGÀY
 
 
-          For daily items we recommend keeping it in a cross-body or fanny pack
-          (brand name bags are strongly discouraged in crowded areas)
+          Đối với các vật dụng hàng ngày, chúng tôi khuyên bạn nên để nó trong
+          túi đeo chéo hoặc túi đeo hông (túi có thương hiệu không được khuyến
+          khích ở những khu vực đông người)
       - name: TOILET
-        en: "### BATHROOM ETIQUETTE\n\nIn Asia, some places do not use toilet paper, instead they use a bidet (water pipe)\_ to clean after going. If you’re not comfortable with this, we highly suggest bringing toilet paper or napkins in your daily bag in case. If you are planning to visit some of the more remote locations, some toilets cannot handle toilet paper. You will utilize the trash can next to you to dispose of the toilet paper\n"
+        en: >
+          ### NHÀ VỆ SINH
+
+
+          Ở châu Á, một số nơi không sử dụng giấy vệ sinh mà thay vào đó họ dùng
+          bidet để vệ sinh sau khi đi. Nếu bạn không thoải mái với điều này,
+          chúng tôi khuyên bạn nên mang theo giấy vệ sinh hoặc khăn giấy trong
+          túi hàng ngày của mình để đề phòng. Nếu bạn dự định đến thăm một số
+          địa điểm xa hơn, một số nhà vệ sinh không thể xử lý được giấy vệ sinh.
+          Bạn sẽ tận dụng thùng rác bên cạnh để vứt giấy vệ sinh
       - name: MAPS
         en: >
-          ### MAPS & PHONE SERVICES
+          ### BẢN ĐỒ VÀ DỊCH VỤ ĐIỆN THOẠI
 
 
-          Google maps works well in Vietnam and most carriers have an
-          international plan. We will also provide a backup Vietnamese phone
-          preloaded with the essential apps and phone numbers
+          Google maps hoạt động tốt ở Việt Nam và hầu hết các nhà mạng đều có
+          gói quốc tế. Chúng tôi cũng sẽ cung cấp một điện thoại Việt Nam dự
+          phòng được cài sẵn các ứng dụng và số điện thoại cần thiết
       - name: WEATHER
         en: >
-          ### CLIMATE & WEATHER
+          ### KHÍ HẬU & THỜI TIẾT
 
 
-          Vietnam’s weather is tropical but each region has its unique weather
-          patterns. Ho Chi Minh city is on the warmer side (usually 80-100 F).
-          However, Da Lat’s weather is cool and breezy (earning the nickname
-          “City of Eternal Spring”). At night it can get a bit chilly in Dalat
-          so make sure to bring some winter clothes
+          Thời tiết Việt Nam thuộc vùng nhiệt đới nhưng mỗi vùng lại có kiểu
+          thời tiết riêng. Thành phố Hồ Chí Minh ở phía ấm hơn (thường là 80-100
+          F). Tuy nhiên, thời tiết Đà Lạt mát mẻ, trong lành (được mệnh danh là
+          "City of Eternal Spring”). Vào ban đêm ở Đà Lạt có thể hơi lạnh nên
+          hãy nhớ mang theo quần áo mùa đông
       - name: ATTIRE
         en: >
-          ### DAILY ATTIRE
+          ### TRANG PHỤC HÀNG NGÀY
 
 
-          In Saigon we recommend wearing light and breezy clothing. In Dalat we
-          recommend wearing several layers of clothing to keep warm. (Except on
-          the wedding day because you need to dress up). Most hotels offer
-          laundry services, and prices change depending on the item and
-          materials. We don’t recommend packing too many items. You will most
-          than likely reuse and buy new outfits
+          Ở Sài Gòn chúng tôi khuyên bạn nên mặc quần áo nhẹ nhàng và thoáng
+          mát. Ở Đà Lạt chúng tôi khuyên bạn nên mặc nhiều lớp quần áo để giữ
+          ấm. (Ngoại trừ ngày cưới vì bạn cần ăn diện). Hầu hết các khách sạn
+          đều cung cấp dịch vụ giặt là và giá cả thay đổi tùy theo mặt hàng,
+          chất liệu. Chúng tôi không khuyên bạn nên đóng gói quá nhiều mặt hàng.
+          Rất có thể bạn sẽ tái sử dụng và mua trang phục mới
       - name: LUGGAGE
         en: >
-          ### LUGGAGE
+          ### HÀNH LÝ
 
 
-          We recommend bringing an extra carry-on or duffle bag as you will more
-          than likely bring back more goods than what you came with
+          Chúng tôi khuyên bạn nên mang thêm túi xách tay hoặc túi vải thô vì
+          rất có thể bạn sẽ mang về nhiều hàng hóa hơn những gì bạn mang theo
     _template: content
   - name: story
     title: How it all began
@@ -1189,12 +1297,13 @@ blocks:
         en: ''
       - variant: Text
         en: >
-          The tale of An and Joel, unique as it is, beautifully illustrates the
-          profound truth that love recognizes no boundaries – not vast
-          distances, nor sky-high mountain ranges, nor the widest of rivers.
-          It's the celestial dance of Duyên and of Bashert, a concept common to
-          both the Jewish and Vietnamese cultures, a serendipity predestined by
-          fate, written in the stars, of two souls destined to cross paths
+          Câu chuyện của An và Joel, tuy độc đáo nhưng lại là một minh chứng rõ
+          ràng nhất rằng tình yêu không có ranh giới - không phải khoảng cách xa
+          xôi, cũng không phải núi cao ngất trời, cũng không phải dòng sông rộng
+          nhất. Đó là sự kết hợp của "Duyên" và "Bashert" một khái niệm chung
+          trong cả hai nền văn hóa Việt Nam và Do Thái, một sự tình cờ được định
+          mệnh sắp đặt, được viết trên các vì sao, của hai tâm hồn có số phận
+          phải giao nhau
       - variant: B7
         en: ''
         images:
@@ -1213,11 +1322,11 @@ blocks:
         en: ''
       - variant: Text
         en: >
-          Their journey together begins in 2015, when Joel sent An “a confusing
-          message” online — after all, Joel didn’t grow up speaking English.
-          Historically An always favored longer text exchanges before a personal
-          meeting, but this time he felt a mysterious nudge to embrace the
-          unknown
+          Hành trình cùng nhau của họ bắt đầu vào năm 2015, khi Joel gửi cho An
+          “một tin nhắn khó hiểu” - thật ra, Joel không quá quen dung tiếng Anh.
+          Ngày trước, An luôn thích nhắn tin tìm hiểu trước khi có một cuộc gặp
+          riêng, nhưng lần này anh cảm thấy có một sự thôi thúc bí ẩn để đón
+          nhận một điều chưa biết
       - variant: Image_1_2
         en: ''
         images:
@@ -1230,11 +1339,12 @@ blocks:
           - /E519844F-E880-4205-978A-6A32A77045E4.jpeg
       - variant: Text_Image
         en: >
-          So, a lunch date was made; and, as fate would have it, lunch developed
-          into a delightful spree of mani-pedi, dessert, a movie, and an
-          unforgettable dinner. A single hour stretched into twelve, and what
-          began as a simple date blossomed into an enchanting journey that has
-          lasted eight years and counting
+          Vì vậy, một cuộc hẹn ăn trưa đã được chọn; và, như số phận đã sắp đặt,
+          bữa trưa đã phát triển thành một bữa tiệc thú vị với món mani-pedi,
+          đến tráng miệng, rồi một bộ phim và kết thúc bằng một bữa tối khó
+          quên. Một giờ kéo dài thành mười hai giờ, và những gì bắt đầu như một
+          cuộc hẹn hò đơn giản đã tạo thành một cuộc hành trình đầy mê hoặc kéo
+          dài tám năm và còn hơn thế nữa
         images:
           - /0B858AC0-A437-4100-BF46-FD6EF8EC1EFC.jpeg
       - variant: Image_2_1
@@ -1256,11 +1366,12 @@ blocks:
         en: ''
       - variant: Text
         en: >
-          Seven years into their shared bliss, amidst the scenic backdrop of the
-          mountains of Dalat, as the sun cast its first golden hues, An decided
-          it was the moment to begin their next chapter together. On May 18,
-          2022, with a long, heartfelt speech rehearsed and ready, all that An
-          could muster in that moment was, "I think it's time."
+          Sau bảy năm chung sống hạnh phúc, giữa khung cảnh tuyệt đẹp của dãy
+          núi Đà Lạt, khi mặt trời chiếu những sắc vàng đầu tiên, An quyết định
+          đây là thời điểm để bắt đầu chương tiếp theo của họ. Vào ngày 18 tháng
+          5 năm 2022, với lời phát biểu dài và chân thành có vẻ đã được luyện
+          tập. Ngay khi sẵn sàng, tất cả những gì An có thể nghĩ đến được trong
+          khoảnh khắc đó là “Anh nghĩ đã đến lúc rồi!"
       - variant: Images_1_1
         en: ''
         images:
@@ -1273,16 +1384,16 @@ blocks:
           - /BE21A5B0-3DFA-4914-ABB0-D8BF8D45E073.jpeg
       - variant: Text
         en: >
-          "Hark, My Beloved, There he comes leaping over the mountains, bounding
-          over hills." - Song of Songs 2:8
+          “Này, người yêu dấu của tôi, anh ấy vượt núi băng sông ...” - Trích
+          Songs 2:8
       - variant: B7
         en: ''
         images:
           - /AJ.jpeg
       - variant: Text
         en: >
-          Now, An and Joel are excited and honored to commemorate this, their
-          love story, with you in the very same mountain town where An proposed
+          Giờ đây, An và Joel đang rất vui mừng và vinh dự được kỷ niệm điều
+          này, câu chuyện tình yêu của họ, với bạn tại chính nơi An đã cầu hôn
       - variant: B6
         name: on one knee
         en: ''
