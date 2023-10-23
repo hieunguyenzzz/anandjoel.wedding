@@ -6,6 +6,7 @@ import { PageBlocksContent } from '../../../tina/__generated__/types';
 
 import { useSource } from '@/libs/source';
 import { Field } from "@/libs/tina";
+import { useEffect, useState } from 'react';
 import { tinaField } from "tinacms/dist/react";
 import { TinaMarkdown } from 'tinacms/dist/rich-text';
 
@@ -30,13 +31,37 @@ export function EventContent({ data }: { data: PageBlocksContent }) {
 
   )
 }
+let hadShow = false
+let pass = 'camonanhlong'
 export default function Event() {
+  const [show, setShow] = useState(hadShow)
   const source = useSource();
+  useEffect(() => {
+    let show = localStorage.getItem('hadShow')
+    if (show) setShow(true)
+  }, [])
+  useEffect(() => {
+    if (show) {
+      hadShow = true
+      localStorage.setItem('hadShow', JSON.stringify(hadShow))
+
+    }
+  }, [show])
   let index = source?.blocks?.findIndex((item: any) => {
     console.log({ item })
     return item?.__typename === 'PageBlocksContent' && item?.name === 'event'
   })
-  console.log({ source, index })
+  if (!show) return <div className="w-full h-full min-h-[600px] py-[140px] flex justify-center items-center z-50 isolate">
+    <div className='max-w-xl text-center'>
+      <h3 className="font-bold text-lg">Password</h3>
+      <div className='block w-full py-6' >
+        <input onChange={e => {
+          if (e.target.value === pass) setShow(true)
+        }} type="text" placeholder="Type here" className="input block  input-bordered w-full max-w-xs" />
+        <button className='btn btn-block btn-primary mt-6'>Submit</button>
+      </div >
+    </div >
+  </div >
   const data = source?.blocks?.[index || -1]
   return <Field name={`blocks.${index}.name`}>{data && <EventContent data={data} />}</Field>
 }
