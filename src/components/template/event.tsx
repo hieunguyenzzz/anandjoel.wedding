@@ -32,7 +32,7 @@ export function EventContent({ data }: { data: PageBlocksContent }) {
   )
 }
 let hadShow = false
-let pass = 'camonanhlong'
+let pass = 'anjoel2023'
 export default function Event() {
   const [show, setShow] = useState(hadShow)
   const source = useSource();
