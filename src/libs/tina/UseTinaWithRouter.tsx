@@ -2,25 +2,19 @@
 import { useEffect, useState } from "react"
 import { useTina } from "tinacms/dist/react"
 import client from "../../../tina/__generated__/client"
-import { Exact, PageQuery } from "../../../tina/__generated__/types"
+import { Exact, FullQuery, PageQuery } from "../../../tina/__generated__/types"
 import { useSetSource, useSource } from '../source'
-export const UseTinaWithRouter = ({ relativePath }: { relativePath: string }) => {
-  const [tinaData, setTinadata] = useState<{
-    data: PageQuery,
-    variables: Exact<{ relativePath: string }>,
-    query: string
-  } | null | undefined>()
-  useEffect(() => {
-    client.queries.page({ relativePath }).then((data) => {
-      setTinadata(data)
-    })
-  }, [])
-  if (!tinaData) return null
-  return <UseTina {...tinaData}>
+export const UseTinaWithRouter = (props:{
+  data: FullQuery,
+  variables: Exact<{ relativePath: string }>,
+  query: string
+}) => {
+  props
+  return <UseTina {...props}>
   </UseTina>
 }
 export const UseTina = (props: {
-  data: PageQuery,
+  data: FullQuery,
   variables: Exact<{ relativePath: string }>,
   query: string
 }) => {

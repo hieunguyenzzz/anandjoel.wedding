@@ -30,9 +30,68 @@ export default defineConfig({
   schema: {
     collections: [
       {
+        name: 'Event',
+        path: "content/event",
+        format: "json",
+        fields: [{
+          name: 'name',
+          type: "string",
+          required: true,
+          isTitle: true,
+        }, {
+          name: 'title',
+          type: "string",
+        }, {
+          name: 'description',
+          type: "string",
+        }, {
+          name: 'video_url',
+          type: "string",
+        }, {
+          type: "object",
+          name: "fields",
+          list: true,
+          ui: {
+            itemProps: (item) => ({
+              ...item,
+              label: item.title || item.name || item.variant,
+            }),
+          },
+          fields: [
+            {
+              name: 'name',
+              type: "string",
+            },
+            {
+              name: 'en',
+              type: "rich-text",
+              templates: [
+                {
+                  "name": "Link",
+                  fields: [
+                    {
+                      name: 'href',
+                      type: "string",
+                    },
+                    {
+                      name: 'text',
+                      type: "string",
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              name: 'images',
+              type: "image",
+              list: true,
+            }
+          ]
+        },],
+      },
+      {
         name: "page",
         label: "Pages",
-        // format: "json",
         path: "content/pages",
         fields: [
           {
@@ -52,17 +111,18 @@ export default defineConfig({
             name: 'blocks',
             type: 'object',
             list: true,
-            ui: {
-              itemProps: (item) => ({
-                ...item,
-                label: item.title || item.name,
-              }),
-            },
+
             templates: [
               schemaBites,
               schemaExplore,
               {
                 name: 'content',
+                ui: {
+                  itemProps: (item) => ({
+                    ...item,
+                    label: item.title || item.name,
+                  }),
+                },
                 fields: [{
                   name: 'name',
                   type: "string",
@@ -90,6 +150,70 @@ export default defineConfig({
                       type: "string",
                       options: ["Title", "Text", "Images", "Images_1_1", "Image_1_2", "Image_2_1", "Text_Image", "Images_6", "B1", "B2", "B3", "B4", "B5", "B6", "B7"],
                     },
+                    {
+                      name: 'name',
+                      type: "string",
+                    },
+                    {
+                      name: 'en',
+                      type: "rich-text",
+                      templates: [
+                        {
+                          "name": "Link",
+                          fields: [
+                            {
+                              name: 'href',
+                              type: "string",
+                            },
+                            {
+                              name: 'text',
+                              type: "string",
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      name: 'images',
+                      type: "image",
+                      list: true,
+                    }
+                  ]
+                },],
+              },
+              {
+                name: 'Event',
+                ui: {
+                  itemProps: (item) => ({
+                    ...item,
+                    label: item.title || item.name,
+                  }),
+                },
+                fields: [{
+                  name: 'name',
+                  type: "string",
+                  required: true,
+                  isTitle: true,
+                }, {
+                  name: 'title',
+                  type: "string",
+                }, {
+                  name: 'description',
+                  type: "string",
+                }, {
+                  name: 'video_url',
+                  type: "string",
+                }, {
+                  type: "object",
+                  name: "fields",
+                  list: true,
+                  ui: {
+                    itemProps: (item) => ({
+                      ...item,
+                      label: item.title || item.name || item.variant,
+                    }),
+                  },
+                  fields: [
                     {
                       name: 'name',
                       type: "string",

@@ -1,0 +1,8 @@
+query full($relativePath: String!) {
+  page(relativePath: $relativePath) {
+    ...PageParts
+  }
+  Event(relativePath: "Event.json") {
+    ...EventParts
+  }
+}

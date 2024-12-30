@@ -18,10 +18,10 @@ export default async function RootLayout({
   children: React.ReactNode,
   params: { locale: string }
 }) {
-  const props = await client.queries.page({ relativePath: getrelativePath(locale) })
+  const props = await client.queries.full({ relativePath: getrelativePath(locale) })
   return (
     <SourceProvider defaultsource={props.data}>
-      <UseTinaWithRouter relativePath={props.variables.relativePath} />
+      <UseTinaWithRouter {...props} />
       {children}
     </SourceProvider>
   )
