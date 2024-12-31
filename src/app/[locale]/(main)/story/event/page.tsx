@@ -133,8 +133,14 @@ export default function Page() {
                 </ul>
                 <img className="max-w-[200px]  mx-auto my-24" src="/bo-ngua-re.gif"></img>
                 <div className=" min-h-screen flex w-full h-full justify-center items-center">
-                <div className="lg:max-w-[50vw] mx-auto relative w-full aspect-video">
-             <video  controls muted autoPlay src="https://res.cloudinary.com/dfgbpib38/video/upload/f_auto:video,q_auto/AnJoel/cudmqrtwawefjlrgova4" className="absolute inset-0 w-full h-full border-8 border-white rounded-xl object-cover"></video>
+                
+
+                <div className="lg:max-w-[50vw] mx-auto relative w-full flex justify-center items-center"> 
+                <div className="aspect-video group relative w-full overflow-hidden rounded-xl bg-slate-400 bg-opacity-20 backdrop-blur-lg">
+
+<iframe  className="absolute w-full h-full rounded-xl"  src="https://player.vimeo.com/video/1043082643?badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479" width="1280" height="720" frameborder="0" allow="autoplay; fullscreen; picture-in-picture; clipboard-write" title="anjoe_animation_720p"></iframe>
+<div className="group-hover:shadow-none transition-shadow pointer-events-none absolute inset-0 w-full h-full shadow-[inset_0px_0px_20px_25px_#000]"></div>
+</div>
             </div>
                 </div>
             
