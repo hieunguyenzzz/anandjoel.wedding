@@ -81,9 +81,10 @@ export default function Page() {
         <div className="z-10 relative mx-auto max-w-[65ch] ">
           <div className="w-full h-full flex  flex-col relative pt-[100px] justify-center items-center md:pt-[10vw]  gap-24 ">
             <div className="lg:max-w-[50vw] relative w-full aspect-video flex justify-center items-center">
-              <div className="aspect-video relative w-full overflow-hidden ">
+              <div className="aspect-video group relative w-full overflow-hidden rounded-xl bg-slate-400 bg-opacity-20 backdrop-blur-lg">
 
             <iframe  className="absolute w-full h-full rounded-xl" src="https://player.vimeo.com/video/1043078570?badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479" width="1280" height="720" frameBorder="0" allow="autoplay; fullscreen; picture-in-picture; clipboard-write" title="anjoe"></iframe>
+            <div className="group-hover:shadow-none transition-shadow pointer-events-none absolute inset-0 w-full h-full shadow-[inset_0px_0px_20px_25px_#000]"></div>
               </div>
 
             </div>
