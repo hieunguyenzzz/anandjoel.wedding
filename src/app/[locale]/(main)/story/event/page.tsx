@@ -81,9 +81,7 @@ export default function Page() {
         <div className="z-10 relative mx-auto max-w-[65ch] ">
           <div className="w-full h-full flex  flex-col relative pt-[100px] justify-center items-center md:pt-[10vw]  gap-24 ">
             <div className="lg:max-w-[50vw] relative w-full aspect-video flex justify-center items-center">
-            <iframe id="ytplayer" type="text/html" width="720" height="405"
-src="https://www.youtube.com/embed/1mVlukqXksw?autoplay=1&disablekb=1&enablejsapi=1&fs=0&modestbranding=1&playsinline=1"
-frameborder="0" allowfullscreen/>
+            <iframe src="https://player.vimeo.com/video/1043078570?badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479" width="1280" height="720" frameBorder="0" allow="autoplay; fullscreen; picture-in-picture; clipboard-write" title="anjoe"></iframe>
 
             </div>
             <img className="max-w-[200px] mx-auto mb-24" src="/buom-buom-1.gif"></img>
