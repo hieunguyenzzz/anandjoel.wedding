@@ -68,7 +68,7 @@ export default function Page() {
   let event = useEvent()
    const [current, setCurrent] = useState<string|null|undefined>(null)
     const currentItem = event.fields?.find((item, index) => (item?.name) === current)
-  console.log({event})
+
   return (
     <>
       <div className={clsx("isolate invisible md:visible fixed inset-0 h-full  w-full z-20 flex items-center")}>
@@ -80,8 +80,10 @@ export default function Page() {
       <div className="transition-all z-30 relative duration-[3s] w-full ease-in-out isolate mx-auto">
         <div className="z-10 relative mx-auto max-w-[65ch] ">
           <div className="w-full h-full flex  flex-col relative pt-[100px] justify-center items-center md:pt-[10vw]  gap-24 ">
-            <div className="lg:max-w-[50vw] relative w-full aspect-video">
-             <video  controls muted autoPlay src="https://res.cloudinary.com/dfgbpib38/video/upload/f_auto:video,q_auto/AnJoel/cudmqrtwawefjlrgova4" className="absolute inset-0 w-full h-full border-8 border-black rounded-xl object-cover"></video>
+            <div className="lg:max-w-[50vw] relative w-full aspect-video flex justify-center items-center">
+            <iframe id="ytplayer" type="text/html" width="720" height="405"
+src="https://www.youtube.com/embed/1mVlukqXksw?autoplay=1&disablekb=1&enablejsapi=1&fs=0&modestbranding=1&playsinline=1"
+frameborder="0" allowfullscreen/>
 
             </div>
             <img className="max-w-[200px] mx-auto mb-24" src="/buom-buom-1.gif"></img>
