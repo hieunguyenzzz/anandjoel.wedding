@@ -38,5 +38,8 @@
     "daisyui": "^3.7.5",
     "prettier-plugin-tailwindcss": "^0.5.4",
     "tailwindcss-animated": "^1.0.1"
+  },
+  "engines": {
+    "node": "v18.17.0"
   }
 }
