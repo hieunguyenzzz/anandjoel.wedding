@@ -1119,7 +1119,7 @@ blocks:
       - name: TRANSPORTATION
         en: "### TRANSPORTATION\n\nGetting around Vietnam is easy via taxi. In your phone you will have pre downloaded the following apps:\_\n\n1. GRAB (similar to Uber) - You can link your US card or give them local currency\n2. Taxi cabs are also available at the airport and vietnam\_\n   1. In Ho Chi Minh city there are a\_ lot of Grab drivers. It should be easy to book from anywhere including the airport.\n   2. In Da Lat - Grab may be slower to the airport, we recommend booking a taxi in the airport (remember to bring enough local currency)\n"
       - name: GOING TO DA LAT
-        en: "#### GOING TO DA LAT\n\n* **Traveling from Ho Chi Minh city to Da Lat by plane**\n\nFlying via plane is the quickest way to get from HCMC to Dalat. When entering SGN airport head to the Check-in counters then proceed upstairs to security. If you’re leaving in the morning security is generally quick and easy. We recommend getting to the airport at least an hour early to check in and get through security.\n\nOnce you arrive to Dalat, it takes approximately 45 minutes by taxi to arrive to the center of Da Lat. You may ask the driver for their contact info if you would like to continue using them throughout the trip.\_\n\n* **Traveling from Ho Chi Minh city to Da Lat by sleeper bus**\n\nIf you would like to experience traveling to Da Lat by road, you can try the sleeper bus. Buses\_ offer a few options such as private cabins, private beds, etc. It takes approximately 8 hours to travel from HCMC to Da Lat so we recommend taking the bus at night and arriving in the morning. We will provide a laying bed bus leaving Ho Chi Minh City early on Friday and leaving Dalat Sunday at noon. Please contact us should you want to join the complimentary bus ride.\n\nHere are some reputable sleeper bus brands:\n\n* [FUTA Bus Lines](https://futabus.vn/): A one-way trip is about 300.000VND/pax (\\~$13/pax)\n* [Thanh Buoi](https://thanhbuoi.com.vn/tuyen-hcm-da-lat.html): A one-way trip is ranging from 290.000 - 440.000VND/pax (\\~$13 - $19/pax) with many options of seats (cabin/bed/chair)\n"
+        en: "#### GOING TO DA LAT\n\n* **Traveling from Ho Chi Minh city to Da Lat by plane**\n\nFlying via plane is the quickest way to get from HCMC to Dalat. When entering SGN airport head to the Check-in counters then proceed upstairs to security. If you’re leaving in the morning security is generally quick and easy. We recommend getting to the airport at least an hour early to check in and get through security.\n\nOnce you arrive to Dalat, it takes approximately 45 minutes by taxi to arrive to the center of Da Lat. You may ask the driver for their contact info if you would like to continue using them throughout the trip.\_\n\n* **Traveling from Ho Chi Minh city to Da Lat by sleeper bus**\n\nIf you would like to experience traveling to Da Lat by road, you can try the sleeper bus. Buses\_ offer a few options such as private cabins, private beds, etc. It takes approximately 8 hours to travel from HCMC to Da Lat so we recommend taking the bus at night and arriving in the morning. We will provide a laying bed bus leaving Ho Chi Minh City early on Friday and leaving Dalat Sunday at noon. Please contact us should you want to join the complimentary bus ride.\n\nHere are some reputable sleeper bus brands:\n\n* [FUTA Bus Lines](https://futabus.vn/): A one-way trip is about 300.000VND/pax (~$13/pax)\n* [Thanh Buoi](https://thanhbuoi.com.vn/tuyen-hcm-da-lat.html): A one-way trip is ranging from 290.000 - 440.000VND/pax (~$13 - $19/pax) with many options of seats (cabin/bed/chair)\n"
       - name: MONEY
         en: "### CURRENCY\n\nGetting Vietnamese Dong in the US can be tough. We recommend bringing USD and exchanging it in Vietnam. To get the best exchange rate, it is recommended to bring new $100 bills with no marks or rips. To get the best exchange rate we recommend exchanging it at a\_ gold or jewelry store (Most are located in the center of Ho Chi Minh City near Ben Thanh Market). You can also withdraw from the ATMs. However, for higher limits we recommend going to the teller with your debit card and passport. Check with your bank beforehand for fees\_\n\nThe following accounts offer no foreign transaction fees and will reimburse your ATM assed fee:\_\n\n1. Schwab Bank High Yield Investor Checking (Cheapest and most convenient options but limited branches)\n2. TD Beyond Checking\_\n3. Chase Sapphire checking or private banking\_\n4. CitiGold\n\nThe following credit cards have no foreign transaction fee\n\n1. Chase Amazon Card (No annual fee)\n2. Chase sapphire (Has an annual fee)\n3. Amex gold and platinum card (Has an annual fee)\n\n\\*Keep in mind that a lot of places take credit/debit but some still only accept local currency\n"
       - name: MEDICINE
@@ -1300,6 +1300,216 @@ blocks:
         en: ''
         images:
           - /IMG_0289.JPEG
+      - variant: Title
+        name: Tin’s Vows
+        en: >
+          Booboo 
+
+
+          I am so happy standing in front of you in this moment, looking
+          straight at you, the person i love most in this world, to make a vow
+          to you in front of all our friends and family who have travelled a
+          long way to be here and bear witness to this beautiful moment of us.
+          It has been an incredible 8 years being with you. I honestly feel
+          words wouldn't be able to describe fully the immense love and respect
+          i have for you as a person, as a friend, as a lover, and as a teacher.
+          Being with you has taught me so much about myself, about the truth
+          that love can be boundless, love can be patient, and love can be
+          forgiving. 
+
+
+          Before i met you, i was selfish and hasty, i was someone who left home
+          at 15 and thought that i and i alone can complete me. I was like the
+          Little Prince in his own little planet before he met the rose. Then
+          everything changed when i met you. But unlike the little prince,
+          unlike those romantic comedies, I was not madly in love with you at
+          first sight, i was not head over heel---our connection was not some
+          loud flashy firework in my heart...it was something better! It was
+          like a cool breeze in the summer heat, invisible but unmistakably
+          felt; it was like flowing water...shapeless but powerful; it was like
+          the first ray of sunlight at dawn, soft but piercingly bright...and it
+          was like a heartbeat, imperceptible but quietly signifies life. And
+          you--- YOU are my life. 
+
+
+          Every moments with you is every moment i treasure. Everyone who knows
+          me knows i have terrible memory and yet somehow i am able to remember
+          every moment i spend with you so clearly. I remember every time you
+          pick up the laundries for me even though you had a hectic day from
+          work, i remember every time you pick me up or drop me off at the
+          airport at 4 in the morning, every time you go out at midnight to buy
+          snacks for me when i tell you i crave something, every time you look
+          so happy when i get home from a long shoot; and just last week, when
+          we rode aimlessly at 3 in the morning on a scooter exploring saigon,
+          and decided to follow a random scooter we saw to see where it might
+          take us. It was so much fun for us...but not so much for the 2 random
+          guys we followed when they realized there was an innocent looking
+          white guy driving a young asian boy in the back, dressing in
+          conspicuous sparkling pants, trying following them to Bien Hoa... yes
+          those silly fun, somewhat risky moments with you, i wouldn't trade
+          them for anything. 
+
+
+          I also love how we are always on the same page when it comes to big
+          important things in life, like that time recently...after a few weeks
+          of us trying very hard to lose weight for this wedding, and when we
+          finally weighted ourselves on the digital scale, saw our weights didnt
+          drop at all, we TOGETHER totally believed that the scale must have
+          been broken, and proceeded to buy a new one on Amazon for same day
+          delivery...then returned it because the new scale, to our disbelief,
+          also showed the same numbers as the old one. That level of shared
+          delulu, as the young people say, is what i love about us. 
+
+
+          All jokes asides, I feel no matter what, I could always count on you.
+          Time and time again, with all the ups and downs of life, you have
+          shown me that I have found the right life partner, the Yin to my Yang,
+          the person who likes bread crust while i like the bread crumb. You
+          complete me in ways i never thought possible. And you show me, a proud
+          Asian, that it is possible one plus one equal 3. 
+
+
+          I wrote this vow 3 days before our wedding, at 4 in the morning,
+          laying in bed right next to you, your back turned towards me, looking
+          at the your golden hair, listening to you breathing softly, i suddenly
+          feel so peaceful, so happy, so content, so loved that i gave you a
+          gentle kiss on your warm rosy cheek. That kiss was just another one of
+          the thousands of kisses i have given you while you were sleeping over
+          the years we have shared together. And without any doubt, i know I
+          have received just as many kisses from you while i was sleeping. These
+          hidden kisses symbolize the foundation of our love, of doing things
+          for each other while the other person not knowing, of doing it because
+          it feels right and because it feels good. 
+
+
+          For the proposal, I got on my knee and froze...only uttered 5 words
+          "boo i think its time!" But i hope i did a bit better this time
+          around. 
+
+
+          Thank you so much for loving me for who i am, for always being there
+          when i feel down, for being my teacher when I need to see things from
+          another perspective, and for being my friend when i just need someone
+          to listen while venting about a difficult day. I think success is
+          easy, i could succeed with anyone; but when i fail...i want to fail
+          with you. Because you support me without judgement and give me the
+          courage to try again...If the world is to end tomorrow, I want to take
+          my last breath with you, holding each other just like that old couple
+          in the Titanic.... 
+
+
+          As i said earlier, when i first met you, unlike the movies, i didnt
+          have fireworks in my heart, i didnt obsess over you...but now, i find
+          myself falling deeper and deeper in love. Every day waking up with
+          you, it IS firework in my heart, every moment spending with you, it IS
+          head over heel, every time looking at you, it IS love at first
+          sight...and i know undoubtedly that our movie would, for sure, last
+          much much MUCH longer than those 90 mins rom-coms! I hope that life
+          would be so kind and give us enough time so that we can continue
+          writing our movie together for years to come. 
+
+
+          I promise to love you with all my heart, to be patient, to be kind, to
+          be respectful and to be there when you need me, and always put you
+          first. 
+
+
+          I LOVE YOU BOO BOO!
+      - variant: Title
+        name: Joel’s vows
+        en: >
+          People always ask me when it was that I knew that you were The One.
+          The simple answer is that it was on our very first date. In a sense
+          that first night was the trailer of our relationship. That night I had
+          an intuition that having you by my side would transform the rest of my
+          life and make it as magical as this first meeting was becoming. 
+
+
+          Even on that first meeting you pushed me to the edge of my comfort
+          zone, but in such a gentle manner that I felt embraced by your
+          strength, and nothing seemed too daunting. Like the fact that we ended
+          up at a difficult-to-get-reservation-Michelin starred restaurant after
+          I mentioned that I’ve never tried raw seafood. What a pleasant way to
+          get introduced to it.
+
+
+          And so in our relationship you always push me but I know that you’re
+          right there to catch me if I falter. No matter the circumstances I
+          always feel surrounded by your oh-so solid comfort so I know that I
+          can always get back up 
+
+
+          I’ll never forget the end of that first date, when I dropped you off
+          home and you asked me, “Are you going to kiss me now?” That perfect
+          display of gentle kindness but clever tact told me that you were
+          everything I wanted in a partner. In fact it was at that moment that I
+          thought to myself, “He is The One.” 
+
+
+          And these last eight years since that magnetized date night have been
+          everything I ever dreamed my life could be and more. I adore the early
+          mornings, when you’ve just fallen asleep but I rise for my daily run.
+          Tiptoeing around the bedroom and listening to your cute sleeping
+          sounds, I gaze at your face every day and wonder what have I done to
+          deserve the most amazing person in the world to be right here with me.
+          The tiny kiss I always give you on my way out the door never fails to
+          invigorate me and give me the motivation for the day. And of course I
+          know that I will find my phone fully charged when I awake, even when I
+          fell asleep the night before while watching a show or with one of the
+          housewives sitting on the tip of my nose. Because in the small and
+          simple details is where true love seeps through. 
+
+
+          To this day I am still in constant awe of the grit that you possess
+          yet the gentle balance that you coalesce. Your velvet strength is
+          adept to handle my fragility, and my softness lithe to absorb your
+          power. As distinct as our personalities are, they are also perfectly
+          aligned like pieces of a jigsaw puzzle which, when assembled, reveals
+          itself to be the most beautiful canvas ever painted.
+
+
+          Sailing through life with you feels like a perfectly choreographed
+          dance, because no matter how we twist, turn, and dip, we always end up
+          in each other’s arms. The place that is us: Our home. Because your
+          heart is where my home is. 
+
+
+          So If all this sounds like a dream, it doesn’t stop here. Because in
+          addition to being the most brilliant, effervescent, and most beautiful
+          partner I could ever hope for, you’re also my best friend. I’ll never
+          stop being amazed by how we can so often go for days without leaving
+          each other’s sides, and yet the instant we separate my heart yearns
+          for your playful and adorable noises again. 
+
+
+          And while we are together, I love how a three-hour drive just to get
+          to a little restaurant in some random town is the most reasonable
+          thing in the world. And how, no matter how many thousands of calories
+          we consumed after ordering nearly the entire menu, we definitely
+          didn’t order too much because we just tried stuff. With you, the most
+          mundane activities, whether strolling around town, buying groceries,
+          or just sitting in traffic, become utterly ethereal experiences. 
+
+
+          I love how wonderful you make my life with your perfect dash of spice;
+          how I can count on you to know the exact amount of sugar to add when
+          I’m getting a bit salty, and the precise measure of umami called for
+          when I slide into the too-saccharine. 
+
+
+          So as we stand here today surrounded by our gathered loved ones, I
+          solemnly promise you that first and foremost always communicate my
+          feelings with you. I will cherish and treasure the precious flame of
+          your love eternally. I promise to always be there for you, whether it
+          means standing up to kick someone's butt or if the occasion calls for
+          being an invisible fly on the wall. I could not possibly have chosen a
+          better partner to share the rest of my life with, and I’m overflowing
+          with excitement for all the adventures our future together holds. I am
+          beyond ecstatic knowing that whatever that future brings, it will be a
+          blast because you’ll be there with me. 
+
+
+          I love you so much!
     _template: content
 ---
 
