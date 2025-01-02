@@ -138,7 +138,7 @@ export default function Page() {
                 <div className="lg:max-w-[50vw] mx-auto relative w-full flex justify-center items-center"> 
                 <div className="aspect-video group relative w-full overflow-hidden rounded-xl bg-slate-400 bg-opacity-20 backdrop-blur-lg">
 
-<iframe  className="absolute w-full h-full rounded-xl"  src="https://player.vimeo.com/video/1043082643?badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479" width="1280" height="720" frameborder="0" allow="autoplay; fullscreen; picture-in-picture; clipboard-write" title="anjoe_animation_720p"></iframe>
+<iframe  className="absolute w-full h-full rounded-xl"  src="https://player.vimeo.com/video/1043362935?badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479" width="1280" height="720" frameborder="0" allow="autoplay; fullscreen; picture-in-picture; clipboard-write" title="anjoe_animation_720p"></iframe>
 <div className="group-hover:shadow-none transition-shadow pointer-events-none absolute inset-0 w-full h-full shadow-[inset_0px_0px_20px_25px_#000]"></div>
 </div>
             </div>
