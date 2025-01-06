@@ -1301,7 +1301,7 @@ blocks:
         images:
           - /IMG_0289.JPEG
       - variant: Title
-        name: An’s vow
+        name: An’s vows
         en: >
           Booboo 
 
