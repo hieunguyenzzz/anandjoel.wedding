@@ -1,7 +1,6 @@
 "use client"
 import Image from "@/components/common/image";
 import { useEvent } from "@/libs/source";
-import { ImageProps } from "next/image";
 import { ReactNode, useEffect, useId, useState } from "react";
 import 'react-image-lightbox/style.css';
 import Lightbox, {
@@ -117,7 +116,7 @@ function Gallery({ title, description, images: _images, onClose }: { title: stri
   const [open, setOpen] = useState<number | Boolean>(false)
   let images: SlideImage[] = _images?.map(img => ({
     src: img,
-
+ alt:""
   })) || []
 
   const id = useId()
@@ -139,7 +138,7 @@ function Gallery({ title, description, images: _images, onClose }: { title: stri
               <div className="w-full h-full grid grid-cols-2 sm:grid-cols-2  md:grid-cols-3 lg:grid-cols-5 gap-6 ">
                 {images.map((item, i) => {
                   return <button onClick={() => setOpen(i)} key={i} className="w-full   h-full relative pb-[100%] text-white group">
-                    <Image {...item} width={600} height={600} className="rounded-lg object-cover absolute inset-0 w-full h-full bg-slate-50 bg-opacity-30  " />
+                    <Image {...item} width={400} height={400} className="rounded-lg object-cover absolute inset-0 w-full h-full bg-slate-50 bg-opacity-30  " />
                   </button>
                 })}
               </div>
@@ -159,7 +158,7 @@ function Gallery({ title, description, images: _images, onClose }: { title: stri
       <Lightbox
         open={open !== false}
         close={() => setOpen(false)}
-        slides={images}
+        slides={images.map(item=>imgPropsToSlideProps(item))}
         render={{ slide: NextJsImage, thumbnail: NextJsImage }}
         plugins={[Thumbnails]}
         index={Number(open)}
@@ -169,10 +168,12 @@ function Gallery({ title, description, images: _images, onClose }: { title: stri
   )
 }
 
-let imgPropsToSlideProps = (imgProps: ImageProps): SlideImage => {
+let imgPropsToSlideProps = (imgProps: {src:string,alt:string}): SlideImage => {
+  if(imgProps.src.includes("https://assets.tina.io/3a743d97-a554-4b19-acc5-85219789c469"))
   return {
-    src: imgProps.src.toString(),
+    src: `https://thumbor.hieunguyen.dev/unsafe/2000x/`+encodeURIComponent(imgProps.src),
     alt: imgProps.alt,
 
   };
+  return imgProps;
 }
