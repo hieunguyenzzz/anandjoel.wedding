@@ -50,7 +50,6 @@ export default function Page() {
             <div className="lg:max-w-[50vw] relative w-full aspect-video flex justify-center items-center">
               <div className="aspect-video group relative w-full overflow-hidden rounded-xl bg-slate-400 bg-opacity-20 backdrop-blur-lg">
                 <iframe className="absolute w-full h-full rounded-xl" src="https://player.vimeo.com/video/1044266566?badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479" width="1280" height="720" frameBorder="0" allow="autoplay; fullscreen; picture-in-picture; clipboard-write" title="anjoe"></iframe>
-                <div className="group-hover:shadow-none transition-shadow pointer-events-none absolute inset-0 w-full h-full shadow-[inset_0px_0px_20px_25px_#da9dab]"></div>
               </div>
             </div>
             <div className=" animate-fade-up w-full animate-delay-[800ms] pointer-events-auto">
@@ -96,7 +95,6 @@ export default function Page() {
               <div className="lg:max-w-[50vw] mx-auto relative w-full flex justify-center items-center pointer-events-auto">
                 <div className="aspect-video group relative w-full overflow-hidden rounded-xl bg-slate-400 bg-opacity-20 backdrop-blur-lg">
                   <iframe className="absolute w-full h-full rounded-xl" src="https://player.vimeo.com/video/1043362935?badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479" width="1280" height="720" frameborder="0" allow="autoplay; fullscreen; picture-in-picture; clipboard-write" title="anjoe_animation_720p"></iframe>
-                  <div className="group-hover:shadow-none transition-shadow pointer-events-none absolute inset-0 w-full h-full shadow-[inset_0px_0px_20px_25px_#da9dab]"></div>
                 </div>
               </div>
               <img className="max-w-[min(20vw,120px)]  mx-auto mb-24" src="/buom-buom-1.gif"></img>
@@ -135,10 +133,10 @@ function Gallery({ title, description, images: _images, onClose }: { title: stri
               {description}
             </div>
             <div className=" flex-1  self-center w-full py-[1.5rem] animate-fade-up animate-delay-150">
-              <div className="w-full h-full grid grid-cols-2 sm:grid-cols-2  md:grid-cols-3 lg:grid-cols-5 gap-6 ">
+              <div className="w-full h-full grid  gap-6 ">
                 {images.map((item, i) => {
                   return <button onClick={() => setOpen(i)} key={i} className="w-full   h-full relative pb-[100%] text-white group">
-                    <Image {...item} width={400} height={400} className="rounded-lg object-cover absolute inset-0 w-full h-full bg-slate-50 bg-opacity-30  " />
+                    <Image {...item} width={2000} height={2000} className="rounded-lg object-cover absolute inset-0 w-full h-full bg-slate-50 bg-opacity-30  " />
                   </button>
                 })}
               </div>
