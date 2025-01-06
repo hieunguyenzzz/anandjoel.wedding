@@ -4,6 +4,7 @@ const nextConfig = {
   images: {
     domains: [
       "assets.tina.io",
+      "res.cloudinary.com"
     ],
   },
   async rewrites() {
