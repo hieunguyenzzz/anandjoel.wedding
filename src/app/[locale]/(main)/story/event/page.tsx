@@ -54,16 +54,18 @@ export default function Page() {
             </div>
             <div className=" animate-fade-up w-full animate-delay-[800ms] pointer-events-auto">
               <div className="container">
-                <img className="max-w-[min(20vw,80px)] mx-auto mb-24" src="/nhen-re.gif"></img>
+                <img className="max-w-[min(20vw,80px)] mx-auto mb-24" src="/gif/nhen.webp"></img>
                 <ul className="grid grid-cols-3 gap-6">
                   {
                     event.fields?.map((field, index) => {
                       let title = field?.name
                       let image = field?.images?.[0]
+                      if(!image) 
+                        return null
                       return <li key={index} className="text-center w-full ">
                         <div className='galleryID-item w-full h-full  pt-[100%] lg:pt-[100%] relative '>
                           <div className=' rounded-lg bg-[#e9a48a52] w-full h-full absolute inset-0'>
-                            {image && <Image width={600} height={600} src={image || '/'} alt={title || ''} className='object-cover w-full h-full absolute inset-0 rounded-lg' />}
+                            {image && <Image width={400} height={400} sizes="400px" src={image} alt={title || ''} className='object-cover w-full h-full absolute inset-0 rounded-lg' />}
                           </div>
                           <button onClick={() => setCurrent(title)} className="absolute left-0 cursor-pointer top-0 h-full w-full flex justify-center items-center text-center  text-magical">
                             <div className="bg-white p-[0.5em_0.5em_0.5em_0.5em] relative">
@@ -91,13 +93,13 @@ export default function Page() {
      
           <Mark id={'content'} className="mt-[5vh]">
             <div className=" min-h-screen flex w-full h-full justify-center items-center  gap-12 flex-col ">
-              <img className="max-w-[min(20vw,120px)] mx-auto my-24" src="/bo-ngua-re.gif"></img>
+              <img className="max-w-[min(20vw,120px)] mx-auto my-24" src="/gif/bongua.webp"></img>
               <div className="lg:max-w-[50vw] mx-auto relative w-full flex justify-center items-center pointer-events-auto">
                 <div className="aspect-video group relative w-full overflow-hidden rounded-xl bg-slate-400 bg-opacity-20 backdrop-blur-lg">
                   <iframe className="absolute w-full h-full rounded-xl" src="https://player.vimeo.com/video/1043362935?badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479" width="1280" height="720" frameborder="0" allow="autoplay; fullscreen; picture-in-picture; clipboard-write" title="anjoe_animation_720p"></iframe>
                 </div>
               </div>
-              <img className="max-w-[min(20vw,120px)]  mx-auto mb-24" src="/buom-buom-1.gif"></img>
+              <img className="max-w-[min(20vw,120px)]  mx-auto mb-24" src="/gif/buom.webp"></img>
             </div>
           </Mark>
         </div>
@@ -133,10 +135,10 @@ function Gallery({ title, description, images: _images, onClose }: { title: stri
               {description}
             </div>
             <div className=" flex-1  self-center w-full py-[1.5rem] animate-fade-up animate-delay-150">
-              <div className="w-full h-full grid  gap-6 ">
+              <div className="w-full h-full grid md:grid-cols-3 lg:grid-cols-4  gap-6 ">
                 {images.map((item, i) => {
                   return <button onClick={() => setOpen(i)} key={i} className="w-full   h-full relative pb-[100%] text-white group">
-                    <Image {...item} width={2000} height={2000} className="rounded-lg object-cover absolute inset-0 w-full h-full bg-slate-50 bg-opacity-30  " />
+                    <Image {...item} width={400} height={400} className="rounded-lg object-cover absolute inset-0 w-full h-full bg-slate-50 bg-opacity-30  " sizes="400px"/>
                   </button>
                 })}
               </div>
