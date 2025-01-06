@@ -1,9 +1,8 @@
 "use client"
 import Image from "@/components/common/image";
 import { useEvent } from "@/libs/source";
-import clsx from 'clsx';
 import { ImageProps } from "next/image";
-import { ReactNode, useEffect, useId, useMemo, useState } from "react";
+import { ReactNode, useEffect, useId, useState } from "react";
 import 'react-image-lightbox/style.css';
 import Lightbox, {
   SlideImage
@@ -23,40 +22,16 @@ const Mark = ({ children, id, className }: { children: ReactNode, id: string, cl
       setNumber(total)
     } else {
       window.addEventListener("scroll", (e) => {
-        let height = window.innerHeight / 2
+        let height = window.innerHeight / 3 *2
         // console.log('scroll', window.scrollY, Math.floor((Math.max(height - window.scrollY, 0) / height * total)))
         setNumber(total - Math.floor((Math.max(height - window.scrollY, 0) / height * total)))
       });
     }
 
   }, []);
-  return <>
-    {useMemo(() => <style >{`
-  #mark-${id}{
-    background-size: cover;
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-    -webkit-mask: url(data:image/png;base64,png=);
-    -webkit-mask-image: url(data:image/png;base64,png=);
-    -webkit-mask-position-x: initial;
-    -webkit-mask-position-y: initial;
-    -webkit-mask-size: initial;
-    -webkit-mask-repeat-x: initial;
-    -webkit-mask-repeat-y: initial;
-    -webkit-mask-origin: initial;
-    -webkit-mask-clip: initial;
-    -webkit-mask-size: 1500% 600%;
-    mask-size: 1500% 600%;
-    -webkit-box-orient: vertical;
-    -webkit-mask-size: 1500% 600%;
-    -webkit-mask-image: url(/middle-240.webp);
-    mask-image: url(/middle-240.webp);
-    -webkit-mask-position: calc(${number % 15} / 14 * 100%) calc(${Math.floor(number / 15)} / 5 * 100%);
-  }`}</style>, [number])}
-    <div id={`mark-${id}`} className={className + " pointer-events-none"} >
-      {children}
-    </div >
-  </>
+  return  <div id={`mark-${id}`} className={className + " pointer-events-none"} >
+  {children}
+</div >
 }
 export default function Page() {
   let event = useEvent()
@@ -65,12 +40,11 @@ export default function Page() {
 
   return (
     <>
-      <div className={clsx("isolate invisible md:visible fixed inset-0 h-full  w-full z-20 flex items-center")}>
-        <div className="pointer-events-none">
-          <Image src={right} priority placeholder='blur' className='absolute top-[136px] md:top-0 w-1/2  md:w-[131vh] object-top right-0 h-auto max-w-full pointer-events-none object-cover animate-fade' />
-          <Image src={left} priority placeholder='blur' className='absolute top-[136px] md:top-0 w-1/2 md:w-[131vh]  object-top left-0    h-auto max-w-full pointer-events-none object-cover animate-fade' />
-        </div>
-      </div>
+         <Mark id={'bg'} className="fixed inset-0 w-full h-full" ><div className="pointer-events-none fixed inset-0 ">
+            <Image src={bgImage} priority placeholder='blur' className='fixed object-top inset-0 w-full  h-full max-w-full pointer-events-none object-cover  -z-10 ' />
+            <Image src={right} priority placeholder='blur' className='absolute transform translate-y-[max(-70vw,-100vh)] top-0  w-[131vh] object-top right-0 h-auto max-w-full pointer-events-none object-cover animate-fade' />
+            <Image src={left} priority placeholder='blur' className='absolute transform translate-y-[max(-70vw,-100vh)] top-0 w-[131vh]  object-top left-0    h-auto max-w-full pointer-events-none object-cover animate-fade' />
+          </div></Mark>
       <div className="transition-all z-30 relative duration-[3s] w-full ease-in-out isolate mx-auto">
         <div className="z-10 relative mx-auto max-w-[65ch] ">
           <div className="w-full h-full flex  flex-col relative pt-[100px] justify-center items-center md:pt-[3vw]  gap-24 ">
@@ -82,8 +56,8 @@ export default function Page() {
             </div>
             <div className=" animate-fade-up w-full animate-delay-[800ms] pointer-events-auto">
               <div className="container">
-                <img className="max-w-[min(30vw,80px)] mx-auto mb-24" src="/nhen-re.gif"></img>
-                <ul className="grid grid-cols-2 lg:grid-cols-3 gap-6">
+                <img className="max-w-[min(20vw,80px)] mx-auto mb-24" src="/nhen-re.gif"></img>
+                <ul className="grid grid-cols-3 gap-6">
                   {
                     event.fields?.map((field, index) => {
                       let title = field?.name
@@ -103,7 +77,7 @@ export default function Page() {
                                 10.6,14.1 9.9,15 8.2,16.7 8.8,17.2 8.4,18 8.8,18.8 8.7,19.6 8.8,20.5 8.7,20.9 8.7,21.3 9.2,21.8 8.7,22.6 8.8,23 8.8,23.2
                                 9,23.4 8.6,23.7 8.4,24.4 8.4,24.9 7.9,25.2 7.6,26.1 7.9,26.8 8.5,27.6 6.9,28 0,28 0,0 " /></svg>
                                 <div className='flex flex-col items-center text-center'>
-                                  <h3 className="font-bold text-lg font-title text-magical-item leading-[1.2]">{title}</h3>
+                                  <h3 className="font-bold text-sm lg:text-lg font-title text-magical-item leading-[1.2]">{title}</h3>
                                 </div>
                               </div>
                             </div>
@@ -113,26 +87,20 @@ export default function Page() {
                     })
                   }
                 </ul>
-
-
               </div>
             </div>
           </div>
-          <Mark id={'bg'} className="fixed inset-0 w-full h-full" ><div className="pointer-events-none fixed inset-0 ">
-            <Image src={bgImage} priority placeholder='blur' className='fixed object-top inset-0 w-full  h-full max-w-full pointer-events-none object-cover  -z-10 ' />
-            <Image src={right} priority placeholder='blur' className='absolute transform translate-y-[max(-70vw,-100vh)] top-0  w-[131vh] object-top right-0 h-auto max-w-full pointer-events-none object-cover animate-fade' />
-            <Image src={left} priority placeholder='blur' className='absolute transform translate-y-[max(-70vw,-100vh)] top-0 w-[131vh]  object-top left-0    h-auto max-w-full pointer-events-none object-cover animate-fade' />
-          </div></Mark>
+     
           <Mark id={'content'} className="mt-[5vh]">
             <div className=" min-h-screen flex w-full h-full justify-center items-center  gap-12 flex-col ">
-              <img className="max-w-[min(30vw,120px)] mx-auto my-24" src="/bo-ngua-re.gif"></img>
+              <img className="max-w-[min(20vw,120px)] mx-auto my-24" src="/bo-ngua-re.gif"></img>
               <div className="lg:max-w-[50vw] mx-auto relative w-full flex justify-center items-center pointer-events-auto">
                 <div className="aspect-video group relative w-full overflow-hidden rounded-xl bg-slate-400 bg-opacity-20 backdrop-blur-lg">
                   <iframe className="absolute w-full h-full rounded-xl" src="https://player.vimeo.com/video/1043362935?badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479" width="1280" height="720" frameborder="0" allow="autoplay; fullscreen; picture-in-picture; clipboard-write" title="anjoe_animation_720p"></iframe>
                   <div className="group-hover:shadow-none transition-shadow pointer-events-none absolute inset-0 w-full h-full shadow-[inset_0px_0px_20px_25px_#000]"></div>
                 </div>
               </div>
-              <img className="max-w-[200px] mx-auto mb-24" src="/buom-buom-1.gif"></img>
+              <img className="max-w-[min(20vw,120px)]  mx-auto mb-24" src="/buom-buom-1.gif"></img>
             </div>
           </Mark>
         </div>
