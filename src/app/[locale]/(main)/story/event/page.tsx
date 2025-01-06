@@ -1,7 +1,7 @@
 "use client"
 import Image from "@/components/common/image";
 import { useEvent } from "@/libs/source";
-import { ReactNode, useEffect, useId, useState } from "react";
+import { ReactNode, useEffect, useState } from "react";
 import 'react-image-lightbox/style.css';
 import Lightbox, {
   SlideImage
@@ -54,7 +54,7 @@ export default function Page() {
             </div>
             <div className=" animate-fade-up w-full animate-delay-[800ms] pointer-events-auto">
               <div className="container">
-                <img className="max-w-[min(20vw,80px)] mx-auto mb-24" src="/gif/nhen.webp"></img>
+                <img loading="lazy" className="max-w-[min(20vw,80px)] mx-auto mb-24" src="/gif/nhen.webp"></img>
                 <ul className="grid grid-cols-3 gap-6">
                   {
                     event.fields?.map((field, index) => {
@@ -81,6 +81,7 @@ export default function Page() {
                                 </div>
                               </div>
                             </div>
+                          
                           </button>
                         </div>
                       </li>
@@ -93,87 +94,37 @@ export default function Page() {
      
           <Mark id={'content'} className="mt-[5vh]">
             <div className=" min-h-screen flex w-full h-full justify-center items-center  gap-12 flex-col ">
-              <img className="max-w-[min(20vw,120px)] mx-auto my-24" src="/gif/bongua.webp"></img>
+              <img loading="lazy" className="max-w-[min(20vw,120px)] mx-auto my-24" src="/gif/bongua.webp"></img>
               <div className="lg:max-w-[50vw] mx-auto relative w-full flex justify-center items-center pointer-events-auto">
                 <div className="aspect-video group relative w-full overflow-hidden rounded-xl bg-slate-400 bg-opacity-20 backdrop-blur-lg">
                   <iframe className="absolute w-full h-full rounded-xl" src="https://player.vimeo.com/video/1043362935?badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479" width="1280" height="720" frameborder="0" allow="autoplay; fullscreen; picture-in-picture; clipboard-write" title="anjoe_animation_720p"></iframe>
                 </div>
               </div>
-              <img className="max-w-[min(20vw,120px)]  mx-auto mb-24" src="/gif/buom.webp"></img>
+              <img loading="lazy" className="max-w-[min(20vw,120px)]  mx-auto mb-24" src="/gif/buom.webp"></img>
             </div>
           </Mark>
         </div>
       </div >
-      {currentItem && <Gallery title={currentItem?.name + ''} onClose={() => setCurrent(null)} images={((currentItem?.images || []).map(item => item + ''))} />}
-
+{currentItem&&  <Lightbox
+                              open={!!currentItem}
+                              close={() => setCurrent(null)}
+                              slides={currentItem?.images.map(item=>imgPropsToSlideProps({src:item}))}
+                              render={{ slide: NextJsImage, thumbnail: NextJsImage }}
+                              plugins={[Thumbnails]}
+                              index={0}
+                            />}
     </>
 
   )
 }
 
 
-function Gallery({ title, description, images: _images, onClose }: { title: string, description?: string, images?: string[], onClose: () => void }) {
-  const [open, setOpen] = useState<number | Boolean>(false)
-  let images: SlideImage[] = _images?.map(img => ({
-    src: img,
- alt:""
-  })) || []
-
-  const id = useId()
-  let modalId = `my_modal_${id}`
-  if (!images) return null
-  // console.log({ images })
-
-  return (
-    <>
-      <dialog id={modalId} open onClose={onClose} className="modal modal-bottom  z-[51]">
-        <style>{`header{z-index:1!important}`}</style>
-        <div className="modal-box overflow-y-auto  border-none  shadow-none bg-transparent overflow-hidden pb-0 min-h-screen  flex flex-col">
-          <div className='container w-full mx-auto'>
-            <div className="text-white animate-fade-up text-sm ">
-              <h3 className='text-[1.8em] pb-2 capitalize'>{title}</h3>
-              {description}
-            </div>
-            <div className=" flex-1  self-center w-full py-[1.5rem] animate-fade-up animate-delay-150">
-              <div className="w-full h-full grid md:grid-cols-3 lg:grid-cols-4  gap-6 ">
-                {images.map((item, i) => {
-                  return <button onClick={() => setOpen(i)} key={i} className="w-full   h-full relative pb-[100%] text-white group">
-                    <Image {...item} width={400} height={400} className="rounded-lg object-cover absolute inset-0 w-full h-full bg-slate-50 bg-opacity-30  " sizes="400px"/>
-                  </button>
-                })}
-              </div>
-            </div>
-          </div>
-        </div>
-        <form method="dialog" className="modal-backdrop bg-black bg-opacity-60 backdrop-blur-xl ">
-          <button>close</button>
-        </form>
-        <div className=" fixed top-3 right-3">
-          <form method="dialog">
-            {/* if there is a button in form, it will close the modal */}
-            <button className="btn border-2 border-white btn-circle shadow-2xl"><svg className="text-3xl" stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 1024 1024" fill-rule="evenodd" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg"><path d="M799.855 166.312c.023.007.043.018.084.059l57.69 57.69c.041.041.052.06.059.084a.118.118 0 0 1 0 .069c-.007.023-.018.042-.059.083L569.926 512l287.703 287.703c.041.04.052.06.059.083a.118.118 0 0 1 0 .07c-.007.022-.018.042-.059.083l-57.69 57.69c-.041.041-.06.052-.084.059a.118.118 0 0 1-.069 0c-.023-.007-.042-.018-.083-.059L512 569.926 224.297 857.629c-.04.041-.06.052-.083.059a.118.118 0 0 1-.07 0c-.022-.007-.042-.018-.083-.059l-57.69-57.69c-.041-.041-.052-.06-.059-.084a.118.118 0 0 1 0-.069c.007-.023.018-.042.059-.083L454.073 512 166.371 224.297c-.041-.04-.052-.06-.059-.083a.118.118 0 0 1 0-.07c.007-.022.018-.042.059-.083l57.69-57.69c.041-.041.06-.052.084-.059a.118.118 0 0 1 .069 0c.023.007.042.018.083.059L512 454.073l287.703-287.702c.04-.041.06-.052.083-.059a.118.118 0 0 1 .07 0Z"></path></svg></button>
-          </form>
-        </div>
-      </dialog>
-      <Lightbox
-        open={open !== false}
-        close={() => setOpen(false)}
-        slides={images.map(item=>imgPropsToSlideProps(item))}
-        render={{ slide: NextJsImage, thumbnail: NextJsImage }}
-        plugins={[Thumbnails]}
-        index={Number(open)}
-      />
-    </>
-
-  )
-}
 
 let imgPropsToSlideProps = (imgProps: {src:string,alt:string}): SlideImage => {
   if(imgProps.src.includes("https://assets.tina.io/3a743d97-a554-4b19-acc5-85219789c469"))
-  return {
+  return ({
     src: `https://thumbor.hieunguyen.dev/unsafe/2000x/`+encodeURIComponent(imgProps.src),
     alt: imgProps.alt,
-
-  };
+  });
   return imgProps;
 }
