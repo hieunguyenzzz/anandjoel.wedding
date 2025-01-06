@@ -138,8 +138,9 @@ function Gallery({ title, description, images: _images, onClose }: { title: stri
             <div className=" flex-1  self-center w-full py-[1.5rem] animate-fade-up animate-delay-150">
               <div className="w-full h-full grid grid-cols-2 sm:grid-cols-2  md:grid-cols-3 lg:grid-cols-5 gap-6 ">
                 {images.map((item, i) => {
-                  return <button onClick={() => setOpen(i)} key={i} className="w-full   h-full relative pb-[100%]">
-                    <Image {...item} width={600} height={600} className="rounded-lg object-cover absolute inset-0 w-full h-full bg-slate-50 bg-opacity-30 " />
+                  return <button onClick={() => setOpen(i)} key={i} className="w-full   h-full relative pb-[100%] text-white group">
+                    {item.src}
+                    <Image {...item} width={600} height={600} className="rounded-lg object-cover absolute inset-0 w-full h-full bg-slate-50 bg-opacity-30  hidden group-hover:block" />
                   </button>
                 })}
               </div>
