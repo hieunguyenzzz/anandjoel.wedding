@@ -1301,7 +1301,7 @@ blocks:
         images:
           - /IMG_0289.JPEG
       - variant: Title
-        name: Tin’s Vows
+        name: An’s vow
         en: >
           Booboo 
 
