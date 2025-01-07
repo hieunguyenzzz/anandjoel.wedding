@@ -39,10 +39,10 @@ export default function Page() {
 
   return (
     <>
-        <div className={clsx("isolate invisible md:visible fixed inset-0 h-full  w-full z-20 flex items-center")}>
+        <div className={clsx("isolate top-0 fixed inset-0 h-full  w-full z-20 flex items-center")}>
         <div className="pointer-events-none">
-          <Image src={right} priority placeholder='blur' className='absolute top-[136px] md:top-0 w-1/2  md:w-[131vh] object-top right-0 h-auto max-w-full pointer-events-none object-cover animate-fade' />
-          <Image src={left} priority placeholder='blur' className='absolute top-[136px] md:top-0 w-1/2 md:w-[131vh]  object-top left-0    h-auto max-w-full pointer-events-none object-cover animate-fade' />
+          <Image src={right} priority placeholder='blur' className='absolute top-0 w-1/2  md:w-[131vh] object-top right-0 h-auto max-w-full pointer-events-none object-cover animate-fade' />
+          <Image src={left} priority placeholder='blur' className='absolute top-0 w-1/2 md:w-[131vh]  object-top left-0    h-auto max-w-full pointer-events-none object-cover animate-fade' />
         </div>
       </div>
       <div className="transition-all z-30 relative duration-[3s] w-full ease-in-out isolate mx-auto">
