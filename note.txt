@@ -2,3 +2,8 @@ export NVM_DIR="$([ -z "${XDG_CONFIG_HOME-}" ] && printf %s "${HOME}/.nvm" || pr
 [ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh" # This loads nvm
 
 nvm use 18
+
+gif  
+nhen https://i.giphy.com/CT99zLiLrN32B2lpbS.webp
+buom https://media0.giphy.com/media/nPsbVvnWvRCQxsLLgm/giphy.webp?cid=dda24d50ujce85nsn0i6fx1u7itohvrfr39w68btqf5j52sl&ep=v1_internal_gif_by_id&rid=giphy.webp&ct=s
+bo ngua https://media4.giphy.com/media/CzmbHUJSHx6QhK23ET/200w.webp?cid=dda24d50bma3o8gbxhj5fnt13u0e8var4ndcklpfqvwtosk6&ep=v1_internal_gif_by_id&rid=200w.webp&ct=s

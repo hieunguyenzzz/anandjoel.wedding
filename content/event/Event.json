@@ -3,7 +3,7 @@
   "title": "Event",
   "fields": [
     {
-      "name": "ceremony",
+      "name": "Ceremony",
       "images": [
         "/event/ceremony/2_b_ Morning Ceremony_001.jpg",
         "/event/ceremony/2_b_ Morning Ceremony_006.jpg",
@@ -33,7 +33,7 @@
       ]
     },
     {
-      "name": "reception",
+      "name": "Reception",
       "images": [
         "/event/reception/5_b_ Evening Reception_001.jpg",
         "/event/reception/5_b_ Evening Reception_004.jpg",
@@ -73,7 +73,7 @@
       ]
     },
     {
-      "name": "making",
+      "name": "Making of",
       "images": [
         "/event/mkoow/1. The Invitation_002.JPG",
         "/event/mkoow/1. The Invitation_003.JPG",

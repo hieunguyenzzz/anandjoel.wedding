@@ -1,6 +1,7 @@
 "use client"
 import Image from "@/components/common/image";
 import { useEvent } from "@/libs/source";
+import clsx from "clsx";
 import { ReactNode, useEffect, useState } from "react";
 import 'react-image-lightbox/style.css';
 import Lightbox, {
@@ -10,7 +11,6 @@ import Thumbnails from "yet-another-react-lightbox/plugins/thumbnails";
 import { NextJsImage } from "../../bites/page";
 import right from '../_assets/AJ-web-02.png';
 import left from '../_assets/AJ-web-03 (1).png';
-import bgImage from '../_assets/bites-bg.png';
 const total = 84
 
 const Mark = ({ children, id, className }: { children: ReactNode, id: string, className?: string }) => {
@@ -39,11 +39,12 @@ export default function Page() {
 
   return (
     <>
-         <Mark id={'bg'} className="fixed inset-0 w-full h-full" ><div className="pointer-events-none fixed inset-0 ">
-            <Image src={bgImage} priority placeholder='blur' className='fixed object-top inset-0 w-full  h-full max-w-full pointer-events-none object-cover  -z-10 ' />
-            <Image src={right} priority placeholder='blur' className='absolute transform translate-y-[max(-70vw,-100vh)] top-0  w-[131vh] object-top right-0 h-auto max-w-full pointer-events-none object-cover animate-fade' />
-            <Image src={left} priority placeholder='blur' className='absolute transform translate-y-[max(-70vw,-100vh)] top-0 w-[131vh]  object-top left-0    h-auto max-w-full pointer-events-none object-cover animate-fade' />
-          </div></Mark>
+        <div className={clsx("isolate invisible md:visible fixed inset-0 h-full  w-full z-20 flex items-center")}>
+        <div className="pointer-events-none">
+          <Image src={right} priority placeholder='blur' className='absolute top-[136px] md:top-0 w-1/2  md:w-[131vh] object-top right-0 h-auto max-w-full pointer-events-none object-cover animate-fade' />
+          <Image src={left} priority placeholder='blur' className='absolute top-[136px] md:top-0 w-1/2 md:w-[131vh]  object-top left-0    h-auto max-w-full pointer-events-none object-cover animate-fade' />
+        </div>
+      </div>
       <div className="transition-all z-30 relative duration-[3s] w-full ease-in-out isolate mx-auto">
         <div className="z-10 relative mx-auto max-w-[65ch] ">
           <div className="w-full h-full flex  flex-col relative pt-[100px] justify-center items-center md:pt-[3vw]  gap-24 ">
